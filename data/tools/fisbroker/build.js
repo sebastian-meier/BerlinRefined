@@ -224,11 +224,11 @@ for(i = 0; i<categories.length; i++){
                             }
 
                     page += "</div></div>"+"\n"+
-                            "<link rel='stylesheet' href='{{site.url}}/lib/leaflet.css' />"+"\n"+
-                            "<script src='{{site.url}}/lib/d3.min.js'></script>"+"\n"+
-                            "<script src='{{site.url}}/lib/topojson.v1.min.js'></script>"+"\n"+
-                            "<script src='{{site.url}}/lib/leaflet.js'></script>"+"\n"+
-                            "<script src='{{site.url}}/lib/leaflet.ajax.min.js'></script>"+"\n"+
+                            "<link rel=\"stylesheet\" href=\"{{site.url}}/lib/leaflet.css\" />"+"\n"+
+                            "<script src=\"{{site.url}}/lib/d3.min.js\"></script>"+"\n"+
+                            "<script src=\"{{site.url}}/lib/topojson.v1.min.js\"></script>"+"\n"+
+                            "<script src=\"{{site.url}}/lib/leaflet.js\"></script>"+"\n"+
+                            "<script src=\"{{site.url}}/lib/leaflet.ajax.min.js\"></script>"+"\n"+
                             "<script>"+"\n";
                             //Init maps
 
