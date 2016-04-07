@@ -7,7 +7,7 @@ var overview = "---"+"\n"+
     "permalink: /pages/moabit/overview"+"\n"+
     "level: 2"+"\n"+
     "---"+"\n"+
-    "<h1>Moabit Datasets Overview</h1>"+"\n";
+    "<div class='container'><h1>Moabit Datasets Overview</h1>"+"\n";
 
 //acquire categories
 var categories = [];
@@ -77,7 +77,7 @@ for(i = 0; i<categories.length; i++){
                         "permalink: /pages/moabit/details/"+sources[j].type+"_"+name+"\n"+
                         "level: 3"+"\n"+
                         "---"+"\n"+
-                        "<h1>"+sources[j].title+"</h1>"+"\n"+
+                        "<div class='container'><h1>"+sources[j].title+"</h1>"+"\n"+
                         "<div id='moabit_map'></div>"+"\n"+
                         "<div id='berlin_map'></div>"+"\n"+
                         "<div id='description'>"+"\n"+
@@ -85,6 +85,18 @@ for(i = 0; i<categories.length; i++){
                                 "<tr><th>Type</th><td>"+sources[j].type+"</td></tr>"+"\n"+
                                 "<tr><th>Title</th><td>"+sources[j].title+"</td></tr>"+"\n"+
                                 "<tr><th>Category</th><td>"+sources[j].category+"</td></tr>"+"\n"+
+                                "<tr><th>Download</th><td>";
+
+                    if(sources[j].type === "wfs"){
+                        page += "<a href='"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".min.geojson'>Min.GeoJson</a><br />"+"\n";
+                        page += "<a href='"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson'>GeoJson</a>"+"\n";
+                    }else if(sources[j].type === "wms"){
+                        page += "See individual layer for download link."+"\n";
+                    }else{
+                        page += "See description for download link."+"\n";
+                    }
+
+                    page +=     "</td></tr>"+"\n"+
                                 "<!--<tr><th>Preview</th><td><img src='"+sources[j].thumb+"'></td></tr>-->"+"\n"+
                                 "<tr><th>FisBroker-Link</th><td><a href='"+sources[j].link+"'>"+sources[j].link+"</a></td></tr>"+"\n"+
                                 "<tr><th>Keywords</th><td>";
@@ -157,6 +169,11 @@ for(i = 0; i<categories.length; i++){
                                     var layer = sources[j].technology.layers[l];
                                     page += "<tr><th colspan='2'><strong class='layer'>"+layer.title+" (ID: "+layer.name+")</strong></th></tr>"+"\n";
                                     page += "<tr><th></th><td><a data-layer='"+layer.name+"' class='layer_selector'>Show Layer on Map</a></td></tr>"+"\n";
+
+                                    page += "<tr><th>Download</th><td>";
+                                    page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+layer.name+".png'>Moabit Karte</a><br />"+"\n";
+                                    page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/berlin_"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+layer.name+".png'>Berlin Karte</a>"+"\n";
+
                                     page += "<tr><th>Abstract</th><td>"+layer.abstract+"</td></tr>"+"\n"+
                                             "<tr><th>MetaData</th><td>"+layer.metadata+"</td></tr>"+"\n"+
                                             "<tr><th>GDI ID</th><td>"+layer.gdi_id+"</td></tr>"+"\n"+
@@ -206,7 +223,7 @@ for(i = 0; i<categories.length; i++){
                                 }
                             }
 
-                    page += "</div>"+"\n"+
+                    page += "</div></div>"+"\n"+
                             "<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />"+"\n"+
                             "<script src='{{site.url}}/lib/d3.min.js'></script>"+"\n"+
                             "<script src='{{site.url}}/lib/topojson.v1.min.js'></script>"+"\n"+
@@ -258,7 +275,7 @@ for(i = 0; i<categories.length; i++){
                                 "osm.addTo(moabit_map);"+"\n"+
                                 "function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}"+"\n"+
                                 "var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};"+"\n"+
-                                "var name = '"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_';"+"\n"+
+                                "var name = '"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"';"+"\n"+
                                 "var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});"+"\n"+
                                 "geojsonLayer.addTo(moabit_map);"+"\n";
                     }
@@ -284,6 +301,7 @@ for(i = 0; i<categories.length; i++){
     overview += "</ul>"+"\n"+
                 "</div>"+"\n";
 }
+overview += "</div>"+"\n";
 
 fs.writeFile("../../../pages/moabit/overview.html", overview, function(err) {
     console.log("done",skips);

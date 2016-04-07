@@ -4,7 +4,7 @@ title: Moabit -
 permalink: /pages/moabit/details/wfs_re_gruenanlagenbestand
 level: 3
 ---
-<h1>Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze)</h1>
+<div class='container'><h1>Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze)</h1>
 <div id='moabit_map'></div>
 <div id='berlin_map'></div>
 <div id='description'>
@@ -12,6 +12,9 @@ level: 3
 <tr><th>Type</th><td>wfs</td></tr>
 <tr><th>Title</th><td>Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze)</td></tr>
 <tr><th>Category</th><td>Natur/Grün/Boden/Wasser/Klima</td></tr>
+<tr><th>Download</th><td><a href='re_gruenanlagenbestand.min.geojson'>Min.GeoJson</a><br />
+<a href='re_gruenanlagenbestand.geojson'>GeoJson</a>
+</td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_gris_oeffgruen.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gris_oeffgruen@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gris_oeffgruen@senstadt</a></td></tr>
 <tr><th>Keywords</th><td>Area management/restriction/regulation zones and reporting units,Natur,open data,opendata,Geodaten,Berlin,Grünflächen,Park,Parkanlage,Öffentliche,gewidmete,Stadtgrün,äöü</td></tr>
@@ -45,7 +48,7 @@ Fehrbelliner Platz 1, 10707 Berlin
 <tr><th>spatial</th><td>BBOX<br />Equals<br />Disjoint<br />Intersects<br />Touches<br />Crosses<br />Within<br />Contains<br />Overlaps<br />Beyond<br />DWithin</td></tr>
 </table>
 </div>
-<div id='legend'></div>
+<div id='legend'></div></div>
 <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
 <script src='{{site.url}}/lib/d3.min.js'></script>
 <script src='{{site.url}}/lib/topojson.v1.min.js'></script>
@@ -59,7 +62,7 @@ var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
 osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
 var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
-var name = 're_gruenanlagenbestand_';
+var name = 're_gruenanlagenbestand';
 var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
 geojsonLayer.addTo(moabit_map);
 </script>

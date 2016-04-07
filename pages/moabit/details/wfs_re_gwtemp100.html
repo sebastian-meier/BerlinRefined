@@ -4,7 +4,7 @@ title: Moabit -
 permalink: /pages/moabit/details/wfs_re_gwtemp100
 level: 3
 ---
-<h1>Grundwassertemperatur 100m unter Geländeoberfläche 2012 (Umweltatlas)</h1>
+<div class='container'><h1>Grundwassertemperatur 100m unter Geländeoberfläche 2012 (Umweltatlas)</h1>
 <div id='moabit_map'></div>
 <div id='berlin_map'></div>
 <div id='description'>
@@ -12,6 +12,9 @@ level: 3
 <tr><th>Type</th><td>wfs</td></tr>
 <tr><th>Title</th><td>Grundwassertemperatur 100m unter Geländeoberfläche 2012 (Umweltatlas)</td></tr>
 <tr><th>Category</th><td>Umweltatlas</td></tr>
+<tr><th>Download</th><td><a href='re_gwtemp100.min.geojson'>Min.GeoJson</a><br />
+<a href='re_gwtemp100.geojson'>GeoJson</a>
+</td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_02_14_06gwtemp_100m_2012.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_14_06gwtemp_100m@senstadt'>http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_14_06gwtemp_100m@senstadt</a></td></tr>
 <tr><th>Keywords</th><td>Geology,Geothermie,Grundwasser,inspireidentifiziert,opendata,open data,Berlin,Geodaten,Grundwassertemperatur,Neutrale Zone,Temperaturjahresgang,Temperaturanstieg,Temperaturmessstelle,Kriging-Interpolation,Erdwärme</td></tr>
@@ -46,7 +49,7 @@ Fehrbelliner Platz 1, 10707 Berlin
 <tr><th>spatial</th><td>BBOX<br />Equals<br />Disjoint<br />Intersects<br />Touches<br />Crosses<br />Within<br />Contains<br />Overlaps<br />Beyond<br />DWithin</td></tr>
 </table>
 </div>
-<div id='legend'></div>
+<div id='legend'></div></div>
 <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
 <script src='{{site.url}}/lib/d3.min.js'></script>
 <script src='{{site.url}}/lib/topojson.v1.min.js'></script>
@@ -60,7 +63,7 @@ var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
 osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
 var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
-var name = 're_gwtemp100_';
+var name = 're_gwtemp100';
 var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
 geojsonLayer.addTo(moabit_map);
 </script>

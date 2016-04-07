@@ -4,7 +4,7 @@ title: Moabit -
 permalink: /pages/moabit/details/wms_geokart
 level: 3
 ---
-<h1>Geologische Karte 1:10000</h1>
+<div class='container'><h1>Geologische Karte 1:10000</h1>
 <div id='moabit_map'></div>
 <div id='berlin_map'></div>
 <div id='description'>
@@ -12,6 +12,8 @@ level: 3
 <tr><th>Type</th><td>wms</td></tr>
 <tr><th>Title</th><td>Geologische Karte 1:10000</td></tr>
 <tr><th>Category</th><td>Natur/Grün/Boden/Wasser/Klima</td></tr>
+<tr><th>Download</th><td>See individual layer for download link.
+</td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_geokart.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=geokart@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=geokart@senstadt</a></td></tr>
 <tr><th>Keywords</th><td>Geology,Geologie,open data,opendata,Karten,Geodaten,Berlin</td></tr>
@@ -43,6 +45,8 @@ Fehrbelliner Platz 1, 10707 Berlin
 <tr><th colspan='2'><strong>Layers</strong></th></tr>
 <tr><th colspan='2'><strong class='layer'>Geologische Karte (ID: 0)</strong></th></tr>
 <tr><th></th><td><a data-layer='0' class='layer_selector'>Show Layer on Map</a></td></tr>
+<tr><th>Download</th><td><a href='{{site.url}}/data/tools/fisbroker/moabit/geokart_0.png'>Moabit Karte</a><br />
+<a href='{{site.url}}/data/tools/fisbroker/moabit/berlin_geokart_0.png'>Berlin Karte</a>
 <tr><th>Abstract</th><td></td></tr>
 <tr><th>MetaData</th><td>http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=5acf6d2f-726c-3887-86f5-0e0892af4c51&ELEMENTSETNAME=FULL</td></tr>
 <tr><th>GDI ID</th><td>undefined</td></tr>
@@ -55,6 +59,8 @@ Fehrbelliner Platz 1, 10707 Berlin
 <tr><th>BoundingBox</th><td>EPSG:4326 (52.4165,13.2139,52.597,13.5516)</td></tr>
 <tr><th colspan='2'><strong class='layer'>Hintergrund (ID: 1)</strong></th></tr>
 <tr><th></th><td><a data-layer='1' class='layer_selector'>Show Layer on Map</a></td></tr>
+<tr><th>Download</th><td><a href='{{site.url}}/data/tools/fisbroker/moabit/geokart_1.png'>Moabit Karte</a><br />
+<a href='{{site.url}}/data/tools/fisbroker/moabit/berlin_geokart_1.png'>Berlin Karte</a>
 <tr><th>Abstract</th><td></td></tr>
 <tr><th>MetaData</th><td>http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=5acf6d2f-726c-3887-86f5-0e0892af4c51&ELEMENTSETNAME=FULL</td></tr>
 <tr><th>GDI ID</th><td>undefined</td></tr>
@@ -67,7 +73,7 @@ Fehrbelliner Platz 1, 10707 Berlin
 <tr><th>BoundingBox</th><td>EPSG:4326 (52.4165,13.2139,52.597,13.5516)</td></tr>
 </table>
 </div>
-<div id='legend'><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/geokart?layerID=0' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/geokart?layerID=1' /></div>
+<div id='legend'><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/geokart?layerID=0' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/geokart?layerID=1' /></div></div>
 <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
 <script src='{{site.url}}/lib/d3.min.js'></script>
 <script src='{{site.url}}/lib/topojson.v1.min.js'></script>
