@@ -229,7 +229,7 @@ for(i = 0; i<categories.length; i++){
                             "<script src='{{site.url}}/lib/topojson.v1.min.js'></script>"+"\n"+
                             "<script src='{{site.url}}/lib/leaflet.js'></script>"+"\n"+
                             "<script src='{{site.url}}/lib/leaflet.ajax.min.js'></script>"+"\n"+
-                            "<script language='text/javascript'>"+"\n";
+                            "<script>"+"\n";
                             //Init maps
 
                     if(sources[j].type === "feed"){
@@ -265,7 +265,7 @@ for(i = 0; i<categories.length; i++){
                                     "berlin_overlay.addTo(berlin_map);"+"\n"+
                                     "d3.select('img.legend').hide();"+"\n"+
                                     "d3.select('img.legend#legend_'+id).show();"+"\n"+
-                                "});"+"\n";
+                                "}); console.log('hello world');"+"\n";
 
                     }else if(sources[j].type === "wfs"){
                         page += "var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);"+"\n"+
@@ -277,7 +277,7 @@ for(i = 0; i<categories.length; i++){
                                 "var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};"+"\n"+
                                 "var name = '"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"';"+"\n"+
                                 "var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});"+"\n"+
-                                "geojsonLayer.addTo(moabit_map);"+"\n";
+                                "geojsonLayer.addTo(moabit_map); console.log('hello world');"+"\n";
                     }
 
                     page += "</script>";
