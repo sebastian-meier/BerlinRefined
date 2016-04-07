@@ -109,9 +109,10 @@ var berlin_map = L.map('berlin_map').setView([((52.6854-52.3348)/2+52.3348), ((1
 var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
-osm.addTo(berlin_map);
-osm.addTo(moabit_map);
+var osm_berlin = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+var osm_moabit = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+osm_berlin.addTo(berlin_map);
+osm_moabit.addTo(moabit_map);
 var name = 'MsozS_EI_2011LOR_';
 var southWest = L.latLng(52.51303464932938, 13.306503295898438),northEast = L.latLng(52.540971446408086, 13.349504470825195), moabit_bounds = L.latLngBounds(southWest, northEast);
 var moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name+'0.png', moabit_bounds);

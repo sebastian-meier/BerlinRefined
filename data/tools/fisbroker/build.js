@@ -240,9 +240,10 @@ for(i = 0; i<categories.length; i++){
                                 "var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);"+"\n"+
                                 "var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';"+"\n"+
                                 "var osmAttrib='Map data © <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors';"+"\n"+
-                                "var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});"+"\n"+
-                                "osm.addTo(berlin_map);"+"\n"+
-                                "osm.addTo(moabit_map);"+"\n"+
+                                "var osm_berlin = new L.TileLayer(osmUrl, {attribution: osmAttrib});"+"\n"+
+                                "var osm_moabit = new L.TileLayer(osmUrl, {attribution: osmAttrib});"+"\n"+
+                                "osm_berlin.addTo(berlin_map);"+"\n"+
+                                "osm_moabit.addTo(moabit_map);"+"\n"+
                                 "var name = '"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_';"+"\n"+
                                 "var southWest = L.latLng(52.51303464932938, 13.306503295898438),northEast = L.latLng(52.540971446408086, 13.349504470825195), moabit_bounds = L.latLngBounds(southWest, northEast);"+"\n"+
                                 "var moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name+'"+sources[j].technology.layers[0].name+".png', moabit_bounds);"+"\n"+
