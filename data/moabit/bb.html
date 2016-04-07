@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+    d3.json("area.geojson", function(e, data){
+        var bbBoxes = [];
+        for(var i = 0; i<data.features.length; i++){
+            var area = data.features[i].geometry.coordinates[0];
+            bbBoxes.push(
+                [
+                    d3.min(area, function(d){ return d[0]; }),
+                    d3.min(area, function(d){ return d[1]; }),
+                    d3.max(area, function(d){ return d[0]; }),
+                    d3.max(area, function(d){ return d[1]; })
+                ]
+            );
+        }
+
+        //console.log(bbBoxes);
+
+        var EPSG_25833 = [369097.8529,5799298.1358,416865.038,5838236.2097];
+        var EPSG_25833_w = EPSG_25833[2]-EPSG_25833[0];
+        var EPSG_25833_h = EPSG_25833[3]-EPSG_25833[1];
+        var EPSG_25833_r = EPSG_25833_w/EPSG_25833_h;
+
+        var h = 1;
+        var w = EPSG_25833_r;
+
+        var EPSG_4326 = [13.079,52.3284,13.7701,52.6877];
+        var EPSG_4326_w = EPSG_4326[2]-EPSG_4326[0];
+        var EPSG_4326_h = EPSG_4326[3]-EPSG_4326[1];
+        var EPSG_4326_r = EPSG_4326_w/EPSG_4326_h;
+
+        var EPSG_4326_wr = w/EPSG_4326_w;
+        var EPSG_4326_hr = h/EPSG_4326_h;
+
+        //EPSG_4326_r === EPSG_25833_r in width
+
+        var target_s = 5000;
+
+        var target = [13.306503295898438,52.51303464932938,13.349504470825195,52.540971446408086];
+        var target_w = target[2]-target[0];
+        var target_h = target[3]-target[1];
+
+        var th = target_h*EPSG_4326_hr;
+        var tw = target_w*EPSG_4326_wr;
+
+        var multi = ((tw>th)?(target_s/tw):(target_s/th));
+
+        var size = [multi*tw, multi*th];
+
+        console.log(target, size);
+
+    });
+
+</script>
+</body>
+</html>
