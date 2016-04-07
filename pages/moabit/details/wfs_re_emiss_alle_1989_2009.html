@@ -59,7 +59,7 @@ Fehrbelliner Platz 1, 10707 Berlin
 <script>
 var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var osmAttrib='Map data © <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors';
+var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
 osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}

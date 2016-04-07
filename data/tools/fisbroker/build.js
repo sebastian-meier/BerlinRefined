@@ -239,7 +239,7 @@ for(i = 0; i<categories.length; i++){
                         page += "var berlin_map = L.map('berlin_map').setView([((52.6854-52.3348)/2+52.3348), ((13.7607-13.0847)/2+13.0847)], 12);"+"\n"+
                                 "var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);"+"\n"+
                                 "var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';"+"\n"+
-                                "var osmAttrib='Map data © <a href=\'http://openstreetmap.org\'>OpenStreetMap</a> contributors';"+"\n"+
+                                "var osmAttrib='Map data © <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors';"+"\n"+
                                 "var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});"+"\n"+
                                 "osm.addTo(berlin_map);"+"\n"+
                                 "osm.addTo(moabit_map);"+"\n"+
@@ -270,7 +270,7 @@ for(i = 0; i<categories.length; i++){
                     }else if(sources[j].type === "wfs"){
                         page += "var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);"+"\n"+
                                 "var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';"+"\n"+
-                                "var osmAttrib='Map data © <a href=\'http://openstreetmap.org\'>OpenStreetMap</a> contributors';"+"\n"+
+                                "var osmAttrib='Map data © <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors';"+"\n"+
                                 "var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});"+"\n"+
                                 "osm.addTo(moabit_map);"+"\n"+
                                 "function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}"+"\n"+
