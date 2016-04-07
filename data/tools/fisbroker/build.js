@@ -90,6 +90,7 @@ for(i = 0; i<categories.length; i++){
                     if(sources[j].type === "wfs"){
                         page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".min.geojson'>Min.GeoJson</a><br />"+"\n";
                         page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson'>GeoJson</a>"+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".csv'>CSV</a><br />"+"\n";
                     }else if(sources[j].type === "wms"){
                         page += "See individual layer for download link."+"\n";
                     }else{
