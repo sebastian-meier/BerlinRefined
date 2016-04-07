@@ -133,15 +133,21 @@ th{
 }
 
 #moabit_map{
-	width:70%;
+	width:65%;
 	height:400px;
+	float:left;
 }
 
 #berlin_map{
-	width:30%;
+	width:25%;
 	height:400px;
+	float:left;
 }
 
 img.legend{
 	display:none;
+}
+
+#description{
+	clear:both;
 }
