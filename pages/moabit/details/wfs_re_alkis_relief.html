@@ -1,0 +1,65 @@
+---
+layout: default
+title: Moabit - 
+permalink: /pages/moabit/details/wfs_re_alkis_relief
+level: 3
+---
+<h1>ALKIS Berlin Relief (Linien)</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>wfs</td></tr>
+<tr><th>Title</th><td>ALKIS Berlin Relief (Linien)</td></tr>
+<tr><th>Category</th><td>Basiskarten/Luftbilder</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_alkis.png'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_alkis@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_alkis@senstadt</a></td></tr>
+<tr><th>Keywords</th><td>Buildings,Amtliche Karte,open data,opendata,Geodaten,Berlin,ALKIS,Liegenschaftskataster,ALK,ALB,Grundbuch,Geobasisdaten,Gebäude,Bauwerke,Flurstücke,Tatsächliche Nutzung,Ortsteile,Relief,Böschungen,Festlegungen,Lagebezeichnung,Adressen,Hausnummer,Liegenschaftskarte,Flurkarte</td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=re_alkis_relief@senstadt&type=WFS&themeType=spatial&showCapUrl=true</td></tr>
+<tr><th>kurzbeschreibung</th><td>Daten des amtlichen Liegenschaftskatsterinformationssystems (ALKIS) - Geländekante</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:25833</td></tr>
+<tr><th>ausdehnung</th><td>EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet "Geoportal Berlin / [Titel des Datensatzes]". Es sind die datenschutzrechtlichen Bestimmungen, insbesondere das Bundesdatenschutzgesetz, zu beachten.</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>Es gelten keine Bedingungen</td></tr>
+<tr><th>beschreibung</th><td>ALKIS Berlin Relief - Geländekante, besondere Höhenpunkte und Reliefformen</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin<br />Berlin
+Fehrbelliner Platz 1, 10707 Berlin
+</td></tr>
+<tr><th>telefon</th><td>+49-30-90139-5257</td></tr>
+<tr><th>fax</th><td>+49-30-90139-5251</td></tr>
+<tr><th>email</th><td>fisbroker@senstadtum.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>WFS</td></tr>
+<tr><th>version</th><td>1.0.0<br />1.1.1<br />2.0.0</td></tr>
+<tr><th>operationen</th><td>GetCapabilities<br />DescribeFeatureType<br />GetFeature</td></tr>
+<tr><th>ausgabeformate</th><td>text/xml; subtype=gml/2.1.2<br />text/xml; subtype=gml/3.1.1<br />text/xml; subtype=gml/3.2.1</td></tr>
+<tr><th>rechneradresse</th><td>http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_alkis_relief</td></tr>
+<tr><th>inspire</th><td>http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=d598ccb9-4d36-386b-a6d4-1ede6d710b53&ELEMENTSETNAME=FULL</td></tr>
+<tr><th colspan='2'><strong>Spatial</strong></th></tr>
+<tr><th>BoundingBox</th><td>52.3284,13.079,52.6877,13.7701</td></tr>
+<tr><th>Projections</th><td>urn:ogc:def:crs:EPSG:6.9:25833</td></tr>
+<tr><th>comparison</th><td>PropertyIsLessThan<br />PropertyIsGreaterThan<br />PropertyIsLessThanOrEqualTo<br />PropertyIsGreaterThanOrEqualTo<br />PropertyIsEqualTo<br />PropertyIsNotEqualTo<br />PropertyIsLike<br />PropertyIsBetween<br />PropertyIsNull</td></tr>
+<tr><th>geometry</th><td>gml:AbstractGeometricPrimitive</td></tr>
+<tr><th>spatial</th><td>BBOX<br />Equals<br />Disjoint<br />Intersects<br />Touches<br />Crosses<br />Within<br />Contains<br />Overlaps<br />Beyond<br />DWithin</td></tr>
+</table>
+</div>
+<div id='legend'></div>
+<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
+<script src='{{site.url}}/lib/d3.min.js'></script>
+<script src='{{site.url}}/lib/topojson.v1.min.js'></script>
+<script src='{{site.url}}/lib/leaflet.js'></script>
+<script src='{{site.url}}/lib/leaflet.ajax.min.js'></script>
+<script language='javascript/text'>
+var moabit_map = L.map('mapid').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmAttrib='Map data © <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors';
+var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+osm.addTo(moabit_map);
+function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
+var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
+var name = 're_alkis_relief_';
+var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+geojsonLayer.addTo(moabit_map);
+</script>

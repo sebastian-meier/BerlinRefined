@@ -1,0 +1,797 @@
+{
+    "type": "wms",
+    "title": "Archäologische Fundstellen und Bodendenkmale (AISBer)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_fundstellen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=fundstellen@senstadt",
+    "description": {
+        "link": "?id=fundstellen@senstadt&type=WMS",
+        "kurzbeschreibung": "Kartographische Darstellung der im Ortsaktenarchiv der Bodendenkmalpflege verzeichneten archäologischen Fundstellen und Bodendenkmäler des Archäologischen Informationssystems Berlin (AISBer)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 17500, 17215, 30900, 26270",
+        "ebenen": "Hintergrund der inneren Stadt 1899-1913\nHintergrund 1:5000, 1:1000\nMittelalterliche Stadtmauer\nFundstelle Pleistozän\nFundstelle Pleistozän/Vor- und Frühgeschichte\nFundstelle Vor- und Frühgeschichte\nFundstelle Mittelalter\nFundstelle Mittelalter/Neuzeit\nFundstelle Neuzeit\nFundstelle VFG, MA/NZ, 20Jh.\nFundstelle MA/NZ, 20Jh.\nFundstelle 20. Jahrhundert\nFundstelle undatiert\nBodendenkmal",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Kartierung der Neuaufnahme der archäologischen Fundstellen und Bodendenkmäler in den Alt-Bezirken: Mitte, Tiergarten, Wedding, Prenzlauer Berg und Friedrichshain durch Gundula-B. Muschert"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/fundstellen"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_fundstellen.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund der inneren Stadt 1899-1913",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 2
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5000, 1:1000",
+                "abstract": "digitale Karte 1:5000, Rasterkarte 1:5000, ALK",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Mittelalterliche Stadtmauer",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 7
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Fundstelle Pleistozän",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Fundstelle Pleistozän/Vor- und Frühgeschichte",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Fundstelle Vor- und Frühgeschichte",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Fundstelle Mittelalter",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Fundstelle Mittelalter/Neuzeit",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Fundstelle Neuzeit",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "Fundstelle VFG, MA/NZ, 20Jh.",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=9",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "10",
+                "title": "Fundstelle MA/NZ, 20Jh.",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=10",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "11",
+                "title": "Fundstelle 20. Jahrhundert",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=11",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12",
+                "title": "Fundstelle undatiert",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=12",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "13",
+                "title": "Bodendenkmal",
+                "abstract": "",
+                "gdi_de": "e1189f4f-9c48-3259-9f78-3b21cee30d0b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=501317ff-f2e7-3eee-9d36-4f198a4fed5d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/fundstellen?layerID=13",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "AISBer",
+                    "Archäologie",
+                    "Fundstellen",
+                    "Bodendenkmale",
+                    "Ausgrabungen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 17215,
+                            "max_latitude": 26270,
+                            "min_longitude": 17500,
+                            "max_longitude": 30900
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4816,
+                            "max_latitude": 52.5634,
+                            "min_longitude": 13.2942,
+                            "max_longitude": 13.4912
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Denkmal",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtentwicklung",
+        "AISBer",
+        "Archäologie",
+        "Fundstellen",
+        "Bodendenkmale",
+        "Ausgrabungen"
+    ]
+}

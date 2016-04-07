@@ -1,0 +1,67 @@
+---
+layout: default
+title: Moabit - 
+permalink: /pages/moabit/details/wfs_re_emiss_alle_1989_2009
+level: 3
+---
+<h1>Emissionswerte NOx, PM10, PM2.5, SO2 1989 bis 2009 (Umweltatlas)</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>wfs</td></tr>
+<tr><th>Title</th><td>Emissionswerte NOx, PM10, PM2.5, SO2 1989 bis 2009 (Umweltatlas)</td></tr>
+<tr><th>Category</th><td>Umweltatlas</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_03_12_03_4noxemihaus2005.jpg'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_emiss_alle_1989_2009@senstadt'>http://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_emiss_alle_1989_2009@senstadt</a></td></tr>
+<tr><th>Keywords</th><td>Environmental monitoring facilities,Verkehr,inspireidentifiziert,open data,opendata,Geodaten,Berlin,Entwicklung,Luftgüte,langjährig,Emission,Hausbrand,Verkehr,KFZ,Industrie</td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=re_emiss_alle_1989_2009@senstadt&type=WFS&themeType=spatial&showCapUrl=true</td></tr>
+<tr><th>kurzbeschreibung</th><td>Informationen zur Entwicklung der Luftqualität 1989 bis 2009:
+NOx-, SO2-, Feinstaub-Emissionen der Verursachergruppen Hausbrand, Industrie und Kfz-Verkehr auf Grundlage eines 1x1km Rasters</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:3068, EPSG:4258</td></tr>
+<tr><th>ausdehnung</th><td>EPSG:3068: 2750, 250, 49780, 40100</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet "Umweltatlas Berlin / [Titel des Datensatzes]".</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>Es gelten keine Bedingungen</td></tr>
+<tr><th>beschreibung</th><td>Entwicklung der Luftqualität 1989 bis 2009:
+NOx-, SO2-, Feinstaub-Emissionen auf Grundlage eines 1x1km Rasters</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin<br />Berlin
+Fehrbelliner Platz 1, 10707 Berlin
+</td></tr>
+<tr><th>telefon</th><td>+49-30-90139-5257</td></tr>
+<tr><th>fax</th><td>+49-30-90139-5251</td></tr>
+<tr><th>email</th><td>fisbroker@senstadtum.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>WFS</td></tr>
+<tr><th>version</th><td>1.0.0<br />1.1.1<br />2.0.0</td></tr>
+<tr><th>operationen</th><td>GetCapabilities<br />DescribeFeatureType<br />GetFeature</td></tr>
+<tr><th>ausgabeformate</th><td>text/xml; subtype=gml/2.1.2<br />text/xml; subtype=gml/3.1.1<br />text/xml; subtype=gml/3.2.1</td></tr>
+<tr><th>rechneradresse</th><td>http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_emiss_alle_1989_2009</td></tr>
+<tr><th>inspire</th><td>http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a51846a7-8fa8-3d41-97c6-72add4e1e0fa&ELEMENTSETNAME=FULL</td></tr>
+<tr><th colspan='2'><strong>Spatial</strong></th></tr>
+<tr><th>BoundingBox</th><td>52.3284,13.079,52.6877,13.7701</td></tr>
+<tr><th>Projections</th><td>urn:ogc:def:crs:EPSG:6.9:3068<br />urn:ogc:def:crs:EPSG:6.9:4258</td></tr>
+<tr><th>comparison</th><td>PropertyIsLessThan<br />PropertyIsGreaterThan<br />PropertyIsLessThanOrEqualTo<br />PropertyIsGreaterThanOrEqualTo<br />PropertyIsEqualTo<br />PropertyIsNotEqualTo<br />PropertyIsLike<br />PropertyIsBetween<br />PropertyIsNull</td></tr>
+<tr><th>geometry</th><td>gml:AbstractGeometricPrimitive</td></tr>
+<tr><th>spatial</th><td>BBOX<br />Equals<br />Disjoint<br />Intersects<br />Touches<br />Crosses<br />Within<br />Contains<br />Overlaps<br />Beyond<br />DWithin</td></tr>
+</table>
+</div>
+<div id='legend'></div>
+<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
+<script src='{{site.url}}/lib/d3.min.js'></script>
+<script src='{{site.url}}/lib/topojson.v1.min.js'></script>
+<script src='{{site.url}}/lib/leaflet.js'></script>
+<script src='{{site.url}}/lib/leaflet.ajax.min.js'></script>
+<script language='javascript/text'>
+var moabit_map = L.map('mapid').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmAttrib='Map data © <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors';
+var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+osm.addTo(moabit_map);
+function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
+var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
+var name = 're_emiss_alle_1989_2009_';
+var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+geojsonLayer.addTo(moabit_map);
+</script>

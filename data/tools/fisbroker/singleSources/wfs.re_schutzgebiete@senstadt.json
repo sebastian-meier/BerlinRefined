@@ -1,0 +1,117 @@
+{
+    "type": "wfs",
+    "title": "Schutzgebiete nach Naturschutzrecht (inklusive Natura 2000)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_nsg_lsg.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=nsg_lsg@senstadt",
+    "description": {
+        "link": "?id=re_schutzgebiete@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Naturschutz- und Landschaftsschutzgebiete, flächenhafte Naturdenkmale, Geschützte Landschaftsbestandteile, Naturparke, FFH - Gebiete, Natura 2000- und SPA - Flächen",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750,01, 250,01, 49780,01, 40100,01",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Naturschutzgebiete in Berlin"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_schutzgebiete"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e9e8c2f0-9c6d-3375-908f-16e68880472c&ELEMENTSETNAME=FULL"
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Protected sites",
+        "Schutzgebiet",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Geodaten",
+        "Berlin",
+        "Naturschutzgebiete",
+        "Landschaftsschutzgebiete",
+        "Naturparke",
+        "Naturparks",
+        "Objektschutz",
+        "Flächenschutz",
+        "NSG",
+        "LSG",
+        "Flora-Fauna-Habitat-Richtlinie",
+        "FFH-Gebiete",
+        "Vogelschutzrichtlinie",
+        "SPA-Gebiete",
+        "NATURA",
+        "2000-Gebiete",
+        "NATURA2000-Gebiete",
+        "EU-Richtlinie",
+        "EU",
+        "äöü"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3284,
+            "max_latitude": 52.6877,
+            "min_longitude": 13.079,
+            "max_longitude": 13.7701
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068",
+            "urn:ogc:def:crs:EPSG:6.9:4258",
+            "urn:ogc:def:crs:EPSG:6.9:25833"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

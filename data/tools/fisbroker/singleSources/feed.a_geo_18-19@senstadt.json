@@ -1,0 +1,39 @@
+{
+    "type": "feed",
+    "title": "Geologische Karte 1874-1937",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau//karten/karte_geo_18-19.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=geo_18-19@senstadt",
+    "description": {
+        "link": "?id=a_geo_18-19@senstadt&type=FEED",
+        "kurzbeschreibung": "Die Geologische Karte vermittelt Informationen zur Verbreitung, Beschaffenheit und Abfolge von Gesteinen bis in eine Tiefe von zwei Metern unter der Geländeoberfläche.",
+        "koordinatensysteme": "EPSG:31468",
+        "grafikformate": "application/x-ecw",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_geo_18-19"
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "download": {
+        "description": "Geologische Karte 1874-1937 - Download-Service - EPSG31468 - ECW, gezippt",
+        "erläuterung": "\nEckkoordinaten der einzelnen ecw-Dateien\n",
+        "geologische karte 1874-1937": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/Geologie/geo_18-19/Geolog_Karte_gauss4.zip\n"
+    }
+}

@@ -1,0 +1,261 @@
+{
+    "type": "wms",
+    "title": "Entwicklung Luftqualität SO2-Emissionen Industrie 1994 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_03_12_08_2so2emiindustrie1994.jpg",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_so2_ind1994@senstadt",
+    "description": {
+        "link": "?id=emi_so2_ind1994@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der SO2-Emissionen der Verursachergruppe Industrie 1994, Stand 2006",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Emissionen Industrie 1994\nHintergrund 1:5.000\nIndustrie - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Darstellung der SO2-Emissionen der Verursachergruppe Industrie 1994, Stand 2006"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_ind1994"
+        ],
+        "legend": {
+            "width": 264,
+            "height": 496,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_08_2so2emiindustrie1994.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Emissionen Industrie 1994",
+                "abstract": "",
+                "gdi_de": "2c874e2c-ab56-3d12-b2bf-ccbd16bbc73b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8f5c11be-d407-3c97-998f-89751c554848&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_so2_ind1994?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "Schwefeldioxid",
+                    "SO2",
+                    "Industrie",
+                    "1994"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000",
+                "abstract": "",
+                "gdi_de": "2c874e2c-ab56-3d12-b2bf-ccbd16bbc73b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8f5c11be-d407-3c97-998f-89751c554848&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_so2_ind1994?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "Schwefeldioxid",
+                    "SO2",
+                    "Industrie",
+                    "1994"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Industrie - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+                "abstract": "",
+                "gdi_de": "2c874e2c-ab56-3d12-b2bf-ccbd16bbc73b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8f5c11be-d407-3c97-998f-89751c554848&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_so2_ind1994?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "Schwefeldioxid",
+                    "SO2",
+                    "Industrie",
+                    "1994"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Kataster",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Emissionen",
+        "Kataster",
+        "BImSchG",
+        "Bundesimmissionsschutzgesetz",
+        "Raster",
+        "Entwicklung",
+        "Luftgüte",
+        "Luftqualität",
+        "Schwefeldioxid",
+        "SO2",
+        "Industrie",
+        "1994"
+    ]
+}

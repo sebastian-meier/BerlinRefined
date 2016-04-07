@@ -1,0 +1,206 @@
+{
+    "type": "wms",
+    "title": "Grundwassermessstellen",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_gw_messstellen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gw_messstellen@senstadt",
+    "description": {
+        "link": "?id=gw_messstellen@senstadt&type=WMS",
+        "kurzbeschreibung": "Lage der öffentlich zugänglichen Grundwassermessstellen, die sich im Eigentum der Senatsverwaltung für Stadtentwicklung und Umwelt und der Berliner Wasserbetriebe befinden.",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750\nEPSG:4258: 13,05, 52,32, 13,78, 52,69\nEPSG:25833: 367190,96, 5798934,34, 417447,14, 5838875,02",
+        "ebenen": "Hintergrund\nGrundwassermessstellen",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Lage der öffentlich zugänglichen Grundwassermessstellen, die sich im Eigentum der Senatsverwaltung für Gesundheit, Umwelt und Verbraucherschutz und der Berliner Wasserbetriebe befinden"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/gw_messstellen"
+        ],
+        "legend": {
+            "width": 378,
+            "height": 287,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gw_messstellen.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund",
+                "abstract": "In Abhängigkeit vom Maßstab des Kartenausschnitts: Darstellung der Blockkarte 1:5.000 (ISU5)oder der Karte von Berlin 1:5.000(K5)",
+                "gdi_de": "9915c878-4446-3033-92ac-654ea22b8694",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4353f254-f51a-3e88-924b-ed9c77dbce30&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gw_messstellen?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Mess-Stellen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Grundwassermessstellen",
+                "abstract": "Lage der öffentlich zugänglichen Grundwassermessstellen, die sich im Eigentum der Senatsverwaltung für Stadtentwicklung und Umwelt und der Berliner Wasserbetriebe befinden.",
+                "gdi_de": "9915c878-4446-3033-92ac-654ea22b8694",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4353f254-f51a-3e88-924b-ed9c77dbce30&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 378,
+                    "height": 287,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gw_messstellen.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Mess-Stellen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Geology",
+        "Grundwasser",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Mess-Stellen",
+        "äöü"
+    ]
+}

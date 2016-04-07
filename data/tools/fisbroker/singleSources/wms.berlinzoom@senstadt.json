@@ -1,0 +1,115 @@
+{
+    "type": "wms",
+    "title": "Berlin-Zoom",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_berlinzoom.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=berlinzoom@senstadt",
+    "description": {
+        "link": "?id=berlinzoom@senstadt&type=WMS",
+        "kurzbeschreibung": "Berlin in verschiedenen Kartengrundlagen. Detaillierung beim Zoomen.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "ebenen": "Berlin-Zoom",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Berlin in verschiedenen Kartengrundlagen. Detaillierung beim Zoomen."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/berlinzoom"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Berlin-Zoom",
+                "abstract": "",
+                "gdi_de": "f0fd1c92-7d83-372e-97ad-52059e1558cd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=31329390-3216-35ed-9c3e-27e566549cb9&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlinzoom?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Übersichtskarte",
+                    "Uebersichtskarte",
+                    "Berlin-Zoom"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Amtliche Karte",
+        "Administrative units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Übersichtskarte",
+        "Uebersichtskarte",
+        "Berlin-Zoom"
+    ]
+}

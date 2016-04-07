@@ -1,0 +1,306 @@
+{
+    "type": "wms",
+    "title": "Digitale Topographische Karte 1: 25 000 (DTK25)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_dtk25.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_dtk25@senstadt",
+    "description": {
+        "link": "?id=k_dtk25@senstadt&type=WMS",
+        "kurzbeschreibung": "Das Landeskartenwerk Digitale Topographische Karte 1:25 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in unterschiedlichen Farbausprägungen.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750,01, 250,01, 49780,01, 40100,01\nEPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "DTK25, farbig\nDTK25, in Graustufen\nDTK25, s/w",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Als Topographische Karte im Maßstab 1:25 000 stellt die DTK25 sichtbare Erscheinungen der Erdoberfläche wie Geländeformen mit Höhenangaben, Gewässer, Vegetation, Siedlungen, Wirtschaftsflächen, Verkehrswege, Grenzen, Gebäude (öffentliche und nicht öffentliche), Einzelobjekte (Denkmale, Türme, Aussichtspunkte, Windmühlen etc.) dar. Diese können durch Kartenbeschriftungen erläutert werden."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_dtk25"
+        ],
+        "legend": {
+            "width": 802,
+            "height": 3803,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk25.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "DTK25, farbig",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:25 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Farbe.",
+                "gdi_de": "4903dcb7-b77e-3f16-a617-c8de9a11e6ce",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=1e13d718-13e7-3162-8422-ff26578da7db&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 802,
+                    "height": 3803,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 12
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "DTK25",
+                    "1:25000",
+                    "1:25.000",
+                    "Geobasisdaten",
+                    "Topografie",
+                    "Topographie",
+                    "ATKIS",
+                    "TK25",
+                    "TK25 (ATKIS)",
+                    "Topografische Karte",
+                    "Rasterdaten",
+                    "Landeskartenwerke",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "DTK25, in Graustufen",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:25 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Graustufen.",
+                "gdi_de": "4903dcb7-b77e-3f16-a617-c8de9a11e6ce",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=1e13d718-13e7-3162-8422-ff26578da7db&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 802,
+                    "height": 3803,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 12
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "DTK25",
+                    "1:25000",
+                    "1:25.000",
+                    "Geobasisdaten",
+                    "Topografie",
+                    "Topographie",
+                    "ATKIS",
+                    "TK25",
+                    "TK25 (ATKIS)",
+                    "Topografische Karte",
+                    "Rasterdaten",
+                    "Landeskartenwerke",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "DTK25, s/w",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:25 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Schwarz-Weiß.",
+                "gdi_de": "4903dcb7-b77e-3f16-a617-c8de9a11e6ce",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=1e13d718-13e7-3162-8422-ff26578da7db&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 802,
+                    "height": 3803,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 12
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "DTK25",
+                    "1:25000",
+                    "1:25.000",
+                    "Geobasisdaten",
+                    "Topografie",
+                    "Topographie",
+                    "ATKIS",
+                    "TK25",
+                    "TK25 (ATKIS)",
+                    "Topografische Karte",
+                    "Rasterdaten",
+                    "Landeskartenwerke",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Land cover",
+        "Land use",
+        "Buildings",
+        "Geographical names",
+        "Hydrography",
+        "Transport networks",
+        "Administrative units",
+        "Amtliche Karte",
+        "open data",
+        "opendata",
+        "AdVMIS",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Rasterkarte",
+        "DTK25",
+        "1:25000",
+        "1:25.000",
+        "Geobasisdaten",
+        "Topografie",
+        "Topographie",
+        "ATKIS",
+        "TK25",
+        "TK25 (ATKIS)",
+        "Topografische Karte",
+        "Rasterdaten",
+        "Landeskartenwerke",
+        "topografisch",
+        "äöü"
+    ]
+}

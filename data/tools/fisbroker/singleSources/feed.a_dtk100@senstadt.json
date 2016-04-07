@@ -1,0 +1,37 @@
+{
+    "type": "feed",
+    "title": "Digitale Topographische Karte 1: 100 000 (DTK100)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_dtk100.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_dtk100@senstadt",
+    "description": {
+        "link": "?id=a_dtk100@senstadt&type=FEED",
+        "kurzbeschreibung": "Das Landeskartenwerk Digitale Topographische Karte 1:100 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in unterschiedlichen Farbausprägungen.",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "image/tiff",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_dtk100"
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "download": {
+        "description": "Digitale Topographische Karte 1:100.000 - (DTK100) - Download-Service - EPSG 25833 - TIFF, gezippt"
+    }
+}

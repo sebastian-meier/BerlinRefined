@@ -1,0 +1,95 @@
+{
+    "type": "wfs",
+    "title": "Landschaftsplanverfahren",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_lplan.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=lplan@senstadt",
+    "description": {
+        "link": "?id=re_lplan@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Die Übersicht beinhaltet sämtliche Landschaftsplanverfahren, die festgesetzt sind bzw. sich im Verfahren befinden.\nDie Landschaftspläne, die den Biotopflächenfaktor festsetzen, sind gesondert gekennzeichnet.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Übersicht beinhaltet sämtliche Landschaftsplanverfahren, die festgesetzt sind bzw. sich im Verfahren befinden.\nDie Landschaftspläne, die den Biotopflächenfaktor festsetzen, sind gesondert gekennzeichnet."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_lplan"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=1bdad472-d2fd-3414-97b7-00fd3c3ea21a&ELEMENTSETNAME=FULL"
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Landschaftsplanung",
+        "Geodaten",
+        "Berlin",
+        "Landschaftsplanverfahren"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3005,
+            "max_latitude": 52.6954,
+            "min_longitude": 12.9709,
+            "max_longitude": 13.8109
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

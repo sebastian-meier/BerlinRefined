@@ -1,0 +1,179 @@
+{
+    "type": "wms",
+    "title": "Katasterämter",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_kataster.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=kataster@senstadt",
+    "description": {
+        "link": "?id=kataster@senstadt&type=WMS",
+        "kurzbeschreibung": "Hier finden Sie zuständige Ansprechpartner für Grundstücks- und Katasterangelegenheiten.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "ebenen": "Karte von Berlin 1:5000 (K5)\nBezirke",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Hier finden Sie zuständige Ansprechpartner für Grundstücks- und Katasterangelegenheiten."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/kataster"
+        ],
+        "legend": {
+            "width": 380,
+            "height": 1062,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_k5.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Karte von Berlin 1:5000 (K5)",
+                "abstract": "Landeskartenwerk mit Grundstücksgrenzen, Straßennamen und Grundstücksnummern;\nvon den Vermessungsämtern der 12 Bezirke Berlins in den Jahren 2002/2003 neu auf Grundlage der ALK\n(Automatisierte Liegenschaftskarte) entwickelt.",
+                "gdi_de": "cf9ae042-667e-3e4f-9abc-469a54aa2906",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=63b95625-4127-3be3-96f6-2ab85adbb191&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/kataster?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 4
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Katasteramt Berlin",
+                    "Grundstücksauskunft",
+                    "Liegenschaftskataster",
+                    "Eigentümerauskunft",
+                    "Grundstückseigentümer",
+                    "Vermessungsamt"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Bezirke",
+                "abstract": "",
+                "gdi_de": "cf9ae042-667e-3e4f-9abc-469a54aa2906",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=63b95625-4127-3be3-96f6-2ab85adbb191&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/kataster?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 4
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Katasteramt Berlin",
+                    "Grundstücksauskunft",
+                    "Liegenschaftskataster",
+                    "Eigentümerauskunft",
+                    "Grundstückseigentümer",
+                    "Vermessungsamt"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Utility and governmental services",
+        "Kataster",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Katasteramt Berlin",
+        "Grundstücksauskunft",
+        "Liegenschaftskataster",
+        "Eigentümerauskunft",
+        "Grundstückseigentümer",
+        "Vermessungsamt"
+    ]
+}

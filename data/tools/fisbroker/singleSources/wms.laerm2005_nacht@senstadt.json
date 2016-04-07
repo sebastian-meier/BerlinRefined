@@ -1,0 +1,189 @@
+{
+    "type": "wms",
+    "title": "Straßenverkehrslärm (Nacht 22-6 Uhr) (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_strassenlaerm2004_nacht.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=laerm2005_nacht@senstadt",
+    "description": {
+        "link": "?id=laerm2005_nacht@senstadt&type=WMS",
+        "kurzbeschreibung": "KFZ- und Straßenbahnverkehrslärm im übergeordneten Straßennetz an der nächstgelegenen Bebauung - Mittelungspegel (Nacht 22-6 Uhr) in db(A)",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100\nEPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Hintergrund 1:5.000\nStraßenverkehrslärm (Nacht)",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "KFZ- und Straßenbahnverkehrslärm im übergeordneten Straßennetz an der nächstgelegenen Bebauung - Mittelungspegel (Nacht 22-6 Uhr) in db(A)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/laerm2005_nacht"
+        ],
+        "legend": {
+            "width": 231,
+            "height": 288,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_LaermStras_Nacht2004.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund 1:5.000",
+                "abstract": "digitale Karte 1:5.000, Rasterkarte 1:5.000",
+                "gdi_de": "d09739db-46ff-3a96-bcab-e558c9d3751a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fb7fe417-fe69-3f5f-b78a-f938506e12fd&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/laerm2005_nacht?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "KFZ",
+                    "Straßenbahn",
+                    "Lärm",
+                    "Lärmminderung",
+                    "Emissionen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Straßenverkehrslärm (Nacht)",
+                "abstract": "Straßenverkehrslärm (Nacht)",
+                "gdi_de": "d09739db-46ff-3a96-bcab-e558c9d3751a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fb7fe417-fe69-3f5f-b78a-f938506e12fd&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/laerm2005_nacht?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "KFZ",
+                    "Straßenbahn",
+                    "Lärm",
+                    "Lärmminderung",
+                    "Emissionen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Transport networks",
+        "Verkehr",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "KFZ",
+        "Straßenbahn",
+        "Lärm",
+        "Lärmminderung",
+        "Emissionen"
+    ]
+}

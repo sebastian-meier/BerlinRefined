@@ -1,0 +1,37 @@
+{
+    "type": "feed",
+    "title": "Übersichtskarte von Berlin 1: 50 000 (ÜK50), 4-farbig",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_uk50farbe4.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=uk50farbe4@senstadt",
+    "description": {
+        "link": "?id=a_uk50farbe4@senstadt&type=FEED",
+        "kurzbeschreibung": "Die Übersichtskarte von Berlin 1:50 000 (ÜK50) stellt das gesamte Gebiet Berlins und das nähere Umland dar (4-farbige Grundfarbausstattung).",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "image/tiff",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_uk50farbe4"
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "download": {
+        "description": "Übersichtskarte von Berlin 1: 50 000 (ÜK50), 4-farbig - Download-Service - EPSG 25833 - TIFF, gezippt."
+    }
+}

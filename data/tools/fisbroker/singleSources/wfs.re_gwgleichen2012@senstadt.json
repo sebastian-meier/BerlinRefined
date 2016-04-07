@@ -1,0 +1,101 @@
+{
+    "type": "wfs",
+    "title": "Grundwassergleichen 2012",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_gwgleichen2009.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_12gwgleichen2012@senstadt",
+    "description": {
+        "link": "?id=re_gwgleichen2012@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Grundwassergleichen des Hauptgrundwasserleiters und des Panketalgrundwasserleiters für den Mai 2012",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Grundwassergleichenkarte des Hauptgrundwasserleiters und des Panketalgrundwasserleiters für den Mai 2012"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_gwgleichen2012"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=eb65ab38-7056-3a91-87d6-b76264739bbc&ELEMENTSETNAME=FULL"
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Geology",
+        "Geologie",
+        "open data",
+        "opendata",
+        "Geodaten",
+        "Berlin",
+        "Grundwasserstände",
+        "Grundwasserstand",
+        "Grundwasserganglinien",
+        "Grundwasserhöhenlinien",
+        "äöü"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3284,
+            "max_latitude": 52.6877,
+            "min_longitude": 13.079,
+            "max_longitude": 13.7701
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "type": "wms",
+    "title": "Gebäudealter 1992/93",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_gebaeudealter.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gebaeudealter@senstadt",
+    "description": {
+        "link": "?id=gebaeudealter@senstadt&type=WMS",
+        "kurzbeschreibung": "Scan der Karte \"Gebäudealter 1992/93\" aus der Veröffentlichung: \"Städtebauliche Entwicklung Berlins seit 1650 in Karten\"",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 16000, 14800, 30400, 25800",
+        "ebenen": "Gebäudealter 1992/93",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Scan der Karte \"Gebäudealter 1992/93\" aus der Veröffentlichung: \"Städtebauliche Entwicklung Berlins seit 1650 in Karten\""
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/gebaeudealter"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/jpeg",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gebaeudealter.jpg"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Gebäudealter 1992/93",
+                "abstract": "Scan der Karte \"Gebäudeschäden 1945\" aus der Veröffentlichung: \"Städtebauliche Entwicklung Berlins seit 1690 in Karten\"",
+                "gdi_de": "c7b4eb20-aec9-3024-854a-75760347b245",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ffb17de9-4539-3026-94de-b71f7e2b4e21&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gebaeudealter?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 14800,
+                            "max_latitude": 25800,
+                            "min_longitude": 16000,
+                            "max_longitude": 30400
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4599,
+                            "max_latitude": 52.5592,
+                            "min_longitude": 13.2723,
+                            "max_longitude": 13.4839
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Historische Karten",
+    "keywords": [
+        "Buildings",
+        "Gebäude",
+        "Historische Karte",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtentwicklung",
+        "Städtebau"
+    ]
+}

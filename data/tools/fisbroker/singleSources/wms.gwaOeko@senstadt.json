@@ -1,0 +1,263 @@
+{
+    "type": "wms",
+    "title": "Grundwasserabhängige Ökosysteme (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_gwaoeko.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gwaOeko@senstadt",
+    "description": {
+        "link": "?id=gwaOeko@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Karte ist als Grundlage für die erstmalige Beschreibung des Grundwassers erarbeitet worden, die im Rahmen der\nEU-Wasserrahmenrichtlnie zu leisten ist.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Hintergrund digitale Karte 1:50.000\nGrundwasserabhängige Ökosysteme (Umweltatlas Berlin)\nHintergrund Rasterkarte 1:5.000\nBezirks-, Straßen-, Gewässernamen",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Die Karte ist als Grundlage für die erstmalige Beschreibung des Grundwassers erarbeitet worden, die im Rahmen der\nEU-Wasserrahmenrichtlnie zu leisten ist."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/gwaOeko"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_gwaoeko.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund digitale Karte 1:50.000",
+                "abstract": "ISU50",
+                "gdi_de": "e0715d0e-80b2-3211-b7cb-831a043c805e",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fdf5cb57-5643-3aae-be99-de76ea21003f&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gwaOeko?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Biotope",
+                    "Ökosysteme",
+                    "Flurabstand"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Grundwasserabhängige Ökosysteme (Umweltatlas Berlin)",
+                "abstract": "",
+                "gdi_de": "e0715d0e-80b2-3211-b7cb-831a043c805e",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fdf5cb57-5643-3aae-be99-de76ea21003f&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gwaOeko?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Biotope",
+                    "Ökosysteme",
+                    "Flurabstand"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Hintergrund Rasterkarte 1:5.000",
+                "abstract": "",
+                "gdi_de": "e0715d0e-80b2-3211-b7cb-831a043c805e",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fdf5cb57-5643-3aae-be99-de76ea21003f&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gwaOeko?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Biotope",
+                    "Ökosysteme",
+                    "Flurabstand"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Bezirks-, Straßen-, Gewässernamen",
+                "abstract": "ISU50",
+                "gdi_de": "e0715d0e-80b2-3211-b7cb-831a043c805e",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fdf5cb57-5643-3aae-be99-de76ea21003f&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gwaOeko?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Biotope",
+                    "Ökosysteme",
+                    "Flurabstand"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Biosphäre",
+        "Grundwasser",
+        "Bio-geographical regions",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Biotope",
+        "Ökosysteme",
+        "Flurabstand"
+    ]
+}

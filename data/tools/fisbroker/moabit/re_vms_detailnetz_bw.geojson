@@ -1,0 +1,981 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.329482826260119,
+                        52.53906723941089
+                    ],
+                    [
+                        13.330259025576513,
+                        52.539331092483906
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Hermann-Maass-Brücke",
+                "OKSTRA_ID": "40D712EF5EDE4C0D857E5471F3FA0E8B",
+                "RBS_BWNR": "07375-0010",
+                "SIB_BWNR": "-",
+                "alias": "Hermann-Maass-Brücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.329788837082829,
+                        52.53877678730632
+                    ],
+                    [
+                        13.330303001299985,
+                        52.53902700131934
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Seestraßenbrücke südlich",
+                "OKSTRA_ID": "6A5147A25616442D8FFFB3FD78939443",
+                "RBS_BWNR": "07413-0010",
+                "SIB_BWNR": "-",
+                "alias": "Seestraßenbrücke südlich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.326596107716604,
+                        52.53709994498521
+                    ],
+                    [
+                        13.32636247689771,
+                        52.53769350059922
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Ludwig-Hoffmann-Brücke",
+                "OKSTRA_ID": "4E22F11358CC41D3B99C6EDAC81BB428",
+                "RBS_BWNR": "07484-0010",
+                "SIB_BWNR": "-",
+                "alias": "Ludwig-Hoffmann-Brücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.329530453095494,
+                        52.52275046565275
+                    ],
+                    [
+                        13.328704154011644,
+                        52.522403181520374
+                    ],
+                    [
+                        13.32861511276741,
+                        52.52235298736143
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Gotzkowskybrücke",
+                "OKSTRA_ID": "659BD7370B8F44E5876403C1B00316FB",
+                "RBS_BWNR": "07290-0010",
+                "SIB_BWNR": "3445002A",
+                "alias": "Gotzkowskybrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.327848619820276,
+                        52.5351727870762
+                    ],
+                    [
+                        13.328097090972944,
+                        52.5352596840003
+                    ],
+                    [
+                        13.328234871108775,
+                        52.535370565768694
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Tunnel",
+                "BWERK_NAME": "südlicher Tunnel Beusselstr.",
+                "OKSTRA_ID": "C920EBCEB8264A979957C0CB648D2A0B",
+                "RBS_BWNR": "05613-0010",
+                "SIB_BWNR": "3445008 0",
+                "alias": "südlicher Tunnel Beusselstr."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.326417899129197,
+                        52.536865842742955
+                    ],
+                    [
+                        13.326728910386318,
+                        52.53685944025192
+                    ],
+                    [
+                        13.327084518737172,
+                        52.53679653406619
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Tunnel",
+                "BWERK_NAME": "nördlicher Tunnel Beusselstr.",
+                "OKSTRA_ID": "A7CEB0002BD2466B86FDFCC199F0FF52",
+                "RBS_BWNR": "05613-0020",
+                "SIB_BWNR": "3445007 0",
+                "alias": "nördlicher Tunnel Beusselstr."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.31487250651311,
+                        52.525768940429515
+                    ],
+                    [
+                        13.315974418126014,
+                        52.525793335202046
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Kaiserin-Augusta-Brücke",
+                "OKSTRA_ID": "C09B26A42E5142D18E0F995A2C98677B",
+                "RBS_BWNR": "07318-0010",
+                "SIB_BWNR": "3445010 0",
+                "alias": "Kaiserin-Augusta-Brücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.314242231487077,
+                        52.53031552172596
+                    ],
+                    [
+                        13.313188994114855,
+                        52.53005752321482
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Sickingenbrücke",
+                "OKSTRA_ID": "F8D4594162254D7D96B6AAFAB9903FF0",
+                "RBS_BWNR": "07415-0010",
+                "SIB_BWNR": "3445011 0",
+                "alias": "Sickingenbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.329343284412172,
+                        52.53922346193439
+                    ],
+                    [
+                        13.33011686599584,
+                        52.53946852294758
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Spennrathbrücke",
+                "OKSTRA_ID": "165C7ECF4F084323955AB2C061845C54",
+                "RBS_BWNR": "07425-0010",
+                "SIB_BWNR": "3445013 0",
+                "alias": "Spennrathbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.324416268913053,
+                        52.51694597520983
+                    ],
+                    [
+                        13.325066221538092,
+                        52.517498560599265
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Marchbrücke",
+                "OKSTRA_ID": "EB147DD3A9B04303A0160A99C6F0A81D",
+                "RBS_BWNR": "07346-0010",
+                "SIB_BWNR": "3445020A",
+                "alias": "Marchbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.31878760261474,
+                        52.51920557955435
+                    ],
+                    [
+                        13.319678812522259,
+                        52.51963924736792
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Dovebrücke",
+                "OKSTRA_ID": "65BCDF46DAE4463FA1FEB97466404922",
+                "RBS_BWNR": "07246-0010",
+                "SIB_BWNR": "3445021A",
+                "alias": "Dovebrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.326332569541698,
+                        52.537926044192126
+                    ],
+                    [
+                        13.326210901365698,
+                        52.538478411217945
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Goerdelerdammbrücke",
+                "OKSTRA_ID": "BAFFD6D9DFB94F4E943D90CC9D7D7C47",
+                "RBS_BWNR": "07488-0010",
+                "SIB_BWNR": "3445119 0",
+                "alias": "Goerdelerdammbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.348259312926306,
+                        52.51467816908101
+                    ],
+                    [
+                        13.348331909853236,
+                        52.514378186377115
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängertunnel",
+                "BWERK_NAME": "Tunnel Siegessäule Westl.",
+                "OKSTRA_ID": "7A7818AFB9DC4AB5A8F745E0C7DA1C2D",
+                "RBS_BWNR": "05611-0010",
+                "SIB_BWNR": "-",
+                "alias": "Tunnel Siegessäule Westl."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.348331909853236,
+                        52.514378186377115
+                    ],
+                    [
+                        13.348413598625298,
+                        52.51403778514945
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängertunnel",
+                "BWERK_NAME": "Tunnel Siegessäule Westl.",
+                "OKSTRA_ID": "13AC7F2ECE9E4430AE47795F183EFC71",
+                "RBS_BWNR": "05611-0020",
+                "SIB_BWNR": "-",
+                "alias": "Tunnel Siegessäule Westl."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.328226963766216,
+                        52.53473088655528
+                    ],
+                    [
+                        13.32828359148164,
+                        52.53376676759717
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Beusselbrücke (Westteil)",
+                "OKSTRA_ID": "4BC53416A19E4071B45B5707DC22088F",
+                "RBS_BWNR": "07215-0010",
+                "SIB_BWNR": "3445164 1",
+                "alias": "Beusselbrücke (Westteil)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.328437512283477,
+                        52.53473386066581
+                    ],
+                    [
+                        13.328494135393589,
+                        52.53376974156912
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Beusselbrücke (Ostteil)",
+                "OKSTRA_ID": "6804E43CA7014EB1A83B036AE93CC16B",
+                "RBS_BWNR": "02002d",
+                "SIB_BWNR": "3445164 2",
+                "alias": "Beusselbrücke (Ostteil)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34803257250587,
+                        52.521260643400836
+                    ],
+                    [
+                        13.348525347250396,
+                        52.5220190586709
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Moabiter Brücke",
+                "OKSTRA_ID": "F711CB7EEDD64C00B96BCD80C9BBE775",
+                "RBS_BWNR": "07352-0010",
+                "SIB_BWNR": "3446053 0",
+                "alias": "Moabiter Brücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.350536745488007,
+                        52.52033641840608
+                    ],
+                    [
+                        13.349739010991636,
+                        52.51997797578284
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängerbrücke",
+                "BWERK_NAME": "Gerickesteg",
+                "OKSTRA_ID": "441F6E9272834D1CAE546981D0C87BB3",
+                "RBS_BWNR": "07280-0010",
+                "SIB_BWNR": "3446054 0",
+                "alias": "Gerickesteg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.341898476231325,
+                        52.52241036763589
+                    ],
+                    [
+                        13.341945321333672,
+                        52.52261098491172
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Lessingbrücke (Bogen)",
+                "OKSTRA_ID": "A301EF7AF35B41FDA6E84202D250D91D",
+                "RBS_BWNR": "07335-0010",
+                "SIB_BWNR": "3446052A",
+                "alias": "Lessingbrücke (Bogen)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.342068778872422,
+                        52.523083241448255
+                    ],
+                    [
+                        13.341948534685521,
+                        52.52262327692994
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Lessingbrücke (Stahlbogen)",
+                "OKSTRA_ID": "B56818FE55244D23B3ED97571E53F8AA",
+                "RBS_BWNR": "02010",
+                "SIB_BWNR": "3446052B",
+                "alias": "Lessingbrücke (Stahlbogen)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.341214411620442,
+                        52.522969666436815
+                    ],
+                    [
+                        13.342401640399586,
+                        52.52312901369356
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängerbrücke",
+                "BWERK_NAME": "FGS unter der Lessingbrücke",
+                "OKSTRA_ID": "3F0F913254334AB7B0FA1F80945F6076",
+                "RBS_BWNR": "02010c",
+                "SIB_BWNR": "3446052E",
+                "alias": "FGS unter der Lessingbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.333226127460497,
+                        52.54072261054589
+                    ],
+                    [
+                        13.334213496987813,
+                        52.54123132298433
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Seestraßenbrücke nördlich",
+                "OKSTRA_ID": "5F7D23368DFD466AB15F40189103C24B",
+                "RBS_BWNR": "07412-0010",
+                "SIB_BWNR": "3446071 0",
+                "alias": "Seestraßenbrücke nördlich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.344542202158596,
+                        52.53833403950359
+                    ],
+                    [
+                        13.345106054967204,
+                        52.53912440092874
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Föhrer Brücke ÜBB ost",
+                "OKSTRA_ID": "84167C81EB62441892030B39DAEC43C2",
+                "RBS_BWNR": "07263-0010",
+                "SIB_BWNR": "3446072 1",
+                "alias": "Föhrer Brücke ÜBB ost"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34436982348797,
+                        52.538353038219505
+                    ],
+                    [
+                        13.344933673432566,
+                        52.53914340044024
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Föhrer Brücke ÜBB west",
+                "OKSTRA_ID": "5B09B0FAAF7947D597178E822169314E",
+                "RBS_BWNR": "02092",
+                "SIB_BWNR": "3446072 2",
+                "alias": "Föhrer Brücke ÜBB west"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.348331909853236,
+                        52.514378186377115
+                    ],
+                    [
+                        13.348992978108466,
+                        52.51442916208638
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängertunnel",
+                "BWERK_NAME": "Tunnel Siegessäule Westl.",
+                "OKSTRA_ID": "D7AF67ABBC8349A28F56481CA8434A4E",
+                "RBS_BWNR": "05611-0030",
+                "SIB_BWNR": "-",
+                "alias": "Tunnel Siegessäule Westl."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.348992978108466,
+                        52.51442916208638
+                    ],
+                    [
+                        13.349585070301039,
+                        52.514439533229236
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängertunnel",
+                "BWERK_NAME": "Tunnel Siegessäule Westl.",
+                "OKSTRA_ID": "671404DC18D04B81B3A40D5F78727ECC",
+                "RBS_BWNR": "05611-0040",
+                "SIB_BWNR": "-",
+                "alias": "Tunnel Siegessäule Westl."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.33858587052923,
+                        52.51939764692832
+                    ],
+                    [
+                        13.337629311760693,
+                        52.51979560892671
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Hansabrücke, Teilbauwerk ü.d. Spree",
+                "OKSTRA_ID": "42C648E8F0EA44DBB4C9B3F15CE3AF3C",
+                "RBS_BWNR": "07298-0010",
+                "SIB_BWNR": "3446050A",
+                "alias": "Hansabrücke, Teilbauwerk ü.d. Spree"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.338582742178385,
+                        52.5193990142979
+                    ],
+                    [
+                        13.338723801825058,
+                        52.51933735810492
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Hansabrücke, Teilbauwerk am Ostufer der Spree",
+                "OKSTRA_ID": "D3689280F8714623A968D217B18587ED",
+                "RBS_BWNR": "02008",
+                "SIB_BWNR": "3446050B",
+                "alias": "Hansabrücke, Teilbauwerk am Ostufer der Spree"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.338725236161551,
+                        52.519336731159186
+                    ],
+                    [
+                        13.33895602916552,
+                        52.51923585238948
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Hansabrücke, Teilbauwerk ü.d.östl.Uferweg d.Spree",
+                "OKSTRA_ID": "972EA07AE3B34FC483C6FC3445E237E0",
+                "RBS_BWNR": "02008",
+                "SIB_BWNR": "3446050C",
+                "alias": "Hansabrücke, Teilbauwerk ü.d.östl.Uferweg d.Spree"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34196402532763,
+                        52.51395465608084
+                    ],
+                    [
+                        13.34216596548763,
+                        52.513976516964334
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "westl. Durchlass unter der Straße des 17. Juni",
+                "OKSTRA_ID": "EA72B90C1BCC4E759D6E84A6D8B06D54",
+                "RBS_BWNR": "02132",
+                "SIB_BWNR": "3446104 0",
+                "alias": "westl. Durchlass unter der Straße des 17. Juni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.306276183060085,
+                        52.520166359326275
+                    ],
+                    [
+                        13.306195292167738,
+                        52.52116185807604
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Caprivibrücke",
+                "OKSTRA_ID": "FFA46410358C46CAAA766684482391AB",
+                "RBS_BWNR": "07233-0010",
+                "SIB_BWNR": "3445024 0",
+                "alias": "Caprivibrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.312033645355926,
+                        52.52118468035106
+                    ],
+                    [
+                        13.312102746736546,
+                        52.52037786546106
+                    ],
+                    [
+                        13.312195314827333,
+                        52.520205567893164
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängerbrücke",
+                "BWERK_NAME": "Siemenssteg",
+                "OKSTRA_ID": "A54204E99CE54932A1018EA53E936FEB",
+                "RBS_BWNR": "07418-0010",
+                "SIB_BWNR": "3445023 0",
+                "alias": "Siemenssteg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.314352136576934,
+                        52.519786200319324
+                    ],
+                    [
+                        13.314626391418106,
+                        52.52079432200646
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Röntgenbrücke",
+                "OKSTRA_ID": "D6C36D34A07C49B0A93DEF554ECDC50C",
+                "RBS_BWNR": "07386-0010",
+                "SIB_BWNR": "3445022 0",
+                "alias": "Röntgenbrücke"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.334322927429495,
+                        52.51756708780548
+                    ],
+                    [
+                        13.334421911402384,
+                        52.51752419596919
+                    ],
+                    [
+                        13.334487043449107,
+                        52.517476727356076
+                    ],
+                    [
+                        13.334610001066332,
+                        52.517372785419234
+                    ],
+                    [
+                        13.33505743711512,
+                        52.51698656308845
+                    ],
+                    [
+                        13.335168631060895,
+                        52.51687899700103
+                    ],
+                    [
+                        13.335326690296807,
+                        52.51681288436591
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Fußgängerbrücke",
+                "BWERK_NAME": "Wullenwebersteg",
+                "OKSTRA_ID": "4C31137E270C4CA88F8A23678203FEA3",
+                "RBS_BWNR": "07474-0010",
+                "SIB_BWNR": "3446049 0",
+                "alias": "Wullenwebersteg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34373498814043,
+                        52.53664215339866
+                    ],
+                    [
+                        13.343636728005444,
+                        52.536350552630616
+                    ],
+                    [
+                        13.34360310575124,
+                        52.536207348155415
+                    ],
+                    [
+                        13.343528779514264,
+                        52.53590180885058
+                    ],
+                    [
+                        13.343452026238698,
+                        52.53545350159046
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Putlitzbrücke,Übb 1 (West)",
+                "OKSTRA_ID": "2A09802BC7F74E828003BD68A3D1FEC0",
+                "RBS_BWNR": "07383-0010",
+                "SIB_BWNR": "3446047A1",
+                "alias": "Putlitzbrücke,Übb 1 (West)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.343486374486552,
+                        52.535104460652676
+                    ],
+                    [
+                        13.343433241494107,
+                        52.534559854138976
+                    ],
+                    [
+                        13.343433186876474,
+                        52.534558982755854
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Putlitzbrücke/Gewölbe 1-7",
+                "OKSTRA_ID": "557286B664D14821AA1C905F569A0E4D",
+                "RBS_BWNR": "02003",
+                "SIB_BWNR": "3446047C",
+                "alias": "Putlitzbrücke/Gewölbe 1-7"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.343945726419973,
+                        52.536640344714705
+                    ],
+                    [
+                        13.343847464888682,
+                        52.536348744101105
+                    ],
+                    [
+                        13.343813841948574,
+                        52.536205539680104
+                    ],
+                    [
+                        13.343739514248188,
+                        52.53590000049552
+                    ],
+                    [
+                        13.343662758825058,
+                        52.53545169336328
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Putlitzbrücke,Übb 2 (Ost)",
+                "OKSTRA_ID": "F10A195D41F04625968B7E89AED15691",
+                "RBS_BWNR": "02003",
+                "SIB_BWNR": "3446047A2",
+                "alias": "Putlitzbrücke,Übb 2 (Ost)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34343262865928,
+                        52.53455007529444
+                    ],
+                    [
+                        13.34343411202886,
+                        52.53441685131454
+                    ]
+                ]
+            },
+            "properties": {
+                "BWERK_ARTL": "Brücke",
+                "BWERK_NAME": "Putlitzbrücke/Fußgängergewölbe",
+                "OKSTRA_ID": "3621C80C91DE4193B7B82F3BB4E451E4",
+                "RBS_BWNR": "02003",
+                "SIB_BWNR": "3446047F",
+                "alias": "Putlitzbrücke/Fußgängergewölbe"
+            }
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "type": "wms",
+    "title": "Friedhofsbestand Berlin",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_friedh.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=friedh@senstadt",
+    "description": {
+        "link": "?id=friedh@senstadt&type=WMS",
+        "kurzbeschreibung": "In der Karte sind alle geöffneten und geschlossenen Berliner Friedhöfe nach ihrem Träger einschließlich der drei großen\nsowjetischen Ehrenmale in Treptow, Schönholz und Tiergarten dargestellt.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "ebenen": "Hintergrund 1:50000, 1:1000\nFriedhöfe",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "In der Karte sind alle geöffneten und geschlossenen Berliner Friedhöfe nach ihrem Träger einschließlich\nder drei großen sowjetischen Ehrenmale in Treptow, Schönholz und Tiergarten dargestellt.\nFriedhöfe sind ein wichtiger Bestandteil des grünen Berlin. Rund 220 Friedhöfe mit etwa 1.140 ha erstrecken sich\nüber das gesamte Stadtgebiet. Neben ihrer Funktion als Bestattungs-, Trauer- und Gedenkorte sind sie auch Orte der\nBegegnung und Erholung. Gleichzeitig bieten sie Lebensraum für zahlreiche Pflanzen und Tiere und haben eine wichtige\nBedeutung für das Stadtklima. Berlin ist durch eine Vielzahl verstreut liegender Friedhöfe unterschiedlichster Art gekennzeichnet,\nderen Entstehung bis ins 13. Jahrhundert zurückreicht und die ein einmaliges Spiegelbild der gesellschaftlichen,\nstädtebaulichen und kulturellen Entwicklung sind.\nDurch einen fundamentalen Wandel in der Bestattungskultur sinkt schon seit vielen Jahren der Bedarf an Bestattungsflächen.\nWährend auf den geöffneten Friedhöfen noch beigesetzt wird, ist dies auf den geschlossenen Friedhöfen nicht mehr möglich."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/friedh"
+        ],
+        "legend": {
+            "width": 525,
+            "height": 427,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_friedh.jpg"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund 1:50000, 1:1000",
+                "abstract": "",
+                "gdi_de": "5a6ef8a6-1277-3863-a776-570e9c417055",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=6290667a-5d25-3d48-8cc9-965103c6d11e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/friedh?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Friedhof",
+                    "Friedhöfe",
+                    "Begräbnisstätten",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Friedhöfe",
+                "abstract": "Friedhöfe",
+                "gdi_de": "5a6ef8a6-1277-3863-a776-570e9c417055",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=6290667a-5d25-3d48-8cc9-965103c6d11e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 525,
+                    "height": 427,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_friedh.jpg",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Friedhof",
+                    "Friedhöfe",
+                    "Begräbnisstätten",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Land use",
+        "Landnutzung",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Friedhof",
+        "Friedhöfe",
+        "Begräbnisstätten",
+        "äöü"
+    ]
+}

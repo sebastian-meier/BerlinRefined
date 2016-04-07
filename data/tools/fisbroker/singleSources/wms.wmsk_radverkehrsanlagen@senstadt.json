@@ -1,0 +1,341 @@
+{
+    "type": "wms",
+    "title": "Radverkehrsanlagen",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_radverkehrsanlagen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_radverkehrsanlagen@senstadt",
+    "description": {
+        "link": "?id=wmsk_radverkehrsanlagen@senstadt&type=WMS",
+        "kurzbeschreibung": "Radverkehrsanlagen, inklusive Bussonderfahrstreifen",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Radverkehrsanlagen, inklusive Bussonderfahrstreifen\nBussonderfahrstreifen\nVerkehrszeichen\nLuftbilder 2014 (Orthophotos)\nHintergrund",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "In der Karte werden die Radverkehrsanlagen bestehend aus Radwegen, Radfahrstreifen, Schutzstreifen und Bussonderfahrstreifen, mit und ohne Mitbenutzung durch den Radverkehr, dargestellt."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_radverkehrsanlagen"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_radverkehrsanlagen.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Radverkehrsanlagen, inklusive Bussonderfahrstreifen",
+                "abstract": "",
+                "gdi_de": "7398fd3e-0a97-3f21-96e4-9372b3fb4318",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=363c80e1-9fc8-3f9a-9c6d-c7f1fc1f8df0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_radverkehrsanlagen?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 50
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Radweg",
+                    "Radverkehr",
+                    "Radfahrstreifen",
+                    "Schutzsteifen",
+                    "Bussonderfahrstreifen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Bussonderfahrstreifen",
+                "abstract": "",
+                "gdi_de": "7398fd3e-0a97-3f21-96e4-9372b3fb4318",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=363c80e1-9fc8-3f9a-9c6d-c7f1fc1f8df0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_radverkehrsanlagen?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 50
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Radweg",
+                    "Radverkehr",
+                    "Radfahrstreifen",
+                    "Schutzsteifen",
+                    "Bussonderfahrstreifen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Verkehrszeichen",
+                "abstract": "",
+                "gdi_de": "7398fd3e-0a97-3f21-96e4-9372b3fb4318",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=363c80e1-9fc8-3f9a-9c6d-c7f1fc1f8df0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_radverkehrsanlagen?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 50
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Radweg",
+                    "Radverkehr",
+                    "Radfahrstreifen",
+                    "Schutzsteifen",
+                    "Bussonderfahrstreifen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Luftbilder 2014 (Orthophotos)",
+                "abstract": "Digitale Orthophotos für das gesamte Berliner Stadtgebiet mit einer Bodenauflösung von 0,20 m im Blattschnitt 2 km x 2 km.",
+                "gdi_de": "7398fd3e-0a97-3f21-96e4-9372b3fb4318",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=363c80e1-9fc8-3f9a-9c6d-c7f1fc1f8df0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_radverkehrsanlagen?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 5
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Radweg",
+                    "Radverkehr",
+                    "Radfahrstreifen",
+                    "Schutzsteifen",
+                    "Bussonderfahrstreifen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Hintergrund",
+                "abstract": "In Abhängigkeit vom Maßstab des Kartenausschnitts: Darstellung der Blockkarte 1:5.000 (ISU5), der Karte von Berlin 1:5.000(K5) oder der Automatisierten Liegenschaftskarte Berlin (ALK-Berlin)",
+                "gdi_de": "7398fd3e-0a97-3f21-96e4-9372b3fb4318",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=363c80e1-9fc8-3f9a-9c6d-c7f1fc1f8df0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_radverkehrsanlagen?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Radweg",
+                    "Radverkehr",
+                    "Radfahrstreifen",
+                    "Schutzsteifen",
+                    "Bussonderfahrstreifen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Verkehr",
+    "keywords": [
+        "Transport networks",
+        "Verkehr",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Radweg",
+        "Radverkehr",
+        "Radfahrstreifen",
+        "Schutzsteifen",
+        "Bussonderfahrstreifen",
+        "äöü"
+    ]
+}

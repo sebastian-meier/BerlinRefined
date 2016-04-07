@@ -1,0 +1,272 @@
+{
+    "type": "wms",
+    "title": "Berlin um 1900 (AISBer)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_berlin1900.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=berlin1900@senstadt",
+    "description": {
+        "link": "?id=berlin1900@senstadt&type=WMS",
+        "kurzbeschreibung": "Digitalisierte (vekorisierte) Darstellung der inneren Stadt 1899-1913 des Archäologischen Informationssystems Berlin (AISBer)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 22339, 18452, 28597, 23887",
+        "ebenen": "Gebäude, Parks, Gewässer\nHausummern\nStraßennamen\nKarte von Berlin 1:5000 (K5)",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Entzerrte und vektorisierte  Karte der \nNeuvermessung der Reichshauptstadt von 1899-1913. Die Nutzungsrechte liegen bei Landesdenkmalamt Berlin. Jede virtuelle oder analoge Weiterverarbeitung oder Verwertung bedarf einer Genehmigung."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/berlin1900"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_berlin1900.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Gebäude, Parks, Gewässer",
+                "abstract": "",
+                "gdi_de": "93142b3b-5346-3d5b-a52e-bd32de85f75c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=471639df-22cd-3b97-b205-64e6fe4253c7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlin1900?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 6
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau",
+                    "Historische Karten",
+                    "AISBer",
+                    "Archäologie"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 18452,
+                            "max_latitude": 23887,
+                            "min_longitude": 22339,
+                            "max_longitude": 28597
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4929,
+                            "max_latitude": 52.5419,
+                            "min_longitude": 13.3654,
+                            "max_longitude": 13.4574
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hausummern",
+                "abstract": "",
+                "gdi_de": "93142b3b-5346-3d5b-a52e-bd32de85f75c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=471639df-22cd-3b97-b205-64e6fe4253c7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlin1900?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 6
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau",
+                    "Historische Karten",
+                    "AISBer",
+                    "Archäologie"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 18452,
+                            "max_latitude": 23887,
+                            "min_longitude": 22339,
+                            "max_longitude": 28597
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4929,
+                            "max_latitude": 52.5419,
+                            "min_longitude": 13.3654,
+                            "max_longitude": 13.4574
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Straßennamen",
+                "abstract": "",
+                "gdi_de": "93142b3b-5346-3d5b-a52e-bd32de85f75c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=471639df-22cd-3b97-b205-64e6fe4253c7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlin1900?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 6
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau",
+                    "Historische Karten",
+                    "AISBer",
+                    "Archäologie"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 18452,
+                            "max_latitude": 23887,
+                            "min_longitude": 22339,
+                            "max_longitude": 28597
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4929,
+                            "max_latitude": 52.5419,
+                            "min_longitude": 13.3654,
+                            "max_longitude": 13.4574
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Karte von Berlin 1:5000 (K5)",
+                "abstract": "",
+                "gdi_de": "93142b3b-5346-3d5b-a52e-bd32de85f75c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=471639df-22cd-3b97-b205-64e6fe4253c7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlin1900?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 6
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau",
+                    "Historische Karten",
+                    "AISBer",
+                    "Archäologie"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 18452,
+                            "max_latitude": 23887,
+                            "min_longitude": 22339,
+                            "max_longitude": 28597
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4929,
+                            "max_latitude": 52.5419,
+                            "min_longitude": 13.3654,
+                            "max_longitude": 13.4574
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Historische Karten",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Historische Karte",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtentwicklung",
+        "Städtebau",
+        "Historische Karten",
+        "AISBer",
+        "Archäologie"
+    ]
+}

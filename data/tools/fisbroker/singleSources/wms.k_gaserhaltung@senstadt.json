@@ -1,0 +1,276 @@
+{
+    "type": "wms",
+    "title": "Erhaltungsbereiche Gasbeleuchtung",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_gaserhaltung.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_gaserhaltung@senstadt",
+    "description": {
+        "link": "?id=k_gaserhaltung@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Karte zeigt die Bereiche, in denen die Gasleuchten erhalten bleiben sollen.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100\nEPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Hintergrund 1:5000 - 1:1000 (ALK)\nErhaltungsbereiche Gasleuchten\nNamen der Erhaltungsbereiche",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Die Festlegung zu den Erhaltungsbereichen erfolgte Ende 203 auf der Grundlage eines Vorschlages des Landesdenkmalamtes (LDA). In den Bereichen sollen die Gasaufsatz-, die Gashänge- und die Gasmodellleuchten gasbetrieben erhalten bleiben. Für die Gasreihenleuchten wurde die Festlegung bereits in 2012 getroffen. Diese Leuchten werden auch in den markierten Bereichen mit Ausnahme von 244 Standorten umgerüstet."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_gaserhaltung"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gaserhaltung.gif"
+        },
+        "layers": [
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5000 - 1:1000 (ALK)",
+                "abstract": "digitale Karte 1:5000, Rasterkarte 1:5000, ALK",
+                "gdi_de": "19f4c495-e6e1-3a48-baa3-578a30117e34",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=69f2fa36-4c61-3ecb-b39d-e8dca593bd94&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_gaserhaltung?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gaslaternen",
+                    "Erhalt von Gasleuchten",
+                    "Umrüstung Gasleuchten",
+                    "Beleuchtung",
+                    "Straßenlampen",
+                    "Gasaufsatzleuchten",
+                    "BAMAG U 7",
+                    "Gasreihenleuchten",
+                    "Gashängeleuchten",
+                    "Gasmodellleuchten",
+                    "Elektroleuchten",
+                    "LED-Leuchte"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Erhaltungsbereiche",
+                "title": "Erhaltungsbereiche Gasleuchten",
+                "abstract": "Die Karte zeigt die Bereiche, in denen die Gasleuchten erhalten bleiben sollen.",
+                "gdi_de": "19f4c495-e6e1-3a48-baa3-578a30117e34",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=69f2fa36-4c61-3ecb-b39d-e8dca593bd94&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gaserhaltung.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gaslaternen",
+                    "Erhalt von Gasleuchten",
+                    "Umrüstung Gasleuchten",
+                    "Beleuchtung",
+                    "Straßenlampen",
+                    "Gasaufsatzleuchten",
+                    "BAMAG U 7",
+                    "Gasreihenleuchten",
+                    "Gashängeleuchten",
+                    "Gasmodellleuchten",
+                    "Elektroleuchten",
+                    "LED-Leuchte"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Namen der Erhaltungsbereiche",
+                "abstract": "Namen der Bereiche, in denen die Gasleuchten erhalten bleiben sollen.",
+                "gdi_de": "19f4c495-e6e1-3a48-baa3-578a30117e34",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=69f2fa36-4c61-3ecb-b39d-e8dca593bd94&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_gaserhaltung?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gaslaternen",
+                    "Erhalt von Gasleuchten",
+                    "Umrüstung Gasleuchten",
+                    "Beleuchtung",
+                    "Straßenlampen",
+                    "Gasaufsatzleuchten",
+                    "BAMAG U 7",
+                    "Gasreihenleuchten",
+                    "Gashängeleuchten",
+                    "Gasmodellleuchten",
+                    "Elektroleuchten",
+                    "LED-Leuchte"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Stadtplanung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Gaslaternen",
+        "Erhalt von Gasleuchten",
+        "Umrüstung Gasleuchten",
+        "Beleuchtung",
+        "Straßenlampen",
+        "Gasaufsatzleuchten",
+        "BAMAG U 7",
+        "Gasreihenleuchten",
+        "Gashängeleuchten",
+        "Gasmodellleuchten",
+        "Elektroleuchten",
+        "LED-Leuchte"
+    ]
+}

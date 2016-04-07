@@ -1,0 +1,236 @@
+{
+    "type": "wms",
+    "title": "Fischfauna 2002 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor02_08_1fische2002.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k02_08_1fisch2002@senstadt",
+    "description": {
+        "link": "?id=k02_08_1fisch2002@senstadt&type=WMS",
+        "kurzbeschreibung": "Bewertung der Gewässer an Hand der Anzahl der nachgewiesenen Fischarten in Abhängigkeit vom Gewässertyp, schematische Darstellung des Fischbestandes mit Arten, Häufigkeit des Vorkommens und Gefährdung nach Roter Liste Berlin.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 3700,35, 2144, 48434,86, 37994,07",
+        "ebenen": "Hintergrund 1:5000\nGewässerqualität\nFischarten",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Bewertung der Gewässer an Hand der Anzahl der nachgewiesenen Fischarten in Abhängigkeit vom Gewässertyp,\nschematische Darstellung des Fischbestandes mit Arten, Häufigkeit des Vorkommens und Gefährdung nach Roter Liste Berlin"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k02_08_1fisch2002"
+        ],
+        "legend": {
+            "width": 676,
+            "height": 1962,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_08fisch2002.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund 1:5000",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5)",
+                "gdi_de": "24fa8a9b-1cb3-3407-b433-5af79d98b4a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=66da030f-82c9-3472-a373-0ef8579836be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k02_08_1fisch2002?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fischfauna Berlin",
+                    "Fische",
+                    "Besatz",
+                    "Fischbestand",
+                    "Befischung",
+                    "Wasserrahmenrichtlinie",
+                    "EG-WRRL",
+                    "Rote Liste"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 2144,
+                            "max_latitude": 37994.07,
+                            "min_longitude": 3700.35,
+                            "max_longitude": 48434.86
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3454,
+                            "max_latitude": 52.6688,
+                            "min_longitude": 13.0928,
+                            "max_longitude": 13.7501
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Gewässerqualität",
+                "abstract": "Bewertung der Gewässer an Hand der Anzahl der nachgewiesenen Fischarten in Abhängigkeit vom Gewässertyp, schematische Darstellung der Gewässerqualität über die Frabe des Fisches bzw. über Sachdaten.",
+                "gdi_de": "24fa8a9b-1cb3-3407-b433-5af79d98b4a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=66da030f-82c9-3472-a373-0ef8579836be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_08fisch2002.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fischfauna Berlin",
+                    "Fische",
+                    "Besatz",
+                    "Fischbestand",
+                    "Befischung",
+                    "Wasserrahmenrichtlinie",
+                    "EG-WRRL",
+                    "Rote Liste"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 2144,
+                            "max_latitude": 37994.07,
+                            "min_longitude": 3700.35,
+                            "max_longitude": 48434.86
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3454,
+                            "max_latitude": 52.6688,
+                            "min_longitude": 13.0928,
+                            "max_longitude": 13.7501
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Fischarten",
+                "abstract": "Deutscher und lateinischer Name der vorkommenden Fischarten",
+                "gdi_de": "24fa8a9b-1cb3-3407-b433-5af79d98b4a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=66da030f-82c9-3472-a373-0ef8579836be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_08fisch2002.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fischfauna Berlin",
+                    "Fische",
+                    "Besatz",
+                    "Fischbestand",
+                    "Befischung",
+                    "Wasserrahmenrichtlinie",
+                    "EG-WRRL",
+                    "Rote Liste"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 2144,
+                            "max_latitude": 37994.07,
+                            "min_longitude": 3700.35,
+                            "max_longitude": 48434.86
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3454,
+                            "max_latitude": 52.6688,
+                            "min_longitude": 13.0928,
+                            "max_longitude": 13.7501
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Fauna",
+        "Fischerei",
+        "Gewässer",
+        "Environmental monitoring facilities",
+        "Species distribution",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Fischfauna Berlin",
+        "Fische",
+        "Besatz",
+        "Fischbestand",
+        "Befischung",
+        "Wasserrahmenrichtlinie",
+        "EG-WRRL",
+        "Rote Liste"
+    ]
+}

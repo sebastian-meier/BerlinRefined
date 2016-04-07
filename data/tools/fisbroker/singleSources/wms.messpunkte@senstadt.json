@@ -1,0 +1,528 @@
+{
+    "type": "wms",
+    "title": "Entwicklung Luftqualität - Immissionen (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/k_vor03_12immi2006.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=messpunkte@senstadt",
+    "description": {
+        "link": "?id=messpunkte@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung aller Stationen und Messwerte der Messnetze BLUME und RUBIS seit 1975 sowie ausgewählte langjährig betriebene Berliner Klimastationen",
+        "koordinatensysteme": "EPSG:25833, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 367190,96, 5798934,34, 417447,14, 5838875,02\nEPSG:4258: 13,05, 52,32, 13,78, 52,69",
+        "ebenen": "Umweltzone\nHintergrund 1:50000, 1:5000\nÜberblick (aktuelle und alte Messpunkte)\nalle Messpunkte und -stationen (im Zoom)\naktuelle Messstationen BLUME\naktuelle Messpunkte RUBIS\nalte Messstationen BLUME\nalte Messpunkte RUBIS\nHintergrund K5_oben",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bestimmungen",
+        "beschreibung": "Darstellung aller Stationen und Messwerte der Messnetze BLUME und RUBIS seit 1975, Stand 2011"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/messpunkte"
+        ],
+        "legend": {
+            "width": 266,
+            "height": 457,
+            "format": "gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_3_12_immi2006.gif"
+        },
+        "layers": [
+            {
+                "name": "8",
+                "title": "Umweltzone",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "Hintergrund 1:50000, 1:5000",
+                "abstract": "digitale Karte 1:50000, Rasterkarte 1:5000",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_3_12_immi2006.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Überblick (aktuelle und alte Messpunkte)",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "alle Messpunkte und -stationen (im Zoom)",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "aktuelle Messstationen BLUME",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "aktuelle Messpunkte RUBIS",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "alte Messstationen BLUME",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "alte Messpunkte RUBIS",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Hintergrund K5_oben",
+                "abstract": "",
+                "gdi_de": "22c1ebfc-8817-3e9a-a30a-fefd279534e2",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=39b169b9-6db7-356b-8de6-0bd0d8756ad5&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/messpunkte?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Emissionen",
+                    "langjährig",
+                    "BLUME",
+                    "RUBIS"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Immission",
+        "Klima",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Luftgüte",
+        "Emissionen",
+        "langjährig",
+        "BLUME",
+        "RUBIS"
+    ]
+}

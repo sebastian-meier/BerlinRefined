@@ -1,0 +1,917 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349664761490526,
+                    52.53265097059479
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423A-3109",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_7439.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "41,7",
+                "alias": "F62__7419"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34923489491263,
+                    52.526035879175986
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423A-3145",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_7443.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,9",
+                "alias": "F62__7423"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348545215140616,
+                    52.527921432946094
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423A-3168",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_7445.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "41,7",
+                "alias": "F62__7425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349264362090677,
+                    52.52603594767673
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423A-4304",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_7455.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,8",
+                "alias": "F62__7435"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347544287689947,
+                    52.5393768949477
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423A-4994",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_7485.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "41,1",
+                "P18_60TXT": "40,2",
+                "P18_40TXT": "40,8",
+                "alias": "F62__7465"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346191816810222,
+                    52.520331243216866
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3027",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8019.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "42,5",
+                "P18_40TXT": "41,0",
+                "alias": "F62__7999"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345574807334144,
+                    52.517750640459965
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3066",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8022.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "44,5",
+                "alias": "F62__8002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34597624064381,
+                    52.52410507941884
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3189",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8046.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "43,8",
+                "P18_60TXT": "43,4",
+                "P18_40TXT": "42,3",
+                "alias": "F62__8026"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345903778330262,
+                    52.52391619066257
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3190",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8047.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "42,1",
+                "P18_60TXT": "41,4",
+                "P18_40TXT": "39,3",
+                "alias": "F62__8027"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346610111893458,
+                    52.52405266151208
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3297",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8048.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "41,5",
+                "alias": "F62__8028"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34306190107515,
+                    52.519083643444
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3394",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8050.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "40,6",
+                "alias": "F62__8030"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34720071788981,
+                    52.5192103111491
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3408",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8051.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,0",
+                "alias": "F62__8031"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346293707360699,
+                    52.522838729555886
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3954",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8067.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "39,6",
+                "alias": "F62__8047"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347662545973797,
+                    52.523048653974314
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "423C-3955",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8068.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "44,5",
+                "alias": "F62__8048"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307526407738232,
+                    52.52957929752521
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3227",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8766.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "41,6",
+                "P18_40TXT": "42,4",
+                "alias": "F62__8746"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307719721239033,
+                    52.52933718242483
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3228",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8767.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "44,3",
+                "P18_80TXT": "44,3",
+                "P18_60TXT": "44,2",
+                "P18_40TXT": "43,5",
+                "alias": "F62__8747"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309408347454566,
+                    52.53015949730128
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3229",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8768.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "43,3",
+                "alias": "F62__8748"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30811684047979,
+                    52.525366197422
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3284",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8771.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "33,4",
+                "P18_80TXT": "34,3",
+                "P18_60TXT": "32,8",
+                "P18_40TXT": "32,2",
+                "alias": "F62__8751"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310089982845541,
+                    52.527582183836735
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3401",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8772.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "43,9",
+                "alias": "F62__8752"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31246436044939,
+                    52.531416780512956
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3516",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8773.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "40,6",
+                "P18_60TXT": "38,9",
+                "P18_40TXT": "37,8",
+                "alias": "F62__8753"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310600804878549,
+                    52.5303154592119
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3517",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8774.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "33,9",
+                "P18_60TXT": "33,3",
+                "P18_40TXT": "35,0",
+                "alias": "F62__8754"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309481504894059,
+                    52.530231585173865
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3518",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8775.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "40,2",
+                "P18_60TXT": "39,8",
+                "P18_40TXT": "36,9",
+                "alias": "F62__8755"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312662527365607,
+                    52.53049169288692
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3898",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8777.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "37,8",
+                "P18_40TXT": "38,6",
+                "alias": "F62__8757"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30708592139526,
+                    52.52936243182307
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3916",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8778.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "42,8",
+                "P18_60TXT": "41,8",
+                "P18_40TXT": "43,8",
+                "alias": "F62__8758"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313025339394207,
+                    52.53127448447855
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-3919",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8780.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "42,0",
+                "P18_60TXT": "41,5",
+                "P18_40TXT": "45,8",
+                "alias": "F62__8760"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315115801972706,
+                    52.53364346623066
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-4028",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8784.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "37,1",
+                "alias": "F62__8764"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314796669633306,
+                    52.530847811633485
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-4068",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8785.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "40,8",
+                "P18_80TXT": "40,1",
+                "P18_60TXT": "38,3",
+                "P18_40TXT": "41,3",
+                "alias": "F62__8765"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33107834634287,
+                    52.528849660108385
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-41",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8787.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,9",
+                "alias": "F62__8767"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316709054251348,
+                    52.53131115064704
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-4260",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8788.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "41,2",
+                "alias": "F62__8768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31342991669665,
+                    52.530331969368106
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-4264",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8789.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "39,3",
+                "P18_60TXT": "38,5",
+                "P18_40TXT": "41,6",
+                "alias": "F62__8769"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316649921142158,
+                    52.531337954597305
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-4399",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8790.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "39,2",
+                "P18_60TXT": "37,4",
+                "P18_40TXT": "41,4",
+                "alias": "F62__8770"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33091330163867,
+                    52.524904156540686
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-6020",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8796.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "38,8",
+                "alias": "F62__8776"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324707481289995,
+                    52.52532882285434
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-6134",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8797.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "39,6",
+                "alias": "F62__8777"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339360001323117,
+                    52.540049284019126
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424B-6987",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8798.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "42,2",
+                "P18_80TXT": "41,4",
+                "P18_60TXT": "42,6",
+                "P18_40TXT": "42,5",
+                "alias": "F62__8778"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335726913440135,
+                    52.518868139742914
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-136",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8912.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "43,8",
+                "P18_60TXT": "43,2",
+                "P18_40TXT": "42,1",
+                "alias": "F62__8892"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314046294400121,
+                    52.51823770242796
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-3109",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8915.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,7",
+                "alias": "F62__8895"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316535891190966,
+                    52.51615038620416
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-3215",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8921.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,0",
+                "alias": "F62__8901"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309300118500726,
+                    52.514513614195664
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-3277",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8923.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "43,0",
+                "alias": "F62__8903"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31083725958843,
+                    52.513789815847566
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-3282",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8924.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "44,8",
+                "alias": "F62__8904"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315517389019735,
+                    52.51435938580251
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-3285",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8925.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,0",
+                "alias": "F62__8905"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309138024466076,
+                    52.514522165534366
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-4527",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8933.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,3",
+                "alias": "F62__8913"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306609469061863,
+                    52.523960227339536
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-5385",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8938.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "40,8",
+                "alias": "F62__8918"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.321021861411419,
+                    52.51927141006372
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-6038",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8939.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "39,7",
+                "P18_40TXT": "41,2",
+                "alias": "F62__8919"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326521652382912,
+                    52.51856656717551
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-6046",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8940.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "43,2",
+                "P18_80TXT": "42,7",
+                "P18_60TXT": "41,7",
+                "P18_40TXT": "42,5",
+                "alias": "F62__8920"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335788550909276,
+                    52.51399757900005
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-6128",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8941.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "43,0",
+                "alias": "F62__8921"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322259619673146,
+                    52.51709985515526
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-7917",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8949.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "42,8",
+                "alias": "F62__8929"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32435902655667,
+                    52.52028647865489
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-7918",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8950.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "40,4",
+                "P18_40TXT": "42,9",
+                "alias": "F62__8930"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32376373262257,
+                    52.5190178518025
+                ]
+            },
+            "properties": {
+                "Bohrungsbezeichnung": "424D-8421",
+                "DIR_PIX_1800": "<a href=\"http://fbinter.stadt-berlin.de/fb_daten/fotos/geotherm/p1800/bohrung1800locid000000_8953.png\" target=\"abb\">zur Abbildung</a>",
+                "P18_100TXT": "-",
+                "P18_80TXT": "-",
+                "P18_60TXT": "-",
+                "P18_40TXT": "43,1",
+                "alias": "F62__8933"
+            }
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "type": "wms",
+    "title": "Karte von Berlin 1:5000 (K5-Farbausgabe)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_k5_f.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k5_farbe@senstadt",
+    "description": {
+        "link": "?id=k5_farbe@senstadt&type=WMS",
+        "kurzbeschreibung": "Landeskartenwerk mit Flurstücksgrenzen, Straßennamen und Grundstücksnummern; von den Vermessungsämtern der 12 Bezirke auf Grundlage der ALK-Berlin (Automatisierte Liegenschaftskarte) hergestellt.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833, EPSG:25832",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963\nEPSG:25833: 361642,89, 5796402,66, 419642,11, 5839046,13\nEPSG:25832: 770720,35, 5801891,71, 825029,78, 5849248,17",
+        "ebenen": "Karte von Berlin 1:5000 (K5)",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Landeskartenwerk mit Flurstücksgrenzen, Straßennamen und Grundstücksnummern; von den Vermessungsämtern der 12 Bezirke auf Grundlage der ALK-Berlin (Automatisierte Liegenschaftskarte) hergestellt.\nAlle 148 Kartenblätter des von den Bezirken herausgegebenen Landeskartenwerkes 1:5000 des Landes Berlin (Farbausgabe (300 dpi), Schwarz-Weiß-Ausgabe (600 dpi))\nsind als Raster- und Vektordaten (DXF) auf Anfrage in den bezirklichen Vermessungsstellen erhältlich."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_farbe"
+        ],
+        "legend": {
+            "width": 356,
+            "height": 1490,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_k5_f.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Karte von Berlin 1:5000 (K5)",
+                "abstract": "Landeskartenwerk mit Grundstücksgrenzen, Straßennamen und Grundstücksnummern;\nvon den Vermessungsämtern der 12 Bezirke neu auf Grundlage der ALK-Berlin\n(Automatisierte Liegenschaftskarte) entwickelt.",
+                "gdi_de": "08f2353b-b31f-3c48-abe7-bff6594d61c7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ed9d0b87-ab8b-3db0-9bf3-7f9218cc004a&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 356,
+                    "height": 1490,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_k5_f.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 8
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "Kartenblätter",
+                    "1:5.000",
+                    "ALK",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "topographisch",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5796402.6568,
+                            "max_latitude": 5839046.1342,
+                            "min_longitude": 361642.8877,
+                            "max_longitude": 419642.1076
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5801891.7144,
+                            "max_latitude": 5849248.1661,
+                            "min_longitude": 770720.3518,
+                            "max_longitude": 825029.7755
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Administrative units",
+        "Amtliche Karte",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Rasterkarte",
+        "Kartenblätter",
+        "1:5.000",
+        "ALK",
+        "Geobasiskarte",
+        "Topografie",
+        "Topographie",
+        "Übersichtskarte",
+        "Hintergrundkarte",
+        "Grundkarte",
+        "topographisch",
+        "topografisch",
+        "äöü"
+    ]
+}

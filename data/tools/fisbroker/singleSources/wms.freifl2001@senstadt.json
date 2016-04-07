@@ -1,0 +1,270 @@
+{
+    "type": "wms",
+    "title": "Grün- und Freiflächenbestand 2001 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_freifl2001.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=freifl2001@senstadt",
+    "description": {
+        "link": "?id=freifl2001@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung des Grün- und Freiflächenbestandes Berlins in 12 Kategorien auf Grundlage der digitalen Blockkarte 1:50000 des ISU (Informationssystem Stadt und Umwelt), Darstellung generalisiert und nicht lagegetreu, Mindestflächengröße 1 ha, Sachstand 2001",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Grün- und Freiflächenbestand\nStraßennamen\nHintergrund ISU50 2001",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung des Grün- und Freiflächenbestandes Berlins in 12 Kategorien auf Grundlage der digitalen Blockkarte 1:50000 des ISU (Informationssystem Stadt und Umwelt), Darstellung generalisiert und nicht lagegetreu, Mindestflächengröße 1 ha, Sachstand 2001"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/freifl2001"
+        ],
+        "legend": {
+            "width": 252,
+            "height": 395,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_freifl2001.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Grün- und Freiflächenbestand",
+                "abstract": "Grün- und Freiflächenbestand 2001",
+                "gdi_de": "d8486aee-9669-3c6f-a8eb-d0d430df3d4a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=86c325fa-9386-3a40-80c2-ade6171314aa&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_freifl2001.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Nutzung",
+                    "Grünnutzung",
+                    "Grünflächenbestand",
+                    "Freiflächenbestand",
+                    "Freiräume",
+                    "Parkanlagen",
+                    "Wälder",
+                    "Sportflächen",
+                    "Kleingartenanlagen",
+                    "unbebaute",
+                    "Flächen",
+                    "Friedhöfe",
+                    "Brachflächen",
+                    "Campingplätze",
+                    "Sportanlagen",
+                    "Baumschulen",
+                    "Flächennutzung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Straßennamen",
+                "abstract": "Straßennamen der Blockkarte des ISU, 1:50.000 (ISU50), Stand 2001",
+                "gdi_de": "d8486aee-9669-3c6f-a8eb-d0d430df3d4a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=86c325fa-9386-3a40-80c2-ade6171314aa&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/freifl2001?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Nutzung",
+                    "Grünnutzung",
+                    "Grünflächenbestand",
+                    "Freiflächenbestand",
+                    "Freiräume",
+                    "Parkanlagen",
+                    "Wälder",
+                    "Sportflächen",
+                    "Kleingartenanlagen",
+                    "unbebaute",
+                    "Flächen",
+                    "Friedhöfe",
+                    "Brachflächen",
+                    "Campingplätze",
+                    "Sportanlagen",
+                    "Baumschulen",
+                    "Flächennutzung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Hintergrund ISU50 2001",
+                "abstract": "Blockkarte des ISU, 1:50.000 (ISU50), Stand 2001",
+                "gdi_de": "d8486aee-9669-3c6f-a8eb-d0d430df3d4a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=86c325fa-9386-3a40-80c2-ade6171314aa&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/freifl2001?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Nutzung",
+                    "Grünnutzung",
+                    "Grünflächenbestand",
+                    "Freiflächenbestand",
+                    "Freiräume",
+                    "Parkanlagen",
+                    "Wälder",
+                    "Sportflächen",
+                    "Kleingartenanlagen",
+                    "unbebaute",
+                    "Flächen",
+                    "Friedhöfe",
+                    "Brachflächen",
+                    "Campingplätze",
+                    "Sportanlagen",
+                    "Baumschulen",
+                    "Flächennutzung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Land use",
+        "Landnutzung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Nutzung",
+        "Grünnutzung",
+        "Grünflächenbestand",
+        "Freiflächenbestand",
+        "Freiräume",
+        "Parkanlagen",
+        "Wälder",
+        "Sportflächen",
+        "Kleingartenanlagen",
+        "unbebaute",
+        "Flächen",
+        "Friedhöfe",
+        "Brachflächen",
+        "Campingplätze",
+        "Sportanlagen",
+        "Baumschulen",
+        "Flächennutzung"
+    ]
+}

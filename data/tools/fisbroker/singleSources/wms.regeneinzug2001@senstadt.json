@@ -1,0 +1,253 @@
+{
+    "type": "wms",
+    "title": "Einzugsgebiete der Regenwasserkanalisation 2001 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_regeneinzug2001.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=regeneinzug2001@senstadt",
+    "description": {
+        "link": "?id=regeneinzug2001@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Karte zeigt die zu Gewässerabschnitten aggregierten Einzugsgebiete der Regenwasserkanalisation in Berlin.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750\nEPSG:25833: 367190,96, 5798934,34, 417447,14, 5838875,02",
+        "ebenen": "Regenwassereinzugsgebiete\nStrassennamen\nHintergrund ISU502001",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Karte zeigt die zu Gewässerabschnitten aggregierten Einzugsgebiete der Regenwasserkanalisation in Berlin."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/regeneinzug2001"
+        ],
+        "legend": {
+            "width": 663,
+            "height": 1738,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_regeneinzug2001.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Regenwassereinzugsgebiete",
+                "abstract": "",
+                "gdi_de": "ca979c6f-3154-3514-9b7a-400fa176a8e1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=5bf1a12c-cf4e-351b-8c92-f08b6e389895&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/regeneinzug2001?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Kanalisation",
+                    "Regenwassereinzugsgebiete",
+                    "Vorfluter",
+                    "Trennkanalisation",
+                    "Regenwasser",
+                    "Regenkanalisation"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Strassennamen",
+                "abstract": "",
+                "gdi_de": "ca979c6f-3154-3514-9b7a-400fa176a8e1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=5bf1a12c-cf4e-351b-8c92-f08b6e389895&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/regeneinzug2001?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Kanalisation",
+                    "Regenwassereinzugsgebiete",
+                    "Vorfluter",
+                    "Trennkanalisation",
+                    "Regenwasser",
+                    "Regenkanalisation"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Hintergrund ISU502001",
+                "abstract": "",
+                "gdi_de": "ca979c6f-3154-3514-9b7a-400fa176a8e1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=5bf1a12c-cf4e-351b-8c92-f08b6e389895&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/regeneinzug2001?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Kanalisation",
+                    "Regenwassereinzugsgebiete",
+                    "Vorfluter",
+                    "Trennkanalisation",
+                    "Regenwasser",
+                    "Regenkanalisation"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Abwasser",
+        "Wasser",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Kanalisation",
+        "Regenwassereinzugsgebiete",
+        "Vorfluter",
+        "Trennkanalisation",
+        "Regenwasser",
+        "Regenkanalisation"
+    ]
+}

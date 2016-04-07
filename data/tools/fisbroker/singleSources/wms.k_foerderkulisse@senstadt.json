@@ -1,0 +1,548 @@
+{
+    "type": "wms",
+    "title": "Förderkulisse Zukunftsinitiative Stadtteil I; ZIS I 2007-2013",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_foerderkulisse.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_foerderkulisse@senstadt",
+    "description": {
+        "link": "?id=k_foerderkulisse@senstadt&type=WMS",
+        "kurzbeschreibung": "Fördergebiete 2007-2013 der Zukunftsinitiative Stadtteil (ZIS); integrierte Strategien zur Aufwertung von Quartieren gefördert aus Mitteln des Landes, des Bundes und der EU in Gebieten des Stadtumbaus, des Quartiersmanagements und der Stadterneuerung",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Stadtumbau Ost\nStadtumbau West\nStadterneuerung (Sanierungsgebiete)\nSoziale Stadt (Quartiersmanagementgebiete, -verfahren)\nHintergrund\nTexte Stadtumbau\nTexte Stadterneuerung\nTexte Soziale Stadt",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Fördergebiete 2007-2013 der Zukunftsinitiative Stadtteil (ZIS); integrierte Strategien zur Aufwertung von Quartieren gefördert aus Mitteln des Landes, des Bundes und der EU in Gebieten des Stadtumbaus, des Quartiersmanagements und der Stadterneuerung"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_foerderkulisse"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_foerderkulisse.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Stadtumbau Ost",
+                "abstract": "",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Stadtumbau West",
+                "abstract": "",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Stadterneuerung (Sanierungsgebiete)",
+                "abstract": "",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Soziale Stadt (Quartiersmanagementgebiete, -verfahren)",
+                "abstract": "",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Hintergrund",
+                "abstract": "",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Texte Stadtumbau",
+                "abstract": "Texte Stadtumbau",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Texte Stadterneuerung",
+                "abstract": "Texte Stadterneuerung",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Texte Soziale Stadt",
+                "abstract": "Texte Soziale Stadt",
+                "gdi_de": "179985c9-3212-309e-9940-547a7db14913",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=003ff819-1852-35b6-8a4d-3d5486140482&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_foerderkulisse?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Fördergebiete",
+                    "Förderkulisse",
+                    "Quartiere",
+                    "Soziale Stadt",
+                    "Stadterneuerung",
+                    "Stadtumbau",
+                    "Quartiersmanagement",
+                    "Sanierungsgebiete",
+                    "Stadtteil",
+                    "EU",
+                    "Zukunftsinitiative",
+                    "ZIS",
+                    "EU-Förderung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Stadtplanung",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Fördergebiete",
+        "Förderkulisse",
+        "Quartiere",
+        "Soziale Stadt",
+        "Stadterneuerung",
+        "Stadtumbau",
+        "Quartiersmanagement",
+        "Sanierungsgebiete",
+        "Stadtteil",
+        "EU",
+        "Zukunftsinitiative",
+        "ZIS",
+        "EU-Förderung"
+    ]
+}

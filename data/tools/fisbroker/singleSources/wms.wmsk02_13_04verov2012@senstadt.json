@@ -1,0 +1,248 @@
+{
+    "type": "wms",
+    "title": "Versickerung aus Niederschlägen ohne Versiegelung 2012 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_02_13_02vers2005.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk02_13_04verov2012@senstadt",
+    "description": {
+        "link": "?id=wmsk02_13_04verov2012@senstadt&type=WMS",
+        "kurzbeschreibung": "Dargestellt wird die Versickerung aus Niederschlägen ohne Berücksichtigung der Versiegelung (Sickerwasserrate) als Mittel über die Gesamtfläche der dargestellten Flächen.",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963\nEPSG:4258: 12,97, 52,3, 13,81, 52,7",
+        "ebenen": "Gleise aus K5\nHintergrundkarte ISU5\nVersickerung",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Dargestellt wird die Versickerung aus Niederschlägen (Sickerwasserrate, langjährige Mittelwerte) als Mittel\nüber die Gesamtfläche der dargestellten Flächen (versiegelte und unversiegelte Anteile)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk02_13_04verov2012"
+        ],
+        "legend": {
+            "width": 243,
+            "height": 327,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_13_04VersickoVersieg2005.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Gleise aus K5",
+                "abstract": "Gleise aus der Karte von Berlin 1:5000",
+                "gdi_de": "4f715579-d225-348f-a70d-1164372057fd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=43f26bf2-8344-3f23-9b3e-bcadfc49b00e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk02_13_04verov2012?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Versickerung",
+                    "Sickerwasserrate",
+                    "Wasserhaushalt",
+                    "Versiegelung",
+                    "Umweltatlas",
+                    "Boden"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrundkarte ISU5",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010",
+                "gdi_de": "4f715579-d225-348f-a70d-1164372057fd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=43f26bf2-8344-3f23-9b3e-bcadfc49b00e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk02_13_04verov2012?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Versickerung",
+                    "Sickerwasserrate",
+                    "Wasserhaushalt",
+                    "Versiegelung",
+                    "Umweltatlas",
+                    "Boden"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Versickerung",
+                "abstract": "Versickerung aus Niederschlägen ohne Verisegelung",
+                "gdi_de": "4f715579-d225-348f-a70d-1164372057fd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=43f26bf2-8344-3f23-9b3e-bcadfc49b00e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_13_04VersickoVersieg2005.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Versickerung",
+                    "Sickerwasserrate",
+                    "Wasserhaushalt",
+                    "Versiegelung",
+                    "Umweltatlas",
+                    "Boden"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Meteorological geographical features",
+        "Boden",
+        "Grundwasser",
+        "Karte",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Versickerung",
+        "Sickerwasserrate",
+        "Wasserhaushalt",
+        "Versiegelung",
+        "Umweltatlas",
+        "Boden"
+    ]
+}

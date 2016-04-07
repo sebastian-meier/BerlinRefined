@@ -1,0 +1,215 @@
+{
+    "type": "wms",
+    "title": "Übersichtskarte von Berlin 1: 50 000 (ÜK50), 4-farbig",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_uk50farbe4.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=uk50farbe4@senstadt",
+    "description": {
+        "link": "?id=uk50farbe4@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Übersichtskarte von Berlin 1:50 000 (ÜK50) stellt das gesamte Gebiet Berlins und das nähere Umland dar (4-farbige Grundfarbausstattung).",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: -2342,19, -144,89, 49919,49, 39866,34\nEPSG:25833: 364000, 5799000, 417000, 5838000",
+        "ebenen": "Übersichtskarte von Berlin 1: 50 000 (ÜK50), 4-farbig\nBlattschnitt DTK50",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Übersichtskarte von Berlin 1:50.000 (ÜK50) stellt das gesamte Gebiet Berlins und das nähere Umland dar. Die 2008 erstmals aus den Daten des ATKIS Basis-DLM im Bezugssystem ETRS89/UTM abgeleitete Karte wurde 2013 aktualisiert und als 7. Auflage herausgegeben. Es stehen mehrere Varianten in digitaler Form mit 600 dpi zur Verfügung."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/uk50farbe4"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_uk50vierfarb.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Übersichtskarte von Berlin 1: 50 000 (ÜK50), 4-farbig",
+                "abstract": "Die Übersichtskarte von Berlin 1:50 000 (ÜK50) stellt das gesamte Gebiet Berlins und das nähere Umland dar (10-farbige Ausgabe).",
+                "gdi_de": "ade889a1-d19a-3d4a-aacb-82c50fade092",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b5b886-26b0-3f9d-9afc-a3f2cc027314&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/uk50farbe4?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 2,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "1:50.000",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Rasterdaten",
+                    "Landeskartenwerke",
+                    "Atkis",
+                    "ÜK50",
+                    "Übersichtskarte"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Blattschnitt DTK50",
+                "abstract": "",
+                "gdi_de": "ade889a1-d19a-3d4a-aacb-82c50fade092",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b5b886-26b0-3f9d-9afc-a3f2cc027314&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/uk50farbe4?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 2,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "1:50.000",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Rasterdaten",
+                    "Landeskartenwerke",
+                    "Atkis",
+                    "ÜK50",
+                    "Übersichtskarte"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Administrative units",
+        "Amtliche Karte",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Rasterkarte",
+        "1:50.000",
+        "Geobasiskarte",
+        "Topografie",
+        "Topographie",
+        "Hintergrundkarte",
+        "Grundkarte",
+        "Rasterdaten",
+        "Landeskartenwerke",
+        "Atkis",
+        "ÜK50",
+        "Übersichtskarte"
+    ]
+}

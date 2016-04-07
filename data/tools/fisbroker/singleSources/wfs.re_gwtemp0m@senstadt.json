@@ -1,0 +1,102 @@
+{
+    "type": "wfs",
+    "title": "Grundwassertemperatur für den Bezugshorizont 0m NHN 2010 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_02_14gwtemp_0m_2010.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_14gwtemp_0m_2010@senstadt",
+    "description": {
+        "link": "?id=re_gwtemp0m@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Verteilung der Grundwassertemperatur für den Bezugshorizont 0 m NHN basierend auf Messungen an 124 Grundwassermessstellen im Jahr 2010.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Verteilung der Grundwassertemperatur für den Bezugshorizont 0 m NHN. Die Karte basiert auf Messungen an 124 Grundwassermessstellen im Jahr 2010."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_gwtemp0m"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=327e55ef-f21e-30f3-9557-f27d99d0b4c7&ELEMENTSETNAME=FULL"
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Geology",
+        "Geothermie",
+        "Grundwasser",
+        "Geodaten",
+        "Berlin",
+        "Grundwassertemperatur",
+        "Erdwärme",
+        "Neutrale Zone",
+        "Temperaturmessstelle",
+        "Kriging-Interpolation",
+        "Temperaturfahresgang",
+        "Temperaturanstieg"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3284,
+            "max_latitude": 52.6877,
+            "min_longitude": 13.079,
+            "max_longitude": 13.7701
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

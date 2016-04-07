@@ -1,0 +1,141 @@
+{
+    "type": "wms",
+    "title": "Blockkarte 1:5000 (ISU5, Raumbezug Umweltatlas 2005)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_ISU5_2005_UA.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=ISU5_2005_UA@senstadt",
+    "description": {
+        "link": "?id=ISU5_2005_UA@senstadt&type=WMS",
+        "kurzbeschreibung": "Als Raumbezug für die Ausprägung der Daten des Umweltatlas genutzte grundrisstreue Abbildung der statistischen Blöcke des regionalen Bezugssystem (RBS) mit Teilblöcken, Stand 31.12.2005",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "ebenen": "Blockkarte",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Als Raumbezug für die Ausprägung der Daten des Umweltatlas genutzte grundrisstreue Abbildung der statistischen Blöcke des regionalen Bezugssystem (RBS) mit Teilblöcken, Stand 31.12.2005"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/ISU5_2005_UA"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_isu5_2005_ua.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Blockkarte",
+                "abstract": "",
+                "gdi_de": "7d72d23d-aba7-37c1-82e4-51568dcd748b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c7204c1-41fb-3be4-9afe-8ae67b0d405a&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU5_2005_UA?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistisch",
+                    "Gebiet",
+                    "Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Statistical units",
+        "Verwaltung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Regionales Bezugssystem",
+        "RBS",
+        "Statistisch",
+        "Gebiet",
+        "Gebiete",
+        "Topografie",
+        "Topographie",
+        "Übersichtskarte",
+        "Hintergrundkarte",
+        "Grundkarte",
+        "Umweltatlas",
+        "Blöcke",
+        "Blockkarte",
+        "Teilblöcke",
+        "Teilblockkarte",
+        "ISU"
+    ]
+}

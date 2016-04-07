@@ -1,0 +1,446 @@
+{
+    "type": "wms",
+    "title": "Bodengesellschaften 2005 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_boges2001.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k01_01boges2005@senstadt",
+    "description": {
+        "link": "?id=k01_01boges2005@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung von insgesamt 76 Bodengesellschaften unversiegelter Böden, Konzeptkarte ermittelt aus Bodenuntersuchungen und Nutzungsarten. Raumbezug Berlin, ca. 24000 Block/Blockteilflächen, Blockkarte 1:5000 des ISU (ISU5, Stand 2005)",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833, EPSG:31467, EPSG:25832, EPSG:4258",
+        "ausdehnung": "EPSG:3068: -10000, -10000, 60000, 60000\nEPSG:25833: 356157,94, 5789293,7, 427459,57, 5857931,05\nEPSG:31467: 3766018,24, 5796229,74, 3831457,89, 5870655,16\nEPSG:25832: 765839,46, 5794348,38, 831253,65, 5868743,33\nEPSG:4258: 12,89, 52,24, 13,92, 52,87",
+        "ebenen": "Bodengesellschaften\nHintergrund ISU 5 2005\nBezirksname\nGleise aus K5",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung von insgesamt 76 Bodengesellschaften unversiegelter Böden, Konzeptkarte ermittelt aus Bodenuntersuchungen und Nutzungsarten. Raumbezug Berlin, ca. 24000 Block/Blockteilflächen, Blockkarte 1:5000 des ISU (ISU5, Stand 2005)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k01_01boges2005"
+        ],
+        "legend": {
+            "width": 288,
+            "height": 4507,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_01_01boges2005.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Bodengesellschaften",
+                "abstract": "Darstellung von insgesamt 76 Bodengesellschaften unversiegelter Böden, Konzeptkarte ermittelt aus Bodenuntersuchungen und Nutzungsarten auf Basis der Blockkarte 1:5000 des ISU (ISU5, Stand 2005).",
+                "gdi_de": "1f00d65f-d211-3a4b-9b62-8b14ac6df2ec",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=22eefee7-3cc4-3924-914f-eabf9c8fb04c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_01_01boges2005.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bodengesellschaften",
+                    "Bodentypen",
+                    "Bodenkarte",
+                    "Umweltatlas",
+                    "Bodenkartierung",
+                    "Konzeptbodenkarte",
+                    "Böden",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -10000,
+                            "max_latitude": 60000,
+                            "min_longitude": -10000,
+                            "max_longitude": 60000
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7355,
+                            "max_latitude": 5870655.156,
+                            "min_longitude": 3766018.2359,
+                            "max_longitude": 3831457.8899
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3773,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.653
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund ISU 5 2005",
+                "abstract": "Blockkarte 1:5000 des ISU (ISU5, Stand 2005) mit ca. 24000 Block und Blockteilflächen.",
+                "gdi_de": "1f00d65f-d211-3a4b-9b62-8b14ac6df2ec",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=22eefee7-3cc4-3924-914f-eabf9c8fb04c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k01_01boges2005?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bodengesellschaften",
+                    "Bodentypen",
+                    "Bodenkarte",
+                    "Umweltatlas",
+                    "Bodenkartierung",
+                    "Konzeptbodenkarte",
+                    "Böden",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -10000,
+                            "max_latitude": 60000,
+                            "min_longitude": -10000,
+                            "max_longitude": 60000
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7355,
+                            "max_latitude": 5870655.156,
+                            "min_longitude": 3766018.2359,
+                            "max_longitude": 3831457.8899
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3773,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.653
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Bezirksname",
+                "abstract": "Namen der 12 Bezirke von Berlin",
+                "gdi_de": "1f00d65f-d211-3a4b-9b62-8b14ac6df2ec",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=22eefee7-3cc4-3924-914f-eabf9c8fb04c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k01_01boges2005?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 3,
+                    "max": 499
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bodengesellschaften",
+                    "Bodentypen",
+                    "Bodenkarte",
+                    "Umweltatlas",
+                    "Bodenkartierung",
+                    "Konzeptbodenkarte",
+                    "Böden",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -10000,
+                            "max_latitude": 60000,
+                            "min_longitude": -10000,
+                            "max_longitude": 60000
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7355,
+                            "max_latitude": 5870655.156,
+                            "min_longitude": 3766018.2359,
+                            "max_longitude": 3831457.8899
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3773,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.653
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Gleise aus K5",
+                "abstract": "Darstellung des Berliner Gleisnetzes.",
+                "gdi_de": "1f00d65f-d211-3a4b-9b62-8b14ac6df2ec",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=22eefee7-3cc4-3924-914f-eabf9c8fb04c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k01_01boges2005?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bodengesellschaften",
+                    "Bodentypen",
+                    "Bodenkarte",
+                    "Umweltatlas",
+                    "Bodenkartierung",
+                    "Konzeptbodenkarte",
+                    "Böden",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -10000,
+                            "max_latitude": 60000,
+                            "min_longitude": -10000,
+                            "max_longitude": 60000
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7355,
+                            "max_latitude": 5870655.156,
+                            "min_longitude": 3766018.2359,
+                            "max_longitude": 3831457.8899
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3773,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.653
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Soil",
+        "Boden",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Bodengesellschaften",
+        "Bodentypen",
+        "Bodenkarte",
+        "Umweltatlas",
+        "Bodenkartierung",
+        "Konzeptbodenkarte",
+        "Böden",
+        "äöü"
+    ]
+}

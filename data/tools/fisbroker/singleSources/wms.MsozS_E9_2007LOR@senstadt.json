@@ -1,0 +1,221 @@
+{
+    "type": "wms",
+    "title": "Ausländer 2007 (LOR)- arabische Staatsbürger",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/sozstadt/2008/v_monitor_gelb_rot_LOR.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=MsozS_E9_2007LOR@senstadt",
+    "description": {
+        "link": "?id=MsozS_E9_2007LOR@senstadt&type=WMS",
+        "kurzbeschreibung": "Personen mit arabischer Staatsbürgerschaft in Prozent der Einwohnerinnen und Einwohner 2007 auf Ebene der Planungsräume (E 9 - LOR)(Daten der Soziale Stadtentwicklung 2007 auf LOR-Ebene)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Anteil arabischer Staatsbürgerinnen und Staatsbürger 2007 (LOR)\nHintergrund 1:5.000- 1:1000\nPlanungsraumnummern und Konturen",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Personen mit arabischer Staatsbürgerschaft in Prozent der Einwohnerinnen und Einwohner 2007 auf Ebene der Planungsräume (E 9 - LOR)(Daten der Soziale Stadtentwicklung 2007 auf LOR-Ebene)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/MsozS_E9_2007LOR"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/sozstadt/2008/E9_LegendeLOR2007.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Anteil arabischer Staatsbürgerinnen und Staatsbürger 2007 (LOR)",
+                "abstract": "",
+                "gdi_de": "f64f7b3f-46d7-3644-9616-2d931b9d38f8",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c9d21d47-41b7-3f39-88a8-d0b983003fe2&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_E9_2007LOR?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2007",
+                    "Araber",
+                    "Planungsräume",
+                    "LOR"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000- 1:1000",
+                "abstract": "digitale Karte 1:5.000, ALK 1:1000",
+                "gdi_de": "f64f7b3f-46d7-3644-9616-2d931b9d38f8",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c9d21d47-41b7-3f39-88a8-d0b983003fe2&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_E9_2007LOR?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2007",
+                    "Araber",
+                    "Planungsräume",
+                    "LOR"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Planungsraumnummern und Konturen",
+                "abstract": "",
+                "gdi_de": "f64f7b3f-46d7-3644-9616-2d931b9d38f8",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c9d21d47-41b7-3f39-88a8-d0b983003fe2&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_E9_2007LOR?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2007",
+                    "Araber",
+                    "Planungsräume",
+                    "LOR"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Monitoring Soziale Stadtentwicklung",
+    "keywords": [
+        "Population distribution — demography",
+        "Soziales",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Monitoring Soziale Stadtentwicklung",
+        "2007",
+        "Araber",
+        "Planungsräume",
+        "LOR"
+    ]
+}

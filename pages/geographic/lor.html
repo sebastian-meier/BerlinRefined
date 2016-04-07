@@ -1,0 +1,275 @@
+---
+layout: default
+title: LOR
+permalink: /pages/geographic/lor/
+level: 2
+---
+
+<style>
+
+.jumbotron{
+	background-image:url("{{ site.url }}/data/geographic/lor/header.jpg");
+}
+
+.svg-container {
+    padding-bottom: 68%;
+}
+
+</style>
+<div class="jumbotron"></div>
+<div class="container">
+	<div class="row">
+		<div class="col col-md-2 col-lg-3"></div>
+		<div class="col col-sm-12 col-md-8 col-lg-6">
+			<h1>Statistical Areas / Lebensweltlich orientierte Räume — LOR</h1>
+			<p>
+Some of the data sets for the city of Berlin use so called LORs as geographic extents / areas / shapes. LORs were initially created by the city's bureau of statistics in 2006. The statistical process that created those areas by grouping building-blocks took a lot of factors into account: building structures, sociological milieus, major roads, natural barriers, population density and many more, while at the same time trying to conserve existing statistical areas.<br /><br />
+The LORs should help urban planners and statisticians. The LORs were successively introduced since 2006, this means, that for older data the geographic areas in the data sets might not match the LORs.<br /><br />
+The LORs are structured into four (three) layers. The first layer as we present it here are the districts (Bezirke), which are not counted as an official layer by the city. With every layer the granularity of the data is growing. This means, that while the first layer is holding 12 areas, the second layer, the so called prediction-areas (Prognoseräume) hold 60 areas, the third, the district-areas (Bezirksräume) hold 136 and the last layer, the planning areas (Planungsräume) hold 447 areas.
+<br /><br />
+More information on the subject (german only) can be found here:<br />
+<a href="http://www.stadtentwicklung.berlin.de/planen/basisdaten_stadtentwicklung/lor/">www.stadtentwicklung.berlin.de</a>
+			</p>
+			<h2><span class="glyphicon glyphicon-download-alt"></span>Data</h2>
+			<p>
+				<ul class="list-group">
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_csv.zip">CSV </a> <span class="badge">6 KB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_excel.zip">EXCEL</a> <span class="badge">55 MB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_json.zip">GeoJSON</a> <span class="badge">1.7 MB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_postgresql.zip">PostgreSQL CSV-Dump</a> <span class="badge">1.7 MB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_shp.zip">Shapefile</a> <span class="badge">1.3 MB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_svg.zip">SVG</a> <span class="badge">3.4 MB</span></li>
+					<li class="list-group-item"><span class="glyphicon glyphicon-briefcase"></span> <a href="lor/lor_topojson.zip">TopoJSON</a> <span class="badge">155 KB</span></li>
+				</ul>
+			</p>
+			<h2><span class="glyphicon-do"></span>Data Preview</h2>
+		</div>
+		<div class="col col-md-2 col-lg-3"></div>
+	</div>
+	<div id="vis-holder" class="row"></div>
+	<h2>Data Structure</h2>
+	<div class="table-responsive">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th colspan="2">Region</th>
+					<th colspan="3">Prediction</th>
+					<th colspan="3">District</th>
+					<th colspan="3">Planning</th>
+				</tr>
+				<tr>
+					<th>ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>11</td><td>010111</td><td>Tiergarten Süd</td><td>01</td><td>01011101</td><td>Stülerstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>11</td><td>010111</td><td>Tiergarten Süd</td><td>02</td><td>01011102</td><td>Großer Tiergarten</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>11</td><td>010111</td><td>Tiergarten Süd</td><td>03</td><td>01011103</td><td>Lützowstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>11</td><td>010111</td><td>Tiergarten Süd</td><td>04</td><td>01011104</td><td>Körnerstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>11</td><td>010111</td><td>Tiergarten Süd</td><td>05</td><td>01011105</td><td>Nördl. Landwehrkanal</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>12</td><td>010112</td><td>Regierungsviertel</td><td>01</td><td>01011201</td><td>Wilhelmstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>12</td><td>010112</td><td>Regierungsviertel</td><td>02</td><td>01011202</td><td>Unter den Linden Nord</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>12</td><td>010112</td><td>Regierungsviertel</td><td>03</td><td>01011203</td><td>Unter den Linden Süd</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>12</td><td>010112</td><td>Regierungsviertel</td><td>04</td><td>01011204</td><td>Leipziger Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>01</td><td>01011301</td><td>Charitéviertel</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>02</td><td>01011302</td><td>Oranienburger Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>03</td><td>01011303</td><td>Alexanderplatzviertel</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>04</td><td>01011304</td><td>Karl-Marx-Allee</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>05</td><td>01011305</td><td>Heine-Viertel West</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>13</td><td>010113</td><td>Alexanderplatz</td><td>06</td><td>01011306</td><td>Heine-Viertel Ost</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>14</td><td>010114</td><td>Brunnenstr. Süd</td><td>01</td><td>01011401</td><td>Invalidenstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>01</td><td>0101</td><td>Zentrum</td><td>14</td><td>010114</td><td>Brunnenstr. Süd</td><td>02</td><td>01011402</td><td>Arkonaplatz</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>01</td><td>01022101</td><td>Huttenkiez</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>02</td><td>01022102</td><td>Beusselkiez</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>03</td><td>01022103</td><td>Westhafen</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>04</td><td>01022104</td><td>Emdener Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>05</td><td>01022105</td><td>Zwinglistr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>21</td><td>010221</td><td>Moabit West</td><td>06</td><td>01022106</td><td>Elberfelder Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>01</td><td>01022201</td><td>Stephankiez</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>02</td><td>01022202</td><td>Heidestr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>03</td><td>01022203</td><td>Lübecker Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>04</td><td>01022204</td><td>Thomasiusstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>05</td><td>01022205</td><td>Zillesiedlung</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>06</td><td>01022206</td><td>Lüneburger Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>02</td><td>0102</td><td>Moabit</td><td>22</td><td>010222</td><td>Moabit Ost</td><td>07</td><td>01022207</td><td>Hansaviertel</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>03</td><td>0103</td><td>Gesundbrunnen</td><td>31</td><td>010331</td><td>Osloer Straße</td><td>01</td><td>01033101</td><td>Soldiner Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>03</td><td>0103</td><td>Gesundbrunnen</td><td>31</td><td>010331</td><td>Osloer Straße</td><td>02</td><td>01033102</td><td>Gesundbrunnen</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>03</td><td>0103</td><td>Gesundbrunnen</td><td>32</td><td>010332</td><td>Brunnenstr. Nord</td><td>01</td><td>01033201</td><td>Brunnenstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>03</td><td>0103</td><td>Gesundbrunnen</td><td>32</td><td>010332</td><td>Brunnenstr. Nord</td><td>02</td><td>01033202</td><td>Humboldthain Süd</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>03</td><td>0103</td><td>Gesundbrunnen</td><td>32</td><td>010332</td><td>Brunnenstr. Nord</td><td>03</td><td>01033203</td><td>Humboldthain NW</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>41</td><td>010441</td><td>Parkviertel</td><td>01</td><td>01044101</td><td>Rehberge</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>41</td><td>010441</td><td>Parkviertel</td><td>02</td><td>01044102</td><td>Schillerpark</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>41</td><td>010441</td><td>Parkviertel</td><td>03</td><td>01044103</td><td>Westl. Müllerstr.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>42</td><td>010442</td><td>Wedding Zentrum</td><td>01</td><td>01044201</td><td>Reinickendorfer Str.</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>42</td><td>010442</td><td>Wedding Zentrum</td><td>02</td><td>01044202</td><td>Sparrplatz</td></tr>
+				<tr><td>01</td><td>Mitte</td><td>04</td><td>0104</td><td>Wedding</td><td>42</td><td>010442</td><td>Wedding Zentrum</td><td>03</td><td>01044203</td><td>Leopoldplatz</td></tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+					<th>ID</th>
+					<th>Full ID</th>
+					<th>Label</th>
+				</tr>
+				<tr>
+					<th colspan="2">Region</th>
+					<th colspan="3">Prediction</th>
+					<th colspan="3">District</th>
+					<th colspan="3">Planning</th>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</div>
+<script src="{{ site.url }}/lib/d3.min.js"></script>
+<script src="{{ site.url }}/lib/topojson.v1.min.js"></script>
+<script>
+
+var width = 500,
+	height = 340;
+
+
+var sublines = [
+	"Fig. 1: Polygons of Regions (Bezirke)",
+	"Fig. 2: Polygons of Prediction-areas (Prognoseräume)",
+	"Fig. 3: Polygons of Districts (Bezirksregionen)",
+	"Fig. 4: Polygons of Planning-areas (Planungsräume)"
+];
+var svg = [];
+for(var i = 0; i<4; i++){
+	var div = d3.select("#vis-holder").append("div").attr("class", "col col-sm-12 col-md-6 col-lg-6");
+
+	svg.push(div.append("div").attr("class", "svg-container").append("svg")
+		.attr("viewBox", "0 0 "+width+" "+height)
+		.attr("preserveAspectRatio", "xMinYMin meet")
+		.attr("class", "svg-content-responsive"));
+
+	div.append("p").attr("class", "graphic subline").text(sublines[i]);
+}
+
+d3.json("{{ site.url }}/data/geographic/lor/Bezirk.topojson", function(error, data) {
+	if (error) return console.error(error);
+
+	var projection = d3.geo.albers()
+		.center([13.35, 52.45])
+	    .rotate([0, 0])
+	    .parallels([50, 60])
+	    .scale(50000)
+	    .translate([width / 2, height / 2 + 80]);
+
+	var zipcodes = topojson.feature(data, data.objects.Bezirk);
+
+	var path = d3.geo.path().projection(projection);
+
+	svg[0].append("path")
+		.datum(zipcodes)
+		.attr("d", path);
+
+	svg[0].selectAll(".zipcode")
+		.data(topojson.feature(data, data.objects.Bezirk).features)
+		.enter().append("path")
+		.attr("class", function(d) { return "zipcode"; })
+		.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
+		.attr("d", path);
+
+	d3.json("{{ site.url }}/data/geographic/lor/Prognoseraum.topojson", function(error, data) {
+		if (error) return console.error(error);
+
+		var projection = d3.geo.albers()
+			.center([13.35, 52.45])
+		    .rotate([0, 0])
+		    .parallels([50, 60])
+		    .scale(50000)
+		    .translate([width / 2, height / 2 + 80]);
+
+		var zipcodes = topojson.feature(data, data.objects.Prognoseraum);
+
+		var path = d3.geo.path().projection(projection);
+
+		svg[1].append("path")
+			.datum(zipcodes)
+			.attr("d", path);
+
+		svg[1].selectAll(".zipcode")
+			.data(topojson.feature(data, data.objects.Prognoseraum).features)
+			.enter().append("path")
+			.attr("class", function(d) { return "zipcode"; })
+			.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
+			.attr("d", path);
+
+		d3.json("{{ site.url }}/data/geographic/lor/Bezirksregion.topojson", function(error, data) {
+			if (error) return console.error(error);
+
+			var projection = d3.geo.albers()
+				.center([13.35, 52.45])
+			    .rotate([0, 0])
+			    .parallels([50, 60])
+			    .scale(50000)
+			    .translate([width / 2, height / 2 + 80]);
+
+			var zipcodes = topojson.feature(data, data.objects.Bezirksregion);
+
+			var path = d3.geo.path().projection(projection);
+
+			svg[2].append("path")
+				.datum(zipcodes)
+				.attr("d", path);
+
+			svg[2].selectAll(".zipcode")
+				.data(topojson.feature(data, data.objects.Bezirksregion).features)
+				.enter().append("path")
+				.attr("class", function(d) { return "zipcode"; })
+				.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
+				.attr("d", path);
+
+			d3.json("{{ site.url }}/data/geographic/lor/Planungsraum.topojson", function(error, data) {
+				if (error) return console.error(error);
+
+				var projection = d3.geo.albers()
+					.center([13.35, 52.45])
+				    .rotate([0, 0])
+				    .parallels([50, 60])
+				    .scale(50000)
+				    .translate([width / 2, height / 2 + 80]);
+
+				var zipcodes = topojson.feature(data, data.objects.Planungsraum);
+
+				var path = d3.geo.path().projection(projection);
+
+				svg[3].append("path")
+					.datum(zipcodes)
+					.attr("d", path);
+
+				svg[3].selectAll(".zipcode")
+					.data(topojson.feature(data, data.objects.Planungsraum).features)
+					.enter().append("path")
+					.attr("class", function(d) { return "zipcode"; })
+					.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
+					.attr("d", path);
+
+			});
+
+		});
+
+	});
+
+});
+
+</script>

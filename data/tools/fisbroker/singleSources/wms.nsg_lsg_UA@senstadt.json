@@ -1,0 +1,963 @@
+{
+    "type": "wms",
+    "title": "Schutzgebiete nach Naturschutzrecht  2003 (Umweltatlas, historisch)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_nsg_lsg_ua.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=nsg_lsg_UA@senstadt",
+    "description": {
+        "link": "?id=nsg_lsg_UA@senstadt&type=WMS",
+        "kurzbeschreibung": "Natur- und Landschaftsschutzgebiete, Naturdenkmale, Geschützte Landschaftsbestandteile, FFH - und Natura 2000 - Gebiete,  Landschaftspläne (historische Überblicksdarstellung ohne Grundstücksbezug mit Umland für das Jahr 2003 im Maßstab 1:50.000)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Landschaftsschutzgebiete\nNaturschutzgebiete\nFFH Flächen\nHintergrund 1:50.000\nNaturdenkmale\nGeschützter Landschaftbestandteil\nLandschaftspläne\nStrassennamen\nNamen der Landschaftsschutzgebiete\nNamen der Naturschutzgebiete\nNamen der FFH Flächen\nNamen der Naturdenkmale\nNamen der geschützten Landschaftbestandteile\nNamen der Landschaftspläne",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Natur- und Landschaftsschutzgebiete, Naturdenkmale, Geschützte Landschaftsbestandteile, FFH - und Natura 2000 - Gebiete,  Landschaftspläne (historische Überblicksdarstellung ohne Grundstücksbezug mit Umland für das Jahr 2003 im Maßstab 1:50.000)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/nsg_lsg_UA"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_nsg_lsg_ua.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Landschaftsschutzgebiete",
+                "abstract": "Landschaftsschutzgebiete",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Naturschutzgebiete",
+                "abstract": "Natur- und Landschaftsschutzgebiete",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "FFH Flächen",
+                "abstract": "FFH Flächen",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Hintergrund 1:50.000",
+                "abstract": "ISU50",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Naturdenkmale",
+                "abstract": "Naturdenkmale",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Geschützter Landschaftbestandteil",
+                "abstract": "Geschützter Landschaftbestandteil",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Landschaftspläne",
+                "abstract": "Landschaftspläne",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Strassennamen",
+                "abstract": "Stand 2001",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Namen der Landschaftsschutzgebiete",
+                "abstract": "Landschaftsschutzgebiete",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "Namen der Naturschutzgebiete",
+                "abstract": "Natur- und Landschaftsschutzgebiete",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=9",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "10",
+                "title": "Namen der FFH Flächen",
+                "abstract": "FFH Flächen",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=10",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "11",
+                "title": "Namen der Naturdenkmale",
+                "abstract": "Naturdenkmale",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=11",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12",
+                "title": "Namen der geschützten Landschaftbestandteile",
+                "abstract": "Geschützter Landschaftbestandteil",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=12",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "13",
+                "title": "Namen der Landschaftspläne",
+                "abstract": "Landschaftspläne",
+                "gdi_de": "14f8668e-c3f3-3491-8c1d-7aa38a94e8f6",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ec4b92ad-8364-32d7-aa08-4dba27803baf&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/nsg_lsg_UA?layerID=13",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Naturschutzgebiete",
+                    "Landschaftsschutzgebiete",
+                    "Geschützte Landschaftsbestandteile",
+                    "Naturdenkmale",
+                    "Natura 2000-Gebiete",
+                    "Landschaftspläne",
+                    "NSG",
+                    "LSG",
+                    "GLB",
+                    "ND",
+                    "FND",
+                    "Flora-Fauna-Habitat-Richtlinie",
+                    "FFH-Gebiete",
+                    "Vogelschutzrichtlinie",
+                    "Objektschutz",
+                    "Flächenschutz"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Protected sites",
+        "Schutzgebiet",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Naturschutzgebiete",
+        "Landschaftsschutzgebiete",
+        "Geschützte Landschaftsbestandteile",
+        "Naturdenkmale",
+        "Natura 2000-Gebiete",
+        "Landschaftspläne",
+        "NSG",
+        "LSG",
+        "GLB",
+        "ND",
+        "FND",
+        "Flora-Fauna-Habitat-Richtlinie",
+        "FFH-Gebiete",
+        "Vogelschutzrichtlinie",
+        "Objektschutz",
+        "Flächenschutz"
+    ]
+}

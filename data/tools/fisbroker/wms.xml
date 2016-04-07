@@ -1,0 +1,17 @@
+<GDAL_WMS>
+<Service name="WMS">
+    <Version>1.1.1</Version>
+    <ServerUrl>	http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir</ServerUrl>
+    <Layers>0</Layers>
+    <Styles>gdi_default</Styles>
+</Service>
+<DataWindow>
+    <UpperLeftX>369097.8529</UpperLeftX>
+    <UpperLeftY>5799298.1358</UpperLeftY>
+    <LowerRightX>416865.038</LowerRightX>
+    <LowerRightY>5838236.2097</LowerRightY>
+    <SizeX>1000</SizeX>
+    <SizeY>1000</SizeY>
+</DataWindow>
+<Projection>EPSG:25833</Projection>
+</GDAL_WMS>

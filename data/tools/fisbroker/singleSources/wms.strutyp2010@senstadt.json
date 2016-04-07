@@ -1,0 +1,200 @@
+{
+    "type": "wms",
+    "title": "Stadtstruktur 2010 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_strutyp2001.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=strutyp2010@senstadt",
+    "description": {
+        "link": "?id=strutyp2010@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung homogener Stadtstrukturen anhand der charakteristischen Bau- und Freiraumstruktur auf Grundlage der digitalen Blockkarte 1:5000 (ISU5) des ISU (Informationssystem Stadt und Umwelt), Sachdatenstand 31.12.2010.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Stadtstruktur 2010\nHintergrund",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung homogener Stadtstrukturen anhand der charakteristischen Bau- und Freiraumstruktur auf Grundlage der digitalen Blockkarte 1:5000 (ISU5) des ISU (Informationssystem Stadt und Umwelt), Sachdatenstand 31.12.2010."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/strutyp2010"
+        ],
+        "legend": {
+            "width": 395,
+            "height": 789,
+            "format": "gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_strutyp2010.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Stadtstruktur 2010",
+                "abstract": "Darstellung homogener Stadtstrukturen anhand der charakteristischen Bau- und Freiraumstruktur 2010",
+                "gdi_de": "19679068-6df1-3f21-981f-36e6cdd39832",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=75df022c-99db-3606-9849-56521acc8f2d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 395,
+                    "height": 789,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_strutyp2010.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtstruktur",
+                    "Land",
+                    "Baualter",
+                    "Baustruktur",
+                    "Freiraumstruktur",
+                    "Baustrukturtypen",
+                    "Flächentypen",
+                    "Strukturtypen",
+                    "Blockstruktur",
+                    "Flächennutzung",
+                    "Bautypen",
+                    "Blocktypen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund",
+                "abstract": "Hintergrundkarte maßstabsabhängig aus ISU5_UA_2010, K5 2010, ALK 2010",
+                "gdi_de": "19679068-6df1-3f21-981f-36e6cdd39832",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=75df022c-99db-3606-9849-56521acc8f2d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/strutyp2010?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtstruktur",
+                    "Land",
+                    "Baualter",
+                    "Baustruktur",
+                    "Freiraumstruktur",
+                    "Baustrukturtypen",
+                    "Flächentypen",
+                    "Strukturtypen",
+                    "Blockstruktur",
+                    "Flächennutzung",
+                    "Bautypen",
+                    "Blocktypen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Land use",
+        "Landnutzung",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtstruktur",
+        "Land",
+        "Baualter",
+        "Baustruktur",
+        "Freiraumstruktur",
+        "Baustrukturtypen",
+        "Flächentypen",
+        "Strukturtypen",
+        "Blockstruktur",
+        "Flächennutzung",
+        "Bautypen",
+        "Blocktypen",
+        "äöü"
+    ]
+}

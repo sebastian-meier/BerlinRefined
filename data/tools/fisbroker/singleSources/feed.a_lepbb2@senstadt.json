@@ -1,0 +1,37 @@
+{
+    "type": "feed",
+    "title": "Landesentwicklungsplan Berlin-Brandenburg Festl.karte 2- Städtische Kernbereiche",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_lepbb2.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_lepbb2@senstadt",
+    "description": {
+        "link": "?id=a_lepbb2@senstadt&type=FEED",
+        "kurzbeschreibung": "Die Karte enthält die zeichnerischen Festlegungen zum Plansatz 4.8 (G) Abs. 3 des Landesentwicklungsplans Berlin-Brandenburg (LEP B-B) vom 31. März 2009, GVBl. S. 182",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "image/tiff",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_lepbb2"
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "download": {
+        "description": "Landesentwicklungsplan Berlin-Brandenburg Festl.karte 2- Städtische Kernbereiche - Gesamtraum - Download-Service - EPSG 25833 - TIFF, gezippt."
+    }
+}

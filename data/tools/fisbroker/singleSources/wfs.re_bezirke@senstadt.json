@@ -1,0 +1,111 @@
+{
+    "type": "wfs",
+    "title": "Bezirke von Berlin",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/raumeinheiten/kvor_re_bezirke.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=ISU5@senstadt",
+    "description": {
+        "link": "?id=re_bezirke@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Geometrien der seit der Verwaltungsreform 2001 bestehenden 12 Berliner Bezirke, mit Berücksichtigung der Veränderungen vom 11.09.2014.",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 361642,89, 5796402,66, 419642,11, 5839046,13",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Bezirke von Berlin"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_bezirke"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a88fd141-fdfc-3d92-b23d-75ae970482db&ELEMENTSETNAME=FULL"
+    },
+    "keywords": [
+        "Administrative units",
+        "Statistik",
+        "Verwaltung",
+        "opendata",
+        "open data",
+        "Geodaten",
+        "Kartenwerke",
+        "Bezirke",
+        "Berlin",
+        "Mitte",
+        "Reinickendorf",
+        "Marzahn-Hellersdorf",
+        "Tempelhof-Schöneberg",
+        "Pankow",
+        "Spandau",
+        "Steglitz-Zehlendorf",
+        "Charlottenburg-Wilmersdorf",
+        "Treptow-Köpenick",
+        "Neukölln",
+        "Lichtenberg",
+        "Friedrichshain-Kreuzberg",
+        "äöü"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3005,
+            "max_latitude": 52.6954,
+            "min_longitude": 12.9709,
+            "max_longitude": 13.8109
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:25833"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

@@ -1,0 +1,401 @@
+{
+    "type": "wms",
+    "title": "Stadtentwicklungsplan (StEP) Wohnen 2025",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_stepwohn2025.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=stepwohn2025@senstadt",
+    "description": {
+        "link": "?id=stepwohn2025@senstadt&type=WMS",
+        "kurzbeschreibung": "Der StEP Wohnen 2025 benennt die stadtentwicklungs-und wohnungspolitischen Leitlinien und Ziele sowie Strategien und Handlungsfelder für die Neubau-und Bestandsentwicklung bis 2025.",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Hintergrund ÜK50\nHintergrund Stadtstruktur\nS- und U-Bahnnetz\nLandes- und Bezirksgrenzen\nS- und U-Bahnhöfe\nStEP Wohnen: Neubaubereiche\nStEP Wohnen: Einzelstandorte",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Stadtentwicklungsplan Wohnen, Strategien und Maßnahmen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/stepwohn2025"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_stepwohn2025.gif"
+        },
+        "layers": [
+            {
+                "name": "1",
+                "title": "Hintergrund ÜK50",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 125
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Hintergrund Stadtstruktur",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "S- und U-Bahnnetz",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Landes- und Bezirksgrenzen",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "S- und U-Bahnhöfe",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "StEP Wohnen: Neubaubereiche",
+                "abstract": "Stadtentwicklungsplan Wohnen, Strategien und Maßnahmen",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_stepwohn.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 125
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "StEP Wohnen: Einzelstandorte",
+                "abstract": "",
+                "gdi_de": "8be84864-d37e-310d-896b-ab6165f9427f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9e4d1f07-89fb-306f-9b03-a92f9b345aac&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/stepwohn2025?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklungsplan",
+                    "Wohnen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Stadtplanung",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtentwicklungsplan",
+        "Wohnen"
+    ]
+}

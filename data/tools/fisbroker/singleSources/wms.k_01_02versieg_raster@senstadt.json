@@ -1,0 +1,190 @@
+{
+    "type": "wms",
+    "title": "Versiegelung 2005 (unkorrigierte Versiegelungsgrade,  Rasterdaten)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_01_02versieg_raster.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_01_02versieg_raster@senstadt",
+    "description": {
+        "link": "?id=k_01_02versieg_raster@senstadt&type=WMS",
+        "kurzbeschreibung": "Diese Rasterkarte ist ein unkorrigiertes Zwischenergebnis der Versiegelungskartierung (Umweltatlas, 01.02, Ausgabe 2007). Dargestellt ist das Ergebnis der regelbasierten Klassifizierung der Satellitendaten (SPOT5-Szene, 5.Sept 2005).",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963\nEPSG:4258: 12,97, 52,3, 13,81, 52,7",
+        "ebenen": "Versiegelung\nHintergrund 1:5000 - 1:1000 (ALK)",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Diese Rasterkarte ist ein Zwischenergebnis der Versiegelungskartierung von 2007. Es wird das Ergebnis der regelbasierten Klassifizierung der Satellitendaten (Aufnahme vom September 2005) dargestellt."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_01_02versieg_raster"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_01_02versieg_raster.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Versiegelung",
+                "abstract": "Diese Rasterkarte ist ein unkorrigiertes Zwischenergebnis der Versiegelungskartierung (Umweltatlas, 01.02, Ausgabe 2007). Dargestellt ist das Ergebnis der regelbasierten Klassifizierung der Satellitendaten (SPOT5-Szene, 5.Sept 2005).",
+                "gdi_de": "4b8d9421-258c-348a-be65-6452f420ea2c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ff0b1f4c-48d6-3300-8f56-62a813b066be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_01_02versieg_raster.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Satellitenbildauswertung",
+                    "Versiegelungsgrad",
+                    "ALK",
+                    "bebaut versiegelt",
+                    "unbebaut versiegelt"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5000 - 1:1000 (ALK)",
+                "abstract": "digitale Karte 1:5000, Rasterkarte 1:5000, ALK",
+                "gdi_de": "4b8d9421-258c-348a-be65-6452f420ea2c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ff0b1f4c-48d6-3300-8f56-62a813b066be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_01_02versieg_raster?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Satellitenbildauswertung",
+                    "Versiegelungsgrad",
+                    "ALK",
+                    "bebaut versiegelt",
+                    "unbebaut versiegelt"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Boden",
+        "Landnutzung",
+        "Land cover",
+        "Land use",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Satellitenbildauswertung",
+        "Versiegelungsgrad",
+        "ALK",
+        "bebaut versiegelt",
+        "unbebaut versiegelt"
+    ]
+}

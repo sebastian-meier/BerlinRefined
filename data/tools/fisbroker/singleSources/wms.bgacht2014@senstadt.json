@@ -1,0 +1,174 @@
+{
+    "type": "wms",
+    "title": "Bodenkundliche Kartierungen - Übersicht",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas//karten/karte_bgacht.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=bgacht2014@senstadt",
+    "description": {
+        "link": "?id=bgacht2014@senstadt&type=WMS",
+        "kurzbeschreibung": "Übersicht über die im Land Berlin durchgeführten bodenkundlichen Gutachten oder Kartierungen bei denen Bodenprofile dokumentiert und/oder großmaßstäbliche Bodenkarten erarbeitet wurden.",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Bodenkundliche Gutachten - Übersicht\nHintergrund 1:50000",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Übersicht über die im Land Berlin durchgeführten bodenkundlichen Gutachten oder Kartierungen bei denen Bodenprofile dokumentiert und/oder großmaßstäbliche Bodenkarten erarbeitet wurden."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/bgacht2014"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/keine_legende.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Bodenkundliche Gutachten - Übersicht",
+                "abstract": "Übersicht über die im Land Berlin durchgeführten bodenkundlichen Gutachten oder Kartierungen bei denen\nBodenprofile dokumentiert und/oder großmaßstäbliche Bodenkarten erarbeitet wurden.",
+                "gdi_de": "a84c212a-a92b-3439-abee-31254223455f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f3bc5505-07fd-3691-9b1d-bf0babaff8b2&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Bodengutachten",
+                    "Bodenprofile",
+                    "Bodenkarten",
+                    "Leitprofile",
+                    "Bodenkunde",
+                    "Bodentyp"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:50000",
+                "abstract": "",
+                "gdi_de": "a84c212a-a92b-3439-abee-31254223455f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f3bc5505-07fd-3691-9b1d-bf0babaff8b2&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/bgacht2014?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Bodengutachten",
+                    "Bodenprofile",
+                    "Bodenkarten",
+                    "Leitprofile",
+                    "Bodenkunde",
+                    "Bodentyp"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Population distribution — demography",
+        "Soziales",
+        "Statistik",
+        "Karten",
+        "Berlin",
+        "Geodaten",
+        "Bodengutachten",
+        "Bodenprofile",
+        "Bodenkarten",
+        "Leitprofile",
+        "Bodenkunde",
+        "Bodentyp"
+    ]
+}

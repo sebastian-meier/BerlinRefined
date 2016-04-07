@@ -1,0 +1,195 @@
+{
+    "type": "wms",
+    "title": "Einwohnerdichte 2014 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_06_06ewdichte2014.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k06_06ewdichte2014@senstadt",
+    "description": {
+        "link": "?id=k06_06ewdichte2014@senstadt&type=WMS",
+        "kurzbeschreibung": "Einwohnerdichte [Einwohner/ha] auf Block- und Blockteilflächen-Basis der Karte 1:5000 (ISU5, Raumbezug Umweltatlas 2010).",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Einwohnerdichte 2014\nHintergrund",
+        "nutzungsbedingungen": "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/). Als Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Einwohnerdichte [Einwohner/ha] auf Block- und Blockteilflächen-Basis für die Jahre 2010-2013. Raumbezug ISU 5 (Informationssystem Stadt und Umwelt, III F) Stand 31.12.2010."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k06_06ewdichte2014"
+        ],
+        "legend": {
+            "width": 140,
+            "height": 290,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_06_06ewdichte2009.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Einwohnerdichte 2014",
+                "abstract": "Einwohnerdichte 2014",
+                "gdi_de": "66af2916-ee49-31dd-a0b1-3b0f4bfb5dbc",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8ffda0f3-6841-3d41-9772-727b4ca60440&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 140,
+                    "height": 290,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_06_06ewdichte2009.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bevölkerungsdichte",
+                    "Einwohner",
+                    "Dichte",
+                    "Block",
+                    "Blockteilfläche",
+                    "Amt für Statistik",
+                    "AfS",
+                    "Bevölkerungsentwicklung",
+                    "Umweltatlas",
+                    "Bewohner",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010",
+                "gdi_de": "66af2916-ee49-31dd-a0b1-3b0f4bfb5dbc",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8ffda0f3-6841-3d41-9772-727b4ca60440&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k06_06ewdichte2014?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Bevölkerungsdichte",
+                    "Einwohner",
+                    "Dichte",
+                    "Block",
+                    "Blockteilfläche",
+                    "Amt für Statistik",
+                    "AfS",
+                    "Bevölkerungsentwicklung",
+                    "Umweltatlas",
+                    "Bewohner",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Population distribution — demography",
+        "Soziales",
+        "Statistik",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Bevölkerungsdichte",
+        "Einwohner",
+        "Dichte",
+        "Block",
+        "Blockteilfläche",
+        "Amt für Statistik",
+        "AfS",
+        "Bevölkerungsentwicklung",
+        "Umweltatlas",
+        "Bewohner",
+        "äöü"
+    ]
+}

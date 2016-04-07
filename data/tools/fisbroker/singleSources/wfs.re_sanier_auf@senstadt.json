@@ -1,0 +1,100 @@
+{
+    "type": "wfs",
+    "title": "Sanierungsgebiete, ab 2002 aufgehoben",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_sanier.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=sanier@senstadt",
+    "description": {
+        "link": "?id=re_sanier_auf@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "aufgehobene Sanierungsgebiete nach §142 BauGB",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "aufgehobene Sanierungsgebiete nach §142 BauGB"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_sanier_auf"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b4da4920-a7f5-3d2b-97b9-e65f9cbe70e7&ELEMENTSETNAME=FULL"
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Land use",
+        "Stadtplanung",
+        "open data",
+        "opendata",
+        "Geodaten",
+        "Stadterneuerung",
+        "Sanierungsmaßnahmen",
+        "§142BauGB",
+        "äöü"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3246,
+            "max_latitude": 52.6935,
+            "min_longitude": 13.0512,
+            "max_longitude": 13.7785
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068",
+            "urn:ogc:def:crs:EPSG:6.9:4258"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

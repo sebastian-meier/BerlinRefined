@@ -1,0 +1,100 @@
+{
+    "type": "wfs",
+    "title": "Katasterämter der Berliner Vermessung",
+    "thumb": false,
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=alphaDataStart&alphaDataId=s_kataster@senstadt",
+    "description": {
+        "link": "?id=s_kataster@senstadt&type=WFS&themeType=alphaData&showCapUrl=true",
+        "kurzbeschreibung": "Links zu den Katasterämtern Berlins",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Links zu den Katasterämtern Berlins"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_kataster"
+        ],
+        "inspire": ""
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Utility and governmental services",
+        "Kataster",
+        "open data",
+        "opendata",
+        "Berlin",
+        "Katasteramt Berlin",
+        "Grundstücksauskunft",
+        "Liegenschaftskataster",
+        "Eigentümerauskunft",
+        "Grundstückseigentümer",
+        "Vermessungsamt"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3005,
+            "max_latitude": 52.6954,
+            "min_longitude": 12.9709,
+            "max_longitude": 13.8109
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

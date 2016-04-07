@@ -1,0 +1,317 @@
+{
+    "type": "wms",
+    "title": "Entwicklung Luftqualität NOx-Emissionen Hausbrand 1989 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_03_12_03_1noxemihaus1989.jpg",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_nox_haus1989@senstadt",
+    "description": {
+        "link": "?id=emi_nox_haus1989@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der NOx-Emissionen der Verursachergruppe Hausbrand 1989, Stand 2006",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Emissionen Hausbrand 1989\nHintergrund ALK\nHintergrund 1:5.000\nHausbrand - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Darstellung der NOx-Emissionen der Verursachergruppe Hausbrand 1989, Stand 2006"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_nox_haus1989"
+        ],
+        "legend": {
+            "width": 246,
+            "height": 501,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_03_1noxemihaus1989.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Emissionen Hausbrand 1989",
+                "abstract": "",
+                "gdi_de": "077f9a02-bc8f-3e2f-9f4e-634364e88b8c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=3d78fe21-2307-3c3c-9391-1e82683d0d83&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_03_1noxemihaus1989.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Hausbrand",
+                    "1989"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund ALK",
+                "abstract": "digitale Karte ALK",
+                "gdi_de": "077f9a02-bc8f-3e2f-9f4e-634364e88b8c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=3d78fe21-2307-3c3c-9391-1e82683d0d83&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_nox_haus1989?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Hausbrand",
+                    "1989"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Hintergrund 1:5.000",
+                "abstract": "",
+                "gdi_de": "077f9a02-bc8f-3e2f-9f4e-634364e88b8c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=3d78fe21-2307-3c3c-9391-1e82683d0d83&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_nox_haus1989?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Hausbrand",
+                    "1989"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Hausbrand - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+                "abstract": "",
+                "gdi_de": "077f9a02-bc8f-3e2f-9f4e-634364e88b8c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=3d78fe21-2307-3c3c-9391-1e82683d0d83&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/emi_nox_haus1989?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Hausbrand",
+                    "1989"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Immissionsschutz",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Emissionen",
+        "Kataster",
+        "BImSchG",
+        "Bundesimmissionsschutzgesetz",
+        "Raster",
+        "Entwicklung",
+        "Luftgüte",
+        "Luftqualität",
+        "NOx",
+        "Hausbrand",
+        "1989"
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "type": "wms",
+    "title": "Wasserschutzgebiet Johannisthal (vorläufige Anordnung)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_wsg_johannisthal.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_wsg_johannisthal@senstadt",
+    "description": {
+        "link": "?id=k_wsg_johannisthal@senstadt&type=WMS",
+        "kurzbeschreibung": "Lageplan zur vorläufigen Anordnung vom 18. Februar 2013 zur Darstellung der Schutzzonen Johannisthal",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 25000, 10000, 35000, 20000",
+        "ebenen": "Wasserschutzgebiet\nHintergrund 1:1000, 1:5000\nBrunnengalerien\nWasserwerke\nPolygone",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Lageplan zur Allgemeinverfügung vom 06. Februar 2009 zur Darstellung der Schutzzonen Johannisthal"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_wsg_johannisthal"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_wsg_johannisthal.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Wasserschutzgebiet",
+                "abstract": "",
+                "gdi_de": "08d309a3-eb23-3fc5-a403-75b0ae3732c9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=28f4527d-dcb5-3668-9a9f-af23efd27701&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_wsg_johannisthal?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "WSG",
+                    "Allgemeinverfügung",
+                    "Umweltatlas"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 10000,
+                            "max_latitude": 20000,
+                            "min_longitude": 25000,
+                            "max_longitude": 35000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.417,
+                            "max_latitude": 52.5071,
+                            "min_longitude": 13.405,
+                            "max_longitude": 13.5518
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:1000, 1:5000",
+                "abstract": "",
+                "gdi_de": "08d309a3-eb23-3fc5-a403-75b0ae3732c9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=28f4527d-dcb5-3668-9a9f-af23efd27701&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_wsg_johannisthal?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "WSG",
+                    "Allgemeinverfügung",
+                    "Umweltatlas"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 10000,
+                            "max_latitude": 20000,
+                            "min_longitude": 25000,
+                            "max_longitude": 35000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.417,
+                            "max_latitude": 52.5071,
+                            "min_longitude": 13.405,
+                            "max_longitude": 13.5518
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Brunnengalerien",
+                "abstract": "",
+                "gdi_de": "08d309a3-eb23-3fc5-a403-75b0ae3732c9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=28f4527d-dcb5-3668-9a9f-af23efd27701&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_wsg_johannisthal?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "WSG",
+                    "Allgemeinverfügung",
+                    "Umweltatlas"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 10000,
+                            "max_latitude": 20000,
+                            "min_longitude": 25000,
+                            "max_longitude": 35000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.417,
+                            "max_latitude": 52.5071,
+                            "min_longitude": 13.405,
+                            "max_longitude": 13.5518
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Wasserwerke",
+                "abstract": "",
+                "gdi_de": "08d309a3-eb23-3fc5-a403-75b0ae3732c9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=28f4527d-dcb5-3668-9a9f-af23efd27701&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_wsg_johannisthal?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "WSG",
+                    "Allgemeinverfügung",
+                    "Umweltatlas"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 10000,
+                            "max_latitude": 20000,
+                            "min_longitude": 25000,
+                            "max_longitude": 35000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.417,
+                            "max_latitude": 52.5071,
+                            "min_longitude": 13.405,
+                            "max_longitude": 13.5518
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Polygone",
+                "abstract": "",
+                "gdi_de": "08d309a3-eb23-3fc5-a403-75b0ae3732c9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=28f4527d-dcb5-3668-9a9f-af23efd27701&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_wsg_johannisthal?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "WSG",
+                    "Allgemeinverfügung",
+                    "Umweltatlas"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 10000,
+                            "max_latitude": 20000,
+                            "min_longitude": 25000,
+                            "max_longitude": 35000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.417,
+                            "max_latitude": 52.5071,
+                            "min_longitude": 13.405,
+                            "max_longitude": 13.5518
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Protected sites",
+        "Hydrogeologie",
+        "Schutzgebiet",
+        "Wasser",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "WSG",
+        "Allgemeinverfügung",
+        "Umweltatlas"
+    ]
+}

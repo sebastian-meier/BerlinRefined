@@ -1,0 +1,114 @@
+{
+    "type": "wms",
+    "title": "Baunutzungsplan",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_bnp.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=bnp@senstadt",
+    "description": {
+        "link": "?id=bnp@senstadt&type=WMS",
+        "kurzbeschreibung": "Der Baunutzungsplan ist nach seiner Konzeption und nach seiner Stellung im System des Planungsgesetzes von 1949/1956 ein vorbereitender Bauleitplan für das gesamte Gebiet von Berlin (West).",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 3169, 5217, 33000, 37315",
+        "ebenen": "Baunutzungsplan",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Der Baunutzungsplan ist nach seiner Konzeption und nach seiner Stellung im System des Planungsgesetzes von 1949/1956 ein vorbereitender Bauleitplan für das gesamte Gebiet von Berlin (West). Über diesen Charakter hinaus ist er nach Maßgabe des § 7 Nr. 1 - 3 Bauordnung für Berlin 1958 (BO 58) für das einzelne Bauvorhaben als Zulässigkeitstatbestand verbindlich geworden; in seiner Funktion ist er gemäß § 173 Abs. 3 Bundesbaugesetz (BBauG) übergeleitet."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/bnp"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_bnp.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Baunutzungsplan",
+                "abstract": "Der Baunutzungsplan ist nach seiner Konzeption und nach seiner Stellung im System des Planungsgesetzes von 1949/1956\nein vorbereitender Bauleitplan für das gesamte Gebiet von Berlin (West).",
+                "gdi_de": "da3f2bdd-2271-3178-bc4f-47e5b063c40c",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c2b07e20-20d9-3183-9827-1a94a72ffaae&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_bnp.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Geltungsbereiche",
+                    "Bebauungsplan"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 5217,
+                            "max_latitude": 37315,
+                            "min_longitude": 3169,
+                            "max_longitude": 33000
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.373,
+                            "max_latitude": 52.6627,
+                            "min_longitude": 13.0846,
+                            "max_longitude": 13.522
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Bauleitplanung",
+        "Landnutzung",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Geltungsbereiche",
+        "Bebauungsplan"
+    ]
+}

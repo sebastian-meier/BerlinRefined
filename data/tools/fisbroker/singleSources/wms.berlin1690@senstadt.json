@@ -1,0 +1,119 @@
+{
+    "type": "wms",
+    "title": "Berlin um 1690",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_berlin1690.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=berlin1690@senstadt",
+    "description": {
+        "link": "?id=berlin1690@senstadt&type=WMS",
+        "kurzbeschreibung": "Scan der Karte \"Berlin um 1690\" aus der Veröffentlichung: \"Städtebauliche Entwicklung Berlins seit 1650 in Karten\"",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 23000, 19600, 26300, 22600",
+        "ebenen": "Berlin um 1690",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Scan der Karte \"Berlin um 1690\" aus der Veröffentlichung: \"Städtebauliche Entwicklung Berlins seit 1650 in Karten\""
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/berlin1690"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_berlin1690.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Berlin um 1690",
+                "abstract": "Landschaftsbild",
+                "gdi_de": "852bbaaa-1511-35a8-af2f-931b9cc8f1d9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2e3efa1f-b58c-3376-aad2-a88ef6c8b458&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/berlin1690?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 12
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtentwicklung",
+                    "Städtebau",
+                    "Historische Karten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 19600,
+                            "max_latitude": 22600,
+                            "min_longitude": 23000,
+                            "max_longitude": 26300
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.5033,
+                            "max_latitude": 52.5303,
+                            "min_longitude": 13.3751,
+                            "max_longitude": 13.4236
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Historische Karten",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Historische Karte",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtentwicklung",
+        "Städtebau",
+        "Historische Karten"
+    ]
+}

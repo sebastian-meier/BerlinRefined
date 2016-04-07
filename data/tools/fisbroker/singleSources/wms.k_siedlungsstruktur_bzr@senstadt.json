@@ -1,0 +1,465 @@
+{
+    "type": "wms",
+    "title": "Siedlungsstruktur Wohnen - Bezirksregionen 2010",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_siedlungsstruktur_bzr.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_siedlungsstruktur_bzr@senstadt",
+    "description": {
+        "link": "?id=k_siedlungsstruktur_bzr@senstadt&type=WMS",
+        "kurzbeschreibung": "Siedlungsstrukturelle Haupt- und Nebenprägung der Bezirksregionen (LOR) mit mehr als 1000 Einwohnern  auf Grundlage der Stadtstrukturtypen des Umweltatlas mit überwiegender Wohnnutzung.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Siedlungsstruktur Wohnen\nNebenprägung\nunbesiedelte Flächen\nHintergrund 1:5.000- 1:1000\nBezirksregion\nBezirksregionschlüssel\nLOR Konturen",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Siedlungsstrukturelle Haupt- und Nebenprägung der Bezrksregionen (BZR) mit mehr als 1000 Einwohnern im System der Lebensweltlich Orientierten Räume (LOR) auf Grundlage der Stadtstrukturtypen des Umweltatlas mit überwiegender Wohnnutzung. Die Hauptprägung wird durch die Siedlungstruktur mit dem höchsten Wohnungsanteil bestimmt. Die drei Ebenen der LOR (Planungsräume,Bezirksregionen, Prognoseräume) werden seit 2006 von der Berliner Verwaltung als gemeinsamer räumlicher Bezug für die Prognose und Beobachtung demografischer und sozialer Entwicklungen genutzt."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_siedlungsstruktur_bzr"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_siedlungsstruktur_bzr.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Siedlungsstruktur Wohnen",
+                "abstract": "",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Nebenprägung",
+                "abstract": "",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "unbesiedelte Flächen",
+                "abstract": "unbewohnte Gebiete der ALK",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Hintergrund 1:5.000- 1:1000",
+                "abstract": "digitale Karte 1:5.000, ALK 1:1000",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Bezirksregion",
+                "abstract": "",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Bezirksregionschlüssel",
+                "abstract": "",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "LOR Konturen",
+                "abstract": "",
+                "gdi_de": "30d845ad-135f-3052-9b64-fcf7273db667",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=b26fb9e1-0272-30f3-b1c4-e3f257e1973d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_siedlungsstruktur_bzr?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Hauptprägung",
+                    "Prägung",
+                    "Nebenprägung",
+                    "Siedlungstruktur",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Wohnen",
+                    "Stadtstruktur",
+                    "Bezirksregionen",
+                    "LOR",
+                    "RBS",
+                    "Räumliches Bezugssystem Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Stadtplanung",
+        "Hauptprägung",
+        "Prägung",
+        "Nebenprägung",
+        "Siedlungstruktur",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Wohnen",
+        "Stadtstruktur",
+        "Bezirksregionen",
+        "LOR",
+        "RBS",
+        "Räumliches Bezugssystem Berlin"
+    ]
+}

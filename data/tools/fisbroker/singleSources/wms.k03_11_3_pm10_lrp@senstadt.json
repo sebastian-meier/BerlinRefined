@@ -1,0 +1,726 @@
+{
+    "type": "wms",
+    "title": "Luftreinhalteplan 2011-2017: Szenarios PM10 Kfz-Verkehr 2015 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/k_vor03_11_3LRP_PM10_Kfz_2011.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k03_11_3_pm10_lrp@senstadt",
+    "description": {
+        "link": "?id=k03_11_3_pm10_lrp@senstadt&type=WMS",
+        "kurzbeschreibung": "Wirkungen ausgewählter Maßnahmenbündel (MB) auf die PM10-Luftbelastung durch den Kfz-Verkehr im Straßenraum für das Jahr 2015, berechnet im Rahmen der Arbeiten zum Luftreinhalteplan 2011-2017.",
+        "koordinatensysteme": "EPSG:25833, EPSG:31467, EPSG:25832, EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21\nEPSG:31467: 3778098,46, 5807283, 3822527,4, 5850112,1\nEPSG:25832: 777914,96, 5805397,1, 822326,52, 5848208,6\nEPSG:3068: 2750, 250, 49780, 40100\nEPSG:4258: 13,08, 52,33, 13,77, 52,69",
+        "ebenen": "Hintergrund 1:50000, 1:5000\nMB1 (Maßnahmenbündel) - Verbesserung Fahrzeugtechnik\nMB2 -  Optimierung Verkehrsfluss\nMB3 - Tempo 30 an Hotspots\nMB4 - Emissionsminderung im städtischen Hintergrund\nMB5 - Vorgezogene Fahrzeugflotte 2020\nHintergrund K5_oben\nStraßennamen\n\"Ist-Zustand\" 2009 und Trends 2015 und 2020 ohne MB1 - MB5",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Modellierung der emissions- und immissionsseitigen Wirkungen ausgewählter Maßnahmen auf die PM10-Luftbelastung durch Kfz-Verkehr im Straßenraum für das Jahr 2015, berechnet im Rahmen der Arbeiten zum Luftreinhalteplan 2011-2017."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_11_3_pm10_lrp"
+        ],
+        "legend": {
+            "width": 310,
+            "height": 505,
+            "format": "gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund 1:50000, 1:5000",
+                "abstract": "digitale Karte 1:50000, Rasterkarte 1:5000",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_11_3_pm10_lrp?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "MB1 (Maßnahmenbündel) - Verbesserung Fahrzeugtechnik",
+                "abstract": "MB1 (Maßnahmenbündel) - Verbesserung Fahrzeugtechnik",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "MB2 -  Optimierung Verkehrsfluss",
+                "abstract": "MB2 -  Optimierung Verkehrsfluss",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "MB3 - Tempo 30 an Hotspots",
+                "abstract": "MB3 - Tempo 30 an Hotspots",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "MB4 - Emissionsminderung im städtischen Hintergrund",
+                "abstract": "MB4 - Emissionsminderung im städtischen Hintergrund",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "MB5 - Vorgezogene Fahrzeugflotte 2020",
+                "abstract": "MB5 - Vorgezogene Fahrzeugflotte 2020",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Hintergrund K5_oben",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_11_3_pm10_lrp?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5807283.0027,
+                            "max_latitude": 5850112.1043,
+                            "min_longitude": 3778098.4646,
+                            "max_longitude": 3822527.395
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Straßennamen",
+                "abstract": "Straßennamen der Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_11_3_pm10_lrp?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 5
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "\"Ist-Zustand\" 2009 und Trends 2015 und 2020 ohne MB1 - MB5",
+                "abstract": "\"Ist-Zustand\" 2009 und Trends 2015 und 2020 ohne MB1 - MB5",
+                "gdi_de": "714a6d99-61dd-3696-91eb-1a6eac01a3a3",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=2eb2a02c-b3da-31f5-8c19-64437687bf8d&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_11_3_lrp_pm10_2011.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Luftgüte",
+                    "Luftreinhalteplan",
+                    "Maßnahmen",
+                    "Kfz-Verkehr",
+                    "Trend",
+                    "2015",
+                    "2020",
+                    "NO2",
+                    "Luftbelastung",
+                    "Emissionen",
+                    "Immissionen",
+                    "Straße"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Umweltschutz",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Luftgüte",
+        "Luftreinhalteplan",
+        "Maßnahmen",
+        "Kfz-Verkehr",
+        "Trend",
+        "2015",
+        "2020",
+        "NO2",
+        "Luftbelastung",
+        "Emissionen",
+        "Immissionen",
+        "Straße"
+    ]
+}

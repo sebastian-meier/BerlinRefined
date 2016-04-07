@@ -1,0 +1,371 @@
+{
+    "type": "wms",
+    "title": "Standorte Öffentlicher Schulen",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_schulen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=schulen@senstadt",
+    "description": {
+        "link": "?id=schulen@senstadt&type=WMS",
+        "kurzbeschreibung": "Standorte von öffentlichen Schulen mit Informationen zu Art, Name, Anschrift und Ansprechpartner.",
+        "koordinatensysteme": "EPSG:25833, EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 364000, 5799000, 417000, 5838000\nEPSG:3068: -2342,19, -144,89, 49919,49, 39866,34\nEPSG:4258: 13, 52,32, 13,77, 52,69",
+        "ebenen": "Hintergrund 1:5000 - 1:1000 (ALK)\nSchulen\nÜbersicht\nSchulNr",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Standorte von öffentlichen Schulen mit Informationen zu Art, Name, Anschrift und Ansprechpartner."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/schulen"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_schulen.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund 1:5000 - 1:1000 (ALK)",
+                "abstract": "Hintergrund",
+                "gdi_de": "c32baab1-fdbc-36dd-a136-ab60956f367b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b827e4-abe9-3a95-98f8-fefc8336e5be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/schulen?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "öffentliche Schulen",
+                    "Grundschule",
+                    "Realschule",
+                    "Gymnasium",
+                    "Sekundarschule",
+                    "Hauptschule",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Schulen",
+                "abstract": "Standorte Öffentlicher Schulen",
+                "gdi_de": "c32baab1-fdbc-36dd-a136-ab60956f367b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b827e4-abe9-3a95-98f8-fefc8336e5be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 345,
+                    "height": 563,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_schulen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "öffentliche Schulen",
+                    "Grundschule",
+                    "Realschule",
+                    "Gymnasium",
+                    "Sekundarschule",
+                    "Hauptschule",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Übersicht",
+                "abstract": "Standorte von öffentlichen Schulen: Übersicht",
+                "gdi_de": "c32baab1-fdbc-36dd-a136-ab60956f367b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b827e4-abe9-3a95-98f8-fefc8336e5be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 345,
+                    "height": 463,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_schulen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 21,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "öffentliche Schulen",
+                    "Grundschule",
+                    "Realschule",
+                    "Gymnasium",
+                    "Sekundarschule",
+                    "Hauptschule",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "SchulNr",
+                "abstract": "Standorte von öffentlichen Schulen: Schulnummern",
+                "gdi_de": "c32baab1-fdbc-36dd-a136-ab60956f367b",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a3b827e4-abe9-3a95-98f8-fefc8336e5be&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 345,
+                    "height": 563,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_schulen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "öffentliche Schulen",
+                    "Grundschule",
+                    "Realschule",
+                    "Gymnasium",
+                    "Sekundarschule",
+                    "Hauptschule",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Utility and governmental services",
+        "Bildung",
+        "Versorgung",
+        "Verwaltung",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "öffentliche Schulen",
+        "Grundschule",
+        "Realschule",
+        "Gymnasium",
+        "Sekundarschule",
+        "Hauptschule",
+        "äöü"
+    ]
+}

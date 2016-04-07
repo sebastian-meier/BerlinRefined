@@ -1,0 +1,111 @@
+{
+    "type": "wms",
+    "title": "Planwerk Innenstadt 2003",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_planin1999.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=planin@senstadt",
+    "description": {
+        "link": "?id=planin@senstadt&type=WMS",
+        "kurzbeschreibung": "Planwerk Innenstadt Berlin, fortgeschriebene Fassung",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 12800, 18000, 30300, 23800",
+        "ebenen": "Planwerk Innenstadt",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Planwerk Innenstadt Berlin, fortgeschriebene Fassung"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/planin"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planin1999.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Planwerk Innenstadt",
+                "abstract": "Planwerk Innenstadt Berlin, fortgeschriebene Fassung",
+                "gdi_de": "72c53081-0ba0-3df7-aca6-8249c1605cb4",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=d0e1f7c6-b5f3-3f8e-b761-806eeb400905&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planwerk_innen.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 7
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Architekturwerkstatt"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 18000,
+                            "max_latitude": 23800,
+                            "min_longitude": 12800,
+                            "max_longitude": 30300
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.4885,
+                            "max_latitude": 52.5412,
+                            "min_longitude": 13.225,
+                            "max_longitude": 13.4825
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Stadtplanung",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Architekturwerkstatt"
+    ]
+}

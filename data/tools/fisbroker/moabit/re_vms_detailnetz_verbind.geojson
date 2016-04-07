@@ -1,0 +1,5375 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31986536750759,
+                    52.51526684068355
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B54B28A48E814D8FA0387B3B79CA220E",
+                "alias": "29"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.321170889697212,
+                    52.51669998239243
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0DF4CD7DFAB44104BE0B7F22EDD3BC84",
+                "alias": "31"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32747074036665,
+                    52.52435772548682
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A950C2CB15634FBF9056114C829499F8",
+                "alias": "969"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329755310699111,
+                    52.52379618889385
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6588D5931DB24EB693C9E60458A2BD35",
+                "alias": "971"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331965214828088,
+                    52.52414435025909
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0B675811B4A44D8EBD00BC3650CD34CC",
+                "alias": "973"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334142417547163,
+                    52.524533045880034
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "15B9A82C3F1844208CE93374E50C58C4",
+                "alias": "975"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33488421551973,
+                    52.52466778422174
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "39D9839B88B14416A10AAAA2331A2E97",
+                "alias": "977"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336288140299596,
+                    52.52500749388838
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2EFCAD3DBF8944FAB7E5F36823B5C6AE",
+                "alias": "979"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337724458911138,
+                    52.525367862487755
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CCE4739A62B54E40AB751D912D8CE332",
+                "alias": "981"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339291807394748,
+                    52.525744920593915
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9C73DBC22015454DB87117E71EA3044B",
+                "alias": "983"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.342867148090402,
+                    52.525390034992455
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2BAA84C603D24284A3DC8F02105FC1CB",
+                "alias": "985"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349569556548625,
+                    52.524538686568164
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F666A7D8248449F89B63C7F39AA65E25",
+                "alias": "987"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339849584216836,
+                    52.51885030030076
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5C40507D17E04B2EB63D890E94BFFDD5",
+                "alias": "1007"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33852939083389,
+                    52.51942233371692
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "43B3F2F4A0464F22B7A7A967C0D5B8D5",
+                "alias": "1009"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.342077621896523,
+                    52.51791822177165
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B1AA11CAC9BC4F05B8CC51BA363553B3",
+                "alias": "1011"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34924369981827,
+                    52.51485557420114
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5139B77FB1E144E5878AC702BF4E8C92",
+                "alias": "1013"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306190775447966,
+                    52.521164050914614
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BB8F7A28DBF642E0A5A3524D6A1A9552",
+                "alias": "2165"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.344284649296267,
+                    52.53801024706126
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A3A8C9F1EBC946C0BA1AD9029C848747",
+                "alias": "2405"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343872691425947,
+                    52.536724041230826
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DC5680E55C82469AAF5DFFC68411A1A0",
+                "alias": "2407"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.344419062558433,
+                    52.538317308115026
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3F226D52003944E0A8B80E4BCE2F5E92",
+                "alias": "2409"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336016767206274,
+                    52.51422945721239
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E24B7255012E4BE88FFAB1963ABAB5C4",
+                "alias": "3203"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336379766105162,
+                    52.514788396757844
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "99EC4660DEB844F59B5E91F8B5B41871",
+                "alias": "3205"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335679194420822,
+                    52.513517036652104
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "92D62D427A0446308801D09C2173E771",
+                "alias": "3207"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338791914044238,
+                    52.51762630649726
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "18E7B56E605C4C2CAAE1A216778A680A",
+                "alias": "3211"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34995915255157,
+                    52.526299458814194
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E05115B0F07B4B3F90A52C3733E336DF",
+                "alias": "3455"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.344201005088633,
+                    52.519021847687654
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CD737EEC97C54726A4181C331A363C1F",
+                "alias": "3589"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346082351791436,
+                    52.51918494623812
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "769D10EC32154E699A342E27E04C0118",
+                "alias": "3591"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347280027890562,
+                    52.52020171120121
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "1C74D338387C4C62A676BE1699D29504",
+                "alias": "3593"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348054661726676,
+                    52.521250756505516
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DE85241343B4430C9C7DCE32A07B837E",
+                "alias": "3595"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306608716172379,
+                    52.51671376857475
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "82324A80905349659A1D87DF261EA5C1",
+                "alias": "3927"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.350202354023017,
+                    52.51960108765176
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "93D8C9691795468ABE94E6BC1F7979F9",
+                "alias": "3993"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32484708322242,
+                    52.5278026504991
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E58BA6EB270C40D8A1F4AB649B532FAD",
+                "alias": "4303"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324795524581877,
+                    52.53228780582312
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CCBEB7D7714C4519A677376D06C5BBA4",
+                "alias": "4305"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328037450338865,
+                    52.525748059526734
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "329E9592B9424C95817B8A3E71C16C22",
+                "alias": "4669"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328089649351927,
+                    52.525930960017575
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "AD0309758E3C497A86439B4A3708205E",
+                "alias": "4671"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328697093753632,
+                    52.527383014602826
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C18DC3BCB5C944C0B2C4DB70F8F55E08",
+                "alias": "4673"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328564218704242,
+                    52.53113157501628
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D5B327BC23534A7C8E032B4CAE35557D",
+                "alias": "4675"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32843959058989,
+                    52.5329476244204
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "525856DF893D411FBD31DDB72AE42681",
+                "alias": "4677"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328386531628613,
+                    52.53377683933262
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9DEDB56E42C54A8090524B3C51975BD4",
+                "alias": "4679"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328306733044199,
+                    52.53475552265972
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B9053ABB70604EF1B4645BC60D091366",
+                "alias": "4681"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3279848837551,
+                    52.535361298175374
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "917A34B2C02F48658C1E1F0E0AAD5322",
+                "alias": "4683"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32657486635286,
+                    52.53713411897281
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5476C78C57764FE69AE700014CAFADCF",
+                "alias": "4685"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343258390862484,
+                    52.53182580625045
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B2C0CB0E836F463C9EF0196D06133471",
+                "alias": "4937"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347155693560465,
+                    52.53076947881549
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E32E8F02490D4054900F00B829E20573",
+                "alias": "4941"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338536493070372,
+                    52.52111632649554
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5A8C1F2A12C1424C8F1C4ADA5339A0D2",
+                "alias": "5339"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30637936154358,
+                    52.51921024852141
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7D3D85CB06034F7E8DCEAC9F8CEFD1DC",
+                "alias": "5907"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339962509460406,
+                    52.52638537338175
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "50FDF33B69F04724B6FD02807E67C0F1",
+                "alias": "5963"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337655502254206,
+                    52.52653768196573
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "AF49B4F91B5545E0983C9CE484960741",
+                "alias": "6085"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339465169432273,
+                    52.53394099650828
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8C1B861B9FF942C7BDD96C46F67DB06F",
+                "alias": "6091"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337620461746639,
+                    52.51979919438428
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D95F8C5CF6124BF0BB1A9AC63948E215",
+                "alias": "6747"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34210467959369,
+                    52.52323103108534
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8C8D78C9814145799ADB01B046894876",
+                "alias": "6751"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31518231825821,
+                    52.514680166703414
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "45BF1BFF9AE047B9A93FC793FBF616D2",
+                "alias": "7023"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316476671404242,
+                    52.5163085982747
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DB96C602C11C410080C34DCBAE89E2A4",
+                "alias": "7025"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31768444315451,
+                    52.5178423339547
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F5034435E714436B8B34C07BF4B683B9",
+                "alias": "7027"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318828404030452,
+                    52.51921100488956
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BBA853747E674E98A7DBA66D6C58AE3B",
+                "alias": "7029"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.344756692995299,
+                    52.522480162150686
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B8B5C74D5AC742649653CA7BDC2C052C",
+                "alias": "7183"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338535115000008,
+                    52.517942251366016
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D57CDFF7096C40068090A4B9F620B77C",
+                "alias": "7425"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.319705290718373,
+                    52.519685564082764
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "417FA54060A74ADEAE35382DA881F7E8",
+                "alias": "8197"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.321233024259014,
+                    52.52083184825995
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0FBC6055F27D468CB280D8FA8B9D725E",
+                "alias": "8199"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324395290818813,
+                    52.51693286848637
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B3BF0F69B29243A8B8CC20739AE1B599",
+                "alias": "8827"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33572464910543,
+                    52.52053780700824
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "64F0FEFD2E0744E78C4AA8A09FADB36E",
+                "alias": "8973"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.333313145573833,
+                    52.526942032044225
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6F68B02429774D57AE4FDA742DBCC56F",
+                "alias": "9147"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33474924954743,
+                    52.53303545431742
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8115EF05D1DF47F9896B957A41DF3DE4",
+                "alias": "9151"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330818524350942,
+                    52.514023062009635
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "68CFAB64A3B440418F25983377375A7D",
+                "alias": "9255"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.332768048523418,
+                    52.51656932526213
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "785161116E80420D8575310F87CDC2C7",
+                "alias": "9259"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32441252799457,
+                    52.52669241493194
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "11CBC595136A4F8CA1ABB665BD4BD189",
+                "alias": "9303"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.342403184646088,
+                    52.524109182427736
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3F00984FE45A487BB031A2AF8294F203",
+                "alias": "9493"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341361906787817,
+                    52.52064474418915
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0CAF921B95304649BC1FDB3DED5FBE4F",
+                "alias": "10141"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34503416921043,
+                    52.53911459876933
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3B3660BA47BA48D88A9786CDF614DA60",
+                "alias": "10259"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.325044925015485,
+                    52.51750510702065
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5073F772F5D04A3FB06547D4F4319775",
+                "alias": "10459"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32596181771133,
+                    52.518620707703214
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DBE22C51D06849B597DA5E6F1B6BDA00",
+                "alias": "10461"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328513106797717,
+                    52.52230685531474
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F6B2D9C4C1204BCFB7DBFE52A5FCD739",
+                "alias": "10463"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318158774049188,
+                    52.51580161092804
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "161535164B444CBB9C15778C6DC68846",
+                "alias": "10499"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32242777739539,
+                    52.51451261864641
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "406A2686A3DA4B3B9C7BCDA5FF95AFAC",
+                "alias": "10501"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318910087447172,
+                    52.53985556519375
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4B62AE3BB5BD47468503E92588E33E3E",
+                "alias": "11075"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32615292266638,
+                    52.53884748197377
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "ACE798998B144438BAB8058C2B256D3C",
+                "alias": "11077"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313201028972315,
+                    52.53006510267054
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2657FC9723DE4A87AC23617852090C97",
+                "alias": "11283"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306527258824858,
+                    52.52883591228886
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2BD11E4FE5464B8E915FF684D02D9BBF",
+                "alias": "11285"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30610716374816,
+                    52.53142952946852
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3F597B871F2941659FF0FDD080C573F9",
+                "alias": "11793"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312709317318538,
+                    52.5322364038767
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C03A5636E9BD40168FDCCBB0FB34F9DD",
+                "alias": "11795"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312695049814694,
+                    52.53175648168366
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "32710161756E4D4995759A746427DE06",
+                "alias": "12211"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31472845574394,
+                    52.52576822393786
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "620BC597181448C6B24FA82E2E3ACCAB",
+                "alias": "12213"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3296586535932,
+                    52.522915892906354
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E42B30EC0E104BF6BFCAA2FB0B96795C",
+                "alias": "12307"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329545507035768,
+                    52.522762098862124
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "17F0D2C4744F44359BCE79DDAD466DCB",
+                "alias": "12309"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330176654547264,
+                    52.52564991742007
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5830F2A1070242C982ABA48398F1A031",
+                "alias": "12311"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330562005841823,
+                    52.527196957356864
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5181862867F94405BFAA87C70127FF89",
+                "alias": "12313"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349117143177539,
+                    52.51443337658149
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "1573CAFD675F45EA8364FFD467738E3A",
+                "alias": "12705"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.350251132139478,
+                    52.513908103517444
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "901944AFC98F40749C1E3C36D409A848",
+                "alias": "12707"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337969489792455,
+                    52.51367278030028
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5AC6CBF910514AB3B8A3476301BD1636",
+                "alias": "12709"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.319492182804836,
+                    52.517243830226185
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7BE24733A2B0402E97A5EED8F54DBBF3",
+                "alias": "12895"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.323554736815069,
+                    52.515925827950845
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B422B851BA17493BB860217D3E9A119D",
+                "alias": "12897"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32764524212488,
+                    52.51799707562808
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D07F1D8193FF42A1B320A58169126E8A",
+                "alias": "12963"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328304466558373,
+                    52.517235771905185
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D70B2AADC9444B098A10A0AEA5D5730E",
+                "alias": "12965"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338875750276838,
+                    52.51562086839248
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6AD753CC4F70471AB27A6B30031C7D9A",
+                "alias": "13101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340681582700908,
+                    52.516904053435944
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "68C5BA12B9F54A6B8C43035009D627F2",
+                "alias": "13103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322151822862784,
+                    52.52206032605637
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3E0506ECAE6147CBAB8A3D7A43E6F659",
+                "alias": "13229"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324562186074031,
+                    52.52248077283623
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "FD748E2D174F46AD80CC446FA9B7869E",
+                "alias": "13231"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311647417594326,
+                    52.523900308587365
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "11AAEC23521A4503A12663449BBC4AC9",
+                "alias": "13417"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306737159521816,
+                    52.515730947461456
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2EE5C81797F644FDABA534D013F247EF",
+                "alias": "13515"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347175968544517,
+                    52.532930112150744
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "819DF3C17B36434DBAE6A02F9A67F348",
+                "alias": "13571"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348548597308557,
+                    52.52200410755295
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "17E258296A2A497CAD81F7EC4B5C8F43",
+                "alias": "13903"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322389993508452,
+                    52.521138471668074
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E4473647776145A3A222550B1D34297B",
+                "alias": "13925"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324945658387954,
+                    52.52158439306088
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "EE294AF1AC394D8792DBB3220C5A4713",
+                "alias": "13927"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328060951185787,
+                    52.52215614749004
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "364777A441F0438CBE9B8250C1A3C504",
+                "alias": "13929"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341897792408792,
+                    52.52240741047975
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "92DFD59A524E42D98048BE28AAC0F922",
+                "alias": "14722"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348827231719515,
+                    52.52063672706168
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3EBA1CDECA6742FE80B0C85E395A01CB",
+                "alias": "14724"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32679738486253,
+                    52.53962376764738
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "FC65BC95A3994AAE8D6980D1CF8B887C",
+                "alias": "15010"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31466425898516,
+                    52.52962392631349
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "1ECBC1D4597B471C9CF6E177296602A8",
+                "alias": "15076"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.317066840545246,
+                    52.528794457749186
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "10606DAC7C1F4A1F938914101444BEB4",
+                "alias": "15078"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.319450386942975,
+                    52.528375227454674
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3272A5C4A8F94B7AA6B589FDDC184447",
+                "alias": "15080"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326776728998786,
+                    52.52760337505717
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4369376F435143D3B93644FEB411A28E",
+                "alias": "15082"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309845582703256,
+                    52.52574110759479
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9F719E6458D14CA5BFB6DBC0CCC1A56A",
+                "alias": "15140"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309909392125865,
+                    52.527315983135246
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E798AD42267D44F488D8B01B2C21F482",
+                "alias": "15142"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3337538766329,
+                    52.52133502809591
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DC05B2EB375A4279B7283DC26C1BAEF0",
+                "alias": "15530"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339142102305093,
+                    52.52641978426854
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0773DFBF26E64BB0B4D4E7A938E19E29",
+                "alias": "15694"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337021938576603,
+                    52.51461351715732
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6E54D8B9799B46C1A9C3AA5A4CE97BC9",
+                "alias": "15712"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337878323084883,
+                    52.514539921166616
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4C5B6528D0654F538D880CBB0FC711FC",
+                "alias": "15714"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306097047125164,
+                    52.525723488696165
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F4C5DB3511214FA4AF3F7FA5821777B9",
+                "alias": "15850"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311814729218606,
+                    52.52575494315871
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D427DE5BA10F499C90950489A4347327",
+                "alias": "15852"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313527467046503,
+                    52.52576776817257
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "EE83CD3800C3416B9068EFBBB0FAF3CE",
+                "alias": "15854"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313752862688764,
+                    52.52576384354422
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "EC83895B3F1A44B98CF9DD02D062CC17",
+                "alias": "15856"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316019795825593,
+                    52.52579095987643
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "682A12F1F5514BF28CA14C0C1F88CF34",
+                "alias": "15858"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318298812261599,
+                    52.52580714674035
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "18999B33408A417F83B2DBBB8AE588B0",
+                "alias": "15860"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.323908355762894,
+                    52.525425836121
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "83D238A4C80449CAADD47C6BA1FBE447",
+                "alias": "15862"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318489526464454,
+                    52.526251871528785
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "AFC197635A2D47BA90F57D3B16624098",
+                "alias": "16536"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315697592303518,
+                    52.52670861561278
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "21ACF7D21AF949AEBFB37AB65E0487F4",
+                "alias": "16538"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309500074867358,
+                    52.513540201123185
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "14EFDDD5C2CE4BABB9A9D723CECDA6A7",
+                "alias": "17398"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310496754303276,
+                    52.51617913615626
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DD69783B433E418BB8AC17FFFDEE4853",
+                "alias": "17400"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330210061416594,
+                    52.52273941803488
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E1A8BD7EB6B34831A64144B8781854EC",
+                "alias": "18171"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331535823125451,
+                    52.522187474594574
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5AB36565C904421A81F19C26F7F70513",
+                "alias": "18173"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313479245961654,
+                    52.51521566142128
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F113822FE2204902B37A95C44EC6BF23",
+                "alias": "18541"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345347847230869,
+                    52.52986337905053
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CC6E1EE1D0774C98A9E3730DEE73AC9B",
+                "alias": "18603"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345382397742531,
+                    52.526248902992734
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BA4AA11E5B3441DFAE202D55DB22A49C",
+                "alias": "18605"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31739852098789,
+                    52.51398149446636
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "303B6DBA45884B648194F29B402AC8C1",
+                "alias": "18967"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.305983069496994,
+                    52.531865879179065
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "434FCF9DD57D490CA7EC78A7780255C2",
+                "alias": "18971"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322012749646362,
+                    52.522785188518654
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "52DF6791708E46F6ABEFCC51D17EA4BB",
+                "alias": "19661"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314392928500784,
+                    52.53034128995204
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C0F69BDB686D46C2BFBD8E3AC417EF96",
+                "alias": "20013"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339929869881404,
+                    52.53980575798372
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6A37059515CF4B26A84919049AA2CDF6",
+                "alias": "20295"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335461305111544,
+                    52.52673797468459
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5B8D7D7AC47D433BAD7CA30513758078",
+                "alias": "20443"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33581048529725,
+                    52.52856765755467
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B72918FDA1524B0AAC64F93BFDD45F18",
+                "alias": "20445"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306552387015142,
+                    52.51742189562032
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2DA14E4F00FD4D0391759FD37E6C9FBD",
+                "alias": "20751"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322326995563037,
+                    52.5231499530393
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "29E20AA439E1471F8DFB7775D50FEBE6",
+                "alias": "20899"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322852962985374,
+                    52.52336518281623
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3E724F7FFB8C4580A9DB8367A514DFE4",
+                "alias": "20901"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.323936309390783,
+                    52.523299654616366
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8EDCC90B6E214E8DB1B50228665EFD9A",
+                "alias": "20903"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324405321709296,
+                    52.523012380571316
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "31933BC95C054E768E7E1A9CE84778C9",
+                "alias": "20905"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34326155137645,
+                    52.528814485625176
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "94012506B59F4005A827246DCEFD8D80",
+                "alias": "20977"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349302326573003,
+                    52.53186183256198
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "39F1D7BCA6CA4EEB858E1D78270AB639",
+                "alias": "20979"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30789365357489,
+                    52.52324324226018
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CDA350E72D9A4F37809C281732136223",
+                "alias": "21495"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341199212067965,
+                    52.534177360844986
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9CBA86BD6C4B46AAA2C3D7CCD24F53DA",
+                "alias": "21513"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30687164310508,
+                    52.51480288115358
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "272E3625E7994336904FE2824EA75534",
+                "alias": "21911"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307033094791427,
+                    52.513493459210224
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5E80E974AC5542318D770B8DBAE94BEF",
+                "alias": "21913"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31435213657975,
+                    52.5197862003209
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9399BADD16754951A592B1FD808A0F8A",
+                "alias": "22083"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326593635463313,
+                    52.53262883251652
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "79D0C88B8A1E4F54908032EFC2AAFA2E",
+                "alias": "22201"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32611489957737,
+                    52.53837736143007
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0384BEBCB83C41F08E299AE92EBF9004",
+                "alias": "22429"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307648692359379,
+                    52.528595008553324
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4BC7AA2E09984F5195A4344575763456",
+                "alias": "23039"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313221174028948,
+                    52.52656541347412
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C451BA197DE248E8A7D7E03FF3F6D473",
+                "alias": "23041"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326365971561636,
+                    52.53768468026944
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DF0D1F31988D43A38B837131D28FB65C",
+                "alias": "23189"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326234857988405,
+                    52.538015600777335
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "40DD9DCF915B428CB7B6BA43DA70B635",
+                "alias": "23191"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329444493451584,
+                    52.53915743849661
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6AFCF661550C485DA65C30C480E58D3B",
+                "alias": "23193"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330170193397961,
+                    52.53939677289782
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3BFCEAAD163D41F997D0864DF5035BD1",
+                "alias": "23195"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.333274885066766,
+                    52.54070908585633
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "465F7B423F66402F9A61DBDC03B7EB75",
+                "alias": "23197"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316723755113124,
+                    52.530776803759586
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "50A7E8DA92BB42D4A22AD0AE48D98FB0",
+                "alias": "23329"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.319043134259582,
+                    52.53121203026042
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CEAFB01CAF41400482DBE610F3BC9F90",
+                "alias": "23331"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331826240535918,
+                    52.532760888093456
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4E8F08743F2348AA8F7CA0627CC75BA0",
+                "alias": "23351"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335710715520602,
+                    52.53312091767884
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A6CB410C31304FC890D6A0ED4AF135EF",
+                "alias": "23353"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336893430143265,
+                    52.533386929714474
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9B89480417DF4460BC2E1D905A83AF5A",
+                "alias": "23355"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343171153395744,
+                    52.52629363991733
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DE5C0DC551D14B86AEC764B7E50663BE",
+                "alias": "23715"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343268829048151,
+                    52.528089674205184
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B4F38609ADA14A1E95128A1B46BAB825",
+                "alias": "23717"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310134153218145,
+                    52.53944865141408
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "FCCAB492BC7F4F7788A248CBB215A8C2",
+                "alias": "23971"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.327980941978746,
+                    52.52237709868799
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F2C5FE0C03014CB9A11F8BD8F2FDCE0C",
+                "alias": "24163"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34135720325191,
+                    52.52633729996366
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F9BEDB127B3F4AA5A732E8BB3A15CCC2",
+                "alias": "24221"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334342998618347,
+                    52.51520365651618
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3F9D833DFE584CD9A22F9DB418BB91DB",
+                "alias": "24605"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311786371920837,
+                    52.52610689048594
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "30BACAC7E96C4F18809E5950ADEAE32F",
+                "alias": "24743"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341468249402167,
+                    52.53753293899181
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F9F96C3A3C464EA4B025730987EE6E73",
+                "alias": "24771"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329940379887844,
+                    52.52238381405359
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "068F38AA66414910B6736D35478ACB57",
+                "alias": "24837"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306161168089735,
+                    52.52648982207587
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B45F0F5D17B04BD1B31C9294420F9DE9",
+                "alias": "25313"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314852205868847,
+                    52.519694055329424
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B39A24F7D83047498728AAAD38091BA1",
+                "alias": "25607"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.317837746901255,
+                    52.53831042639659
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "31010EF3174A4AB88AE469A4F91FD8E2",
+                "alias": "26038"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.327848619822067,
+                    52.53517278707838
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B274AAB2703146FF9AA3A54657384F9D",
+                "alias": "26104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32823487110539,
+                    52.535370565773135
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "89D057CE86F44634B5597C8A73F312C1",
+                "alias": "26106"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326417899124896,
+                    52.53686584274083
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "88081978C2814485A1CD2A5C02C2A27C",
+                "alias": "26108"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.327084518736159,
+                    52.536796534063754
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CDC068B3C58745E7BF1E724B2691326A",
+                "alias": "26110"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324615656596468,
+                    52.536837902300974
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "611A1D452E084EBEB7F1049C5B7A85B9",
+                "alias": "26126"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324674092865864,
+                    52.53669786027978
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "756D9C75D87B47EDA6E53FB96509C961",
+                "alias": "26128"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326241610328905,
+                    52.53505190239104
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DA9737670C334A1FBB6E5F268D7C66AF",
+                "alias": "26130"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326258641072082,
+                    52.53493152518565
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A607F7D500A9445EA6A9A5D7ABB7AE7A",
+                "alias": "26132"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326792177922783,
+                    52.523217043249275
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "FAD09C42F3FE4380AF22C94182AFC3CB",
+                "alias": "26230"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347402533363145,
+                    52.513896116514296
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0B83B0FE092641B38672CFF6CE019F6E",
+                "alias": "26500"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315139233294376,
+                    52.53955250585957
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "18723686DAEE45F68DFCC9555BF4A532",
+                "alias": "27506"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31645398176139,
+                    52.5389161063888
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B53B7509B9964AC2A0D4ECB20A53F462",
+                "alias": "27510"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312861310089781,
+                    52.53904235386956
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D0C38D0AF73040D7822AA75060AECB79",
+                "alias": "27512"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306403021826611,
+                    52.53557244303016
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3638718A5B774B3CB4D98F8B1AECF3D7",
+                "alias": "27672"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306850136219502,
+                    52.536916246706625
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6D8689EE877747AF9CAFC4FA34A80913",
+                "alias": "27674"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30689743554455,
+                    52.53730369640356
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C0A15846610847B6A5772B02D6F156CF",
+                "alias": "27676"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312120523881626,
+                    52.53689708987354
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "42452DBCAE5D4D288AEB69ACCA800687",
+                "alias": "27738"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31237894805153,
+                    52.53641160022435
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F34EDA50922F4E3DA137E0F0CCD4CF23",
+                "alias": "27740"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307378636617733,
+                    52.53944020680284
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "465E9876CC714D0CB5B89D8D7A75D02A",
+                "alias": "27804"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307089788971796,
+                    52.53801235830455
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "10413FF4EDFE4294825B4671EC399AC4",
+                "alias": "27806"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.317187725129898,
+                    52.537479270035995
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3B439398419B441C95916FE6DBB77B95",
+                "alias": "27898"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310864268552553,
+                    52.53944953823245
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C5BA68CAC743424CAF629BAAB0025245",
+                "alias": "27900"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306979446954518,
+                    52.53757890721251
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "661E29F414764FCDB987D23C8E770402",
+                "alias": "28022"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312926102820295,
+                    52.53760017755413
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D9A6C23E3B404A8F915D430E55EC78D4",
+                "alias": "28024"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312437454108434,
+                    52.53978352400016
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "ABEFFAFD930E49BD971B33A11B9615E3",
+                "alias": "28040"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312732440635887,
+                    52.52629542125408
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "1C63D396333D47F4970FCF63D64BCF41",
+                "alias": "28214"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326914166012873,
+                    52.5223932794053
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "EACB3C6A250F404EAB290F59A1CA1FB0",
+                "alias": "28320"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31203364535041,
+                    52.52118468035423
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3E32069C728C42B487B5BDBCA3B81B04",
+                "alias": "29176"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.35021917937997,
+                    52.51926682493239
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "69F38D7FF34340EF834B1FE74E84742D",
+                "alias": "29422"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347723764336685,
+                    52.51550997040931
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C07F5BE5A1824AFD8A59C632A062D538",
+                "alias": "29843"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347192628519364,
+                    52.51471070852968
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E4DF17F69B09440A8FE2A6D500871801",
+                "alias": "29845"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347260028897255,
+                    52.51430197614093
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0C22E285CE074A19BD00C782BD6B33D9",
+                "alias": "29847"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349442060628718,
+                    52.51610172332745
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4FE1CFCAE77C43C48FAEA39EE7C7DEA7",
+                "alias": "30233"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347685212715573,
+                    52.5176477956592
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "79399D3651BF455897AA952D4F00D79C",
+                "alias": "30235"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349177140993849,
+                    52.5160642587819
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A8FCA4E035B249829BFFFECC1FA9512C",
+                "alias": "30237"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349899952051222,
+                    52.516139637668736
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E7871504ED0E4F87B8AE47EE16DBED63",
+                "alias": "30239"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34779783896578,
+                    52.51894123412652
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "91B73D47E7144541A2A0C9B5C1527290",
+                "alias": "30243"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346698407423803,
+                    52.519475145162815
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "83B6EB3534BE4A9DB23CA84EC91E0278",
+                "alias": "30245"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339859036150935,
+                    52.52413094404506
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "049FE7C1D9AF470AB23415E2C194315B",
+                "alias": "30379"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340742161274848,
+                    52.52449523617657
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7D5DF1C2C3ED4A0FB98818B8FA64A3E0",
+                "alias": "30381"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340301353764026,
+                    52.52567231669829
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "58AF2808D0FE440E8237366AE4531B78",
+                "alias": "30383"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345626944176198,
+                    52.525330082236025
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E44DF369E81B4FA9A4AAD0E12C0DEBEA",
+                "alias": "30385"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345386937739562,
+                    52.525999015292264
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "031F828A32CC455DBD012A6CDA6B1F74",
+                "alias": "30387"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34558353623874,
+                    52.524974109904235
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4D692A6F45AC45B6BE3956BD03546D6B",
+                "alias": "30389"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348186039297369,
+                    52.5246594259853
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "14DE5A08425B4307B28E96B708CB3787",
+                "alias": "30391"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343221802090474,
+                    52.51486484289924
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "AEB28E7959984CF4A997758DB6F9DEB2",
+                "alias": "30393"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345902582471238,
+                    52.51627942154089
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "61FC507E06F04DF599DBBB03A1619415",
+                "alias": "30395"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343360082284166,
+                    52.5144347141724
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3A3C280F05D74F42B4AB5C469EC87ECA",
+                "alias": "30397"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348259312925508,
+                    52.514678169078664
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "21D18C32DDAA428294D686AA198618B7",
+                "alias": "30401"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334022938257888,
+                    52.51504290540618
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6AB6C55FDC2B43AFAA57D84E5367BCA6",
+                "alias": "34189"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329098058430548,
+                    52.518172373861795
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5D5E19A36F8441D7867ABE9CD7DD548F",
+                "alias": "34359"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.32103020339963,
+                    52.52382690486685
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D2D1FB8673FD4A90BE85531E5EE85873",
+                "alias": "34993"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.310215168996525,
+                    52.53378176123251
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BFC0588C945C4DA5B0F1D5A06C5794F5",
+                "alias": "35593"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.305844405878476,
+                    52.53274554694044
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "72B19043AE7043CBAB1CFB24B35C13AB",
+                "alias": "35595"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31047275003068,
+                    52.53197524314432
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A2A8B3842FC340A6BE842764583A861A",
+                "alias": "35597"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322434973091239,
+                    52.537377591800215
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0BE0E763E9574BE0B003A319DF5D2D45",
+                "alias": "54943"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322344189983603,
+                    52.53755085669772
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8612B8EA049F4065BD2A9F8470BC726E",
+                "alias": "54945"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318902026446008,
+                    52.537018224887895
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D2AEF7B66EC4480CB03324E2DC647524",
+                "alias": "54951"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.318907074800055,
+                    52.53689457024043
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A572DFA4B7CB4AFE86D419D34703B0F6",
+                "alias": "55385"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348413450541722,
+                    52.51403738932232
+                ]
+            },
+            "properties": {
+                "EBENE": "-2",
+                "OKSTRA_ID": "DB14516442D84454BAF21114F33C2554",
+                "alias": "55973"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349574917627267,
+                    52.51446752534997
+                ]
+            },
+            "properties": {
+                "EBENE": "-2",
+                "OKSTRA_ID": "D5B577F89BFC4892A5F9FA4DE881112D",
+                "alias": "55974"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348332231521502,
+                    52.51437482000018
+                ]
+            },
+            "properties": {
+                "EBENE": "-2",
+                "OKSTRA_ID": "F0250508511F4105A1A3A1BB5C080F5D",
+                "alias": "55975"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337499543173179,
+                    52.54079849757411
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C5EB34DF22A54A46A466339132D8DAAB",
+                "alias": "56173"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338550117609966,
+                    52.539978271519445
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4B3FA98E742849E8A562DCDA92F2BE6F",
+                "alias": "56174"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33620488879099,
+                    52.54067059889294
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6C0EF40DC67E44FA878D227148D7B649",
+                "alias": "56175"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339143179020084,
+                    52.54035096721593
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6AA831CBEBFB4DEB801985BAE0294D03",
+                "alias": "56178"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328142006160622,
+                    52.5185914600948
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "14942720C2EA4B2D9E794662B55F110D",
+                "alias": "56633"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341312027981397,
+                    52.52477347204958
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "672891E0C6684B65955F4D16F40831DE",
+                "alias": "56707"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340512973722221,
+                    52.5248865308281
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DE6F271182864F73AB6D877EFA4E98DE",
+                "alias": "56708"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341609519731113,
+                    52.52603494259674
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "64E9BCC5A2B14331BD9CC83F581F826F",
+                "alias": "56768"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341344292197531,
+                    52.532310612277236
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "17823384D2DC43D18078D7CAE547E7A4",
+                "alias": "56869"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322007197704718,
+                    52.517754011840395
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A9C180751CCF49479FBF5E32A09BE4B4",
+                "alias": "57238"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.328044786296214,
+                    52.51548465626726
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6F68AA18CC004DB8AF560CEED22AF79B",
+                "alias": "58484"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3272869931092,
+                    52.51623757621379
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6A58FF624E6A4ABCBD76A66B15D5158D",
+                "alias": "58485"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326578449072262,
+                    52.516719992066925
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F3195E6F572A4FAD9B3D65A8B32F0BAF",
+                "alias": "58486"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.332275582837426,
+                    52.51589882154948
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BDF042676E9E4E529E2D7865E2D17C1B",
+                "alias": "58488"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329391850229209,
+                    52.5166717282473
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "50B6214D969E429FA27FAEB603B07A86",
+                "alias": "58489"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313576667980568,
+                    52.531904873117874
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9D5CF3AE3739403ABB8B11BF0C489F52",
+                "alias": "58546"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31099770482248,
+                    52.51811128979104
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "79619D225FAE423697A483756DD30401",
+                "alias": "59068"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31155146336745,
+                    52.51785691764729
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7A44434A5BA54BA3B9FFED319C79F25C",
+                "alias": "59069"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313747577715493,
+                    52.51817192068947
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "64ABAB8AF7224525B9898C27A9BD74E9",
+                "alias": "59070"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31330566352521,
+                    52.517644639812296
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "69D9255B88AA4DCAA7D2BA59711CEEB3",
+                "alias": "59071"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311951682041892,
+                    52.518403236387776
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C4E45CB99CFB4B84B455DE86402B96CD",
+                "alias": "59072"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3120723630969,
+                    52.519298835160356
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B0B7006326E64940865405DDA2A0FAD8",
+                "alias": "59073"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306500735188548,
+                    52.51811233415855
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "28FC120295014DAEAB53026FA9B88DD4",
+                "alias": "59077"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308156334201707,
+                    52.51833584707664
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D8EA5C7179434C5AA49D4D5BB715E4C2",
+                "alias": "59078"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308554946199672,
+                    52.52006507025451
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "79986C7D85C74DDD90D300785C79AFE5",
+                "alias": "59081"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312139340741185,
+                    52.52025720457584
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C495B6D1BE0D48D68E2BC673EFDD20B6",
+                "alias": "59082"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315389354559624,
+                    52.517951963458195
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "47293F5E419A4730B6107264C9621E3C",
+                "alias": "59083"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314614757941584,
+                    52.520913358256735
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E3C414A5D00C4B9DBB01E35D413B3589",
+                "alias": "59091"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315672308739627,
+                    52.5231639994648
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "0436BF0E5E3D4E438A18A8E2C8DF0F49",
+                "alias": "59092"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314440765808131,
+                    52.52316608912528
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A7AA1E2A38E644F5B74925E9A9CEC06D",
+                "alias": "59093"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313342747347317,
+                    52.5231950478581
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "59099B3CDBCE40DAAA96A103EC064E98",
+                "alias": "59094"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31642340709415,
+                    52.52111573995731
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "55118CADCBF841FEBFE74A39B9ED7EAB",
+                "alias": "59095"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311724791294836,
+                    52.52457791222332
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E04995197124483986A7A312F4ED0FDA",
+                "alias": "59097"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313459571940246,
+                    52.52457410323279
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D74015E82571496E988B3B98914B196F",
+                "alias": "59098"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309839949700011,
+                    52.52460453109794
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "ED177C17807A4DE2BE5DCEB1A9FF72F6",
+                "alias": "59099"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.315162534601594,
+                    52.524560894855924
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5A8CE84C89F84A8F9C584CCEF9F41C6C",
+                "alias": "59100"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30799610521352,
+                    52.52462992198564
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2ADE51AD10A943AD800ACFC5BC4995E1",
+                "alias": "59102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312055065569902,
+                    52.51366514969167
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "1585903AF11E489EA49B024C799420D9",
+                "alias": "59109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.320035849347896,
+                    52.52311311470018
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "578B317154964B78BE556C96B08569EE",
+                "alias": "59156"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.306278275437162,
+                    52.520271964517576
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "649FF49C69E043528A616F6720ABB1BB",
+                "alias": "59165"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309822595378723,
+                    52.52392017541169
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A5E00A5B589A48A5B5AB3F11D45BE2B3",
+                "alias": "59276"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.309789661368347,
+                    52.52325420391577
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6E6EAA6FB8784FD1841AD86827299C49",
+                "alias": "59277"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311592382091467,
+                    52.52323176700705
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A3F7D9C5F65C420FA7ED9FA2163141E6",
+                "alias": "59278"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322429151713946,
+                    52.524370283480735
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6E27B12C7C7F4BA8BFA3CEE80EEB798C",
+                "alias": "59281"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324836684877106,
+                    52.52416486460342
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B6440CDCA31043369D1007F810C2EE77",
+                "alias": "59300"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329908151518893,
+                    52.5173010977553
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6043F8BFCEC2409781D5EF0555186B1E",
+                "alias": "59304"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.305738660033024,
+                    52.53404157223973
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DC3C7C27C4374B40A2F78C799B717950",
+                "alias": "59305"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.312478494057613,
+                    52.51322335853954
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3FCB3EEFDBE547C9A251479432480EF2",
+                "alias": "59385"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.348751806619601,
+                    52.538904226352145
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CC80D535D60C4C6AB95705443386A05A",
+                "alias": "63819"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346792055667857,
+                    52.540389844875044
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "AC62BB2C58574AC6BA025675621E7050",
+                "alias": "63820"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349670750016333,
+                    52.53510367373474
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9055CCD3446242239A947D170D087E88",
+                "alias": "63823"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347134003169415,
+                    52.53481848714458
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "159DDAD6C50E4C80BB6400D4FD015594",
+                "alias": "63824"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343334321063809,
+                    52.53222707196989
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D63146B96D6F4EBDBA5F6348422D4780",
+                "alias": "63825"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345367901177104,
+                    52.531261142688614
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E7AE67632B74416482E0C64AAB7A8B29",
+                "alias": "63826"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34720029633556,
+                    52.53107978476086
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D811F3754E1C4FC28B48CD9410E25105",
+                "alias": "63827"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.345822420261387,
+                    52.53307546019849
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D07D078BA2874BA3B6DF8B54673664F2",
+                "alias": "63829"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347164188142175,
+                    52.53370320560384
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "555C4B8758BD44D389A704A908C5BC60",
+                "alias": "63830"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343662206954676,
+                    52.534087203133886
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "721CC38CCE124AD897F3D2F070FBD97E",
+                "alias": "63864"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343410416456997,
+                    52.53414698844574
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "762EDEB93CFD4BAFB5C5CA9C91FDFBD6",
+                "alias": "63882"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.343159000835634,
+                    52.53437337233325
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4A681E34EE904E64A5FCABDB6DEC8E81",
+                "alias": "63883"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.342760969003038,
+                    52.531952935923634
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "DB6135CBA12D40498D77C81B59D00B8A",
+                "alias": "63885"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349887195793881,
+                    52.530069379688506
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A5CCCAD5308C4C408E14A33327705DF0",
+                "alias": "63912"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349898181260007,
+                    52.52821326713753
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "65F767A0E6D84FE99D069200172091E9",
+                "alias": "63941"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341346198337334,
+                    52.52811036077656
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "181CF5E1124B40AE8ABD61113BC9C08C",
+                "alias": "63954"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3413215071753,
+                    52.52991196134065
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4B3F32361B3F436386262F049AD2A38A",
+                "alias": "63955"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340006111758651,
+                    52.53003037518871
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D36B2D0D51DF491B85AE5DBD5C3360D7",
+                "alias": "63956"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338534295337007,
+                    52.53016672771949
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "99D99AF1B7EF444FA0649412E1859A0A",
+                "alias": "63957"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340102362713518,
+                    52.532633992595436
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5964EE58ED4F4A1E89BD18F544FC9817",
+                "alias": "63959"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339192793422427,
+                    52.532873645316016
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D0D18F9B333C434BB19492790D32454B",
+                "alias": "63960"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338103764998175,
+                    52.52834557966595
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6B4B18A186CA4E1C9844314B62317BAC",
+                "alias": "63964"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339281968626812,
+                    52.52823603838361
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "ABAF757CE7224F9FB29C72BDB8DAF8A1",
+                "alias": "63965"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33997478181744,
+                    52.52817201319908
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D8E9F309D89745698B19F65F2ED334CF",
+                "alias": "63966"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337900162942605,
+                    52.52743635804859
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4A5844500CE441138156BD5FEE6A5CA5",
+                "alias": "63967"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339199821380408,
+                    52.52731187123245
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "02B296E528204E9BABEEB4DD19F9DFC1",
+                "alias": "63968"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337428498243877,
+                    52.5330276108644
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "9E4B67EAEC02402B8D5E102107DD699C",
+                "alias": "63989"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337898253699487,
+                    52.53298425253201
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A30419956E924BC29293BCFDEDE37EAF",
+                "alias": "63990"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336851174776923,
+                    52.53307841384835
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E02E071170EF410D99AD611DD57770DF",
+                "alias": "63991"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336170643956823,
+                    52.53039076134786
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C9BD18D8A5E14686BA33D886233C7CAD",
+                "alias": "63994"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334189995710352,
+                    52.530572240649576
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "991E565B423F498B89131E63D5212981",
+                "alias": "63995"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.333732352188376,
+                    52.52875069411451
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "28ADB899BC5A476E83491005899A8789",
+                "alias": "63996"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331335517153466,
+                    52.530857377398085
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7CB975741B964BBE90E9B2C333C7655A",
+                "alias": "64024"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330874180927227,
+                    52.529033388243384
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "42A441F5CB374A37BAB60270D0AC81A0",
+                "alias": "64026"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.324825689223394,
+                    52.53079038382918
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E1447CB7694A444CB1FE4BEEB38E0028",
+                "alias": "64029"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.326668788568,
+                    52.53094492075099
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D85889DDCC3F4B7184EE09133AC87AF5",
+                "alias": "64030"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.317046694361329,
+                    52.522701146087066
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F8CF51D96A1E4FDEB7F2C5AC75050100",
+                "alias": "64036"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335136849304495,
+                    52.52544300696243
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BC410429C2F9475E867C966F8BCC1220",
+                "alias": "64041"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338051792316213,
+                    52.52370099329034
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D9631299FFA6456C898AE07A11C164E3",
+                "alias": "64065"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336061330394923,
+                    52.52342799358435
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "573488E2C00746F995B383E4B47A2CD0",
+                "alias": "64067"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33589486200623,
+                    52.521950731101256
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "C18E1DB7A51F4767AB5A242E63A46451",
+                "alias": "64068"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341513963309705,
+                    52.52321431488774
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5F81914645494445B5D1931D9ED4CBC0",
+                "alias": "64075"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339621731419667,
+                    52.523956165001565
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "3CD55A09E2F6410F8E12C9F176CDA1AA",
+                "alias": "64076"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339844351154104,
+                    52.522810277749905
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "B078E7C7F27645C89334E5323ECF54B6",
+                "alias": "64077"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338385372560923,
+                    52.521992866392786
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "24311FFB9A254A6480C08FBF0D0F8012",
+                "alias": "64078"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.3303924124758,
+                    52.52147594284433
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A0B1D07662A4400D96DAD4D49D001F62",
+                "alias": "64081"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330405971147758,
+                    52.52039848879831
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "7CA9ACEA7D0D41D89D81F68714132BC0",
+                "alias": "64082"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.330135378508903,
+                    52.51940980231142
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "25CB70CDB6E546BDA24FA3894D56FA3F",
+                "alias": "64083"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.332009253796816,
+                    52.51976927936496
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F25B8B8ACA6C426CBC74AEB1ADBF89B1",
+                "alias": "64084"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331114961343976,
+                    52.51897876657596
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "EF4442EF13BD4EBEAC38893A205ECEA5",
+                "alias": "64085"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.332828052987466,
+                    52.52049449097549
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "CEE4F8254A8C4441BADE362813792391",
+                "alias": "64086"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.335675294423678,
+                    52.51826747433948
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "5B769A7F167944E58855F186F2F18B4B",
+                "alias": "64087"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33391723074603,
+                    52.51897067875475
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4D1838F485DE49FD90E6312BCB258C66",
+                "alias": "64088"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334359073000371,
+                    52.51759951163021
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A3CCA0BF65EE4C29A949BB6BB79DD877",
+                "alias": "64089"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.333246739657454,
+                    52.51923863695351
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F13C3BB19F234E379C79B7ED0ABF2B68",
+                "alias": "64090"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33266179781182,
+                    52.518860217644594
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "F86A1ED7BBFA4B7CA10EF4FAA08C484E",
+                "alias": "64091"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.332223088956491,
+                    52.51849957761752
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "FB0F1A070DBB46F898C5E1E99C75910F",
+                "alias": "64092"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.336589647326845,
+                    52.51894166791939
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6924CC72C30648F2A436FD165DC29646",
+                "alias": "64093"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.334747290666048,
+                    52.51970793016418
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6B7E080000324EEAB160E2A2F951675A",
+                "alias": "64094"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33729135382668,
+                    52.518173627784876
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "6837DC8029F04106921622F19E00CE70",
+                "alias": "64107"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33655780022401,
+                    52.517668504903334
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "59A8F491C4864CB69B313B1B5846A6A8",
+                "alias": "64108"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33535418545377,
+                    52.51680706573279
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "D29CCB75C0D4491CA140EA75ABC6ED75",
+                "alias": "64120"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.337526123182464,
+                    52.51601754070219
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "8B5DE206F05C4D00B8D5FEF7AEBDD94B",
+                "alias": "64122"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34435346800108,
+                    52.518492742762575
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "A076EC0504C14C11ADE783AACCA0BFC4",
+                "alias": "64124"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339543104003543,
+                    52.51539609093601
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "BFFADC0D740A48A2A9AFCCC51AF9B900",
+                "alias": "64126"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.34543598446141,
+                    52.52031238562881
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "E7CF6F19CF6F49CC98FFEFFD5E190C1F",
+                "alias": "64139"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.342364555650061,
+                    52.52244371684722
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "4D34781EA4AD4E2D986CF10FBAC7C87F",
+                "alias": "64140"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.349725638938889,
+                    52.52120358093459
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "2ACBD20622024A608CEEEC94F37A71B1",
+                "alias": "64147"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.329805133721091,
+                    52.53309505893836
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "407CC7BAB9694468B2BEDA2F96D1165A",
+                "alias": "72406"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.341771995979352,
+                    52.534987505199155
+                ]
+            },
+            "properties": {
+                "EBENE": "0",
+                "OKSTRA_ID": "49675DBA326E4EF9A2B60D34EF845E15",
+                "alias": "72407"
+            }
+        }
+    ]
+}

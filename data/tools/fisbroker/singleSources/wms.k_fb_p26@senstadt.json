@@ -1,0 +1,785 @@
+{
+    "type": "wms",
+    "title": "Biotoptypen: Gesetzlich geschützte Biotope (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_fb_p26.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_fb_p26@senstadt",
+    "description": {
+        "link": "?id=k_fb_p26@senstadt&type=WMS",
+        "kurzbeschreibung": "Biotoptypen mit gesetzlichem Schutzstatus gemäß § 30 Bundesnaturschutzgesetz in Verbindung mit § 28 Berliner Naturschutzgesetz.Biotope ohne gesetzlichen Schutz werden nicht dargestellt.",
+        "koordinatensysteme": "EPSG:25833, EPSG:3068, EPSG:31467, EPSG:25832, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 356157,94, 5789293,7, 427459,57, 5857931,05\nEPSG:3068: -9999,99, -9999,99, 60000,01, 60000,01\nEPSG:31467: 3766018,24, 5796229,75, 3831457,9, 5870655,17\nEPSG:25832: 765839,46, 5794348,38, 831253,65, 5868743,33\nEPSG:4258: 12,89, 52,24, 13,92, 52,87",
+        "ebenen": "Biotope\nGrenzen Biotoptypen\nBlockkarte 1:5000 (ISU5, Raumbezug Umweltatlas 2010)\nGleise\nK5\nALK\nBiotopschlüssel",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Biotoptypen mit gesetzlichem Schutzstatus gemäß § 30 Bundesnaturschutzgesetz in Verbindung mit § 28 Berliner Naturschutzgesetz.Biotope ohne gesetzlichen Schutz werden nicht dargestellt."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_fb_p26"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_fb_berlinbtk_26a.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Biotope",
+                "abstract": "Biotope",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_fb_berlinbtk_26a.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Grenzen Biotoptypen",
+                "abstract": "Grenzen Biotoptypen",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_fb_berlinbtk_26a.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Blockkarte 1:5000 (ISU5, Raumbezug Umweltatlas 2010)",
+                "abstract": "Hintergrundkarte ohne farbige Gewässer- und Bahnflächen, Stand 2010",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_fb_p26?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Gleise",
+                "abstract": "Gleise aus der Karte von Berlin 1:5000",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_fb_p26?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "K5",
+                "abstract": "Karte von Berlin 1:5000",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_fb_p26?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 7
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "ALK",
+                "abstract": "Automatisiertes Liegenschafskataster Berlin",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_fb_p26?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 2
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Biotopschlüssel",
+                "abstract": "Biotopschlüssel",
+                "gdi_de": "f1f5cd17-112c-3416-9742-1b4bb1fd0480",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=61a048e6-09c2-3b8f-b5e7-59b577bf7c24&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_fb_p26?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 4
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Biotope",
+                    "Biotopkartierung",
+                    "Biotoptypenkartierung",
+                    "Biotoptypenliste",
+                    "Biotoptypen",
+                    "Sekundärdaten",
+                    "Biotopwert",
+                    "Biotopbewertung",
+                    "Biotopschutz",
+                    "FFH",
+                    "Lebensraumtypen",
+                    "§26 NatSchGBln",
+                    "Naturhaushalt",
+                    "Landschaft",
+                    "Wälder",
+                    "Forsten",
+                    "Stadtgrün"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5789293.7004,
+                            "max_latitude": 5857931.0499,
+                            "min_longitude": 356157.9378,
+                            "max_longitude": 427459.5703
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -9999.9899,
+                            "max_latitude": 60000.01,
+                            "min_longitude": -9999.9908,
+                            "max_longitude": 60000.0091
+                        }
+                    },
+                    {
+                        "name": "EPSG:31467",
+                        "boundingbox": {
+                            "min_latitude": 5796229.7458,
+                            "max_latitude": 5870655.1662,
+                            "min_longitude": 3766018.2445,
+                            "max_longitude": 3831457.8984
+                        }
+                    },
+                    {
+                        "name": "EPSG:25832",
+                        "boundingbox": {
+                            "min_latitude": 5794348.3772,
+                            "max_latitude": 5868743.3343,
+                            "min_longitude": 765839.4586,
+                            "max_longitude": 831253.6529
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.2352,
+                            "max_latitude": 52.8662,
+                            "min_longitude": 12.8935,
+                            "max_longitude": 13.9224
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Bio-geographical regions",
+        "Habitats and biotopes",
+        "Species distribution",
+        "Biotop",
+        "Landschaftsplanung",
+        "Naturschutz",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Biotope",
+        "Biotopkartierung",
+        "Biotoptypenkartierung",
+        "Biotoptypenliste",
+        "Biotoptypen",
+        "Sekundärdaten",
+        "Biotopwert",
+        "Biotopbewertung",
+        "Biotopschutz",
+        "FFH",
+        "Lebensraumtypen",
+        "§26 NatSchGBln",
+        "Naturhaushalt",
+        "Landschaft",
+        "Wälder",
+        "Forsten",
+        "Stadtgrün"
+    ]
+}

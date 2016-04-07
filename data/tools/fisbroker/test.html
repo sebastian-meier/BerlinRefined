@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet Quick Start Guide Example</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <style>
+    #source{
+        display: none;
+    }
+    </style>
+</head>
+<body>
+	<div id="mapid" style="width: 600px; height: 400px"></div>
+    <div id="controls">
+        <p>
+            #1 zoom and pan to the area of interest<br />
+            #2 select the layer of interest from the dropdown<br />
+            #3 if available select sublayer<br />
+            #4 click the load button<br />
+            Note: For some reason at some zoom levels the system does not return data, try a higher zoom level
+        </p>
+        <select id="layers"></select>
+        <select id="sublayers"></select>
+        <input type="button" value="load data" id="loadbtn" />
+        <a href="" target="blank" id="source">Download File</a>
+    </div>
+    <div id="legend"></div>
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.14/proj4.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="../../../lib/xml2json.min.js"></script>
+	<script>
+
+        var EPSG_25833 = [369097.8529,5799298.1358,416865.038,5838236.2097];
+        var EPSG_25833_w = EPSG_25833[2]-EPSG_25833[0];
+        var EPSG_25833_h = EPSG_25833[3]-EPSG_25833[1];
+        var EPSG_25833_r = EPSG_25833_w/EPSG_25833_h;
+
+        var h = 1;
+        var w = EPSG_25833_r;
+
+        var EPSG_4326 = [13.079,52.3284,13.7701,52.6877];
+        var EPSG_4326_w = EPSG_4326[2]-EPSG_4326[0];
+        var EPSG_4326_h = EPSG_4326[3]-EPSG_4326[1];
+        var EPSG_4326_r = EPSG_4326_w/EPSG_4326_h;
+
+        var EPSG_4326_wr = w/EPSG_4326_w;
+        var EPSG_4326_hr = h/EPSG_4326_h;
+
+        //EPSG_4326_r === EPSG_25833_r in width
+
+        var layers, overlay = false;
+
+		var map = L.map('mapid').setView([((52.6854-52.3348)/2+52.3348), ((13.7607-13.0847)/2+13.0847)], 12);
+
+        var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+	    var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+	    var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+        osm.addTo(map);
+
+        $.getJSON( "light.json", function( data ) {
+            for(var i = 0; i<data.length; i++){
+                $('#layers').append("<option value='" + i + "'>"+data[i][2]+" ("+data[i][0]+")</li>");
+            }
+
+            layers = data;
+
+            $("#layers").on('change', function(){
+                $('#sublayers').empty();
+                var lid = $('#layers option:selected').val();
+                if(layers[parseInt(lid)][0]==="wms"){
+                    for(var i = 0; i<layers[parseInt(lid)][5].length; i++){
+                        $('#sublayers').append("<option value='" + i + "'>"+layers[parseInt(lid)][5][i][1]+"</li>");
+                    }
+                }
+            });
+
+            $('#loadbtn').on('click',function(){
+                if(overlay){
+                    map.removeLayer(overlay);
+                    $('#legend').empty();
+                }
+
+                var bounds = map.getBounds();
+				var str = bounds.toBBoxString();
+				var astr = str.split(",");
+				for(var i in astr){
+					astr[i] = parseFloat(astr[i]);
+				}
+
+                var lid = parseInt($('#layers option:selected').val());
+                var slid = parseInt($('#sublayers option:selected').val());
+
+                if(layers[parseInt(lid)][0]==="wms"){
+                    var bb = layers[lid][5][slid][3];
+
+                    //Size of map container
+                    var target_s = 600;
+
+                    //Check if out of range
+                    if(
+                        (astr[0] < bb[0] && astr[2] < bb[0])||
+                        (astr[0] > bb[2] && astr[2] > bb[2])||
+                        (astr[1] < bb[1] && astr[3] < bb[1])||
+                        (astr[1] > bb[3] && astr[3] > bb[3])
+                    ){
+                        alert("Out of range");
+                    }else{
+                        //Decrease BB to layer BB
+                        if(astr[0] < bb[0]){
+                            astr[0] = bb[0];
+                        }
+
+                        if(astr[2] > bb[2]){
+                            astr[2] = bb[2];
+                        }
+
+                        if(astr[1] < bb[1]){
+                            astr[1] = bb[1];
+                        }
+
+                        if(astr[3] > bb[3]){
+                            astr[3] = bb[3];
+                        }
+
+                        var target = astr;
+                        var target_w = target[2]-target[0];
+                        var target_h = target[3]-target[1];
+
+                        var th = target_h*EPSG_4326_hr;
+                        var tw = target_w*EPSG_4326_wr;
+
+                        var multi = ((tw>th)?(target_s/tw):(target_s/th));
+
+                        var bbstring = astr[0]+","+astr[1]+","+astr[2]+","+astr[3];
+
+						//The resolution is calculated through size and extent, which means zooming out while maintaining the same size leads to unsupported resolution
+						//To avoid this we need to upscale the size
+						multi *= 2;
+
+                        var image = layers[lid][1]+"?request=GetMap&service="+layers[lid][0]+"&transparent=true&version=1.1.1&layers="+layers[lid][5][slid][0]+"&srs="+layers[lid][5][slid][4]+"&format=image/png&width="+Math.round(multi*tw)+"&height="+Math.round(multi*th)+"&bbox="+bbstring+"&styles="+layers[lid][5][slid][2]
+
+                        $('#source').attr('href',image).show();
+                        $('#legend').append('<img src="'+layers[parseInt(lid)][6]+'" />')
+
+                        var southWest = L.latLng(astr[1], astr[0]),
+                            northEast = L.latLng(astr[3], astr[2]),
+                            bounds = L.latLngBounds(southWest, northEast);
+
+                        overlay = L.imageOverlay(image, bounds);
+                        overlay.addTo(map);
+                    }
+                }else{
+					proj4.defs([
+						["EPSG:25833","+proj=utm +zone=33 +ellps=GRS80 +units=m +no_defs"],
+						["EPSG:4258","+proj=longlat +ellps=GRS80 +no_defs"],
+						["EPSG:3068","+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +datum=potsdam +units=m +no_defs"],
+						["EPSG:4326","+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"]
+					]);
+
+					var srs = false;
+
+					for(var s = 0;s<layers[lid][6].length;s++){if(layers[lid][6][s].indexOf("25833")>=0){ srs = "EPSG:25833"; }}
+					if(!srs){for(var s = 0;s<layers[lid][6].length;s++){if(layers[lid][6][s].indexOf("3068")>=0){ srs = "EPSG:3068"; }}}
+					if(!srs){for(var s = 0;s<layers[lid][6].length;s++){if(layers[lid][6][s].indexOf("4258")>=0){ srs = "EPSG:4258"; }}}
+					if(!srs){for(var s = 0;s<layers[lid][6].length;s++){if(layers[lid][6][s].indexOf("4326")>=0){ srs = "EPSG:4326"; }}}
+
+					if(!srs){
+						console.log("unknown srs.. using default.. good luck");
+						srs = "EPSG:25833";
+					}
+
+					var p1 = proj4("EPSG:4326",srs,[astr[0],astr[1]]);
+					var p2 = proj4("EPSG:4326",srs,[astr[2],astr[3]]);
+
+					var sid = layers[lid][1].split("/");
+					var id = sid[(sid.length-1)];
+
+					var image = layers[lid][1]+"?service=wfs&version=2.0.0&request=GetFeature&typeNames=fis:"+id+"&count=2&srsName=EPSG:25833&BBOX="+p1[0]+","+p1[1]+","+p2[0]+","+p2[1]
+					var url = "http://prjcts.sebastianmeier.eu/berlin/fisbroker.php?p1="+layers[lid][1]+"&p2="+id+"&p3=99&p4="+p1[0]+","+p1[1]+","+p2[0]+","+p2[1]+"&p5="+srs;
+					$('#source').attr('href',url).show();
+
+					$(function() {
+					    $.ajax({
+					        type: "get",
+					        url: url,
+					        dataType: "xml",
+					        success: function(data) {
+								var xml2json = new X2JS();
+								var json = xml2json.xml2json(data);
+
+								if("ServiceExceptionReport" in json){
+									console.log(json.ServiceExceptionReport.ServiceException._code, json.ServiceExceptionReport.ServiceException.__text);
+								}else if("ExceptionReport" in json){
+									console.log(json.ExceptionReport.Exception._exceptionCode, json.ExceptionReport.Exception.ExceptionText.__text);
+								}else if(parseInt(json.FeatureCollection._numberReturned)>=1){
+
+									var geojson = {
+										'type': "FeatureCollection",
+										'features': [
+
+										]
+									};
+
+									for(var o = 0; o<json.FeatureCollection.member.length; o++){
+										var obj = json.FeatureCollection.member[o][id];
+										var d = {
+											'type':'Feature',
+											'geometry': {
+												'type':false,
+												'coordinates':[]
+											},
+											'properties':{}
+										};
+
+										for(var key in obj){
+											if(key.substr(0,7)!=="spatial" && key.substr(0,1)!=="_"){
+												d.properties[key] = obj[key].__text;
+											}
+										}
+
+										d.properties["alias"] = obj.spatial_alias.__text;
+
+										var type = obj.spatial_type.__text;
+
+										/*gml:AbstractGeometricAggregate
+										gml:curveMembers
+										gml:geometryMember
+										gml:geometryMembers
+										gml:MultiCurve
+										gml:MultiGeometry
+										gml:MultiPoint
+										gml:MultiSolid
+										gml:MultiSurface
+										gml:pointMember
+										gml:pointMembers
+										gml:solidMember
+										gml:solidMembers
+										gml:surfaceMembers*/
+
+										switch(type){
+											case "Point":
+
+												var geom = obj.spatial_geometry[type];
+												d.geometry.type = "Point";
+												var pos = geom.pos.__text.split(" ");
+												d.geometry.coordinates = proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]);
+
+											break;
+											case "LineString":
+
+												d.geometry.type = "LineString";
+												if("MultiCurve" in obj.spatial_geometry){
+													if("curveMember" in obj.spatial_geometry.MultiCurve){
+														var geom = obj.spatial_geometry.MultiCurve.curveMember.LineString;
+														var line = [];
+														for(var i = 0; i<geom.pos.length; i++){
+															var pos = geom.pos[i].__text.split(" ");
+															line.push(proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]));
+														}
+
+														d.geometry.coordinates = line;
+													}else{
+														console.log("probably curveMembers")
+													}
+												}else if("LineString" in obj.spatial_geometry){
+													var geom = obj.spatial_geometry.LineString;
+													var line = [];
+													for(var i = 0; i<geom.pos.length; i++){
+														var pos = geom.pos[i].__text.split(" ");
+														line.push(proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]));
+													}
+
+													d.geometry.coordinates = line;
+												}else{
+													console.log(obj.spatial_geometry);
+												}
+
+											break;
+											case "Polygon":
+
+												d.geometry.type = "Polygon";
+												if("Polygon" in obj.spatial_geometry){
+													var geom = obj.spatial_geometry.Polygon.exterior.LinearRing;
+													var line = [];
+													for(var i = 0; i<geom.pos.length; i++){
+														var pos = geom.pos[i].__text.split(" ");
+														line.push(proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]));
+													}
+
+													d.geometry.coordinates = [line];
+
+												}else if("MultiSurface" in obj.spatial_geometry){
+													if("surfaceMember" in obj.spatial_geometry.MultiSurface){
+														if(Object.prototype.toString.call( obj.spatial_geometry.MultiSurface.surfaceMember ) === '[object Array]'){
+															d.geometry.type = "MultiPolygon";
+															var line = [];
+															for(var j = 0; j<obj.spatial_geometry.MultiSurface.surfaceMember.length; j++){
+																var l = [];
+																var geom = obj.spatial_geometry.MultiSurface.surfaceMember[j].Polygon.exterior.LinearRing;
+																for(var i = 0; i<geom.pos.length; i++){
+																	var pos = geom.pos[i].__text.split(" ");
+																	l.push(proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]));
+																}
+																line.push(l);
+															}
+
+															d.geometry.coordinates = [line];
+
+														}else{
+															var geom = obj.spatial_geometry.MultiSurface.surfaceMember.Polygon.exterior.LinearRing;
+															var line = [];
+															for(var i = 0; i<geom.pos.length; i++){
+																var pos = geom.pos[i].__text.split(" ");
+																line.push(proj4(geom._srsName,"EPSG:4326",[parseFloat(pos[0]), parseFloat(pos[1])]));
+															}
+
+															d.geometry.coordinates = [line];
+														}
+
+													}else{
+														console.log("probably surfaceMembers")
+													}
+												}else{
+													console.log(obj.spatial_geometry);
+												}
+
+											break;
+											default:
+
+												console.log("unknown type", type);
+
+											break;
+										}
+
+										if(d.geometry.coordinates.length>=1){
+											geojson.features.push(d);
+										}
+
+									}
+
+									var geojsonMarkerOptions = {
+										radius: 8,
+										fillColor: "#ff7800",
+										color: "#000",
+										weight: 1,
+										opacity: 1,
+										fillOpacity: 0.8
+									};
+
+									overlay = L.layerGroup();
+
+									L.geoJson(geojson, {
+									    pointToLayer: function (feature, latlng) {
+									        return L.circleMarker(latlng, geojsonMarkerOptions);
+									    },
+										onEachFeature: onEachFeature
+									}).addTo(overlay);
+
+									overlay.addTo(map);
+								}else{
+
+									console.log("empty result");
+								}
+
+					        },
+					        error: function(xhr, status) {
+					            console.log(xhr, status)
+					        }
+					    });
+					});
+                }
+
+            });
+        });
+
+		function onEachFeature(feature, layer) {
+			layer.bindPopup(JSON.stringify(feature.properties, null, 4));
+		}
+
+	</script>
+</body>
+</html>

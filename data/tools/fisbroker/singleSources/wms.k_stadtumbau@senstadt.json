@@ -1,0 +1,347 @@
+{
+    "type": "wms",
+    "title": "Stadtumbaugebiete",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_stadtumbau.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_stadtumbau@senstadt",
+    "description": {
+        "link": "?id=k_stadtumbau@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Karte stellt die Stadtumbaugebiete nach § 171 b BauGB (Baugesetzbuch) dar.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 6700, 7760, 43800, 36300",
+        "ebenen": "Fördergebiete Stadtumbau West\nFördergebiete Stadtumbau Ost\nFördergebiete Stadtumbau Ost (ohne Fördermitteleinsatz)\nHintergrund 1:5.000, Alk\nGebietsnamen",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Die Karte stellt die Stadtumbaugebiete nach § 171 b BauGB (Baugesetzbuch) dar."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_stadtumbau"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_stadtumbau.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Fördergebiete Stadtumbau West",
+                "abstract": "",
+                "gdi_de": "302d7d61-13a9-3707-9cc3-2f7392dc36bd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f9871a4b-5c65-360b-ab9b-fa2feefc31c3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_stadtumbau?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtumbau",
+                    "Soziale Stadt",
+                    "Städtebauförderung",
+                    "Fördergebiete",
+                    "ZIS",
+                    "Zukunftsinitiative Stadtteil",
+                    "inaktive Förderkulisse",
+                    "aktive Förderkulisse",
+                    "Quartier"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 7760,
+                            "max_latitude": 36300,
+                            "min_longitude": 6700,
+                            "max_longitude": 43800
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3961,
+                            "max_latitude": 52.6536,
+                            "min_longitude": 13.1362,
+                            "max_longitude": 13.6816
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Fördergebiete Stadtumbau Ost",
+                "abstract": "",
+                "gdi_de": "302d7d61-13a9-3707-9cc3-2f7392dc36bd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f9871a4b-5c65-360b-ab9b-fa2feefc31c3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_stadtumbau?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtumbau",
+                    "Soziale Stadt",
+                    "Städtebauförderung",
+                    "Fördergebiete",
+                    "ZIS",
+                    "Zukunftsinitiative Stadtteil",
+                    "inaktive Förderkulisse",
+                    "aktive Förderkulisse",
+                    "Quartier"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 7760,
+                            "max_latitude": 36300,
+                            "min_longitude": 6700,
+                            "max_longitude": 43800
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3961,
+                            "max_latitude": 52.6536,
+                            "min_longitude": 13.1362,
+                            "max_longitude": 13.6816
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Fördergebiete Stadtumbau Ost (ohne Fördermitteleinsatz)",
+                "abstract": "",
+                "gdi_de": "302d7d61-13a9-3707-9cc3-2f7392dc36bd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f9871a4b-5c65-360b-ab9b-fa2feefc31c3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_stadtumbau?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtumbau",
+                    "Soziale Stadt",
+                    "Städtebauförderung",
+                    "Fördergebiete",
+                    "ZIS",
+                    "Zukunftsinitiative Stadtteil",
+                    "inaktive Förderkulisse",
+                    "aktive Förderkulisse",
+                    "Quartier"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 7760,
+                            "max_latitude": 36300,
+                            "min_longitude": 6700,
+                            "max_longitude": 43800
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3961,
+                            "max_latitude": 52.6536,
+                            "min_longitude": 13.1362,
+                            "max_longitude": 13.6816
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Hintergrund 1:5.000, Alk",
+                "abstract": "",
+                "gdi_de": "302d7d61-13a9-3707-9cc3-2f7392dc36bd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f9871a4b-5c65-360b-ab9b-fa2feefc31c3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_stadtumbau?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtumbau",
+                    "Soziale Stadt",
+                    "Städtebauförderung",
+                    "Fördergebiete",
+                    "ZIS",
+                    "Zukunftsinitiative Stadtteil",
+                    "inaktive Förderkulisse",
+                    "aktive Förderkulisse",
+                    "Quartier"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 7760,
+                            "max_latitude": 36300,
+                            "min_longitude": 6700,
+                            "max_longitude": 43800
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3961,
+                            "max_latitude": 52.6536,
+                            "min_longitude": 13.1362,
+                            "max_longitude": 13.6816
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Gebietsnamen",
+                "abstract": "",
+                "gdi_de": "302d7d61-13a9-3707-9cc3-2f7392dc36bd",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=f9871a4b-5c65-360b-ab9b-fa2feefc31c3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_stadtumbau?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Stadtumbau",
+                    "Soziale Stadt",
+                    "Städtebauförderung",
+                    "Fördergebiete",
+                    "ZIS",
+                    "Zukunftsinitiative Stadtteil",
+                    "inaktive Förderkulisse",
+                    "aktive Förderkulisse",
+                    "Quartier"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 7760,
+                            "max_latitude": 36300,
+                            "min_longitude": 6700,
+                            "max_longitude": 43800
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3961,
+                            "max_latitude": 52.6536,
+                            "min_longitude": 13.1362,
+                            "max_longitude": 13.6816
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Stadtplanung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Stadtumbau",
+        "Soziale Stadt",
+        "Städtebauförderung",
+        "Fördergebiete",
+        "ZIS",
+        "Zukunftsinitiative Stadtteil",
+        "inaktive Förderkulisse",
+        "aktive Förderkulisse",
+        "Quartier"
+    ]
+}

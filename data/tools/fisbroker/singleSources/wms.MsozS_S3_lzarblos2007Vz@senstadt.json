@@ -1,0 +1,217 @@
+{
+    "type": "wms",
+    "title": "Langzeitarbeitslose 2007",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/sozstadt/2008/v_monitor_gelb_rot.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=MsozS_S3_lzarblos2007Vz@senstadt",
+    "description": {
+        "link": "?id=MsozS_S3_lzarblos2007Vz@senstadt&type=WMS",
+        "kurzbeschreibung": "Langzeitarbeitslose in Prozent der 15-65-jährigen Einwohnerinnen und Einwohner 2007 auf Ebene der Verkehrszellen (Status 3)(Monitoring Soziale Stadtentwicklung 2008)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Langzeitarbeitslose 2007\nHintergrund 1:5.000- 1:1000\nVerkehrszellennummern und Konturen",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Langzeitarbeitslose in Prozent der 15-65-jährigen Einwohnerinnen und Einwohner 2007 auf Ebene der Verkehrszellen (Status 3)(Monitoring Soziale Stadtentwicklung 2008)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/MsozS_S3_lzarblos2007Vz"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/sozstadt/2008/S3_Legende2007Vz.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Langzeitarbeitslose 2007",
+                "abstract": "",
+                "gdi_de": "b829e352-7356-3c4c-a9b5-c5709cf9447d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=cc77e711-b03d-3791-b8bc-eeaeb4fa6fe7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_S3_lzarblos2007Vz?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2008",
+                    "Langzeitarbeitslose",
+                    "Verkehrszellen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000- 1:1000",
+                "abstract": "digitale Karte 1:5.000, ALK 1:1000",
+                "gdi_de": "b829e352-7356-3c4c-a9b5-c5709cf9447d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=cc77e711-b03d-3791-b8bc-eeaeb4fa6fe7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_S3_lzarblos2007Vz?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2008",
+                    "Langzeitarbeitslose",
+                    "Verkehrszellen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Verkehrszellennummern und Konturen",
+                "abstract": "",
+                "gdi_de": "b829e352-7356-3c4c-a9b5-c5709cf9447d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=cc77e711-b03d-3791-b8bc-eeaeb4fa6fe7&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/MsozS_S3_lzarblos2007Vz?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Monitoring Soziale Stadtentwicklung",
+                    "2008",
+                    "Langzeitarbeitslose",
+                    "Verkehrszellen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Monitoring Soziale Stadtentwicklung",
+    "keywords": [
+        "Population distribution — demography",
+        "Soziales",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Monitoring Soziale Stadtentwicklung",
+        "2008",
+        "Langzeitarbeitslose",
+        "Verkehrszellen"
+    ]
+}

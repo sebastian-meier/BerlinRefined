@@ -1,0 +1,48 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.347659072101711,
+                    52.52399839351364
+                ]
+            },
+            "properties": {
+                "KENNZIFFER": "5097",
+                "STATUS": "ld",
+                "FRIEDHOF": "Friedhof gegenüber dem Amtsgericht",
+                "PLZ": "10559",
+                "ORT": "Berlin",
+                "STRASSE": "Wilsnacker Str.  (ohne Nr.)",
+                "ANZAHL_EIN": "-",
+                "ANZAHL_SAM": "16",
+                "SAMMELGRAB": "291",
+                "alias": "02k"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314863270279227,
+                    52.516925489017204
+                ]
+            },
+            "properties": {
+                "KENNZIFFER": "5124",
+                "STATUS": "ev",
+                "FRIEDHOF": "Luisen-Friedhof I",
+                "PLZ": "10587",
+                "ORT": "Berlin",
+                "STRASSE": "Guerickestr. 5-9",
+                "ANZAHL_EIN": "209",
+                "SAMMELGRAB": "-",
+                "alias": "07l"
+            }
+        }
+    ]
+}

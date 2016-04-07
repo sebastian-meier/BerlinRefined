@@ -1,0 +1,128 @@
+{
+    "type": "wfs",
+    "title": "Flächennutzung, Stadtstruktur und Versiegelung 2001 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas//sachdaten/svor_nutz2005_nutzsa.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=alphaDataStart&alphaDataId=sach_nutz2001_nutzsa@senstadt",
+    "description": {
+        "link": "?id=re_nutz2001_nutzsa@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Reale Nutzung der bebauten Flächen, Grün- und Freiflächenbestand, Flächentypen, \nStadtstruktur und Versiegelung. Raumbezug: ca. 25.000 Blöcke/Teilblöcke der Block(teil)karte 1:50000 (ISU50, Raumbezug Umweltatlas 2001).",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Reale Nutzung der bebauten Flächen, Grün- und Freiflächenbestand, Stadtstruktur und Versiegelung. Ca. 25.000 Blöcke/Teilblöcke der Blockkarte 1:50000 (ISU50, Raumbezug Umweltatlas 2001)."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_nutz2001_nutzsa"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=387ad948-3b5f-35ce-9d4b-01ad49084d35&ELEMENTSETNAME=FULL"
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Land use",
+        "Landnutzung",
+        "Geodaten",
+        "Berlin",
+        "Baunutzung",
+        "Bebauung",
+        "reale Flächennutzung",
+        "Wohngebiete",
+        "Mischgebiete",
+        "Kerngebiete",
+        "Gewerbegebiete",
+        "Wohnflächen",
+        "Industriegebiete",
+        "Gemeinbedarf",
+        "Ver- und Entsorgung",
+        "Wochenendhausgebiete",
+        "Baustellen",
+        "Grünflächen",
+        "Freiflächen",
+        "Parkanlagen",
+        "Wälder",
+        "Sportflächen",
+        "Kleingartenanlagen",
+        "unbebaute Flächen",
+        "Friedhöfe",
+        "Brachflächen",
+        "Campingplätze",
+        "Sportanlagen",
+        "Baumschulen",
+        "Stadtstruktur",
+        "Baualter",
+        "Baustruktur",
+        "Freiraumstruktur",
+        "Baustrukturtypen",
+        "Luftbildauswertung",
+        "Sattellitenbildauswertung",
+        "Versiegelungsklassen",
+        "Versiegelung"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3284,
+            "max_latitude": 52.6877,
+            "min_longitude": 13.079,
+            "max_longitude": 13.7701
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:3068"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

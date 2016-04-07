@@ -1,0 +1,280 @@
+{
+    "type": "wms",
+    "title": "Wohnatlas Berlin - Belegungsdichte 2009",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/wohnatlas/2011/kvor_wa_belegdichte09.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wa_belegdichte09@senstadt",
+    "description": {
+        "link": "?id=wa_belegdichte09@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Belegungsdichte - das ist das Verhältnis der Einwohnerzahl zur Zahl der Wohnungen - wird für 2009 auf der Ebene der Prognoseräume dargestellt.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Belegungsdichte 2009\nHintergrund 1:5.000- 1:1000\nPlanungsraumnamen und Konturen\nPlanungsraumschlüssel",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "2009 lag die Belegungsdichte in Berlin bei durchschnittlich 1,92 Personen pro Wohnung. 10 Prognoseräume wiesen eine Belegungsdichte unter 1,8 auf. In 8 Prognoseräumen lag die Belegungsdichte über 2,2."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wa_belegdichte09"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/wohnatlas/2011/leg_wa_belegdichte09.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Belegungsdichte 2009",
+                "abstract": "",
+                "gdi_de": "a0591936-f3a7-31db-9a45-d7429af16238",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=738b587c-3e47-3c5f-abf4-12161a4432b3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wa_belegdichte09?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Wohnatlas Berlin",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Belegungsdichte 2009",
+                    "Einwohner je Wohnung",
+                    "Prognoseräume"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000- 1:1000",
+                "abstract": "digitale Karte 1:5.000, ALK 1:1000",
+                "gdi_de": "a0591936-f3a7-31db-9a45-d7429af16238",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=738b587c-3e47-3c5f-abf4-12161a4432b3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wa_belegdichte09?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Wohnatlas Berlin",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Belegungsdichte 2009",
+                    "Einwohner je Wohnung",
+                    "Prognoseräume"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Planungsraumnamen und Konturen",
+                "abstract": "",
+                "gdi_de": "a0591936-f3a7-31db-9a45-d7429af16238",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=738b587c-3e47-3c5f-abf4-12161a4432b3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wa_belegdichte09?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Wohnatlas Berlin",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Belegungsdichte 2009",
+                    "Einwohner je Wohnung",
+                    "Prognoseräume"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Planungsraumschlüssel",
+                "abstract": "",
+                "gdi_de": "a0591936-f3a7-31db-9a45-d7429af16238",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=738b587c-3e47-3c5f-abf4-12161a4432b3&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wa_belegdichte09?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Wohnatlas Berlin",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Belegungsdichte 2009",
+                    "Einwohner je Wohnung",
+                    "Prognoseräume"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Wohnen/Soziale Stadt",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Statistical units",
+        "Population distribution — demography",
+        "Soziales",
+        "Statistik",
+        "open data",
+        "opendata",
+        "Wohnatlas Berlin",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Belegungsdichte 2009",
+        "Einwohner je Wohnung",
+        "Prognoseräume"
+    ]
+}

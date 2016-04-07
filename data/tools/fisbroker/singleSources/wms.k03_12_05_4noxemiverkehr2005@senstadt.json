@@ -1,0 +1,257 @@
+{
+    "type": "wms",
+    "title": "Entwicklung Luftqualität NOx-Emissionen Kfz-Verkehr GN 2005 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_03_12_05_4noxemiverkehr2005.jpg",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k03_12_05_4noxemiverkehr2005@senstadt",
+    "description": {
+        "link": "?id=k03_12_05_4noxemiverkehr2005@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der NOx-Emissionen der Verursachergruppe Kfz-Verkehr Gesamtnetz 2005, Stand 2009",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "NOx Emissionen Verkehr 2005\nHintergrund 1:5.000\nVerkehr - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Darstellung der NOx-Emissionen der Verursachergruppe Kfz-Verkehr Gesamtnetz 2005, Stand 2009"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_4noxemiverkehr2005"
+        ],
+        "legend": {
+            "width": 665,
+            "height": 1330,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_4noxemi_verkehr_2005.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "NOx Emissionen Verkehr 2005",
+                "abstract": "",
+                "gdi_de": "6bf07de3-d0fc-360b-b1be-afa16622a65d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4b46f072-15a3-3724-a51a-83cfc0dfeea9&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_05_4noxemiverkehr2005?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Verkehr",
+                    "2005"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000",
+                "abstract": "",
+                "gdi_de": "6bf07de3-d0fc-360b-b1be-afa16622a65d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4b46f072-15a3-3724-a51a-83cfc0dfeea9&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_05_4noxemiverkehr2005?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Verkehr",
+                    "2005"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Verkehr - Emissionsentwicklung als Diagramm mit Zahlenwerten",
+                "abstract": "",
+                "gdi_de": "6bf07de3-d0fc-360b-b1be-afa16622a65d",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4b46f072-15a3-3724-a51a-83cfc0dfeea9&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_05_4noxemiverkehr2005?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "NOx",
+                    "Verkehr",
+                    "2005"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Kataster",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Emissionen",
+        "Kataster",
+        "BImSchG",
+        "Bundesimmissionsschutzgesetz",
+        "Raster",
+        "Entwicklung",
+        "Luftgüte",
+        "Luftqualität",
+        "NOx",
+        "Verkehr",
+        "2005"
+    ]
+}

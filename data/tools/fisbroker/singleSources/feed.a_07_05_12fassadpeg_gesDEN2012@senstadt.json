@@ -1,0 +1,38 @@
+{
+    "type": "feed",
+    "title": "Strat. Lärmkarte Fassadenpegel Gesamtlärm L_DEN (Tag-Abend-Nacht) 2012 (UA)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor07_05_12fassadpeg_gesDEN2012.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_07_05_12fassadpeg_gesDEN2012@senstadt",
+    "description": {
+        "link": "?id=a_07_05_12fassadpeg_gesDEN2012@senstadt&type=FEED",
+        "kurzbeschreibung": "Die Karte stellt über die Anforderungen der Umgebungslärmrichtlinie hinaus eine summarische Betrachtung (Pegeladdition) der untersuchten Verkehrslärmquellen dar.",
+        "koordinatensysteme": "EPSG:3068",
+        "grafikformate": "text/csv",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_07_05_12fassadpeg_gesDEN2012"
+        ]
+    },
+    "category": "Umweltatlas",
+    "download": {
+        "description": "Strat. Lärmkarte Fassadenpegel Gesamtlärm L_DEN (Tag-Abend-Nacht) 2012 (UA) - Download-Service",
+        "fassadenpegel gesamtlärm l_den 2012": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/strat_laerm/FP_gesamt_Atom.zip\n"
+    }
+}

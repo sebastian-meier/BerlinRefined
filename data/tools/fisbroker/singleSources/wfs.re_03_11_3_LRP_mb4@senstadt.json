@@ -1,0 +1,110 @@
+{
+    "type": "wfs",
+    "title": "Luftreinhalteplan 2011-2017-Szenarios Kfz-Verkehr 2015: MB4 städt. Hintergrund",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/k_vor03_11_3LRP_NO2_Kfz_2011.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s03_11_3_LRP_mb4@senstadt",
+    "description": {
+        "link": "?id=re_03_11_3_LRP_mb4@senstadt&type=WFS&themeType=spatial&showCapUrl=true",
+        "kurzbeschreibung": "Angaben zu den Wirkungen des Maßnahmenbündels \"Emissionsminderung im städtischen Hintergrund\" (MB4) auf die Luftbelastung durch den Kfz-Verkehr im Einflußbereich ausgewählter Straßen im Jahre 2015 als Teil der Rechnungen zum Luftreinhalteplan 2011-2017.",
+        "koordinatensysteme": "EPSG:25833, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Angaben zu den Wirkungen des Maßnahmenbündels \"Emissionsminderung im städtischen Hintergrund\" (MB4) auf die Luftbelastung durch den Kfz-Verkehr im Einflußbereich ausgewählter Straßen im Jahre 2015 als Teil der Rechnungen zum Luftreinhalteplan 2011-2017."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WFS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.1",
+            "2.0.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "DescribeFeatureType",
+            "GetFeature"
+        ],
+        "ausgabeformate": [
+            "text/xml; subtype=gml/2.1.2",
+            "text/xml; subtype=gml/3.1.1",
+            "text/xml; subtype=gml/3.2.1"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_03_11_3_LRP_mb4"
+        ],
+        "inspire": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=70653ff8-aef1-3828-bf62-3d6ec29c3397&ELEMENTSETNAME=FULL"
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Umweltschutz",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Geodaten",
+        "Berlin",
+        "Luftgüte",
+        "Luftreinhalteplan",
+        "Maßnahmen",
+        "Kfz-Verkehr",
+        "Trend",
+        "2015",
+        "2020",
+        "NO2",
+        "Luftbelastung",
+        "Emissionen",
+        "Immissionen",
+        "Straße"
+    ],
+    "spatial": {
+        "boundingbox": {
+            "min_latitude": 52.3284,
+            "max_latitude": 52.6877,
+            "min_longitude": 13.079,
+            "max_longitude": 13.7701
+        },
+        "crs": [
+            "urn:ogc:def:crs:EPSG:6.9:25833",
+            "urn:ogc:def:crs:EPSG:6.9:4258"
+        ],
+        "operators": {
+            "comparison": [
+                "PropertyIsLessThan",
+                "PropertyIsGreaterThan",
+                "PropertyIsLessThanOrEqualTo",
+                "PropertyIsGreaterThanOrEqualTo",
+                "PropertyIsEqualTo",
+                "PropertyIsNotEqualTo",
+                "PropertyIsLike",
+                "PropertyIsBetween",
+                "PropertyIsNull"
+            ],
+            "geometry": [
+                "gml:AbstractGeometricPrimitive"
+            ],
+            "spatial": [
+                "BBOX",
+                "Equals",
+                "Disjoint",
+                "Intersects",
+                "Touches",
+                "Crosses",
+                "Within",
+                "Contains",
+                "Overlaps",
+                "Beyond",
+                "DWithin"
+            ]
+        }
+    }
+}

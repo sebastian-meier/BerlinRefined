@@ -1,0 +1,196 @@
+{
+    "type": "wms",
+    "title": "20 grüne Hauptwege - Digitale Wanderkarte",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_gruene_wege_wander.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gruene_wege_wander@senstadt",
+    "description": {
+        "link": "?id=gruene_wege_wander@senstadt&type=WMS",
+        "kurzbeschreibung": "Die digitale Wanderkarte zeigt den aktuellen Stand der 20 grünen Hauptwege zusammen mit vielen weiteren Zusatzinformationen.",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369500, 5800000, 416227, 5838000",
+        "ebenen": "Hintergrund mit Darstellungsthemen\nGrüne Hauptwege",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Karte stellt das Streckennetz der 20 Grünen Hauptwege als Wanderkarte mit erholungsrelevanten Begleitdaten dar."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/gruene_wege_wander"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gruene_wege_wander.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrund mit Darstellungsthemen",
+                "abstract": "",
+                "gdi_de": "42a8b8a8-a611-383a-9559-2a6c2d1cac3a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=769e0768-7efc-3328-93ea-2c54c45c9dee&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gruene_wege_wander?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1071594
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "20 grüne Hauptwege",
+                    "Spazierwege",
+                    "Wanderkarte",
+                    "Stadtgrün",
+                    "Hauptwegenetz",
+                    "Streckennetz",
+                    "Freiraumsystem",
+                    "Grünverbindungen",
+                    "stek2020",
+                    "Achsenkreuz",
+                    "Parkring",
+                    "Kooperation",
+                    "Flaneure"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5800000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 369500,
+                            "max_longitude": 416227
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3348,
+                            "max_latitude": 52.6854,
+                            "min_longitude": 13.0847,
+                            "max_longitude": 13.7607
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Grüne Hauptwege",
+                "abstract": "Rasterkarte 1:50000,Rasterkarte 1:5000",
+                "gdi_de": "42a8b8a8-a611-383a-9559-2a6c2d1cac3a",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=769e0768-7efc-3328-93ea-2c54c45c9dee&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gruene_wege_wander?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "20 grüne Hauptwege",
+                    "Spazierwege",
+                    "Wanderkarte",
+                    "Stadtgrün",
+                    "Hauptwegenetz",
+                    "Streckennetz",
+                    "Freiraumsystem",
+                    "Grünverbindungen",
+                    "stek2020",
+                    "Achsenkreuz",
+                    "Parkring",
+                    "Kooperation",
+                    "Flaneure"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5800000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 369500,
+                            "max_longitude": 416227
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3348,
+                            "max_latitude": 52.6854,
+                            "min_longitude": 13.0847,
+                            "max_longitude": 13.7607
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Erholung",
+        "Landschaftsplanung",
+        "Natur",
+        "Transport networks",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "20 grüne Hauptwege",
+        "Spazierwege",
+        "Wanderkarte",
+        "Stadtgrün",
+        "Hauptwegenetz",
+        "Streckennetz",
+        "Freiraumsystem",
+        "Grünverbindungen",
+        "stek2020",
+        "Achsenkreuz",
+        "Parkring",
+        "Kooperation",
+        "Flaneure"
+    ]
+}

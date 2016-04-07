@@ -1,0 +1,238 @@
+{
+    "type": "wms",
+    "title": "Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_gris_oeffgruen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=gris_oeffgruen@senstadt",
+    "description": {
+        "link": "?id=gris_oeffgruen@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung aller Öffentlichen Grünanlagen (einschließlich Spielplätze)",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Hintergrund 1:5000 - 1:1000 (ALK)\nGrünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Grünanlagen -\nGrünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Spielplätze -",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Karte des Berliner Grünanlagenbestandes enthält die überwiegend von den bezirklichen Gartenämtern gepflegten öffentlichen Grünanlagen\neinschließlich der nach dem Grünanlagengesetz gewidmeten Grün- und Erholungsanlagen. Dazu gehören auch die öffentlichen Spielplätze,\ndie in der Karte gelb dargestellt sind. Zu den einzelnen Grünanlagen in der Karte sind für einen Großteil der Flächen Sachdaten vorhanden.\nAndere Grünflächenkategorien wie Grünflächen auf gewidmetem öffentlichem Straßenland (einschließlich gärtnerisch begrünter Stadtplätze), Grünflächen\nauf Friedhöfen, in Kleingartenanlagen, an öffentlichen Gebäuden, Freiflächen an Schulen, Kindertagesstätten und Bädern sowie Sportflächen inkl.\nRahmengrün sind in der Karte in der Regel nicht dargestellt. Die grafischen Daten der Karte sowie die der Karte hinterlegten Sachdaten werden von\nden bezirklichen Gartenämtern erstellt und laufend aktualisiert. Die hier im Rahmen des Internetauftritts \"Stadtgrün\" zur Verfügung gestellte Karte\nberuht auf den bezirklichen Daten und wird von der Senatsverwaltung für Stadtentwicklung mindestens einmal jährlich aktualisiert. Das genaue und\naktuelle Verzeichnis der gewidmeten öffentlichen Grün- und Erholungsanlagen kann bei den bezirklichen Gartenämtern eingesehen werden."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/gris_oeffgruen"
+        ],
+        "legend": {
+            "width": 380,
+            "height": 380,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gruenanlagenbestand.gif"
+        },
+        "layers": [
+            {
+                "name": "2",
+                "title": "Hintergrund 1:5000 - 1:1000 (ALK)",
+                "abstract": "digitale Karte 1:5000, Rasterkarte 1:5000, ALK",
+                "gdi_de": "19f9a3e9-d99a-39c2-8557-418ecb5f1f21",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=848d2266-d757-36d2-9db6-8636bd5f2216&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/gris_oeffgruen?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Grünflächen",
+                    "Öffentliche Parkanlage",
+                    "gewidmete",
+                    "Stadtgrün",
+                    "Spielplatz",
+                    "Spielplätze",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Grünanlagen -",
+                "abstract": "Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Grünanlagen -",
+                "gdi_de": "19f9a3e9-d99a-39c2-8557-418ecb5f1f21",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=848d2266-d757-36d2-9db6-8636bd5f2216&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 380,
+                    "height": 380,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gruenanlagenbestand.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Grünflächen",
+                    "Öffentliche Parkanlage",
+                    "gewidmete",
+                    "Stadtgrün",
+                    "Spielplatz",
+                    "Spielplätze",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Spielplätze -",
+                "abstract": "Grünanlagenbestand Berlin (einschließlich der öffentlichen Spielplätze) - Spielplätze -",
+                "gdi_de": "19f9a3e9-d99a-39c2-8557-418ecb5f1f21",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=848d2266-d757-36d2-9db6-8636bd5f2216&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 380,
+                    "height": 380,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gruenanlagenbestand.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Grünflächen",
+                    "Öffentliche Parkanlage",
+                    "gewidmete",
+                    "Stadtgrün",
+                    "Spielplatz",
+                    "Spielplätze",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Area management/restriction/regulation zones and reporting units",
+        "Land use",
+        "Landnutzung",
+        "open data",
+        "opendata",
+        "Karten",
+        "Berlin",
+        "Geodaten",
+        "Grünflächen",
+        "Öffentliche Parkanlage",
+        "gewidmete",
+        "Stadtgrün",
+        "Spielplatz",
+        "Spielplätze",
+        "äöü"
+    ]
+}

@@ -1,0 +1,620 @@
+{
+    "type": "wms",
+    "title": "Polizeidirektionen und Polizeiabschnitte",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau//karten/kvor_polizeidirektionen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=polizeidirektionen@senstadt",
+    "description": {
+        "link": "?id=polizeidirektionen@senstadt&type=WMS",
+        "kurzbeschreibung": "Räumlicher Zuschnitt der Direktionen, Abschnitte und Kontaktbereiche der Polizei Berlin",
+        "koordinatensysteme": "EPSG:25833, EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 364000, 5799000, 417000, 5838000\nEPSG:3068: -2342,19, -144,89, 49919,49, 39866,34\nEPSG:4258: 13, 52,32, 13,77, 52,69",
+        "ebenen": "Polizeidirektionen\nHintergrund 1:5000 - 1:1000 (ALK)\nKontaktbereiche\nPolizeiabschnitte\nNummern der Polizeidirektionen\nNummern der Polizeiabschnitte\nNummern der Kontaktbereiche\nBezirksnamen",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Räumlicher Zuschnitt der Direktionen, Abschnitte und Kontaktbereiche der Berliner Polizei"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/polizeidirektionen"
+        ],
+        "legend": {
+            "width": 440,
+            "height": 470,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Polizeidirektionen",
+                "abstract": "Räumlicher Zuschnitt der Polizeidirektionen Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5000 - 1:1000 (ALK)",
+                "abstract": "Hintergrund",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/polizeidirektionen?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Kontaktbereiche",
+                "abstract": "Räumlicher Zuschnitt der Kontaktbereiche Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Polizeiabschnitte",
+                "abstract": "Räumlicher Zuschnitt der Polizeiabschnitte Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Nummern der Polizeidirektionen",
+                "abstract": "Nummern der Polizeidirektionen Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Nummern der Polizeiabschnitte",
+                "abstract": "Nummern der Polizeiabschnitte Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Nummern der Kontaktbereiche",
+                "abstract": "Nummern der Kontaktbereiche Berlin",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "^gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Bezirksnamen",
+                "abstract": "Bezirksnamen",
+                "gdi_de": "37c24dfd-a2fb-3fe2-8b47-69896fc65c98",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=e109ddbb-b121-36e3-8af6-d9f4eacb6d78&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 440,
+                    "height": 470,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_polizeidirektionen.gif",
+                    "format": "gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Berlin",
+                    "Geodaten",
+                    "Kontaktbereiche",
+                    "Wachen",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799000,
+                            "max_latitude": 5838000,
+                            "min_longitude": 364000,
+                            "max_longitude": 417000
+                        }
+                    },
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -144.8866,
+                            "max_latitude": 39866.3424,
+                            "min_longitude": -2342.1911,
+                            "max_longitude": 49919.4938
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3244,
+                            "max_latitude": 52.6856,
+                            "min_longitude": 13.0044,
+                            "max_longitude": 13.7721
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Utility and governmental services",
+        "Verwaltung",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Berlin",
+        "Geodaten",
+        "Kontaktbereiche",
+        "Wachen",
+        "äöü"
+    ]
+}

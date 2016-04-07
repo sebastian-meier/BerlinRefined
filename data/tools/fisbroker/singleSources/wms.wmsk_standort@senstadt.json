@@ -1,0 +1,395 @@
+{
+    "type": "wms",
+    "title": "Forstliche Standorteinheiten",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_wmsk_standort.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_standort@senstadt",
+    "description": {
+        "link": "?id=wmsk_standort@senstadt&type=WMS",
+        "kurzbeschreibung": "Ergebnisse der Standorterkundung nach dem Verfahren für die ostdeutschen Bundesländer (Kopp/Schwanecke) mit Stammstandortformen und Lokalbodenformen.",
+        "koordinatensysteme": "EPSG:31468",
+        "ausdehnung": "EPSG:31468: 4510051, 5771330, 4634060, 5862393",
+        "ebenen": "Hintergrundkarte DTK50\nBestände\nStandortkarte\nAbteilungsgrenzen und Bestandesgrenzen\nBeschriftung Stammstandortformen\nBeschriftung Abteilungen und Bestände",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Ergebnisse der Standorterkundung nach dem Verfahren für die ostdeutschen Bundesländer (Kopp/Schwanecke) mit Stammstandortformen und Lokalbodenformen."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_standort"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_wmsk_standort.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Hintergrundkarte DTK50",
+                "abstract": "",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_standort?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Bestände",
+                "abstract": "Bestände",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Standortkarte",
+                "abstract": "Standortkarte",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Abteilungsgrenzen und Bestandesgrenzen",
+                "abstract": "Abteilungsgrenzen und Bestandesgrenzen",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Beschriftung Stammstandortformen",
+                "abstract": "",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Beschriftung Abteilungen und Bestände",
+                "abstract": "Beschriftung Abteilungen und Bestände",
+                "gdi_de": "1d1e7b5d-4d86-3ad7-8570-5245b55b6b33",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9a5d7030-5d3f-386d-969a-55fd3e4dc7f0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/keine_legende.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Standortkartierung",
+                    "Wasserhaushaltsstufe",
+                    "Lokalbodenform",
+                    "Feinbodenform",
+                    "Stammstandortform",
+                    "Standorterkundung"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:31468",
+                        "boundingbox": {
+                            "min_latitude": 5771330,
+                            "max_latitude": 5862393,
+                            "min_longitude": 4510051,
+                            "max_longitude": 4634060
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.0757,
+                            "max_latitude": 52.8774,
+                            "min_longitude": 12.1451,
+                            "max_longitude": 13.9897
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Land use",
+        "Forst",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Waldbestände",
+        "Berliner Forsten",
+        "Standortkartierung",
+        "Wasserhaushaltsstufe",
+        "Lokalbodenform",
+        "Feinbodenform",
+        "Stammstandortform",
+        "Standorterkundung"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.314122059930837,
+                    52.53040569289244
+                ]
+            },
+            "properties": {
+                "alias": "H177"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.338453748948265,
+                    52.53304748459893
+                ]
+            },
+            "properties": {
+                "alias": "H178"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.322780245722843,
+                    52.51424348336779
+                ]
+            },
+            "properties": {
+                "alias": "H92"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.311582392156122,
+                    52.51810544087036
+                ]
+            },
+            "properties": {
+                "alias": "H93"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.30616220848814,
+                    52.530770826529455
+                ]
+            },
+            "properties": {
+                "alias": "H97"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.313354143192777,
+                    52.53021572734523
+                ]
+            },
+            "properties": {
+                "alias": "L83"
+            }
+        }
+    ]
+}

@@ -1,0 +1,417 @@
+{
+    "type": "wms",
+    "title": "Referenzflächen nach FSC-Zertifizierung",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_wmsk_referenzflaechen.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_forst_FSC2014@senstadt",
+    "description": {
+        "link": "?id=wmsk_forst_FSC2014@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der Referenzflächen nach FSC/Naturland bei den Berliner Forsten, Stand Oktober 2014.",
+        "koordinatensysteme": "EPSG:25833, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 312979, 5784756, 427766, 5860098\nEPSG:4258: 12,26, 52,18, 13,93, 52,89",
+        "ebenen": "Bezeichnung Referenzflächen\nReferenzflächen\nVerwaltungseinheiten der Berliner Forsten\nHintergrund Brandenburg (ÜK 50)\nHintergrund Berlin (ISU 5)",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung der Referenzflächen nach FSC/Naturland bei den Berliner Forsten, Stand Oktober 2014."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_forst_FSC2014"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_forst_FSC2014.gif"
+        },
+        "layers": [
+            {
+                "name": "4",
+                "title": "Bezeichnung Referenzflächen",
+                "abstract": "Bezeichnung Referenzflächen nach FSC-Zertifizierung",
+                "gdi_de": "a1bac4c4-2af6-3678-adce-c5bcfcbe7cb1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a65df6b0-770c-3a8a-95f6-9fb4fcd3b640&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_forst_FSC2014?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Brandenburg",
+                    "Geodaten",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Berliner Wald",
+                    "Wald",
+                    "FSC",
+                    "Naturland",
+                    "Zertifizierung",
+                    "Nichtwirtschaftswald",
+                    "Bestandesgrenzen",
+                    "unbewirtschaftete Waldflächen",
+                    "Waldflächen",
+                    "Referenzfläche"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5784756,
+                            "max_latitude": 5860098,
+                            "min_longitude": 312979,
+                            "max_longitude": 427766
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "Referenzflächen",
+                "abstract": "Referenzflächen nach FSC-Zertifizierung",
+                "gdi_de": "a1bac4c4-2af6-3678-adce-c5bcfcbe7cb1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a65df6b0-770c-3a8a-95f6-9fb4fcd3b640&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_forst_FSC2014.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Brandenburg",
+                    "Geodaten",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Berliner Wald",
+                    "Wald",
+                    "FSC",
+                    "Naturland",
+                    "Zertifizierung",
+                    "Nichtwirtschaftswald",
+                    "Bestandesgrenzen",
+                    "unbewirtschaftete Waldflächen",
+                    "Waldflächen",
+                    "Referenzfläche"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5784756,
+                            "max_latitude": 5860098,
+                            "min_longitude": 312979,
+                            "max_longitude": 427766
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Verwaltungseinheiten der Berliner Forsten",
+                "abstract": "Verwaltungseinheiten der Berliner Forsten",
+                "gdi_de": "a1bac4c4-2af6-3678-adce-c5bcfcbe7cb1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a65df6b0-770c-3a8a-95f6-9fb4fcd3b640&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_forst_FSC2014.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Brandenburg",
+                    "Geodaten",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Berliner Wald",
+                    "Wald",
+                    "FSC",
+                    "Naturland",
+                    "Zertifizierung",
+                    "Nichtwirtschaftswald",
+                    "Bestandesgrenzen",
+                    "unbewirtschaftete Waldflächen",
+                    "Waldflächen",
+                    "Referenzfläche"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5784756,
+                            "max_latitude": 5860098,
+                            "min_longitude": 312979,
+                            "max_longitude": 427766
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Hintergrund Brandenburg (ÜK 50)",
+                "abstract": "Übersichtskarte von Berlin 1:50 000 (ÜK50)",
+                "gdi_de": "a1bac4c4-2af6-3678-adce-c5bcfcbe7cb1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a65df6b0-770c-3a8a-95f6-9fb4fcd3b640&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_forst_FSC2014?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Brandenburg",
+                    "Geodaten",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Berliner Wald",
+                    "Wald",
+                    "FSC",
+                    "Naturland",
+                    "Zertifizierung",
+                    "Nichtwirtschaftswald",
+                    "Bestandesgrenzen",
+                    "unbewirtschaftete Waldflächen",
+                    "Waldflächen",
+                    "Referenzfläche"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5784756,
+                            "max_latitude": 5860098,
+                            "min_longitude": 312979,
+                            "max_longitude": 427766
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Hintergrund Berlin (ISU 5)",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010",
+                "gdi_de": "a1bac4c4-2af6-3678-adce-c5bcfcbe7cb1",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=a65df6b0-770c-3a8a-95f6-9fb4fcd3b640&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_forst_FSC2014?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 499
+                },
+                "keywords": [
+                    "Karten",
+                    "Berlin",
+                    "Brandenburg",
+                    "Geodaten",
+                    "Waldbestände",
+                    "Berliner Forsten",
+                    "Berliner Wald",
+                    "Wald",
+                    "FSC",
+                    "Naturland",
+                    "Zertifizierung",
+                    "Nichtwirtschaftswald",
+                    "Bestandesgrenzen",
+                    "unbewirtschaftete Waldflächen",
+                    "Waldflächen",
+                    "Referenzfläche"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5784756,
+                            "max_latitude": 5860098,
+                            "min_longitude": 312979,
+                            "max_longitude": 427766
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.1815,
+                            "max_latitude": 52.8857,
+                            "min_longitude": 12.2644,
+                            "max_longitude": 13.9265
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Land use",
+        "Agricultural and aquaculture facilities",
+        "Forst",
+        "Karten",
+        "Berlin",
+        "Brandenburg",
+        "Geodaten",
+        "Waldbestände",
+        "Berliner Forsten",
+        "Berliner Wald",
+        "Wald",
+        "FSC",
+        "Naturland",
+        "Zertifizierung",
+        "Nichtwirtschaftswald",
+        "Bestandesgrenzen",
+        "unbewirtschaftete Waldflächen",
+        "Waldflächen",
+        "Referenzfläche"
+    ]
+}

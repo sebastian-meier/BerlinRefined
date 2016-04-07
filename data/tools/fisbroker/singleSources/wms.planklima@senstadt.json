@@ -1,0 +1,395 @@
+{
+    "type": "wms",
+    "title": "Klimamodell Berlin: Planungshinweise Stadtklima 2001 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_planklima.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=planklima@senstadt",
+    "description": {
+        "link": "?id=planklima@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Karte Planungshinweise Stadtklima 2001 setzt die in der Karte Klimafunktionen dargestellten Ergebnisse in Hinweise aus\nklimatischer Sicht um",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Stadtklima, Planungshinweise Stadtklima (Umweltatlas Berlin)\nPfeilsymbole\nEinwirkbereiche der Kaltluftentstehungsgebiete\nATKIS Umland\nStraßennamen, Ortsteilnamen, Bezirke etc.",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Die Karte Planungshinweise Stadtklima 2001 setzt die in der Karte Klimafunktionen dargestellten Ergebnisse in Hinweise aus\n klimatischer Sicht um"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/planklima"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_planklima.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Stadtklima, Planungshinweise Stadtklima (Umweltatlas Berlin)",
+                "abstract": "Klimafunktionen",
+                "gdi_de": "7094fe9a-152e-3195-ae71-d223bfaaf985",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=599eb84e-c644-305b-8d75-06187bc04a72&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/planklima?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Berlin",
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Stadtklima",
+                    "Klimamodell",
+                    "Luftaustausch",
+                    "Wind",
+                    "Temperatur",
+                    "Massenstrom",
+                    "FITNAH",
+                    "Umweltatlas",
+                    "Thermie",
+                    "Belastung",
+                    "Bewertung",
+                    "Mensch",
+                    "Planungshinweise",
+                    "Klimafunktionen",
+                    "Klimaschutz",
+                    "VDI"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Pfeilsymbole",
+                "abstract": "Klimafunktionen",
+                "gdi_de": "7094fe9a-152e-3195-ae71-d223bfaaf985",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=599eb84e-c644-305b-8d75-06187bc04a72&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/planklima?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Berlin",
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Stadtklima",
+                    "Klimamodell",
+                    "Luftaustausch",
+                    "Wind",
+                    "Temperatur",
+                    "Massenstrom",
+                    "FITNAH",
+                    "Umweltatlas",
+                    "Thermie",
+                    "Belastung",
+                    "Bewertung",
+                    "Mensch",
+                    "Planungshinweise",
+                    "Klimafunktionen",
+                    "Klimaschutz",
+                    "VDI"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Einwirkbereiche der Kaltluftentstehungsgebiete",
+                "abstract": "Klimafunktionen",
+                "gdi_de": "7094fe9a-152e-3195-ae71-d223bfaaf985",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=599eb84e-c644-305b-8d75-06187bc04a72&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/planklima?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Berlin",
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Stadtklima",
+                    "Klimamodell",
+                    "Luftaustausch",
+                    "Wind",
+                    "Temperatur",
+                    "Massenstrom",
+                    "FITNAH",
+                    "Umweltatlas",
+                    "Thermie",
+                    "Belastung",
+                    "Bewertung",
+                    "Mensch",
+                    "Planungshinweise",
+                    "Klimafunktionen",
+                    "Klimaschutz",
+                    "VDI"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "ATKIS Umland",
+                "abstract": "",
+                "gdi_de": "7094fe9a-152e-3195-ae71-d223bfaaf985",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=599eb84e-c644-305b-8d75-06187bc04a72&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/planklima?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Berlin",
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Stadtklima",
+                    "Klimamodell",
+                    "Luftaustausch",
+                    "Wind",
+                    "Temperatur",
+                    "Massenstrom",
+                    "FITNAH",
+                    "Umweltatlas",
+                    "Thermie",
+                    "Belastung",
+                    "Bewertung",
+                    "Mensch",
+                    "Planungshinweise",
+                    "Klimafunktionen",
+                    "Klimaschutz",
+                    "VDI"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Straßennamen, Ortsteilnamen, Bezirke etc.",
+                "abstract": "",
+                "gdi_de": "7094fe9a-152e-3195-ae71-d223bfaaf985",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=599eb84e-c644-305b-8d75-06187bc04a72&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/planklima?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Berlin",
+                    "Karte",
+                    "Karten",
+                    "Geodaten",
+                    "Stadtklima",
+                    "Klimamodell",
+                    "Luftaustausch",
+                    "Wind",
+                    "Temperatur",
+                    "Massenstrom",
+                    "FITNAH",
+                    "Umweltatlas",
+                    "Thermie",
+                    "Belastung",
+                    "Bewertung",
+                    "Mensch",
+                    "Planungshinweise",
+                    "Klimafunktionen",
+                    "Klimaschutz",
+                    "VDI"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Meteorological geographical features",
+        "Klima",
+        "Berlin",
+        "Karte",
+        "Karten",
+        "Geodaten",
+        "Stadtklima",
+        "Klimamodell",
+        "Luftaustausch",
+        "Wind",
+        "Temperatur",
+        "Massenstrom",
+        "FITNAH",
+        "Umweltatlas",
+        "Thermie",
+        "Belastung",
+        "Bewertung",
+        "Mensch",
+        "Planungshinweise",
+        "Klimafunktionen",
+        "Klimaschutz",
+        "VDI"
+    ]
+}

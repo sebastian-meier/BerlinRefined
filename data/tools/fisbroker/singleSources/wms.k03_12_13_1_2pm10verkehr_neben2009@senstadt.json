@@ -1,0 +1,288 @@
+{
+    "type": "wms",
+    "title": "Entwicklung Luftqualität PM10-Emissionen Kfz-Verkehr NN 2009 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor03_12_13_1_2pm10emikfzverkehrneben2009.jpg",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k03_12_13_1_2pm10verkehr_neben2009@senstadt",
+    "description": {
+        "link": "?id=k03_12_13_1_2pm10verkehr_neben2009@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der Feinstaub-Emissionen (PM10) der Verursachergruppe Kfz-Verkehr im Nebennetz 2009, Stand 2011",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750\nEPSG:4258: 13,05, 52,32, 13,78, 52,69",
+        "ebenen": "PM10 Emissionen Kfz-Verkehr Nebennetz 2009\nHintergrund 1:5.000\nEmissionsentwicklung als Diagramm mit Zahlenwerten",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung der Feinstaub-Emissionen (PM10) der Verursachergruppe Kfz-Verkehr 2009 im Nebennetz, Stand 2011"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_13_1_2pm10verkehr_neben2009"
+        ],
+        "legend": {
+            "width": 270,
+            "height": 412,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_13_1_2pm10emiverkehr_neben2009.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "PM10 Emissionen Kfz-Verkehr Nebennetz 2009",
+                "abstract": "PM10 Emissionen Kfz-Verkehr Nebennetz 2009",
+                "gdi_de": "86d310dd-1ed8-3ada-9aa9-a4ee305ed894",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=68cb62e9-aaa9-3ba4-848f-6a8597390c35&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 270,
+                    "height": 412,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_13_1_2pm10emiverkehr_neben2009.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "PM10",
+                    "Hausbrand",
+                    "2009"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5.000",
+                "abstract": "In Abhängigkeit der Zoomstufe:\nBlockkarte des ISU, 1:5.000 (ISU5), Stand 2010,\nKarte von Berlin 1:5000 (K5),\nAutomatisierte Liegenschaftskarte (ALK)",
+                "gdi_de": "86d310dd-1ed8-3ada-9aa9-a4ee305ed894",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=68cb62e9-aaa9-3ba4-848f-6a8597390c35&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_13_1_2pm10verkehr_neben2009?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "PM10",
+                    "Hausbrand",
+                    "2009"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Emissionsentwicklung als Diagramm mit Zahlenwerten",
+                "abstract": "Emissionsentwicklung als Diagramm mit Zahlenwerten",
+                "gdi_de": "86d310dd-1ed8-3ada-9aa9-a4ee305ed894",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=68cb62e9-aaa9-3ba4-848f-6a8597390c35&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 270,
+                    "height": 412,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_13_1_2pm10emiverkehr_neben2009.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "inspireidentifiziert",
+                    "open data",
+                    "opendata",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Emissionen",
+                    "Kataster",
+                    "BImSchG",
+                    "Bundesimmissionsschutzgesetz",
+                    "Raster",
+                    "Entwicklung",
+                    "Luftgüte",
+                    "Luftqualität",
+                    "PM10",
+                    "Hausbrand",
+                    "2009"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Environmental monitoring facilities",
+        "Kataster",
+        "inspireidentifiziert",
+        "open data",
+        "opendata",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Emissionen",
+        "Kataster",
+        "BImSchG",
+        "Bundesimmissionsschutzgesetz",
+        "Raster",
+        "Entwicklung",
+        "Luftgüte",
+        "Luftqualität",
+        "PM10",
+        "Hausbrand",
+        "2009"
+    ]
+}

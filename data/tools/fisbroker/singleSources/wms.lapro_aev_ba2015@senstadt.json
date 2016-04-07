@@ -1,0 +1,2089 @@
+{
+    "type": "wms",
+    "title": "LaPro Grundlagen: Zielartenverbreitung",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_lapro_aev_ba2015.jpg",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=lapro_aev_ba2015@senstadt",
+    "description": {
+        "link": "?id=lapro_aev_ba2015@senstadt&type=WMS",
+        "kurzbeschreibung": "Die Zielartenverbtreitungskarte ist eine Grundlage für die Darstellung des Biotopverbundsystem des LaPro im Programmplan Biotop- und Artenschutz.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750,01, 250,01, 49780,01, 40100,01\nEPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Gesamtkarte\nArmeria maritima (Gemeine Grasnelke)\nButomus umbellatus (Schwanenblume)\nCaltha palustris (Gewöhnliche Sumpf-Dotterblume)\nLathyros linifolius (Berg-Platterbse)\nSolidago virgaurea (Gemeine Goldrute)\nStachys sylvatica (Wald-Ziest)\nThalictrum flavum (Gelbe Wiesenraute)\nCastor fiber (Biber)\nLepus europaeus (Feldhase)\nLota lota (Quappe)\nCobitis taenia (Steinbeißer)\nPelobates fuscus (Knoblauchkröte)\nRana arvalis (Moorfrosch)\nBombina bombina (Rotbauchunke)\nLacerta agilis (Zauneidechse)\nMarstoniopsis scholtzi (Zwergdeckelschnecke)\nPisidium amnicum (Große Erbsenmuschel)\nCalopteryx splendens (Gebänderte Prachtlibelle)\nLestes dryas (Glänzende Binsenjungfer)\nAndrena nycthemera (Sandbiene)\nOsmia mustellina (Mauerbiene)\nPapilio machaon (Schwalbenschwanz)\nZygaena filipendulae (Gemeines Blutströpfchen)\nChortippus pullus (Kiesbank-Grashüpfer)\nConocephalus dorsalis (Kurzflügelige Schwertschrecke)\nOedipoda caerulescens (Blauflügelige Ödlandschrecke)\nCerambyx cerdo (Heldbock)\nElater ferrugineus (Feuerschmid)\nRhamnusium bicolor (Beulenkopfbock)\nBembidion litorale (Flußauen-Ahlenläufer)\nCarabus auratus (Goldschmied)\nColymbetes payculli (Wasserkäfer)\nHydrophilus aterrimus (Schwarzer-Kolbenwasserkäfer)\nPellenes nigrociliatus (Springspinne)\nHintergrund",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "LaPro Grundlagen: Zielartenverbreitung\n\nFür den Berliner Biotopverbund wurden 34 Zielarten festgelegt. Sie eigenen sich in hohem Maße für den Biotopverbund, da sie einen Mitnahmeeffekt für die ausgewählten Organismengruppen aufweisen. Die flächenbezogene Information sind für diese Zielarten in den jeweiligen Zielartenkarten festgelegt. In der Darstellung werden diese Flächen unterschieden in: Derzeitige Kernflächen; Hier besteht zur Zeit eine Population der Art. Derzeitige Verbindungsstrukturen; Diese Flächen oder linearen Strukturen werden zur Zeit von der Zielart zur Ausbreitung genutzt. Potentielle Kernflächen; Bei entsprechender Anbindung an bestehende Biotopverbundstrukturen oder bei Umgestaltung können diese Flächen zukünftig als Kernflächen genutzt werden. Potentielle Verbindungsstrukturen; Bei entsprechender Anbindung an bestehende Biotopverbundstrukturen oder bei Umgestaltung können diese Flächen zukünftig als Verbindungsstrukturen genutzt werden"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/lapro_aev_ba2015"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/jpeg",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_lapro_zielarten.jpg"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Gesamtkarte",
+                "abstract": "Der Programmplan Biotop- und Artenschutz des LaPros stellt wertvolle Lebensräume und geeignete Entwicklungsräume dar. Ziel ist, die hohe biotische Vielfalt dauerhaft zu erhalten.\nLandschafts- einschl. Artenschutzprogramm (LaPro): Änderungsverfahren. Gesamtkarte",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Armeria maritima (Gemeine Grasnelke)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Butomus umbellatus (Schwanenblume)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Caltha palustris (Gewöhnliche Sumpf-Dotterblume)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Lathyros linifolius (Berg-Platterbse)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Solidago virgaurea (Gemeine Goldrute)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Stachys sylvatica (Wald-Ziest)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Thalictrum flavum (Gelbe Wiesenraute)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Castor fiber (Biber)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "Lepus europaeus (Feldhase)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=9",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "10",
+                "title": "Lota lota (Quappe)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=10",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "11",
+                "title": "Cobitis taenia (Steinbeißer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=11",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12",
+                "title": "Pelobates fuscus (Knoblauchkröte)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=12",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "13",
+                "title": "Rana arvalis (Moorfrosch)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=13",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "14",
+                "title": "Bombina bombina (Rotbauchunke)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=14",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "15",
+                "title": "Lacerta agilis (Zauneidechse)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=15",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "16",
+                "title": "Marstoniopsis scholtzi (Zwergdeckelschnecke)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=16",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "17",
+                "title": "Pisidium amnicum (Große Erbsenmuschel)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=17",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "18",
+                "title": "Calopteryx splendens (Gebänderte Prachtlibelle)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=18",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "19",
+                "title": "Lestes dryas (Glänzende Binsenjungfer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=19",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "20",
+                "title": "Andrena nycthemera (Sandbiene)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=20",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "21",
+                "title": "Osmia mustellina (Mauerbiene)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=21",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "22",
+                "title": "Papilio machaon (Schwalbenschwanz)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=22",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "23",
+                "title": "Zygaena filipendulae (Gemeines Blutströpfchen)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=23",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "24",
+                "title": "Chortippus pullus (Kiesbank-Grashüpfer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=24",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "25",
+                "title": "Conocephalus dorsalis (Kurzflügelige Schwertschrecke)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=25",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "26",
+                "title": "Oedipoda caerulescens (Blauflügelige Ödlandschrecke)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=26",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "27",
+                "title": "Cerambyx cerdo (Heldbock)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=27",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "28",
+                "title": "Elater ferrugineus (Feuerschmid)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=28",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "29",
+                "title": "Rhamnusium bicolor (Beulenkopfbock)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=29",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "30",
+                "title": "Bembidion litorale (Flußauen-Ahlenläufer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=30",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "31",
+                "title": "Carabus auratus (Goldschmied)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=31",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "32",
+                "title": "Colymbetes payculli (Wasserkäfer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=32",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "33",
+                "title": "Hydrophilus aterrimus (Schwarzer-Kolbenwasserkäfer)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=33",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "34",
+                "title": "Pellenes nigrociliatus (Springspinne)",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=34",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "35",
+                "title": "Hintergrund",
+                "abstract": "",
+                "gdi_de": "e49f5f27-6f72-364a-9cc9-4f4f0c845a27",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=19815d90-9d08-3cd0-b1f8-cc22d97cc309&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/lapro_aev_ba2015?layerID=35",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 125
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "LaPro",
+                    "Landschaftsprogramm",
+                    "Artenschutzprogramm",
+                    "Biotopschutz",
+                    "Artenschutz",
+                    "Biotopentwicklungsraum",
+                    "Biotopverbund",
+                    "Biotopvernetzung",
+                    "Umwelt",
+                    "Stadtentwicklung",
+                    "Geodaten"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Habitats and biotopes",
+        "Landschaftsplanung",
+        "open data",
+        "opendata",
+        "LaPro",
+        "Landschaftsprogramm",
+        "Artenschutzprogramm",
+        "Biotopschutz",
+        "Artenschutz",
+        "Biotopentwicklungsraum",
+        "Biotopverbund",
+        "Biotopvernetzung",
+        "Umwelt",
+        "Stadtentwicklung",
+        "Geodaten"
+    ]
+}

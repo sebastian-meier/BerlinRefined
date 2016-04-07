@@ -1,0 +1,167 @@
+{
+    "type": "wms",
+    "title": "Baugenehmigungsbehörden",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_baugenehm.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=baugenehm@senstadt",
+    "description": {
+        "link": "?id=baugenehm@senstadt&type=WMS",
+        "kurzbeschreibung": "Verweise auf die Internetseiten der Baugenehmigungsbehörden in den Bezirken",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963",
+        "ebenen": "Karte von Berlin 1:5000 (K5)\nBezirke",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Die Karte zeigt als Basiskarte die Karte 1:5000. Auf Ihr sind die einzelnen Bezirke mit Informationen zu den Baugenehmigungsbehörden hinterlegt."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/baugenehm"
+        ],
+        "legend": {
+            "width": 380,
+            "height": 1062,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_k5.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Karte von Berlin 1:5000 (K5)",
+                "abstract": "Landeskartenwerk mit Grundstücksgrenzen, Straßennamen und Grundstücksnummern;\nvon den Vermessungsämtern der 12 Bezirke Berlins in den Jahren 2002/2003 neu auf Grundlage der ALK\n(Automatisierte Liegenschaftskarte) entwickelt.",
+                "gdi_de": "e562983f-0891-30fa-add9-d2cc88c1b5b9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=18307955-ec79-31f5-bb16-3a674aac6962&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/baugenehm?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 4
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Geltungsbereiche",
+                    "Bebauungsplan",
+                    "Bauaufsicht"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Bezirke",
+                "abstract": "",
+                "gdi_de": "e562983f-0891-30fa-add9-d2cc88c1b5b9",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=18307955-ec79-31f5-bb16-3a674aac6962&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/baugenehm?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 4
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Geltungsbereiche",
+                    "Bebauungsplan",
+                    "Bauaufsicht"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Utility and governmental services",
+        "Bau",
+        "Bauleitplanung",
+        "Bauordnung",
+        "Verwaltung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Geltungsbereiche",
+        "Bebauungsplan",
+        "Bauaufsicht"
+    ]
+}

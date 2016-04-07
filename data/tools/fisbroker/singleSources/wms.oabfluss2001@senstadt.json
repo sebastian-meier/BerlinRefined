@@ -1,0 +1,175 @@
+{
+    "type": "wms",
+    "title": "Oberflächenabfluß aus Niederschlägen 2001 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_oabfluss2001.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=oabfluss2001@senstadt",
+    "description": {
+        "link": "?id=oabfluss2001@senstadt&type=WMS",
+        "kurzbeschreibung": "Dargestellt wird der Oberflächenabfluss aus Niederschlägen in die Kanalisation bzw. in die Gewässer als Mittel\nüber die Gesamtfläche der dargestellten Flächen (versiegelte und unversiegelte Anteile)",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 850, -150, 50350, 40750",
+        "ebenen": "Oberflächenabfluß aus Niederschlägen 2001 (Umweltatlas)\nHintergrund ISU50 2001",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Dargestellt wird der Oberflächenabfluss aus Niederschlägen in die Kanalisation bzw. in die Gewässer als Mittel\nüber die Gesamtfläche der dargestellten Flächen (versiegelte und unversiegelte Anteile)"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/oabfluss2001"
+        ],
+        "legend": {
+            "width": 237,
+            "height": 290,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_oabfluss2001.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Oberflächenabfluß aus Niederschlägen 2001 (Umweltatlas)",
+                "abstract": "Oberflächenabfluß aus Niederschlägen",
+                "gdi_de": "7d8da317-6de4-35e5-98c5-af61616d2f39",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8736e7c3-9e46-3e06-b930-7fcff90d8b6e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/oabfluss2001?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Versickerung",
+                    "Sickerwasserrate",
+                    "Wasserhaushalt",
+                    "Versiegelung",
+                    "Regenwasser",
+                    "Kanalisation"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund ISU50 2001",
+                "abstract": "",
+                "gdi_de": "7d8da317-6de4-35e5-98c5-af61616d2f39",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8736e7c3-9e46-3e06-b930-7fcff90d8b6e&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/oabfluss2001?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Versickerung",
+                    "Sickerwasserrate",
+                    "Wasserhaushalt",
+                    "Versiegelung",
+                    "Regenwasser",
+                    "Kanalisation"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -150,
+                            "max_latitude": 40750,
+                            "min_longitude": 850,
+                            "max_longitude": 50350
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Boden",
+        "Meteorologie",
+        "Soil",
+        "Meteorological geographical features",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Versickerung",
+        "Sickerwasserrate",
+        "Wasserhaushalt",
+        "Versiegelung",
+        "Regenwasser",
+        "Kanalisation"
+    ]
+}

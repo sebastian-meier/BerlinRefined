@@ -1,0 +1,809 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.331942556803252,
+                        52.53276547644034
+                    ],
+                    [
+                        13.332050017011031,
+                        52.53277220502901
+                    ],
+                    [
+                        13.33474923292311,
+                        52.533035489737166
+                    ],
+                    [
+                        13.335458669774079,
+                        52.53309868713014
+                    ],
+                    [
+                        13.335690049072802,
+                        52.53313349392578
+                    ],
+                    [
+                        13.336857135675107,
+                        52.53337589163327
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "STRASSE": "Siemensstraee",
+                "VON": "Unionplatz",
+                "BIS": "Waldstrate",
+                "LAENGE": "100",
+                "BREITE": "0",
+                "FB": "x",
+                "DAT_FB": "2017-08-14T00:00:00",
+                "alias": "F29__24"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34173709039951,
+                        52.53491519917976
+                    ],
+                    [
+                        13.341133111359254,
+                        52.53503680995479
+                    ],
+                    [
+                        13.340372333417736,
+                        52.535038009057274
+                    ],
+                    [
+                        13.338973629170399,
+                        52.53488750206062
+                    ],
+                    [
+                        13.33711461468185,
+                        52.53452834155191
+                    ],
+                    [
+                        13.332242045361426,
+                        52.53391268662773
+                    ],
+                    [
+                        13.330646485475363,
+                        52.53341825214552
+                    ],
+                    [
+                        13.329442316024705,
+                        52.53290451143344
+                    ],
+                    [
+                        13.328439626168812,
+                        52.53294761465221
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "STRASSE": "Erna Samuel Straee",
+                "VON": "Rathenower Straae",
+                "BIS": "BeusselstraSe",
+                "LAENGE": "800",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "RW": "x",
+                "DAT_FB": "2019-03-18T00:00:00",
+                "DAT_GW_RW": "2017-03-18T00:00:00",
+                "alias": "F29__50"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.318728284787866,
+                        52.519150673900754
+                    ],
+                    [
+                        13.318581496711483,
+                        52.51901302922189
+                    ],
+                    [
+                        13.317684432679142,
+                        52.51784236176393
+                    ],
+                    [
+                        13.31647668783648,
+                        52.516308592075426
+                    ],
+                    [
+                        13.315282714539402,
+                        52.51479819802172
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Cauerstrane",
+                "VON": "Otto-Suhr-Allee",
+                "BIS": "Einsteinufer",
+                "LAENGE": "537",
+                "BREITE": "0",
+                "FB": "x",
+                "DAT_FB": "2018-07-24T00:00:00",
+                "alias": "F29__121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.33220545676516,
+                        52.515807248932894
+                    ],
+                    [
+                        13.330840354079255,
+                        52.51407202648047
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Englische Str.",
+                "VON": "Salzufer",
+                "BIS": "Wegelystr.",
+                "LAENGE": "300",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "DAT_FB": "2020-04-23T00:00:00",
+                "DAT_GW_RW": "2018-04-23T00:00:00",
+                "alias": "F29__410"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.330577233583275,
+                        52.516332636370464
+                    ],
+                    [
+                        13.332133235884864,
+                        52.51587868524726
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Gutenbergstr.",
+                "VON": "Nr. 6",
+                "BIS": "Wegelystr.",
+                "LAENGE": "250",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "DAT_FB": "2020-04-23T00:00:00",
+                "DAT_GW_RW": "2018-04-23T00:00:00",
+                "alias": "F29__411"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.31427892708259,
+                        52.530390556873165
+                    ],
+                    [
+                        13.313410987763916,
+                        52.53019543660883
+                    ],
+                    [
+                        13.313051611424976,
+                        52.530075430518416
+                    ],
+                    [
+                        13.312758136853654,
+                        52.529967869841784
+                    ],
+                    [
+                        13.312455548037073,
+                        52.52985073863787
+                    ],
+                    [
+                        13.31230383490427,
+                        52.52978726793724
+                    ],
+                    [
+                        13.31200467443638,
+                        52.52970443447591
+                    ],
+                    [
+                        13.31173219465238,
+                        52.52964544242502
+                    ],
+                    [
+                        13.31105766720168,
+                        52.52952704675039
+                    ],
+                    [
+                        13.30839214661967,
+                        52.52913623229405
+                    ],
+                    [
+                        13.307160772056987,
+                        52.5289444098091
+                    ],
+                    [
+                        13.306784033872013,
+                        52.52889407390886
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Gaurstr.",
+                "VON": "Sickingenbrucke",
+                "BIS": "Lise-Meitner-Str.",
+                "LAENGE": "500",
+                "BREITE": "2.5",
+                "LAGE": "Nirdl. Radweg",
+                "FB": "x",
+                "DAT_FB": "2017-10-29T00:00:00",
+                "alias": "F29__439"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.312382573519722,
+                        52.529848440104224
+                    ],
+                    [
+                        13.312231821449332,
+                        52.52979478068109
+                    ],
+                    [
+                        13.312048809283807,
+                        52.529742280220894
+                    ],
+                    [
+                        13.311850269120436,
+                        52.529695310503044
+                    ],
+                    [
+                        13.311537377467207,
+                        52.529637719551104
+                    ],
+                    [
+                        13.311183771551828,
+                        52.52957666955997
+                    ],
+                    [
+                        13.306811974514742,
+                        52.52893249823333
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Gaurstr.",
+                "VON": "Sikingenbrbcke",
+                "BIS": "Lise-Meitner-Str.",
+                "LAENGE": "500",
+                "BREITE": "2",
+                "LAGE": "nirdl. Parkh-fen",
+                "FB": "x",
+                "DAT_FB": "2017-10-29T00:00:00",
+                "alias": "F29__440"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.340202290068342,
+                        52.518933723222005
+                    ],
+                    [
+                        13.340733348633364,
+                        52.51946093289121
+                    ],
+                    [
+                        13.341137740156608,
+                        52.5198858641167
+                    ],
+                    [
+                        13.341434146299207,
+                        52.52030928033901
+                    ],
+                    [
+                        13.341550666975952,
+                        52.52053609562155
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "STRASSE": "Lessingstrale",
+                "VON": "Altonaer Str.",
+                "BIS": "Flensburger Str.",
+                "LAENGE": "200",
+                "BREITE": "0",
+                "LAGE": "Ostseite",
+                "GW": "x",
+                "RW": "x",
+                "DAT_GW_RW": "2016-05-05T00:00:00",
+                "alias": "F29__476"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.341739430300956,
+                        52.52244627143045
+                    ],
+                    [
+                        13.34155201370805,
+                        52.52173618648457
+                    ],
+                    [
+                        13.34144282559446,
+                        52.52132105851486
+                    ],
+                    [
+                        13.341296165578544,
+                        52.520948913245064
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "STRASSE": "Lessingstrale",
+                "VON": "Lessingbrrcke",
+                "BIS": "ggs. Flensburger Str.",
+                "LAENGE": "200",
+                "BREITE": "0",
+                "LAGE": "Westseite",
+                "GW": "x",
+                "RW": "x",
+                "DAT_FB": "2018-10-01T00:00:00",
+                "DAT_GW_RW": "2016-10-01T00:00:00",
+                "alias": "F29__486"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34173709039951,
+                        52.53491519917976
+                    ],
+                    [
+                        13.341133111359254,
+                        52.53503680995479
+                    ],
+                    [
+                        13.340372333417736,
+                        52.535038009057274
+                    ],
+                    [
+                        13.338973629170399,
+                        52.53488750206062
+                    ],
+                    [
+                        13.33711461468185,
+                        52.53452834155191
+                    ],
+                    [
+                        13.332242045361426,
+                        52.53391268662773
+                    ],
+                    [
+                        13.330646485475363,
+                        52.53341825214552
+                    ],
+                    [
+                        13.329442316024705,
+                        52.53290451143344
+                    ],
+                    [
+                        13.328439626168812,
+                        52.53294761465221
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "STRASSE": "Erna Samuel Straee",
+                "VON": "Rathenower Straae",
+                "BIS": "BeusselstraSe",
+                "LAENGE": "800",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "RW": "x",
+                "DAT_FB": "2019-03-18T00:00:00",
+                "DAT_GW_RW": "2017-03-18T00:00:00",
+                "alias": "F29__490"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.33220545676516,
+                        52.515807248932894
+                    ],
+                    [
+                        13.330840354079255,
+                        52.51407202648047
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Englische Str.",
+                "VON": "Salzufer",
+                "BIS": "Wegelystr.",
+                "LAENGE": "300",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "DAT_FB": "2020-04-23T00:00:00",
+                "DAT_GW_RW": "2018-04-23T00:00:00",
+                "alias": "F29__607"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.330577233583275,
+                        52.516332636370464
+                    ],
+                    [
+                        13.332133235884864,
+                        52.51587868524726
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Gutenbergstr.",
+                "VON": "Nr. 6",
+                "BIS": "Wegelystr.",
+                "LAENGE": "250",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "DAT_FB": "2020-04-23T00:00:00",
+                "DAT_GW_RW": "2018-04-23T00:00:00",
+                "alias": "F29__608"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.306178091902032,
+                        52.523528473822935
+                    ],
+                    [
+                        13.306217106815163,
+                        52.5245521100109
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Shmmeringstr.",
+                "VON": "Nr. 24/26",
+                "BIS": "Nordhauser Str.",
+                "LAENGE": "90",
+                "BREITE": "4",
+                "LAGE": "Nstl. Gehweg",
+                "GW": "x",
+                "DAT_GW_RW": "2017-12-05T00:00:00",
+                "alias": "F29__618"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.306356050784732,
+                        52.52138283779186
+                    ],
+                    [
+                        13.306196077983778,
+                        52.523184169707605
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Shmmeringstr.",
+                "VON": "Nr. 2",
+                "BIS": "Quedlinburger Str.",
+                "LAENGE": "250",
+                "BREITE": "4",
+                "LAGE": "Qstl. Gehweg",
+                "GW": "x",
+                "DAT_GW_RW": "2018-06-11T00:00:00",
+                "alias": "F29__619"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.30595912449019,
+                        52.52457547503122
+                    ],
+                    [
+                        13.306138342310897,
+                        52.524574174387745
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "FGa Sommeringstr.",
+                "VON": "Nordhauser Str.",
+                "LAENGE": "13",
+                "BREITE": "13",
+                "LAGE": "s",
+                "GW": "x",
+                "DAT_GW_RW": "2019-12-17T00:00:00",
+                "alias": "F29__627"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.31419180231882,
+                        52.53040855322847
+                    ],
+                    [
+                        13.313380768234659,
+                        52.53021631135009
+                    ],
+                    [
+                        13.313006162187042,
+                        52.53010669492632
+                    ],
+                    [
+                        13.312637792236325,
+                        52.529977210350054
+                    ],
+                    [
+                        13.312311101342685,
+                        52.529860904853614
+                    ],
+                    [
+                        13.31202704439324,
+                        52.52976776899632
+                    ],
+                    [
+                        13.311722310167783,
+                        52.529709845338516
+                    ],
+                    [
+                        13.311147440361252,
+                        52.52961741239381
+                    ],
+                    [
+                        13.306775097135578,
+                        52.52896837760374
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "STRASSE": "Gaurstr.",
+                "VON": "Sickingenbrucke",
+                "BIS": "Lise-Meitner-Str.",
+                "LAENGE": "500",
+                "BREITE": "4",
+                "LAGE": "nirdl. Gehweg",
+                "GW": "x",
+                "DAT_GW_RW": "2017-10-29T00:00:00",
+                "alias": "F29__628"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.340202290068342,
+                        52.518933723222005
+                    ],
+                    [
+                        13.340733348633364,
+                        52.51946093289121
+                    ],
+                    [
+                        13.341137740156608,
+                        52.5198858641167
+                    ],
+                    [
+                        13.341434146299207,
+                        52.52030928033901
+                    ],
+                    [
+                        13.341550666975952,
+                        52.52053609562155
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "STRASSE": "Lessingstrale",
+                "VON": "Altonaer Str.",
+                "BIS": "Flensburger Str.",
+                "LAENGE": "200",
+                "BREITE": "0",
+                "LAGE": "Ostseite",
+                "GW": "x",
+                "RW": "x",
+                "DAT_GW_RW": "2016-05-05T00:00:00",
+                "alias": "F29__653"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.341739430300956,
+                        52.52244627143045
+                    ],
+                    [
+                        13.34155201370805,
+                        52.52173618648457
+                    ],
+                    [
+                        13.34144282559446,
+                        52.52132105851486
+                    ],
+                    [
+                        13.341296165578544,
+                        52.520948913245064
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "STRASSE": "Lessingstrale",
+                "VON": "Lessingbrrcke",
+                "BIS": "ggs. Flensburger Str.",
+                "LAENGE": "200",
+                "BREITE": "0",
+                "LAGE": "Westseite",
+                "GW": "x",
+                "RW": "x",
+                "DAT_FB": "2018-10-01T00:00:00",
+                "DAT_GW_RW": "2016-10-01T00:00:00",
+                "alias": "F29__659"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.34173709039951,
+                        52.53491519917976
+                    ],
+                    [
+                        13.341133111359254,
+                        52.53503680995479
+                    ],
+                    [
+                        13.340372333417736,
+                        52.535038009057274
+                    ],
+                    [
+                        13.338973629170399,
+                        52.53488750206062
+                    ],
+                    [
+                        13.33711461468185,
+                        52.53452834155191
+                    ],
+                    [
+                        13.332242045361426,
+                        52.53391268662773
+                    ],
+                    [
+                        13.330646485475363,
+                        52.53341825214552
+                    ],
+                    [
+                        13.329442316024705,
+                        52.53290451143344
+                    ],
+                    [
+                        13.328439626168812,
+                        52.53294761465221
+                    ]
+                ]
+            },
+            "properties": {
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "STRASSE": "Erna Samuel Straee",
+                "VON": "Rathenower Straae",
+                "BIS": "BeusselstraSe",
+                "LAENGE": "800",
+                "BREITE": "0",
+                "FB": "x",
+                "GW": "x",
+                "RW": "x",
+                "DAT_FB": "2019-03-18T00:00:00",
+                "DAT_GW_RW": "2017-03-18T00:00:00",
+                "alias": "F29__663"
+            }
+        }
+    ]
+}

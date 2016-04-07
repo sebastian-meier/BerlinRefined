@@ -1,0 +1,39 @@
+{
+    "type": "feed",
+    "title": "Denkmalkarte Berlin",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_denkmal.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=denkmal@senstadt",
+    "description": {
+        "link": "?id=a_denkmal@senstadt&type=FEED",
+        "kurzbeschreibung": "Kartographische Darstellung der in der Denkmalliste Berlin aufgeführten Denkmalpositionen",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "application/x-shapefile",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_denkmal"
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "download": {
+        "description": "Denkmalkarte Berlin - Download-Service - EPSG:25833 - Shape-files, gezippt.",
+        "erläuterung": "Denkmalkarte Berlin in 5 Shape-files (Baudenkmale, Denkmalbereiche Ensemble, Denkmalbereiche Gesamtanlage Gartendenkmale, Bodendenkmale)",
+        "denkmalkarte": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/Denkmal/Denkmalkarte.zip\n"
+    }
+}

@@ -1,0 +1,3525 @@
+{
+    "type": "wms",
+    "title": "Klimamodell Berlin: Planungshinweise Stadtklima 2015 - Maßnahmen (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_04_11_3plan_massn_stadtklima2015.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_0411023_planungshin_massn@senstadt",
+    "description": {
+        "link": "?id=wmsk_0411023_planungshin_massn@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der 30 Maßnahmenempfehlungen zur Hauptkarte der Planungshinweiskarte Stadtklima (PHK). Ihre flächenhafte Verteilung lässt sich über die Ebenenschaltung einzeln anzeigen.",
+        "koordinatensysteme": "EPSG:25833, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 367190,96, 5798934,34, 417447,14, 5838875,02\nEPSG:4258: 13,05, 52,32, 13,78, 52,69",
+        "ebenen": "Hintergrund\nM01 - Verschattung im Öffentlichen Raum\nM02 - Begrünung und Verschattung von Parkplätzen\nM03 - Reduktion anthropogener Wärmeemissionen aus dem Verkehr\nM04 - Begrünung von Gleistrassen\nM05 - Rückbau/Entdichtung\nM06 - Entsiegelung\nM07 - Schaffung von Pocket-Parks\nM08 - Verbesserung der Erreichbarkeit von Grünflächen\nM09 - Innen-/Hinterhofbegrünung\nM10 - Verschattung von Gebäuden\nM11 - Erhöhung der Oberflächen-Albedo\nM12 - Anlage von offenen Wasserflächen im öffentlichen Raum\nM13 - Energetische Gebäudesanierung\nM14 - Dachbegrünung\nM15 - Fassadenbegrünung\nM16 - sommerlicher Wärmeschutz an Gebäuden\nM17 - Anpassung des Raumnutzungskonzeptes\nM18 - Technische Gebäudekühlung\nM19 - Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten\nM20 - stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten\nM21 ? Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte\nM22 - Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen\nM23 - Schutz von für den Kaltlufthaushalt relevanter Flächen\nM24 - Vernetzung von für den Kaltlufthaushalt relevanter Flächen\nM25 - Vermeidung von Austauschbarrieren\nM26 - Verbesserung der Luftqualität in Kaltluftleitbahnen\nM27 - Schutz bestehender grossflächiger Parks / Grünflächen\nM28 - Anlage neuer grossflächiger Parks / Grünflächen\nM29 - Schutz von Waldflächen\nM30 - Schutz von offenen Wasserflächen\nGebäude\nSachdaten Straßen\nSachdaten Blöcke",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung der 30 Maßnahmenempfehlungen zur Hauptkarte der Planungshinweiskarte Stadtklima (PHK). Ihre flächenhafte Verteilung der lässt über die Ebenenschaltung einzeln anzeigen."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_0411023_planungshin_massn"
+        ],
+        "legend": {
+            "width": 523,
+            "height": 322,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif"
+        },
+        "layers": [
+            {
+                "name": "33",
+                "title": "Hintergrund",
+                "abstract": "Blockkarte des ISU, 1:5.000 (ISU5), Stand 2010,",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_0411023_planungshin_massn?layerID=33",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "M01 - Verschattung im Öffentlichen Raum",
+                "abstract": "M01 - Verschattung im Öffentlichen Raum",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "M02 - Begrünung und Verschattung von Parkplätzen",
+                "abstract": "M02 - Begrünung und Verschattung von Parkplätzen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "M03 - Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                "abstract": "M03 - Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "M04 - Begrünung von Gleistrassen",
+                "abstract": "M04 - Begrünung von Gleistrassen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "M05 - Rückbau/Entdichtung",
+                "abstract": "M05 - Rückbau/Entdichtung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "M06 - Entsiegelung",
+                "abstract": "M06 - Entsiegelung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "M07 - Schaffung von Pocket-Parks",
+                "abstract": "M07 - Schaffung von Pocket-Parks",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "10",
+                "title": "M08 - Verbesserung der Erreichbarkeit von Grünflächen",
+                "abstract": "M08 - Verbesserung der Erreichbarkeit von Grünflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "11",
+                "title": "M09 - Innen-/Hinterhofbegrünung",
+                "abstract": "M09 - Innen-/Hinterhofbegrünung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12",
+                "title": "M10 - Verschattung von Gebäuden",
+                "abstract": "M10 - Verschattung von Gebäuden",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "13",
+                "title": "M11 - Erhöhung der Oberflächen-Albedo",
+                "abstract": "M11 - Erhöhung der Oberflächen-Albedo",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "14",
+                "title": "M12 - Anlage von offenen Wasserflächen im öffentlichen Raum",
+                "abstract": "M12 - Anlage von offenen Wasserflächen im öffentlichen Raum",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "15",
+                "title": "M13 - Energetische Gebäudesanierung",
+                "abstract": "M13 - Energetische Gebäudesanierung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "16",
+                "title": "M14 - Dachbegrünung",
+                "abstract": "M14 - Dachbegrünung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "17",
+                "title": "M15 - Fassadenbegrünung",
+                "abstract": "M15 - Fassadenbegrünung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "18",
+                "title": "M16 - sommerlicher Wärmeschutz an Gebäuden",
+                "abstract": "M16 - sommerlicher Wärmeschutz an Gebäuden",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "19",
+                "title": "M17 - Anpassung des Raumnutzungskonzeptes",
+                "abstract": "M17 - Anpassung des Raumnutzungskonzeptes",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "20",
+                "title": "M18 - Technische Gebäudekühlung",
+                "abstract": "M18 - Technische Gebäudekühlung",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "21",
+                "title": "M19 - Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                "abstract": "M19 - Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "22",
+                "title": "M20 - stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                "abstract": "M20 - stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "23",
+                "title": "M21 – Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                "abstract": "M21 – Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "24",
+                "title": "M22 - Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                "abstract": "M22 - Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "25",
+                "title": "M23 - Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                "abstract": "M23 - Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "26",
+                "title": "M24 - Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                "abstract": "M24 - Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "27",
+                "title": "M25 - Vermeidung von Austauschbarrieren",
+                "abstract": "M25 - Vermeidung von Austauschbarrieren",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "28",
+                "title": "M26 - Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                "abstract": "M26 - Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "29",
+                "title": "M27 - Schutz bestehender grossflächiger Parks / Grünflächen",
+                "abstract": "M27 - Schutz bestehender grossflächiger Parks / Grünflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "30",
+                "title": "M28 - Anlage neuer grossflächiger Parks / Grünflächen",
+                "abstract": "M28 - Anlage neuer grossflächiger Parks / Grünflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "31",
+                "title": "M29 - Schutz von Waldflächen",
+                "abstract": "M29 - Schutz von Waldflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "32",
+                "title": "M30 - Schutz von offenen Wasserflächen",
+                "abstract": "M30 - Schutz von offenen Wasserflächen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "35",
+                "title": "Gebäude",
+                "abstract": "Gebäude (ALK, Stand 06/2014)",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_04_11_3PHK_Massn_2015.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "36",
+                "title": "Sachdaten Straßen",
+                "abstract": "Sachdaten Straßen",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_0411023_planungshin_massn?layerID=36",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "34",
+                "title": "Sachdaten Blöcke",
+                "abstract": "Sachdaten für 24329 Blöcke (ISU5, Stand 2010)",
+                "gdi_de": "7be097c2-d671-3052-a999-bd1ba2ec1215",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=9c912d99-b21b-3936-8dd8-3e5d7dcc11d0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_0411023_planungshin_massn?layerID=34",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karte",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Planungshinweise",
+                    "Stadtklima",
+                    "Stadtentwicklung",
+                    "stadtklimatisch",
+                    "Mensch",
+                    "thermische Situation",
+                    "Schutzwürdigkeit",
+                    "Luftbelastung",
+                    "Kaltluftabfluss",
+                    "Kaltluftleitbahnen",
+                    "Luftaustausch",
+                    "Hauptstraßennetz",
+                    "Lufthygiene",
+                    "Planungsverfahren",
+                    "Maßnahmen",
+                    "Verschattung im Öffentlichen Raum",
+                    "Begrünung und Verschattung von Parkplätzen",
+                    "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+                    "Begrünung von Gleistrassen",
+                    "Rückbau/Entdichtung",
+                    "Entsiegelung",
+                    "Schaffung von Pocket-Parks",
+                    "Verbesserung der Erreichbarkeit von Grünflächen",
+                    "Innen-/Hinterhofbegrünung",
+                    "Verschattung von Gebäuden",
+                    "Erhöhung der Oberflächen-Albedo",
+                    "Anlage von offenen Wasserflächen im öffentlichen Raum",
+                    "Energetische Gebäudesanierung",
+                    "Dachbegrünung",
+                    "Fassadenbegrünung",
+                    "sommerlicher Wärmeschutz an Gebäuden",
+                    "Anpassung des Raumnutzungskonzeptes",
+                    "Technische Gebäudekühlung",
+                    "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+                    "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+                    "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+                    "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+                    "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+                    "Vermeidung von Austauschbarrieren",
+                    "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+                    "Schutz bestehender grossflächiger Parks / Grünflächen",
+                    "Anlage neuer grossflächiger Parks / Grünflächen",
+                    "Schutz von Waldflächen",
+                    "Schutz von offenen Wasserflächen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5798934.3364,
+                            "max_latitude": 5838875.0218,
+                            "min_longitude": 367190.9604,
+                            "max_longitude": 417447.1434
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3246,
+                            "max_latitude": 52.6935,
+                            "min_longitude": 13.0512,
+                            "max_longitude": 13.7785
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Meteorological geographical features",
+        "Klima",
+        "Karte",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Planungshinweise",
+        "Stadtklima",
+        "Stadtentwicklung",
+        "stadtklimatisch",
+        "Mensch",
+        "thermische Situation",
+        "Schutzwürdigkeit",
+        "Luftbelastung",
+        "Kaltluftabfluss",
+        "Kaltluftleitbahnen",
+        "Luftaustausch",
+        "Hauptstraßennetz",
+        "Lufthygiene",
+        "Planungsverfahren",
+        "Maßnahmen",
+        "Verschattung im Öffentlichen Raum",
+        "Begrünung und Verschattung von Parkplätzen",
+        "Reduktion anthropogener Wärmeemissionen aus dem Verkehr",
+        "Begrünung von Gleistrassen",
+        "Rückbau/Entdichtung",
+        "Entsiegelung",
+        "Schaffung von Pocket-Parks",
+        "Verbesserung der Erreichbarkeit von Grünflächen",
+        "Innen-/Hinterhofbegrünung",
+        "Verschattung von Gebäuden",
+        "Erhöhung der Oberflächen-Albedo",
+        "Anlage von offenen Wasserflächen im öffentlichen Raum",
+        "Energetische Gebäudesanierung",
+        "Dachbegrünung",
+        "Fassadenbegrünung",
+        "sommerlicher Wärmeschutz an Gebäuden",
+        "Anpassung des Raumnutzungskonzeptes",
+        "Technische Gebäudekühlung",
+        "Optimierung der Gebäudeausrichtung und der Bebauungsdichte bei Neubauten",
+        "stadtklimatische Entkopplung von Neubau- und Nachverdichtungsgebieten",
+        "Förderung stadtgesellschaftlicher sozialer Netzwerke und Projekte",
+        "Erhöhung der Mikroklimatischen Vielfalt in öffentlichen Grünflächen",
+        "Schutz von für den Kaltlufthaushalt relevanter Flächen",
+        "Vernetzung von für den Kaltlufthaushalt relevanter Flächen",
+        "Vermeidung von Austauschbarrieren",
+        "Verbesserung der Luftqualität in Kaltluftleitbahnen",
+        "Schutz bestehender grossflächiger Parks / Grünflächen",
+        "Anlage neuer grossflächiger Parks / Grünflächen",
+        "Schutz von Waldflächen",
+        "Schutz von offenen Wasserflächen"
+    ]
+}

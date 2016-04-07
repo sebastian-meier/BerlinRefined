@@ -1,0 +1,699 @@
+{
+    "type": "wms",
+    "title": "Blockkarte 1:50000 (ISU50, Raumbezug Umweltatlas 2010)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_ISU50_2010_UA.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=ISU50_2010_UA@senstadt",
+    "description": {
+        "link": "?id=ISU50_2010_UA@senstadt&type=WMS",
+        "kurzbeschreibung": "Räumliches Bezugssystem im Maßstab 1:50.000 für Daten des Umweltatlas aus statistischen Blöcken des regionalen Bezugssystems (RBS) mit Teilblöcken des Informationssystems Stadt und Umwelt (ISU), Stand 31.12.2010. Die Straßen sind überzeichnet dargestellt.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100",
+        "ebenen": "Block- und Teilblockflächen\nTeilblockgrenzen\nGewässer\nStraßennamen\nBahnflächen\nBlocknummer (RBS)\nTeilblocknummer (Umweltatlas)\nBlock- und Teilblockschlüssel (Umweltatlas)\nOrtsteilnamen\nBezirksgrenzen und -namen",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Als Raumbezug für die Ausprägung der Daten des Umweltatlas genutzte, grundrisstreue Abbildung der statistischen Blöcke des regionalen Bezugssystems (RBS) mit Teilblöcken des Informationssystems Stadt und Umwelt (ISU), Senatverwaltung für Stadtentwicklung, Stand 31.12.2010"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/ISU50_2010_UA"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_isu50_2010.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Block- und Teilblockflächen",
+                "abstract": "Für die Ausprägung der Daten des Umweltatlas genutzte, grundrisstreue Abbildung der statistischen Blöcke des regionalen Bezugssystems (RBS) mit Teilblöcken des Informationssystems Stadt und Umwelt (ISU), SenStadt, Stand 31.12.2010",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Teilblockgrenzen",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Gewässer",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Straßennamen",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Bahnflächen",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Blocknummer (RBS)",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Teilblocknummer (Umweltatlas)",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Block- und Teilblockschlüssel (Umweltatlas)",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Ortsteilnamen",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "Bezirksgrenzen und -namen",
+                "abstract": "",
+                "gdi_de": "e30c5702-fc19-34aa-a3e9-c6064e92f3f7",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=699ef9b4-8a9f-3ebf-b0ee-61bec89ac5c0&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ISU50_2010_UA?layerID=9",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Regionales Bezugssystem",
+                    "RBS",
+                    "Statistische Gebiete",
+                    "Topografie",
+                    "Topographie",
+                    "Übersichtskarte",
+                    "Hintergrundkarte",
+                    "Grundkarte",
+                    "Umweltatlas",
+                    "Blöcke",
+                    "Blockkarte",
+                    "Teilblöcke",
+                    "Teilblockkarte",
+                    "ISU",
+                    "Berliner  Bezirke",
+                    "Bezirksgrenzen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Statistical units",
+        "Verwaltung",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Regionales Bezugssystem",
+        "RBS",
+        "Statistische Gebiete",
+        "Topografie",
+        "Topographie",
+        "Übersichtskarte",
+        "Hintergrundkarte",
+        "Grundkarte",
+        "Umweltatlas",
+        "Blöcke",
+        "Blockkarte",
+        "Teilblöcke",
+        "Teilblockkarte",
+        "ISU",
+        "Berliner  Bezirke",
+        "Bezirksgrenzen"
+    ]
+}

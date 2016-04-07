@@ -1,0 +1,65 @@
+<h1>FIS-Broker</h1>
+
+<h2>Vector-Data</h2>
+
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=wfs
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=wms
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=feed
+
+http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/IMAGE
+
+
+
+gdal_translate -of JPEG -projwin -bounding box frmt_wms_virtualearth0.xml centro2.jpg
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:25833&format=image/png&width=1230&height=1000&bbox=369097.8529,5799298.1358,416865.038,5838236.2097&styles=gdi_default
+Ratio: 1-1.23
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:4326&format=image/png&width=1230&height=1000&bbox=13.079,52.3284,13.7701,52.6877&styles=gdi_default
+Ratio: 1-1.92
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:4326&format=image/png&width=1682&height=2070&bbox=13.306503295898438,52.51303464932938,13.349504470825195,52.540971446408086&styles=gdi_default
+
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:4326&format=image/png&width=4908&height=5000&bbox=13.306503295898438,52.51303464932938,13.349504470825195,52.540971446408086&styles=gdi_default
+
+
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:4326&format=image/png&width=1230&height=1000&bbox=13.306503295898438,52.51303464932938,13.349504470825195,52.540971446408086&styles=gdi_default
+
+
+http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:25833&format=image/png&width=1230&height=1000&bbox=369097.8529,5799298.1358,416865.038,5838236.2097&styles=gdi_default
+
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=wfs
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=wms
+http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?type=feed
+
+Source: http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=a_luftbild2014@senstadt&type=FEED
+
+We will use the command line interface (Terminal). You need to install GDAL first, see link above. First download all the ZIP files containing the aerial photography:
+
+wget http://fbarc.stadt-berlin.de/FIS_Broker_Atom/DOP/dop20c_2014/dop20_{368..414}_{5798..5836}.ecw.ZIP
+
+Unzip the files into a new folder:
+
+unzip /Users/[YOURUSERNAME]/Desktop/BerlinWMS/*.ZIP -d /Users/sebastianmeier/Desktop/BerlinWMSRaw
+
+Go into the folder:
+
+cd /Users/[YOURUSERNAME]/Desktop/BerlinWMSRaw
+
+Build a virtual file format (This is virtually stitching all images together):
+
+gdalbuildvrt MergedRaster.vrt *.ecw
+
+Now we can finally extract any portion of the image we like:
+
+gdalwarp -ts 5000 4406 -t_srs EPSG:4326 -s_srs EPSG:25833 -te 13.079 52.3284 13.7701 52.6877 /Users/[YOURUSERNAME]/Desktop/BerlinWMSRaw/MergedRaster.vrt /Users/[YOURUSERNAME]/Desktop/BerlinWMSRaw/ZoomView_0.tiff
+
+-ts: Represents the pixel width and height for your image
+
+-t_srs / -s_srs: target and source projection/coordinate system
+
+-te: Represents the extent of the rectangle that should be exported as an image (in target coordinate system)
+
+<h2>Raster-Data</h2>

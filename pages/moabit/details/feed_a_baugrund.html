@@ -1,0 +1,48 @@
+---
+layout: default
+title: Moabit - 
+permalink: /pages/moabit/details/feed_a_baugrund
+level: 3
+---
+<h1>Baugrundkarte</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>feed</td></tr>
+<tr><th>Title</th><td>Baugrundkarte</td></tr>
+<tr><th>Category</th><td>Planen/Bauen/Denkmal</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_baugrund.gif'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_baugrund@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_baugrund@senstadt</a></td></tr>
+<tr><th>Keywords</th><td></td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=a_baugrund@senstadt&type=FEED</td></tr>
+<tr><th>kurzbeschreibung</th><td>Diese Karte dokumentiert für ausgewählte Gebiete von Berlin die Tragfähigkeit des Baugrundes</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:3068</td></tr>
+<tr><th>grafikformate</th><td>application/x-ecw</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet "Geoportal Berlin / [Titel des Datensatzes]".</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>Es gelten keine Bedingungen</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin</td></tr>
+<tr><th>email</th><td>fisbroker@senstadtum.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>ATOM-Feed</td></tr>
+<tr><th>version</th><td>1.0</td></tr>
+<tr><th>atom-feed-url</th><td>http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_baugrund</td></tr>
+<tr><th colspan='2'><strong>Download</strong></th></tr>
+<tr><th>description</th><td>Baugrundkarte - Download-Service - EPSG3068 - ECW, gezippt</td></tr>
+<tr><th>erläuterung</th><td><br />Eckkoordinaten der einzelnen ecw-Dateien
+</td></tr>
+<tr><th>baugrundkarte</th><td><br />http://fbarc.stadt-berlin.de/FIS_Broker_Atom/Geologie/Baugrund/Baugrund_ecw.zip
+</td></tr>
+</table>
+</div>
+<div id='legend'></div>
+<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' />
+<script src='{{site.url}}/lib/d3.min.js'></script>
+<script src='{{site.url}}/lib/topojson.v1.min.js'></script>
+<script src='{{site.url}}/lib/leaflet.js'></script>
+<script src='{{site.url}}/lib/leaflet.ajax.min.js'></script>
+<script language='javascript/text'>
+d3.selectAll('#moabit_map, #berlin_map').remove();
+</script>

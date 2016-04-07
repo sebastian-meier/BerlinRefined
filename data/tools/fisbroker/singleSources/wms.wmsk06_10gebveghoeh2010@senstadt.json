@@ -1,0 +1,569 @@
+{
+    "type": "wms",
+    "title": "Gebäude- und Vegetationshöhen 2009/2010 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_06_10gebveghoehen2010.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk06_10gebveghoeh2010@senstadt",
+    "description": {
+        "link": "?id=wmsk06_10gebveghoeh2010@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der Gebäude- und Vegetationshöhen.",
+        "koordinatensysteme": "EPSG:25833",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "Bezirks- und Strassennamen\nHintergrund 1:5000 - 1:1000 (ISU5, K5, ALK)\nGebäude (Phase 1)\nGebäude (Phase 2)\nVegetation (Phase 1)\nVegetation (Phase 2)\nGewässer\nDigitale Orthophotos (Bildflug von 2015)\nDigitale Orthophotos CIR-Variante (Bildflug von 2015)",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.\nDer Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Darstellung der Gebäude- und Vegetationshöhen."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk06_10gebveghoeh2010"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_06_10_GebVegHoehen2010.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Bezirks- und Strassennamen",
+                "abstract": "",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Hintergrund 1:5000 - 1:1000 (ISU5, K5, ALK)",
+                "abstract": "In Abhängigkeit vom Maßstab des Kartenausschnitts: Darstellung der Blockkarte 1:5.000 (ISU5), der Karte von Berlin 1:5.000(K5) oder der Automatisierten Liegenschaftskarte Berlin (ALK-Berlin)",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Gebäude (Phase 1)",
+                "abstract": "Gebäudehöhen pro ALK-Gebäudeteil in m, Innenbereich Berlins, Auswertungsphase 1, 2012",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=2",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Gebäude (Phase 2)",
+                "abstract": "Gebäudehöhen pro ALK-Gebäudeteil in m, Außenbereich Berlins, Auswertungsphase 2, 2013",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Vegetation (Phase 1)",
+                "abstract": "Vegetationshöhe in m, Innenbereich Berlins, Auswertungsphase 1, 2012",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Vegetation (Phase 2)",
+                "abstract": "Vegetationshöhe in m, Außenbereich Berlins, Auswertungsphase 2, 2013",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=7",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Gewässer",
+                "abstract": "",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "9",
+                "title": "Digitale Orthophotos (Bildflug von 2015)",
+                "abstract": "Digitale Orthophotos für das gesamte Berliner Stadtgebiet mit einer Bodenauflösung von 0,20 m im Blattschnitt 2 km x 2 km (Stand 30.03.2014).",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=9",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "6",
+                "title": "Digitale Orthophotos CIR-Variante (Bildflug von 2015)",
+                "abstract": "",
+                "gdi_de": "0fac499d-02ed-36e4-a509-cb045bef163f",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=8dd391cd-8b79-3cd4-bd73-1f842d7f0d27&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk06_10gebveghoeh2010?layerID=6",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 1
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Gebäudehöhen",
+                    "Vegetationsstrukturen",
+                    "Bildflug",
+                    "Orthophotographie",
+                    "Klima",
+                    "Luftaufnahmen",
+                    "Befliegung",
+                    "ALK",
+                    "Luftbilder"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Buildings",
+        "Environmental monitoring facilities",
+        "Flora",
+        "Gebäude",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Gebäudehöhen",
+        "Vegetationsstrukturen",
+        "Bildflug",
+        "Orthophotographie",
+        "Klima",
+        "Luftaufnahmen",
+        "Befliegung",
+        "ALK",
+        "Luftbilder"
+    ]
+}

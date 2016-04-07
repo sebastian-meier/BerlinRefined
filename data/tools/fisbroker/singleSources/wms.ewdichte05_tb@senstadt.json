@@ -1,0 +1,114 @@
+{
+    "type": "wms",
+    "title": "Einwohnerdichte 2005 (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/karte_ewdichte05_teilblock.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=ewdichte05_tb@senstadt",
+    "description": {
+        "link": "?id=ewdichte05_tb@senstadt&type=WMS",
+        "kurzbeschreibung": "Darstellung der Einwohnerdichte/ha auf Block- und Blockteilflächen-Basis, 1:5.000, Stand 31.12.2005.",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 2750, 250, 49780, 40100",
+        "ebenen": "Einwohnerdichte 2005",
+        "nutzungsbedingungen": "Der Datenbestand wird unter der Lizenz CC-BY-3.0-Namensnennung veröffentlicht (vgl. https://creativecommons.org/licenses/by/3.0/de/).\nAls Urheber ist dabei zu nennen: Amt für Statistik Berlin-Brandenburg 2014",
+        "zugriffsbeschränkungen": "keine",
+        "beschreibung": "Darstellung der Einwohnerdichte/ha auf Block- und Blockteilflächen-Basis, 1:5.000, Stand 31.12.2005."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/ewdichte05_tb"
+        ],
+        "legend": {
+            "width": 262,
+            "height": 517,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_EwDichte2005Teilblock.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Einwohnerdichte 2005",
+                "abstract": "Einwohnerdichte 2005",
+                "gdi_de": "635e9075-5550-3188-80ce-77ec7c1adcc5",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=4813f784-7062-36b4-a105-8fe951f0cffb&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/ewdichte05_tb?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Einwohnerdichte2005",
+                    "Einwohnerzahlen"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250,
+                            "max_latitude": 40100,
+                            "min_longitude": 2750,
+                            "max_longitude": 49780
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Population distribution — demography",
+        "Soziales",
+        "Statistik",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Einwohnerdichte2005",
+        "Einwohnerzahlen"
+    ]
+}

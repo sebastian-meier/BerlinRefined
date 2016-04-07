@@ -1,0 +1,390 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.333917512641833,
+                    52.52667838154167
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Berlin-Kolleg",
+                "SCHULART": "Berlin-Kolleg",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Berlin-Kolleg",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10551",
+                "ADRESSE": "Turmstr. 75",
+                "TELEFON": "901838210",
+                "FAX": "901838222",
+                "EMAIL": "<a href=\"mailto:leitung@berlin-kolleg.de\">leitung@berlin-kolleg.de</a>",
+                "INTERNET": "<A HREF=\"http://www.berlin-kolleg.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Angelika Weiß",
+                "alias": "Berlin-Kolleg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33848581616861,
+                    52.52702479222874
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Volkshochschule Mitte",
+                "SCHULART": "Volkshochschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Volkshochschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10551",
+                "ADRESSE": "Mathilde-Jacob-Platz 1",
+                "TELEFON": "901837411",
+                "FAX": "901837484",
+                "EMAIL": "<a href=\"mailto:info.city-vhs@berlin.de\">info.city-vhs@berlin.de</a>",
+                "INTERNET": "<A HREF=\"http://www.city-vhs.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Dr. Eduard J. Ditschek",
+                "alias": "Volkshochschule Mitte"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33226058651504,
+                    52.52877981528057
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Carl-Bolle-Grundschule",
+                "SCHULART": "Grundschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Grundschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10551",
+                "ADRESSE": "Waldenserstr. 21",
+                "TELEFON": "397457810",
+                "FAX": "397457811",
+                "EMAIL": "<a href=\"mailto:info@carl-bolle.cidsnet.de\">info@carl-bolle.cidsnet.de</a>",
+                "INTERNET": "<A HREF=\"http://www.carl-bolle.cidsnet.de/\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Cordula Stobernack",
+                "alias": "Carl-Bolle-Grundschule"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.340287406284611,
+                    52.521427858638454
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Hansa-Grundschule",
+                "SCHULART": "Grundschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Grundschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "PLZ": "10555",
+                "ADRESSE": "Lessingstr. 5",
+                "TELEFON": "39806430",
+                "FAX": "39806434",
+                "EMAIL": "<a href=\"mailto:info@hansa.cidsnet.de\">info@hansa.cidsnet.de</a>",
+                "INTERNET": "<A HREF=\"http://www.hansa@hansa.cidsnet.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Hans-Joachim Scholz",
+                "alias": "Hansa-Grundschule"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.331492286091546,
+                    52.52337699444348
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Miriam-Makeba-Grundschule",
+                "SCHULART": "Grundschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Grundschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10555",
+                "ADRESSE": "Zinzendorfstr. 15-16",
+                "TELEFON": "39405210",
+                "FAX": "39405220",
+                "EMAIL": "<a href=\"mailto:Gotzkowsky-Grundschule.cids@t-online.de\">Gotzkowsky-Grundschule.cids@t-online.de</a>",
+                "INTERNET": "<A HREF=\"http://Gotzkowsky-Grundschule.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Holger Leimbach",
+                "alias": "Miriam-Makeba-Grundschule"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.31660244937397,
+                    52.524701275947585
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Heinrich-von-Stephan-Schule (Gemeinschaftsschule)",
+                "SCHULART": "Integrierte Sekundarschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Integrierte Sekundarschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10553",
+                "ADRESSE": "Neues Ufer 6",
+                "TELEFON": "39063130",
+                "FAX": "39063140",
+                "EMAIL": "<a href=\"mailto:hvstephan@web.de\">hvstephan@web.de</a>",
+                "INTERNET": "<A HREF=\"http://www.hvstephan.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Jens Großpietsch",
+                "alias": "Heinrich-von-Stephan-Schule (Gemeinschaftsschule)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.346536415950943,
+                    52.533549468778624
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Hedwig-Dohm-Schule (Integrierte Sekundarschule)",
+                "SCHULART": "Integrierte Sekundarschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Integrierte Sekundarschule",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Moabit",
+                "PLZ": "10559",
+                "ADRESSE": "Stephanstr. 27",
+                "TELEFON": "38377131",
+                "FAX": "38377130",
+                "EMAIL": "<a href=\"mailto:hedwig-dohm-os@web.de\">hedwig-dohm-os@web.de</a>",
+                "INTERNET": "<A HREF=\"http://www.hedwig-dohm-os.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Josef Widerski",
+                "alias": "Hedwig-Dohm-Schule (Integrierte Sekundarschule)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.339746368507733,
+                    52.51989973478855
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "12. Schule (Gymnasium)",
+                "SCHULART": "Gymnasium",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Gymnasien",
+                "BEZIRK": "Mitte",
+                "ORTSTEIL": "Hansaviertel",
+                "PLZ": "10555",
+                "ADRESSE": "Altonaer Str. 26",
+                "TELEFON": "398009710",
+                "FAX": "398009722",
+                "EMAIL": "<a href=\"mailto:sekretariat@gymnasium-tiergarten.de\">sekretariat@gymnasium-tiergarten.de</a>",
+                "INTERNET": "<A HREF=\"http://gymnasium-tiergarten.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Cynthia Segner",
+                "alias": "12. Schule (Gymnasium)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308299706615177,
+                    52.51695136947654
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "1. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf",
+                "SCHULART": "Schulpraktisches Seminar",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Schulpraktisches Seminar",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Otto-Suhr-Allee 100",
+                "TELEFON": "902913280",
+                "FAX": "902913285",
+                "EMAIL": "<a href=\"mailto:herpell.1spsch@t-online.de\">herpell.1spsch@t-online.de</a>",
+                "LEITUNG": "Anja Herpell",
+                "alias": "1. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308299706615177,
+                    52.51695136947654
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "2. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf",
+                "SCHULART": "Schulpraktisches Seminar",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Schulpraktisches Seminar",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Otto-Suhr-Allee 100",
+                "TELEFON": "902913280",
+                "FAX": "902913285",
+                "EMAIL": "<a href=\"mailto:stein-kramer2spsch@t-online.de\">stein-kramer2spsch@t-online.de</a>",
+                "LEITUNG": "Dr. Michaela Stein-Kramer",
+                "alias": "2. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308299706615177,
+                    52.51695136947654
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "3. Schulpraktisches Seminar (L) Charlottenburg-Wilmersdorf",
+                "SCHULART": "Schulpraktisches Seminar",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Schulpraktisches Seminar",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Otto-Suhr-Allee 100",
+                "TELEFON": "902913290",
+                "FAX": "902913295",
+                "EMAIL": "<a href=\"mailto:junge3sps@t-online.de\">junge3sps@t-online.de</a>",
+                "LEITUNG": "Claudia Junge",
+                "alias": "3. Schulpraktisches Seminar (L) Charlottenburg-Wilmersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308299706615177,
+                    52.51695136947654
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "4. Schulpraktisches Seminar (L) Charlottenburg-Wilmersdorf",
+                "SCHULART": "Schulpraktisches Seminar",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Schulpraktisches Seminar",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Otto-Suhr-Allee 100",
+                "TELEFON": "902913290",
+                "FAX": "902913295",
+                "EMAIL": "<a href=\"mailto:kapella4sps@t-online.de\">kapella4sps@t-online.de</a>",
+                "LEITUNG": "stellv. Birgit Kapella",
+                "alias": "4. Schulpraktisches Seminar (L) Charlottenburg-Wilmersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.308299706615177,
+                    52.51695136947654
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "5. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf",
+                "SCHULART": "Schulpraktisches Seminar",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Schulpraktisches Seminar",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Otto-Suhr-Allee 100",
+                "TELEFON": "902913280",
+                "FAX": "902913285",
+                "EMAIL": "<a href=\"mailto:seminar.sylvester@arcor.de\">seminar.sylvester@arcor.de</a>",
+                "LEITUNG": "stellv. Thomas Sylvester",
+                "alias": "5. Schulpraktisches Seminar (S) Charlottenburg-Wilmersdorf"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.316036246457985,
+                    52.515991827882715
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Ludwig-Cauer-Grundschule",
+                "SCHULART": "Grundschule",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Grundschule",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10587",
+                "ADRESSE": "Cauerstr. 36-38",
+                "TELEFON": "902925700",
+                "FAX": "902925707",
+                "EMAIL": "<a href=\"mailto:cauerschule@t-online.de\">cauerschule@t-online.de</a>",
+                "INTERNET": "<A HREF=\"http://www.lcs.cidsnet.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Manfred Streich",
+                "alias": "Ludwig-Cauer-Grundschule"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.307233724087032,
+                    52.514899890943575
+                ]
+            },
+            "properties": {
+                "SCHULNAME": "Arno-Fuchs-Schule",
+                "SCHULART": "Förderschwerp. \"Geistige Entwicklung\"",
+                "TRAEGER": "Bezirk",
+                "ZWEIG_01": "Förderschwerp.\"Geistige Entwicklung\"",
+                "BEZIRK": "Charlottenburg-Wilmersdorf",
+                "ORTSTEIL": "Charlottenburg",
+                "PLZ": "10585",
+                "ADRESSE": "Richard-Wagner-Str. 30",
+                "TELEFON": "902913250",
+                "FAX": "902913259",
+                "EMAIL": "<a href=\"mailto:afs-stowasser@t-online.de\">afs-stowasser@t-online.de</a>",
+                "INTERNET": "<A HREF=\"http://www.arno-fuchs-schule.cidsnet.de\" TARGET=\"Schulen\">zur Website</a>",
+                "LEITUNG": "Sabine Stowasser-Gutkuhn",
+                "alias": "Arno-Fuchs-Schule"
+            }
+        }
+    ]
+}

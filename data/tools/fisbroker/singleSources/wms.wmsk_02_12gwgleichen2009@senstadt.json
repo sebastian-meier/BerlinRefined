@@ -1,0 +1,318 @@
+{
+    "type": "wms",
+    "title": "Grundwassergleichen 2009 (Geologischer Atlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_gwgleichen2009.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk_02_12gwgleichen2009@senstadt",
+    "description": {
+        "link": "?id=wmsk_02_12gwgleichen2009@senstadt&type=WMS",
+        "kurzbeschreibung": "Grundwassergleichenkarte des Hauptgrundwasserleiters und des Panketalgrundwasserleiters für den Mai 2009",
+        "koordinatensysteme": "EPSG:3068, EPSG:4258",
+        "ausdehnung": "EPSG:3068: -4650, -2787, 52542, 40963\nEPSG:4258: 12,97, 52,3, 13,81, 52,7",
+        "ebenen": "Geologische Skizze\nWasserwerke, Pegel, Brunnen, Wasserschutzgebiete\nPanketalgrundwasserleiter mit Grundwassermessstellen\nHintergrund\nHauptgrundwasserleiter mit Grundwassermessstellen",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen:http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Grundwassergleichenkarte des Hauptgrundwasserleiters und des Panketalgrundwasserleiters für den Mai 2009"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_02_12gwgleichen2009"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/png",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_gwgleichen2007.png"
+        },
+        "layers": [
+            {
+                "name": "1",
+                "title": "Geologische Skizze",
+                "abstract": "",
+                "gdi_de": "3dbd178b-e7f6-355e-9598-38f2309c4521",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c8b887fc-8d2d-3caf-a3c1-fe9dea071d6c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_02_12gwgleichen2009?layerID=1",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Grundwasserstände",
+                    "Grundwasserstand",
+                    "Grundwasserganglinien",
+                    "Grundwasserhöhenlinien"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Wasserwerke, Pegel, Brunnen, Wasserschutzgebiete",
+                "abstract": "",
+                "gdi_de": "3dbd178b-e7f6-355e-9598-38f2309c4521",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c8b887fc-8d2d-3caf-a3c1-fe9dea071d6c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_02_12gwgleichen2009?layerID=4",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Grundwasserstände",
+                    "Grundwasserstand",
+                    "Grundwasserganglinien",
+                    "Grundwasserhöhenlinien"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "3",
+                "title": "Panketalgrundwasserleiter mit Grundwassermessstellen",
+                "abstract": "",
+                "gdi_de": "3dbd178b-e7f6-355e-9598-38f2309c4521",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c8b887fc-8d2d-3caf-a3c1-fe9dea071d6c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_02_12gwgleichen2009?layerID=3",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Grundwasserstände",
+                    "Grundwasserstand",
+                    "Grundwasserganglinien",
+                    "Grundwasserhöhenlinien"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Hintergrund",
+                "abstract": "",
+                "gdi_de": "3dbd178b-e7f6-355e-9598-38f2309c4521",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c8b887fc-8d2d-3caf-a3c1-fe9dea071d6c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_02_12gwgleichen2009?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Grundwasserstände",
+                    "Grundwasserstand",
+                    "Grundwasserganglinien",
+                    "Grundwasserhöhenlinien"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "Hauptgrundwasserleiter mit Grundwassermessstellen",
+                "abstract": "",
+                "gdi_de": "3dbd178b-e7f6-355e-9598-38f2309c4521",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=c8b887fc-8d2d-3caf-a3c1-fe9dea071d6c&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk_02_12gwgleichen2009?layerID=0",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 5,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Grundwasserstände",
+                    "Grundwasserstand",
+                    "Grundwasserganglinien",
+                    "Grundwasserhöhenlinien"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": -2787,
+                            "max_latitude": 40963,
+                            "min_longitude": -4650,
+                            "max_longitude": 52542
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3005,
+                            "max_latitude": 52.6954,
+                            "min_longitude": 12.9709,
+                            "max_longitude": 13.8109
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Natur/Grün/Boden/Wasser/Klima",
+    "keywords": [
+        "Geology",
+        "Geologie",
+        "Grundwasser",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Grundwasserstände",
+        "Grundwasserstand",
+        "Grundwasserganglinien",
+        "Grundwasserhöhenlinien"
+    ]
+}

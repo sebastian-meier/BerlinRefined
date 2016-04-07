@@ -1,0 +1,37 @@
+{
+    "type": "feed",
+    "title": "Landesentwicklungsplan Flughafenstandortentwicklung (LEP FS) vom 30. Mai 2006",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_lep_fs.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k_lep_fs@senstadt",
+    "description": {
+        "link": "?id=a_lep_fs@senstadt&type=FEED",
+        "kurzbeschreibung": "Die Karte enthält zeichnerische Darstellungen im Maßstab 1:100.000 zu den Festlegungen des Landesentwicklungsplans\n Flughafenstandortentwicklung (LEP FS) in der Fassung vom 30. Mai 2006.",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "image/tiff",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_lep_fs"
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "download": {
+        "description": "Landesentwicklungsplan Flughafenstandortentwicklung (LEP FS) vom 30. Mai 2006 - Download-Service - EPSG 25833 -TIFF, gezippt."
+    }
+}

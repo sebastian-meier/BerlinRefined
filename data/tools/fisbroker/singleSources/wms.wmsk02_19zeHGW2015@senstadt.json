@@ -1,0 +1,594 @@
+{
+    "type": "wms",
+    "title": "Zu erwartender höchster Grundwasserstand (zeHGW) (Umweltatlas)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_02_19zeHGW.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=wmsk02_19zeHGW2015@senstadt",
+    "description": {
+        "link": "?id=wmsk02_19zeHGW2015@senstadt&type=WMS",
+        "kurzbeschreibung": "Grundwassergleichenkarte des zu erwartenden höchsten Grundwasserstands (zeHGW) im Berliner Urstromtal und Panketal. Der zeHGW beschreibt den Grundwasserstand, der sich witterungsbedingt ohne künstliche Eingriffe in der Umgebung maximal einstellen kann.",
+        "koordinatensysteme": "EPSG:25833, EPSG:4258",
+        "ausdehnung": "EPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21\nEPSG:4258: 13,08, 52,33, 13,77, 52,69",
+        "ebenen": "Wasserschutzgebietsgrenzen\nZu erwartender höchster Grundwasserstand\nWasserwerke\nHintergrund Brandenburg\nHintergrund Berlin\nGeologische Skizze\nUferstreifen\nZu erwartender höchster Grundwasserstand inkl. Uferstreifen mit Datenansicht",
+        "nutzungsbedingungen": "Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf. Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet \"Umweltatlas Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Darstellung des zu erwartenden höchsten Grundwasserstands (zeHGW) im Berliner Urstromtal und Panketal als Grundwassergleichenkarte. Der zeHGW ist definiert als der derjenige, der sich witterungsbedingt maximal einstellen kann. Er kann nach extremen Feuchtperioden auftreten, sofern der Grundwasserstand in der Umgebung durch  künstliche Eingriffe weder abgesenkt noch aufgehöht wird."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk02_19zeHGW2015"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif"
+        },
+        "layers": [
+            {
+                "name": "3",
+                "title": "Wasserschutzgebietsgrenzen",
+                "abstract": "Wasserschutzgebietsgrenzen",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Zu erwartender höchster Grundwasserstand",
+                "abstract": "Zu erwartender höchster Grundwasserstand, Grundwassergleichen (Dezimeteräquidistanz) in Meter über Normalhöhennull (NHN)",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Wasserwerke",
+                "abstract": "Wasserwerke in und außer Betrieb",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8",
+                "title": "Hintergrund Brandenburg",
+                "abstract": "Übersichtskarte von Berlin 1:50 000 (ÜK50)",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk02_19zeHGW2015?layerID=8",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "5",
+                "title": "Hintergrund Berlin",
+                "abstract": "In Abhängigkeit der Zoomstufe:\nBlockkarte des ISU, 1:5.000 (ISU5), Stand 2010,\nKarte von Berlin 1:5000 (K5),\nAutomatisierte Liegenschaftskarte (ALK)",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 300,
+                    "height": 300,
+                    "url": "http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/wmsk02_19zeHGW2015?layerID=5",
+                    "format": "image/png"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "4",
+                "title": "Geologische Skizze",
+                "abstract": "Geologische Skizze 2007",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "0",
+                "title": "Uferstreifen",
+                "abstract": "Zu erwartender höchster Grundwasserstand, Grundwassergleichen (Dezimeteräquidistanz) in Meter über Normalhöhennull (NHN)",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 7,
+                    "max": 105
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7",
+                "title": "Zu erwartender höchster Grundwasserstand inkl. Uferstreifen mit Datenansicht",
+                "abstract": "Sachdatenanzeige des zu erwartenden höchsten Grundwasserstands, Grundwassergleichen (Dezimeteräquidistanz) in Meter über Normalhöhennull (NHN)",
+                "gdi_de": "eeb4d461-fb5c-35e9-bfd2-c5cee62e16cb",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=0b326e54-97f9-35c5-a14c-02f1d161acbe&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_02_19zeHGW.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 7
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Umweltatlas",
+                    "Geologie",
+                    "Berliner Urstromtal",
+                    "Panketal",
+                    "Wasserwirtschaft",
+                    "Bemessung",
+                    "Bauwerke",
+                    "Grundwasserstände",
+                    "zu erwartender höchster Grundwasserstand",
+                    "zeHGW"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4258",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Umweltatlas",
+    "keywords": [
+        "Geology",
+        "Geologie",
+        "Grundwasser",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Umweltatlas",
+        "Geologie",
+        "Berliner Urstromtal",
+        "Panketal",
+        "Wasserwirtschaft",
+        "Bemessung",
+        "Bauwerke",
+        "Grundwasserstände",
+        "zu erwartender höchster Grundwasserstand",
+        "zeHGW"
+    ]
+}

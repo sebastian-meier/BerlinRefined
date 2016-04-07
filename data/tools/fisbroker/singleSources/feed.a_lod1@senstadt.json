@@ -1,0 +1,54 @@
+{
+    "type": "feed",
+    "title": "3D-Gebäudemodelle im Level of Detail 1 (LoD 1)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_lod1.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=lod1@senstadt",
+    "description": {
+        "link": "?id=a_lod1@senstadt&type=FEED",
+        "kurzbeschreibung": "Der Datensatz enthält flächendeckend die dreidimensionalen Gebäudemodelle des Landes Berlin im Level of Detail 1 (LoD1). Die Grundrisse der Gebäudemodelle entsprechen genau den Gebäudeumringen, wie sie im Liegenschaftskataster nachgewiesen sind.",
+        "koordinatensysteme": "EPSG:25833",
+        "grafikformate": "application/gml+xml, image/tiff",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin",
+        "contact": {
+            "telefon": false,
+            "fax": false,
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "ATOM-Feed"
+        ],
+        "version": [
+            "1.0"
+        ],
+        "atom-feed-url": [
+            "http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_lod1"
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "download": {
+        "description": "3D-Gebäudemodelle im Level of Detail 1 (LoD 1) - Download-Service - EPSG25833 - gml, gezippt.",
+        "erläuterung": "\nBlattschnittübersicht 2x2 Km\n",
+        "lod1_370_372": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_370_372.zip\n",
+        "lod1_374_376": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_374_376.zip\n",
+        "lod1_378_380": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_378_380.zip\n",
+        "lod1_382": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_382.zip\n",
+        "lod1_384": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_384.zip\n",
+        "lod1_386": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_386.zip\n",
+        "lod1_388": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_388.zip\n",
+        "lod1_390": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_390.zip\n",
+        "lod1_392": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_392.zip\n",
+        "lod1_394": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_394.zip\n",
+        "lod1_396": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_396.zip\n",
+        "lod1_398": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_398.zip\n",
+        "lod1_400": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_400.zip\n",
+        "lod1_402_404": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_402_404.zip\n",
+        "lod1_406_408": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_406_408.zip\n",
+        "lod1_410_412_414": "\nhttp://fbarc.stadt-berlin.de/FIS_Broker_Atom/lod1/ATOM/LOD1_410_412_414.zip\n"
+    }
+}

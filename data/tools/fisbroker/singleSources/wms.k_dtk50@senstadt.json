@@ -1,0 +1,302 @@
+{
+    "type": "wms",
+    "title": "Digitale Topographische Karte 1: 50 000 (DTK50)",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_dtk50.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k_dtk50@senstadt",
+    "description": {
+        "link": "?id=k_dtk50@senstadt&type=WMS",
+        "kurzbeschreibung": "Das Landeskartenwerk Digitale Topographische Karte 1:50 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in unterschiedlichen Farbausprägungen.",
+        "koordinatensysteme": "EPSG:3068, EPSG:25833",
+        "ausdehnung": "EPSG:3068: 2750,01, 250,01, 49780,01, 40100,01\nEPSG:25833: 369097,85, 5799298,14, 416865,04, 5838236,21",
+        "ebenen": "DTK50, farbig\nDTK50, in Graustufen\nDTK50, s/w",
+        "nutzungsbedingungen": "Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet \"Geoportal Berlin / [Titel des Datensatzes]\".",
+        "zugriffsbeschränkungen": "Es gelten keine Bedingungen",
+        "beschreibung": "Als Topographische Karte im Maßstab 1:50 000 stellt die DTK50 sichtbare Erscheinungen der Erdoberfläche wie Geländeformen mit Höhenangaben, Gewässer, Vegetation, Siedlungen, Wirtschaftsflächen, Verkehrswege, Grenzen, ausgewählte Gebäude, Einzelobjekte (Denkmale, Türme, Aussichtspunkte, Windmühlen etc.) dar. Diese können durch Kartenbeschriftungen erläutert werden."
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_dtk50"
+        ],
+        "legend": {
+            "width": 400,
+            "height": 3997,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "DTK50, farbig",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:50 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Farbe.",
+                "gdi_de": "ac6a9d5f-27bb-3ed3-8f6b-18d8f77b1e56",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=480dc1bf-1337-3e8b-bd96-5df33a0d5c4b&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 400,
+                    "height": 3997,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 200
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "dtk50",
+                    "1:50000",
+                    "1:50.000",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "TK50",
+                    "TK50 (ATKIS)",
+                    "Landeskartenwerke",
+                    "topografische Karte",
+                    "Rasterdaten",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "DTK50, in Graustufen",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:50 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Graustufen.",
+                "gdi_de": "ac6a9d5f-27bb-3ed3-8f6b-18d8f77b1e56",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=480dc1bf-1337-3e8b-bd96-5df33a0d5c4b&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 400,
+                    "height": 3997,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 200
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "dtk50",
+                    "1:50000",
+                    "1:50.000",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "TK50",
+                    "TK50 (ATKIS)",
+                    "Landeskartenwerke",
+                    "topografische Karte",
+                    "Rasterdaten",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "DTK50, s/w",
+                "abstract": "Das Landeskartenwerk Digitale Topographische Karte 1:50 000 visualisiert die amtlichen Geobasisdaten ATKIS und ALK im bundeseinheitlichen Regelblattschnitt in Schwarz-Weiß.",
+                "gdi_de": "ac6a9d5f-27bb-3ed3-8f6b-18d8f77b1e56",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=480dc1bf-1337-3e8b-bd96-5df33a0d5c4b&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 400,
+                    "height": 3997,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_dtk50.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 1,
+                    "max": 200
+                },
+                "keywords": [
+                    "open data",
+                    "opendata",
+                    "AdVMIS",
+                    "Karten",
+                    "Geodaten",
+                    "Berlin",
+                    "Rasterkarte",
+                    "dtk50",
+                    "1:50000",
+                    "1:50.000",
+                    "Geobasiskarte",
+                    "Topografie",
+                    "Topographie",
+                    "TK50",
+                    "TK50 (ATKIS)",
+                    "Landeskartenwerke",
+                    "topografische Karte",
+                    "Rasterdaten",
+                    "topografisch",
+                    "äöü"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 250.0101,
+                            "max_latitude": 40100.01,
+                            "min_longitude": 2750.0092,
+                            "max_longitude": 49780.0092
+                        }
+                    },
+                    {
+                        "name": "EPSG:25833",
+                        "boundingbox": {
+                            "min_latitude": 5799298.1358,
+                            "max_latitude": 5838236.2097,
+                            "min_longitude": 369097.8529,
+                            "max_longitude": 416865.038
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.3284,
+                            "max_latitude": 52.6877,
+                            "min_longitude": 13.079,
+                            "max_longitude": 13.7701
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Basiskarten/Luftbilder",
+    "keywords": [
+        "Land cover",
+        "Land use",
+        "Buildings",
+        "Geographical names",
+        "Hydrography",
+        "Transport networks",
+        "Administrative units",
+        "Amtliche Karte",
+        "open data",
+        "opendata",
+        "AdVMIS",
+        "Karten",
+        "Geodaten",
+        "Berlin",
+        "Rasterkarte",
+        "dtk50",
+        "1:50000",
+        "1:50.000",
+        "Geobasiskarte",
+        "Topografie",
+        "Topographie",
+        "TK50",
+        "TK50 (ATKIS)",
+        "Landeskartenwerke",
+        "topografische Karte",
+        "Rasterdaten",
+        "topografisch",
+        "äöü"
+    ]
+}

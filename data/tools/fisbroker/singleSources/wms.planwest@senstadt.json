@@ -1,0 +1,201 @@
+{
+    "type": "wms",
+    "title": "Planwerk Westraum",
+    "thumb": "http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_planwest.gif",
+    "link": "http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=planwest@senstadt",
+    "description": {
+        "link": "?id=planwest@senstadt&type=WMS",
+        "kurzbeschreibung": "Überarbeitete Fassung des stadt- und landschaftsplanerischen Leitbildes für den Westraum Berlin",
+        "koordinatensysteme": "EPSG:3068",
+        "ausdehnung": "EPSG:3068: 4800, 19950, 20795, 28506",
+        "ebenen": "Planwerk Westraum\nBäume\nBebauung außerhalb von Planbereichen",
+        "nutzungsbedingungen": "Nutzungsbedingungen noch nicht abschließend formuliert",
+        "zugriffsbeschränkungen": "Ressource unterliegt der jeweiligen Gesetzgebung zum Urheberrecht\nRessource unterliegt lizenzrechtlichen Bestimmungen\nRessource unterliegt der jeweiligen Gesetzgebung zum Schutz des geistigen Eigentums",
+        "beschreibung": "Überarbeitete Fassung des stadt- und landschaftsplanerischen Leitbildes für den Westraum Berlin"
+    },
+    "anbieter": {
+        "adress": "Senatsverwaltung für Stadtentwicklung und Umwelt Berlin\nBerlin\nFehrbelliner Platz 1, 10707 Berlin\n",
+        "contact": {
+            "telefon": "+49-30-90139-5257",
+            "fax": "+49-30-90139-5251",
+            "email": "fisbroker@senstadtum.berlin.de"
+        }
+    },
+    "technology": {
+        "standard": [
+            "WMS"
+        ],
+        "version": [
+            "1.0.0",
+            "1.1.0",
+            "1.1.1",
+            "1.3.0"
+        ],
+        "operationen": [
+            "GetCapabilities",
+            "GetMap",
+            "GetFeatureInfo"
+        ],
+        "grafikformate": [
+            "image/jpeg",
+            "image/png"
+        ],
+        "rechneradresse": [
+            "http://fbinter.stadt-berlin.de/fb/wms/senstadt/planwest"
+        ],
+        "legend": {
+            "width": 72,
+            "height": 72,
+            "format": "image/gif",
+            "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planwest.gif"
+        },
+        "layers": [
+            {
+                "name": "0",
+                "title": "Planwerk Westraum",
+                "abstract": "Überarbeitete Fassung des stadt- und landschaftsplanerischen Leitbildes für den Westraum Berlin",
+                "gdi_de": "f44eb10a-87e1-349b-a7e3-8dc4155f9cbe",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fd85f569-ab76-3632-8c27-699f4b24ed12&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planwest.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 19950,
+                            "max_latitude": 28506,
+                            "min_longitude": 4800,
+                            "max_longitude": 20795
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.5055,
+                            "max_latitude": 52.5832,
+                            "min_longitude": 13.107,
+                            "max_longitude": 13.3421
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "1",
+                "title": "Bäume",
+                "abstract": "",
+                "gdi_de": "f44eb10a-87e1-349b-a7e3-8dc4155f9cbe",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fd85f569-ab76-3632-8c27-699f4b24ed12&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planwest.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 19950,
+                            "max_latitude": 28506,
+                            "min_longitude": 4800,
+                            "max_longitude": 20795
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.5055,
+                            "max_latitude": 52.5832,
+                            "min_longitude": 13.107,
+                            "max_longitude": 13.3421
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2",
+                "title": "Bebauung außerhalb von Planbereichen",
+                "abstract": "Planwerk Westraum",
+                "gdi_de": "f44eb10a-87e1-349b-a7e3-8dc4155f9cbe",
+                "metadata": "http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=fd85f569-ab76-3632-8c27-699f4b24ed12&ELEMENTSETNAME=FULL",
+                "style": {
+                    "name": "gdi_default",
+                    "title": "Standard GDI Style"
+                },
+                "legend": {
+                    "width": 72,
+                    "height": 72,
+                    "url": "http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_planwest.gif",
+                    "format": "image/gif"
+                },
+                "scalehint": {
+                    "min": 0,
+                    "max": 25
+                },
+                "keywords": [
+                    "Karten",
+                    "Geodaten",
+                    "Berlin"
+                ],
+                "srs": [
+                    {
+                        "name": "EPSG:3068",
+                        "boundingbox": {
+                            "min_latitude": 19950,
+                            "max_latitude": 28506,
+                            "min_longitude": 4800,
+                            "max_longitude": 20795
+                        }
+                    },
+                    {
+                        "name": "EPSG:4326",
+                        "boundingbox": {
+                            "min_latitude": 52.5055,
+                            "max_latitude": 52.5832,
+                            "min_longitude": 13.107,
+                            "max_longitude": 13.3421
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "category": "Planen/Bauen/Denkmal",
+    "keywords": [
+        "Stadtplanung",
+        "Area management/restriction/regulation zones and reporting units",
+        "Karten",
+        "Geodaten",
+        "Berlin"
+    ]
+}
