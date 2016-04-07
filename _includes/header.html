@@ -38,21 +38,15 @@
           <a class="navbar-brand" href="{{ site.url }}">Berlin Refined</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-            {% for p in site.pages %}{% if p.url contains "pages/" %}{% if p.level == 1 %}{% assign has_children = false %}{% if p.path contains "index.html" %}{% for pp in site.pages %}{% if pp.url contains p.url and pp.level == 2 %}{% assign has_children = true %}{% endif %}{% endfor %}{% endif %}
+            <ul class="nav navbar-nav">{% for p in site.pages %}{% if p.url contains "pages/" %}{% if p.level == 1 %}{% assign has_children = false %}{% if p.path contains "index.html" %}{% for pp in site.pages %}{% if pp.url contains p.url and pp.level == 2 %}{% assign has_children = true %}{% endif %}{% endfor %}{% endif %}
                 <li class="{% if has_children == true %}dropdown {% endif %}{% if p.url == page.url %} active{% endif %}">
-                    <a{% if has_children == true %} class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
-                        {% if has_children == true %}
-                        <ul class="dropdown-menu" role="menu">
-                            {% for pp in site.pages %}{% if pp.url contains p.url and pp.level == 2 %}
+                    <a{% if has_children == true %} class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"{% endif %} href="{{ site.url }}{{ p.url }}">{{ p.title }}</a>{% if has_children == true %}
+                        <ul class="dropdown-menu" role="menu">{% for pp in site.pages %}{% if pp.url contains p.url and pp.level == 2 %}
                             <li>
-                                <a{% if pp.url == page.url %} class="active"{% endif %} href="{{ pp.url }}">{{ pp.title }}</a>
-                            </li>
-                            {% endif %}{% endfor %}
-                        </ul>
-                    {% endif %}
-                </li>
-                {% endif %}{% endif %}{% endfor %}
+                                <a{% if pp.url == page.url %} class="active"{% endif %} href="{{ site.url }}{{ pp.url }}">{{ pp.title }}</a>
+                            </li>{% endif %}{% endfor %}
+                        </ul>{% endif %}
+                </li>{% endif %}{% endif %}{% endfor %}
             </ul>
         </div>
       </div>
