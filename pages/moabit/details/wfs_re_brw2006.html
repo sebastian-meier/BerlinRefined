@@ -12,8 +12,8 @@ level: 3
 <tr><th>Type</th><td>wfs</td></tr>
 <tr><th>Title</th><td>Bodenrichtwerte 01.01.2006</td></tr>
 <tr><th>Category</th><td>Planen/Bauen/Denkmal</td></tr>
-<tr><th>Download</th><td><a href='re_brw2006.min.geojson'>Min.GeoJson</a><br />
-<a href='re_brw2006.geojson'>GeoJson</a>
+<tr><th>Download</th><td><a href='{{site.url}}/data/tools/fisbroker/moabit/re_brw2006.min.geojson'>Min.GeoJson</a><br />
+<a href='{{site.url}}/data/tools/fisbroker/moabit/re_brw2006.geojson'>GeoJson</a>
 </td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_brw_vektor.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=brw_2006_amtlich@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=brw_2006_amtlich@senstadt</a></td></tr>
@@ -63,6 +63,6 @@ osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
 var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
 var name = 're_brw2006';
-var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}/data/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
 geojsonLayer.addTo(moabit_map); console.log('hello world');
 </script>

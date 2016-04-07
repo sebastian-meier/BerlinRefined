@@ -399,7 +399,7 @@ var southWest = L.latLng(52.3348, 13.0847),northEast = L.latLng(52.6854, 13.7607
 var berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+'0.png', berlin_bounds);
 berlin_overlay.addTo(berlin_map);
 berlin_map.fitBounds(berlin_bounds);
-d3.select('img.legend#legend_0').show();
+d3.select('img.legend#legend_0').style('display','block');
 d3.selectAll('.layer_selector').on('click',function(){
 var el = d3.select(this);
 var id = el.attr('data-layer');
@@ -409,7 +409,7 @@ moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name
 moabit_overlay.addTo(moabit_map);
 berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+id+'.png', berlin_bounds);
 berlin_overlay.addTo(berlin_map);
-d3.select('img.legend').hide();
-d3.select('img.legend#legend_'+id).show();
+d3.select('img.legend').style('display','none');
+d3.select('img.legend#legend_'+id).style('display','block');
 }); console.log('hello world');
 </script>

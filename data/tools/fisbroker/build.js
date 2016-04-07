@@ -88,8 +88,8 @@ for(i = 0; i<categories.length; i++){
                                 "<tr><th>Download</th><td>";
 
                     if(sources[j].type === "wfs"){
-                        page += "<a href='"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".min.geojson'>Min.GeoJson</a><br />"+"\n";
-                        page += "<a href='"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson'>GeoJson</a>"+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".min.geojson'>Min.GeoJson</a><br />"+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson'>GeoJson</a>"+"\n";
                     }else if(sources[j].type === "wms"){
                         page += "See individual layer for download link."+"\n";
                     }else{
@@ -253,7 +253,7 @@ for(i = 0; i<categories.length; i++){
                                 "var berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+'"+sources[j].technology.layers[0].name+".png', berlin_bounds);"+"\n"+
                                 "berlin_overlay.addTo(berlin_map);"+"\n"+
                                 "berlin_map.fitBounds(berlin_bounds);"+"\n"+
-                                "d3.select('img.legend#legend_"+sources[j].technology.layers[0].name+"').show();"+"\n";
+                                "d3.select('img.legend#legend_"+sources[j].technology.layers[0].name+"').style('display','block');"+"\n";
 
                         page += "d3.selectAll('.layer_selector').on('click',function(){"+"\n"+
                                     "var el = d3.select(this);"+"\n"+
@@ -264,8 +264,8 @@ for(i = 0; i<categories.length; i++){
                                     "moabit_overlay.addTo(moabit_map);"+"\n"+
                                     "berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+id+'.png', berlin_bounds);"+"\n"+
                                     "berlin_overlay.addTo(berlin_map);"+"\n"+
-                                    "d3.select('img.legend').hide();"+"\n"+
-                                    "d3.select('img.legend#legend_'+id).show();"+"\n"+
+                                    "d3.select('img.legend').style('display','none');"+"\n"+
+                                    "d3.select('img.legend#legend_'+id).style('display','block');"+"\n"+
                                 "}); console.log('hello world');"+"\n";
 
                     }else if(sources[j].type === "wfs"){
@@ -277,7 +277,7 @@ for(i = 0; i<categories.length; i++){
                                 "function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}"+"\n"+
                                 "var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};"+"\n"+
                                 "var name = '"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"';"+"\n"+
-                                "var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});"+"\n"+
+                                "var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}/data/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});"+"\n"+
                                 "geojsonLayer.addTo(moabit_map); console.log('hello world');"+"\n";
                     }
 

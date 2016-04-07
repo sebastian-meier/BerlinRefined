@@ -12,8 +12,8 @@ level: 3
 <tr><th>Type</th><td>wfs</td></tr>
 <tr><th>Title</th><td>Friedhofsbestand Berlin</td></tr>
 <tr><th>Category</th><td>Natur/Grün/Boden/Wasser/Klima</td></tr>
-<tr><th>Download</th><td><a href='re_friedh.min.geojson'>Min.GeoJson</a><br />
-<a href='re_friedh.geojson'>GeoJson</a>
+<tr><th>Download</th><td><a href='{{site.url}}/data/tools/fisbroker/moabit/re_friedh.min.geojson'>Min.GeoJson</a><br />
+<a href='{{site.url}}/data/tools/fisbroker/moabit/re_friedh.geojson'>GeoJson</a>
 </td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/karte_gris_spielplatz.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=friedh@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=friedh@senstadt</a></td></tr>
@@ -64,6 +64,6 @@ osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
 var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
 var name = 're_friedh';
-var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}/data/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
 geojsonLayer.addTo(moabit_map); console.log('hello world');
 </script>
