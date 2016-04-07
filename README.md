@@ -1,2 +1,0 @@
-# BerlinRefined
-Accessible Data Portal
