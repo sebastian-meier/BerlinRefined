@@ -102,11 +102,11 @@ var name = 'MsozS_S2_arblos252007Vz_';
 var southWest = L.latLng(52.51303464932938, 13.306503295898438),northEast = L.latLng(52.540971446408086, 13.349504470825195), moabit_bounds = L.latLngBounds(southWest, northEast);
 var moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name+'0.png', moabit_bounds);
 moabit_overlay.addTo(moabit_map);
-moabit_map.fit(moabit_bounds);
+moabit_map.fitBounds(moabit_bounds);
 var southWest = L.latLng(52.3348, 13.0847),northEast = L.latLng(52.6854, 13.7607),berlin_bounds = L.latLngBounds(southWest, northEast);
 var berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+'0.png', berlin_bounds);
 berlin_overlay.addTo(berlin_map);
-berlin_map.fit(berlin_bounds);
+berlin_map.fitBounds(berlin_bounds);
 d3.select('img.legend#legend_0').show();
 d3.selectAll('.layer_selector').on('click',function(){
 var el = d3.select(this);

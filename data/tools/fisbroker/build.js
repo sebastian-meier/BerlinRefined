@@ -247,11 +247,11 @@ for(i = 0; i<categories.length; i++){
                                 "var southWest = L.latLng(52.51303464932938, 13.306503295898438),northEast = L.latLng(52.540971446408086, 13.349504470825195), moabit_bounds = L.latLngBounds(southWest, northEast);"+"\n"+
                                 "var moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name+'"+sources[j].technology.layers[0].name+".png', moabit_bounds);"+"\n"+
                                 "moabit_overlay.addTo(moabit_map);"+"\n"+
-                                "moabit_map.fit(moabit_bounds);"+"\n"+
+                                "moabit_map.fitBounds(moabit_bounds);"+"\n"+
                                 "var southWest = L.latLng(52.3348, 13.0847),northEast = L.latLng(52.6854, 13.7607),berlin_bounds = L.latLngBounds(southWest, northEast);"+"\n"+
                                 "var berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+'"+sources[j].technology.layers[0].name+".png', berlin_bounds);"+"\n"+
                                 "berlin_overlay.addTo(berlin_map);"+"\n"+
-                                "berlin_map.fit(berlin_bounds);"+"\n"+
+                                "berlin_map.fitBounds(berlin_bounds);"+"\n"+
                                 "d3.select('img.legend#legend_"+sources[j].technology.layers[0].name+"').show();"+"\n";
 
                         page += "d3.selectAll('.layer_selector').on('click',function(){"+"\n"+
