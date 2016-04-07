@@ -24,6 +24,7 @@ level: 2
             var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
             var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}/data/moabit/area.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
             geojsonLayer.addTo(moabit_map);
+            console.log("hello");
 
     </script>
     <h2>Shape</h2>
