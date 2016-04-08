@@ -1,11 +1,11 @@
-"KOMPENSATIONSFLAECHE","MASSNAHMEN","EINGRIFFE","alias"
-"Grünfläche an der Wiclefstr./ Bremer Str.","[128] Entsiegelungs- und Herstellungsmaßnahmen","[78] Hotelbau am Dörnberg-Dreieck .","0101"
-"Grünzug Goslarer Ufer","[166] Herstellung eines Grünzugs am Goslaer Ufer","[54] Speicherbetriebszentrale und Bohrplatz D zum Erdgasspeicher Berlin","0139"
-"Fläche am Goslarer Ufer","[188] Entsiegelungs- und Gestaltungsmaßnahmen entlang des Ufers","[93] Schnellbahnverbindung Hannover - Berlin, PFA 2a","0198"
-"Parkanlage am Salzufer","[190] Herstellungs- und Gestaltungsmaßnahmen","[94] Schnellbahnverbindung Hannover - Berlin, PFA 2a","0200"
-"Fußgängerbrücke über den Charlottenburger Verbindungskanal","[215] Bau einer Unterführung","[98] Verkehrsanlagen im zentralen Bereich Berlins","0227"
-"Englischer Garten im Tiergarten","[239] Gartendenkmalpflegerische Anpassungs- und Instandsetzungsmaßnahme im Englischen Garten","[118] B- II-202  Bundespräsidialamt","0252"
-"Ufer Westhafen","[353] Ufer- und Böschungsgestaltung im Bereich des Westhafenkanals
-[354] Herstellung einer Grünverbindung im Bereich des Westhafenkanals","[177] Ausbau Westhafenkanal
-[177] Ausbau Westhafenkanal","0285"
-"Unterführung Lessingbrücke","[333] Fußgängerverbindung unter der Lessingbrücke Grünzug komplettieren","[98] Verkehrsanlagen im zentralen Bereich Berlins","0335"
+KOMPENSATIONSFLAECHE,MASSNAHMEN,EINGRIFFE,alias
+Grünfläche an der Wiclefstr./ Bremer Str.,[128] Entsiegelungs- und Herstellungsmaßnahmen,[78] Hotelbau am Dörnberg-Dreieck .,0101
+Grünzug Goslarer Ufer,[166] Herstellung eines Grünzugs am Goslaer Ufer,[54] Speicherbetriebszentrale und Bohrplatz D zum Erdgasspeicher Berlin,0139
+Fläche am Goslarer Ufer,[188] Entsiegelungs- und Gestaltungsmaßnahmen entlang des Ufers,[93] Schnellbahnverbindung Hannover - Berlin PFA 2a,0198
+Parkanlage am Salzufer,[190] Herstellungs- und Gestaltungsmaßnahmen,[94] Schnellbahnverbindung Hannover - Berlin PFA 2a,0200
+Fußgängerbrücke über den Charlottenburger Verbindungskanal,[215] Bau einer Unterführung,[98] Verkehrsanlagen im zentralen Bereich Berlins,0227
+Englischer Garten im Tiergarten,[239] Gartendenkmalpflegerische Anpassungs- und Instandsetzungsmaßnahme im Englischen Garten,[118] B- II-202 Bundespräsidialamt,0252
+Ufer Westhafen,[353] Ufer- und Böschungsgestaltung im Bereich des Westhafenkanals
+[354] Herstellung einer Grünverbindung im Bereich des Westhafenkanals,[177] Ausbau Westhafenkanal
+[177] Ausbau Westhafenkanal,0285
+Unterführung Lessingbrücke,[333] Fußgängerverbindung unter der Lessingbrücke Grünzug komplettieren,[98] Verkehrsanlagen im zentralen Bereich Berlins,0335

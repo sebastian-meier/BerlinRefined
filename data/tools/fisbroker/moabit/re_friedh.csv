@@ -1,3 +1,3 @@
-"BEZIRK","NAME","STRASSE","KONFESS","FLAECHE","EHRENGRAB","alias"
-"Mitte","Ev. St. Johannis-Friedhof I","Alt-Moabit 24-25","ev","3265","0","Ev. St. Johannis-Friedhof I"
-"Charlottenburg-Wilmersdorf","Ev. Luisen-Friedhof I","Guerickestraße 5-9","ev","13321","1","Ev. Luisen-Friedhof I"
+BEZIRK,NAME,STRASSE,KONFESS,FLAECHE,EHRENGRAB,alias
+Mitte,Ev. St. Johannis-Friedhof I,Alt-Moabit 24-25,ev,3265,0,Ev. St. Johannis-Friedhof I
+Charlottenburg-Wilmersdorf,Ev. Luisen-Friedhof I,Guerickestraße 5-9,ev,13321,1,Ev. Luisen-Friedhof I

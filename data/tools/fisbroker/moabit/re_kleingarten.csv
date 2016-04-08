@@ -1,31 +1,31 @@
-"KGANAME","STRASSE","GROESSE","PARZANZAHL","PARZDAUERW","LANDESEIGE","alias"
-"Seestraßeninsel","Seestraße 131","3565","8","0","ja","Seestraßeninsel"
-"Westhafen","Putlitzbrücke","3863","16","0","nein","Westhafen"
-"Atlantis","Lise-Meitner-Str.44","33650","92","0","ja","Atlantis"
-"Dahmshof","Lise-Meitner-Straße 42","32197","87","0","ja","Dahmshof"
-"Dreilinden","Heckerdamm 177/179","15354","43","0","ja","Dreilinden"
-"Frischer Wind","Heckerdamm 203","24659","75","2","ja","Frischer Wind"
-"Gaußstraße","Lise-Meitner-Straße 8","6540","22","0","ja","Gaußstraße"
-"Gaußstraße","Lise-Meitner-Straße 8","3826","15","0","ja","Gaußstraße"
-"Gemütlichkeit","Heckerdamm 195","58087","153","0","ja","Gemütlichkeit"
-"Gerickeshof","Gaußstraße 2-12","51972","173","1","ja","Gerickeshof"
-"Gute Hoffnung","Heckerdamm 181-191","39028","85","2","ja","Gute Hoffnung"
-"Habsburger Ufer","Ilsenburger Str. 24","22656","92","2","ja","Habsburger Ufer"
-"Habsburger Ufer","Ilsenburger Str. 24","4105","10","0","nein","Habsburger Ufer"
-"Am Heckerdamm","Friedrich-Olbricht-Damm 37","10112","26","2","ja","Am Heckerdamm"
-"Heideschlößchen","Friedrich-Olbricht-Damm 41","64384","146","0","ja","Heideschlößchen"
-"Heideschlößchen","Friedrich-Olbricht-Damm 41","2800","9","0","ja","Heideschlößchen"
-"Heimat","Heckerdamm 201","13206","39","0","ja","Heimat"
-"Karlshofer Wiese","Fr.-Olbricht-Damm 53","62660","173","5","ja","Karlshofer Wiese"
-"Loewe","Heckerdamm 193","20817","48","1","ja","Loewe"
-"Mulde (Stichkanal)","Lise-Meitner-Straße 46/48","26260","79","0","ja","Mulde (Stichkanal)"
-"Olympia","Heckerdamm 180/182","57795","140","8","ja","Olympia"
-"Pascalstraße","Helmholtzstr. 20","8383","45","0","ja","Pascalstraße"
-"Pferdemarkt","Heckerdamm 196/202","31216","92","0","ja","Pferdemarkt"
-"Pferdemarkt","Heckerdamm 196/202","8156","20","0","ja","Pferdemarkt"
-"Pretoria","Ilsenburger Straße 28/29","6727","23","0","nein","Pretoria"
-"Pretoria","Ilsenburger Straße 28/29","3339","13","1","nein","Pretoria"
-"Stichkanal","Max-Dohrn-Straße 1, 5","7924","25","0","ja","Stichkanal"
-"Wickelshof","Lise-Meitner-Straße 40","15200","44","0","ja","Wickelshof"
-"Wiesengrund","Heckerdamm 212/Straße 70","5920","20","0","ja","Wiesengrund"
-"Zukunft","Heckerdamm 205/213","34537","124","0","ja","Zukunft"
+KGANAME,STRASSE,GROESSE,PARZANZAHL,PARZDAUERW,LANDESEIGE,alias
+Seestraßeninsel,Seestraße 131,3565,8,0,ja,Seestraßeninsel
+Westhafen,Putlitzbrücke,3863,16,0,nein,Westhafen
+Atlantis,Lise-Meitner-Str.44,33650,92,0,ja,Atlantis
+Dahmshof,Lise-Meitner-Straße 42,32197,87,0,ja,Dahmshof
+Dreilinden,Heckerdamm 177/179,15354,43,0,ja,Dreilinden
+Frischer Wind,Heckerdamm 203,24659,75,2,ja,Frischer Wind
+Gaußstraße,Lise-Meitner-Straße 8,6540,22,0,ja,Gaußstraße
+Gaußstraße,Lise-Meitner-Straße 8,3826,15,0,ja,Gaußstraße
+Gemütlichkeit,Heckerdamm 195,58087,153,0,ja,Gemütlichkeit
+Gerickeshof,Gaußstraße 2-12,51972,173,1,ja,Gerickeshof
+Gute Hoffnung,Heckerdamm 181-191,39028,85,2,ja,Gute Hoffnung
+Habsburger Ufer,Ilsenburger Str. 24,22656,92,2,ja,Habsburger Ufer
+Habsburger Ufer,Ilsenburger Str. 24,4105,10,0,nein,Habsburger Ufer
+Am Heckerdamm,Friedrich-Olbricht-Damm 37,10112,26,2,ja,Am Heckerdamm
+Heideschlößchen,Friedrich-Olbricht-Damm 41,64384,146,0,ja,Heideschlößchen
+Heideschlößchen,Friedrich-Olbricht-Damm 41,2800,9,0,ja,Heideschlößchen
+Heimat,Heckerdamm 201,13206,39,0,ja,Heimat
+Karlshofer Wiese,Fr.-Olbricht-Damm 53,62660,173,5,ja,Karlshofer Wiese
+Loewe,Heckerdamm 193,20817,48,1,ja,Loewe
+Mulde (Stichkanal),Lise-Meitner-Straße 46/48,26260,79,0,ja,Mulde (Stichkanal)
+Olympia,Heckerdamm 180/182,57795,140,8,ja,Olympia
+Pascalstraße,Helmholtzstr. 20,8383,45,0,ja,Pascalstraße
+Pferdemarkt,Heckerdamm 196/202,31216,92,0,ja,Pferdemarkt
+Pferdemarkt,Heckerdamm 196/202,8156,20,0,ja,Pferdemarkt
+Pretoria,Ilsenburger Straße 28/29,6727,23,0,nein,Pretoria
+Pretoria,Ilsenburger Straße 28/29,3339,13,1,nein,Pretoria
+Stichkanal,Max-Dohrn-Straße 1 5,7924,25,0,ja,Stichkanal
+Wickelshof,Lise-Meitner-Straße 40,15200,44,0,ja,Wickelshof
+Wiesengrund,Heckerdamm 212/Straße 70,5920,20,0,ja,Wiesengrund
+Zukunft,Heckerdamm 205/213,34537,124,0,ja,Zukunft

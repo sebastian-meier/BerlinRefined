@@ -27,21 +27,23 @@ function convert(){
         if(csv !== ""){
             csv += ",";
         }
-        csv += '"'+clean(key)+'"';
+        csv += clean(key);
     }
     csv += "\n";
 
     for(var i = 0; i<json.features.length; i++){
         var line = "";
+        var k = 0;
         for(var key in columns){
-            if(line !== ""){
+            if(k >= 1){
                 line += ",";
             }
             if((key in json.features[i].properties)){
-                line += '"'+clean(json.features[i].properties[key])+'"';
+                line += clean(json.features[i].properties[key]);
             }else{
-                line += '""';
+                line += '';
             }
+            k++;
         }
         csv += line+"\n";
     }
@@ -54,7 +56,20 @@ function convert(){
 }
 
 function clean(str){
-    return str.replace('"', '\"');
+    str = str.replace('"', '');//\"
+    str = str.replace("'", '');//\'
+
+    if(str.match(/\,/g)===1){
+        var tmp = str.replace(",",".");
+        if(!isNaN(tmp)){
+            str = tmp;
+        }
+    }else{
+        str = str.replace(',', ' ');
+        str = str.replace('  ', ' ');
+    }
+
+    return str.trim();
 }
 
 function next(){

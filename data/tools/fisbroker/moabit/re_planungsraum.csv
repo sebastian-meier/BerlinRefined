@@ -1,23 +1,23 @@
-"PLR_NAME","BZR_NAME","PRG_NAME","BEZIRK","FL_HA","alias"
-"Großer Tiergarten","Tiergarten Süd","Zentrum","Mitte","300.63","Großer Tiergarten"
-"Huttenkiez","Moabit West","Moabit","Mitte","80.35","Huttenkiez"
-"Beusselkiez","Moabit West","Moabit","Mitte","23.66","Beusselkiez"
-"Westhafen","Moabit West","Moabit","Mitte","170.63","Westhafen"
-"Emdener Str.","Moabit West","Moabit","Mitte","77.76","Emdener Straße"
-"Zwinglistr.","Moabit West","Moabit","Mitte","16.51","Zwinglistraße"
-"Elberfelder Str.","Moabit West","Moabit","Mitte","64.01","Elberfelder Straße"
-"Stephankiez","Moabit Ost","Moabit","Mitte","89.93","Stephankiez"
-"Lübecker Str.","Moabit Ost","Moabit","Mitte","32.59","Lübecker Straße"
-"Thomasiusstr.","Moabit Ost","Moabit","Mitte","55.48","Thomasiusstraße"
-"Lüneburger Str.","Moabit Ost","Moabit","Mitte","73.73","Lüneburger Straße"
-"Hansaviertel","Moabit Ost","Moabit","Mitte","53.24","Hansaviertel"
-"Rehberge","Parkviertel","Wedding","Mitte","485.43","Rehberge"
-"Sparrplatz","Wedding Zentrum","Wedding","Mitte","62.45","Sparrplatz"
-"Plötzensee","Charlottenburg-Nord","Charlottenburg - Nord","Charlottenburg-Wilmersdorf","219.99","Plötzensee"
-"Paul-Hertz-Siedlung","Charlottenburg-Nord","Charlottenburg - Nord","Charlottenburg-Wilmersdorf","53.3","Paul-Hertz-Siedlung"
-"Tegeler Weg","Mierendorffplatz","Charlottenburg","Charlottenburg-Wilmersdorf","51.81","Tegeler Weg"
-"Kaiserin-Augusta-Allee","Mierendorffplatz","Charlottenburg","Charlottenburg-Wilmersdorf","136.61","Kaiserin-Augusta-Allee"
-"Alt-Lietzow","Otto-Suhr-Allee","Charlottenburg","Charlottenburg-Wilmersdorf","53.29","Alt-Lietzow"
-"Spreestadt","Otto-Suhr-Allee","Charlottenburg","Charlottenburg-Wilmersdorf","71.96","Spreestadt"
-"Richard-Wagner-Straße","Otto-Suhr-Allee","Charlottenburg","Charlottenburg-Wilmersdorf","55.23","Richard-Wagner-Straße"
-"Ernst-Reuter-Platz","Otto-Suhr-Allee","Charlottenburg","Charlottenburg-Wilmersdorf","96.68","Ernst-Reuter-Platz"
+PLR_NAME,BZR_NAME,PRG_NAME,BEZIRK,FL_HA,alias
+Großer Tiergarten,Tiergarten Süd,Zentrum,Mitte,300.63,Großer Tiergarten
+Huttenkiez,Moabit West,Moabit,Mitte,80.35,Huttenkiez
+Beusselkiez,Moabit West,Moabit,Mitte,23.66,Beusselkiez
+Westhafen,Moabit West,Moabit,Mitte,170.63,Westhafen
+Emdener Str.,Moabit West,Moabit,Mitte,77.76,Emdener Straße
+Zwinglistr.,Moabit West,Moabit,Mitte,16.51,Zwinglistraße
+Elberfelder Str.,Moabit West,Moabit,Mitte,64.01,Elberfelder Straße
+Stephankiez,Moabit Ost,Moabit,Mitte,89.93,Stephankiez
+Lübecker Str.,Moabit Ost,Moabit,Mitte,32.59,Lübecker Straße
+Thomasiusstr.,Moabit Ost,Moabit,Mitte,55.48,Thomasiusstraße
+Lüneburger Str.,Moabit Ost,Moabit,Mitte,73.73,Lüneburger Straße
+Hansaviertel,Moabit Ost,Moabit,Mitte,53.24,Hansaviertel
+Rehberge,Parkviertel,Wedding,Mitte,485.43,Rehberge
+Sparrplatz,Wedding Zentrum,Wedding,Mitte,62.45,Sparrplatz
+Plötzensee,Charlottenburg-Nord,Charlottenburg - Nord,Charlottenburg-Wilmersdorf,219.99,Plötzensee
+Paul-Hertz-Siedlung,Charlottenburg-Nord,Charlottenburg - Nord,Charlottenburg-Wilmersdorf,53.3,Paul-Hertz-Siedlung
+Tegeler Weg,Mierendorffplatz,Charlottenburg,Charlottenburg-Wilmersdorf,51.81,Tegeler Weg
+Kaiserin-Augusta-Allee,Mierendorffplatz,Charlottenburg,Charlottenburg-Wilmersdorf,136.61,Kaiserin-Augusta-Allee
+Alt-Lietzow,Otto-Suhr-Allee,Charlottenburg,Charlottenburg-Wilmersdorf,53.29,Alt-Lietzow
+Spreestadt,Otto-Suhr-Allee,Charlottenburg,Charlottenburg-Wilmersdorf,71.96,Spreestadt
+Richard-Wagner-Straße,Otto-Suhr-Allee,Charlottenburg,Charlottenburg-Wilmersdorf,55.23,Richard-Wagner-Straße
+Ernst-Reuter-Platz,Otto-Suhr-Allee,Charlottenburg,Charlottenburg-Wilmersdorf,96.68,Ernst-Reuter-Platz

@@ -1,61 +1,61 @@
-"BezirkName","OrtstlName","Kennzeich","ObjArtName","NameNr","NameZusatz","KatasterFl","Widmung","PlanNr","PlanName","alias","Baujahr"
-"Mitte","Hansaviertel","20142","Grünanlage","Hansaufer / Wullenw.Str.","Spreeuferpromenade","8866","gewidmet","01022106","Elberfelder Str.","F7__5120",""
-"Mitte","Moabit","20575","Grünanlage","Holsteiner Ufer","S-Bahn Bellevue","4998","gewidmet","01022204","Thomasiusstr.","F7__5127",""
-"Mitte","Moabit","20135","Grünanlage","Bremer Str. 48","Unionstr. 5, Wiclefstr. 8","13776","gewidmet","01022104","Emdener Str.","F7__5129",""
-"Mitte","Moabit","20136","Grünanlage","Bremer Str. Ecke Bugenhagenstr.","am Verkehrsgarten ggü. Arminiushalle","1021","gewidmet","01022104","Emdener Str.","F7__5130",""
-"Mitte","Tiergarten","20126","Grünanlage","Großer Tiergarten","historischer Tiergarten in PK 3","1791589","gewidmet","01011102","Großer Tiergarten","F7__5132",""
-"Mitte","Moabit","20177","Grünanlage","Seestr. 132 Tiergarten","Westhafenkanal / Spennrath-Brücke","1427","gewidmet","01022103","Westhafen","F7__5149",""
-"Mitte","Moabit","20152","Grünanlage","Bartningallee","südl. Stadtbahntrasse","6023","gewidmet","01022207","Hansaviertel","F7__5153",""
-"Mitte","Wedding","30166","Grünanlage","Eckernförder Platz","","29533","gewidmet","01044101","Rehberge","F7__5176",""
-"Mitte","Hansaviertel","20153","Grünanlage","Hansaplatz Nordost","","2978","gewidmet","01022207","Hansaviertel","F7__5179",""
-"Mitte","Moabit","20824","Grünanlage","Neues Ufer Grünanlage","","12488","gewidmet","01022101","Huttenkiez","F7__5180",""
-"Mitte","Hansaviertel","20823","Grünanlage","Hansaplatz 2","","2190","gewidmet","01022207","Hansaviertel","F7__5181",""
-"Mitte","Moabit","20239","Grünanlage","Holsteiner Ufer, Spreeuferpromenade","zw. Lessingbrücke u. Moabiter Brücke","3797","gewidmet","01022204","Thomasiusstr.","F7__5206",""
-"Mitte","Moabit","20140","Grünanlage","Kleiner Tiergarten","beiderseits der Stromstr.","44833","gewidmet","01022204","Thomasiusstr.","F7__5207",""
-"Mitte","Tiergarten","20699","Grünanlage","Bellevueufer","Spreeuferpromenade","3182","gewidmet","01011102","Großer Tiergarten","F7__5212",""
-"Mitte","Moabit","20143","Grünanlage","Essener Str. 7",""Essener Park"","4145","gewidmet","01022106","Elberfelder Str.","F7__5213",""
-"Mitte","Moabit","20154","Grünanlage","Klopstockstr. 3 bis Altonaer Str.","Grünzug parallel Stadtbahntrasse","9073","gewidmet","01022207","Hansaviertel","F7__5214",""
-"Mitte","Hansaviertel","20465","Grünanlage","Bachstr.","zw. Bachstr. und Stadtbahntrasse","3740","gewidmet","01022207","Hansaviertel","F7__5231",""
-"Mitte","Moabit","10124","Grünanlage","Siemensstr. 27","Moabiter Stadtgarten / Park","10000","gewidmet","01022104","Emdener Str.","F7__5240","2012"
-"Mitte","Moabit","20700","Grünanlage","Hanseatenweg","ggü. Akademie der Künste","864","gewidmet","01022207","Hansaviertel","F7__5266",""
-"Mitte","Moabit","20173","Grünanlage","Bremer Str. 37 Ecke Birkenstr.","","1326","gewidmet","01022104","Emdener Str.","F7__5267",""
-"Mitte","Moabit","10040","Grünanlage","Bundesratufer /  Bochumer Str.","Uferpark Bundesratufer od "Bochumer Pl"","867","gewidmet","01022106","Elberfelder Str.","F7__5268","2008"
-"Mitte","Moabit","20137","Grünanlage","Ottopark.",""Ottoplatz"","13905","gewidmet","01022105","Zwinglistr.","F7__5269",""
-"Mitte","Moabit","20158","Grünanlage","Bundesratufer","Spreeuferpromenade","6046","gewidmet","01022106","Elberfelder Str.","F7__5270",""
-"Mitte","Moabit","20693","Grünanlage","Seestr. 131Tiergarten","Restgrünfläche","1435","","01022103","Westhafen","F7__5290",""
-"Mitte","Moabit","20610","Grünanlage","Stephanplatz","","1330","gewidmet","01022201","Stephankiez","F7__5291",""
-"Mitte","Moabit","20565","Grünanlage","Quitzowstr. 109","","1493","gewidmet","01022104","Emdener Str.","F7__5292",""
-"Mitte","Hansaviertel","20156","Grünanlage","Altonaer Str. 3 - 9","","3040","gewidmet","01022207","Hansaviertel","F7__5294",""
-"Mitte","Moabit","20132","Grünanlage","Kaiserin-Augusta-Allee 114-120","","3891","gewidmet","01022101","Huttenkiez","F7__5295",""
-"Mitte","Moabit","20148","Grünanlage","Lessingstr.","von Altonaer Str. bis Flensburger Str","3560","gewidmet","01022207","Hansaviertel","F7__5296",""
-"Mitte","Hansaviertel","20150","Grünanlage","Schleswiger Ufer, Spereeuferpromenade","Charlottenbg bis Lessingstr.","12843","gewidmet","01022106","Elberfelder Str.","F7__5297",""
-"Mitte","Moabit","31781","Grünanlage","Nordufer zw. Föhrer Str. u. S-Bahn","Grstck. Bundeswasserstraßenverwaltung","10500","in Widmung","01022103","Westhafen","F7__5319",""
-"Mitte","Hansaviertel","20155","Grünanlage","Händelallee 47 - 59","südl. U-Bhf Hansaplatz","2634","gewidmet","01022207","Hansaviertel","F7__5322",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00179","Grünanlage","Goslarer Ufer - Grünanlage Gaußstr.","Gaußstr. bis S-Bahn","6422","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6719",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01077","Grünanlage","Saatwinkler Damm - Grünanlage","ggb. Haus-Nr. 9-13","1252","gewidmet","04010102","Plötzensee","F7__6721",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00148","Grünanlage","Einsteinufer - Grünanlage","Grünzug am Landwehrkanal","16028","gewidmet","04030623","Ernst-Reuter-Platz","F7__6724",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01194","Grünanlage","FEA Degenhof","Heckerdamm 75/Friedrich-Olbricht-Damm 43","6584","","04010102","Plötzensee","F7__6726",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","00265","Grünanlage","Friedrich-Olbricht-Damm/Kol.Heideschl-GA","nördlicher Randstreifen an der BAB","5277","gewidmet","04010102","Plötzensee","F7__6743",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","04070","Grünanlage","Schwarzer Weg","","638","","04030519","Kaiserin-Augusta-Allee","F7__6756",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00953","Grünanlage","Galvanistr. - Grünanlage","Grünzug an der Spree","10706","gewidmet","04030620","Alt-Lietzow","F7__6764",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00802","Grünanlage","Goslarer Ufer / Südspitze - Grünanlage","Spreeufer-Grünanlage","803","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6770",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","00193","Grünanlage","Seestraße 1-2 - Grünanlage","Grünanlage am Westhafen","1777","gewidmet","04010102","Plötzensee","F7__6775",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01021","Grünanlage","Lise-Meitner-Str. - Uferanlage","Uferwanderweg","7589","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6786","2002"
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01185","Grünanlage","Grenzweg II","","3401","","04010102","Plötzensee","F7__6789",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01184","Grünanlage","Grenzweg I","","2392","","04010102","Plötzensee","F7__6790",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","01196","Grünanlage","Lise-Meitner-Str. 8","Abfallbehälterstandplatz","212","","04030519","Kaiserin-Augusta-Allee","F7__6814",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00137","Grünanlage","Goslarer Platz - Grünanlage","","7535","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6827",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00147","Grünanlage","Iburger Ufer - Grünanlage","Grünzug an der Spree","14414","gewidmet","04030620","Alt-Lietzow","F7__6829",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","01114","Grünanlage","Hannah-Karminski-Str. - Grünanlage","Spreeuferanlage","4066","gewidmet","04030621","Spreestadt","F7__6833","2005"
-"Charlottenburg-Wilmersdorf","Charlottenburg","01069","Grünanlage","Leibnizstr. 107/108","Grünfläche hinter DeGeWo-Grundstück","611","","04030622","Richard-Wagner-Straße","F7__6834",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00138","Grünanlage","Sömmeringstr. 005 - Grünanlage","Österreichpark","24496","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6844",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","01214","Grünanlage","Dovestr. 1D - Grünanlage","Uferpromenade","2244","gewidmet","04030621","Spreestadt","F7__6851","2001"
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","01573","Grünanlage","Am Bahnhof Jungfernheide","Straße zw. KGA und Bahn","2082","","04030519","Kaiserin-Augusta-Allee","F7__6853",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00196","Grünanlage","Richard-Wagner-Str. / Krummestr. - GA","Grünanlage am Stadtbad","10172","gewidmet","04030622","Richard-Wagner-Straße","F7__6854",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00197","Grünanlage","Lüdtgeweg - Grünanlage","","1451","gewidmet","04030620","Alt-Lietzow","F7__6855","1994"
-"Charlottenburg-Wilmersdorf","Charlottenburg","00578.2","Grünanlage","Alt-Lietzow 30 - Kirche","","2480","gewidmet","04030620","Alt-Lietzow","F7__6870",""
-"Charlottenburg-Wilmersdorf","Charlottenburg-Nord","04467","Grünanlage","Thaters Privatweg","","4244","","04010102","Plötzensee","F7__6877",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00194","Grünanlage","Spreebogen - Grünanlage","Kucharskistr. 5","25679","gewidmet","04030621","Spreestadt","F7__6883",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00578","Grünanlage","Alt-Lietzow - Grünanlage","Mittelinsel","3765","gewidmet","04030620","Alt-Lietzow","F7__6884",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","00564","Grünanlage","Darwinstr. 2","Spreeuferanlage","1243","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6887",""
-"Charlottenburg-Wilmersdorf","Charlottenburg","01134","Grünanlage","Am Spreebord - Grünanlage","Uferstreifen (ehem. Ladestr.)","11082","gewidmet","04030519","Kaiserin-Augusta-Allee","F7__6890","2006"
+BezirkName,OrtstlName,Kennzeich,ObjArtName,NameNr,NameZusatz,KatasterFl,Widmung,PlanNr,PlanName,alias,Baujahr
+Mitte,Hansaviertel,20142,Grünanlage,Hansaufer / Wullenw.Str.,Spreeuferpromenade,8866,gewidmet,01022106,Elberfelder Str.,F7__5120,
+Mitte,Moabit,20575,Grünanlage,Holsteiner Ufer,S-Bahn Bellevue,4998,gewidmet,01022204,Thomasiusstr.,F7__5127,
+Mitte,Moabit,20135,Grünanlage,Bremer Str. 48,Unionstr. 5 Wiclefstr. 8,13776,gewidmet,01022104,Emdener Str.,F7__5129,
+Mitte,Moabit,20136,Grünanlage,Bremer Str. Ecke Bugenhagenstr.,am Verkehrsgarten ggü. Arminiushalle,1021,gewidmet,01022104,Emdener Str.,F7__5130,
+Mitte,Tiergarten,20126,Grünanlage,Großer Tiergarten,historischer Tiergarten in PK 3,1791589,gewidmet,01011102,Großer Tiergarten,F7__5132,
+Mitte,Moabit,20177,Grünanlage,Seestr. 132 Tiergarten,Westhafenkanal / Spennrath-Brücke,1427,gewidmet,01022103,Westhafen,F7__5149,
+Mitte,Moabit,20152,Grünanlage,Bartningallee,südl. Stadtbahntrasse,6023,gewidmet,01022207,Hansaviertel,F7__5153,
+Mitte,Wedding,30166,Grünanlage,Eckernförder Platz,,29533,gewidmet,01044101,Rehberge,F7__5176,
+Mitte,Hansaviertel,20153,Grünanlage,Hansaplatz Nordost,,2978,gewidmet,01022207,Hansaviertel,F7__5179,
+Mitte,Moabit,20824,Grünanlage,Neues Ufer Grünanlage,,12488,gewidmet,01022101,Huttenkiez,F7__5180,
+Mitte,Hansaviertel,20823,Grünanlage,Hansaplatz 2,,2190,gewidmet,01022207,Hansaviertel,F7__5181,
+Mitte,Moabit,20239,Grünanlage,Holsteiner Ufer Spreeuferpromenade,zw. Lessingbrücke u. Moabiter Brücke,3797,gewidmet,01022204,Thomasiusstr.,F7__5206,
+Mitte,Moabit,20140,Grünanlage,Kleiner Tiergarten,beiderseits der Stromstr.,44833,gewidmet,01022204,Thomasiusstr.,F7__5207,
+Mitte,Tiergarten,20699,Grünanlage,Bellevueufer,Spreeuferpromenade,3182,gewidmet,01011102,Großer Tiergarten,F7__5212,
+Mitte,Moabit,20143,Grünanlage,Essener Str. 7,Essener Park",4145,gewidmet,01022106,Elberfelder Str.,F7__5213,
+Mitte,Moabit,20154,Grünanlage,Klopstockstr. 3 bis Altonaer Str.,Grünzug parallel Stadtbahntrasse,9073,gewidmet,01022207,Hansaviertel,F7__5214,
+Mitte,Hansaviertel,20465,Grünanlage,Bachstr.,zw. Bachstr. und Stadtbahntrasse,3740,gewidmet,01022207,Hansaviertel,F7__5231,
+Mitte,Moabit,10124,Grünanlage,Siemensstr. 27,Moabiter Stadtgarten / Park,10000,gewidmet,01022104,Emdener Str.,F7__5240,2012
+Mitte,Moabit,20700,Grünanlage,Hanseatenweg,ggü. Akademie der Künste,864,gewidmet,01022207,Hansaviertel,F7__5266,
+Mitte,Moabit,20173,Grünanlage,Bremer Str. 37 Ecke Birkenstr.,,1326,gewidmet,01022104,Emdener Str.,F7__5267,
+Mitte,Moabit,10040,Grünanlage,Bundesratufer / Bochumer Str.,Uferpark Bundesratufer od Bochumer Pl",867,gewidmet,01022106,Elberfelder Str.,F7__5268,2008
+Mitte,Moabit,20137,Grünanlage,Ottopark.,Ottoplatz",13905,gewidmet,01022105,Zwinglistr.,F7__5269,
+Mitte,Moabit,20158,Grünanlage,Bundesratufer,Spreeuferpromenade,6046,gewidmet,01022106,Elberfelder Str.,F7__5270,
+Mitte,Moabit,20693,Grünanlage,Seestr. 131Tiergarten,Restgrünfläche,1435,,01022103,Westhafen,F7__5290,
+Mitte,Moabit,20610,Grünanlage,Stephanplatz,,1330,gewidmet,01022201,Stephankiez,F7__5291,
+Mitte,Moabit,20565,Grünanlage,Quitzowstr. 109,,1493,gewidmet,01022104,Emdener Str.,F7__5292,
+Mitte,Hansaviertel,20156,Grünanlage,Altonaer Str. 3 - 9,,3040,gewidmet,01022207,Hansaviertel,F7__5294,
+Mitte,Moabit,20132,Grünanlage,Kaiserin-Augusta-Allee 114-120,,3891,gewidmet,01022101,Huttenkiez,F7__5295,
+Mitte,Moabit,20148,Grünanlage,Lessingstr.,von Altonaer Str. bis Flensburger Str,3560,gewidmet,01022207,Hansaviertel,F7__5296,
+Mitte,Hansaviertel,20150,Grünanlage,Schleswiger Ufer Spereeuferpromenade,Charlottenbg bis Lessingstr.,12843,gewidmet,01022106,Elberfelder Str.,F7__5297,
+Mitte,Moabit,31781,Grünanlage,Nordufer zw. Föhrer Str. u. S-Bahn,Grstck. Bundeswasserstraßenverwaltung,10500,in Widmung,01022103,Westhafen,F7__5319,
+Mitte,Hansaviertel,20155,Grünanlage,Händelallee 47 - 59,südl. U-Bhf Hansaplatz,2634,gewidmet,01022207,Hansaviertel,F7__5322,
+Charlottenburg-Wilmersdorf,Charlottenburg,00179,Grünanlage,Goslarer Ufer - Grünanlage Gaußstr.,Gaußstr. bis S-Bahn,6422,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6719,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01077,Grünanlage,Saatwinkler Damm - Grünanlage,ggb. Haus-Nr. 9-13,1252,gewidmet,04010102,Plötzensee,F7__6721,
+Charlottenburg-Wilmersdorf,Charlottenburg,00148,Grünanlage,Einsteinufer - Grünanlage,Grünzug am Landwehrkanal,16028,gewidmet,04030623,Ernst-Reuter-Platz,F7__6724,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01194,Grünanlage,FEA Degenhof,Heckerdamm 75/Friedrich-Olbricht-Damm 43,6584,,04010102,Plötzensee,F7__6726,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,00265,Grünanlage,Friedrich-Olbricht-Damm/Kol.Heideschl-GA,nördlicher Randstreifen an der BAB,5277,gewidmet,04010102,Plötzensee,F7__6743,
+Charlottenburg-Wilmersdorf,Charlottenburg,04070,Grünanlage,Schwarzer Weg,,638,,04030519,Kaiserin-Augusta-Allee,F7__6756,
+Charlottenburg-Wilmersdorf,Charlottenburg,00953,Grünanlage,Galvanistr. - Grünanlage,Grünzug an der Spree,10706,gewidmet,04030620,Alt-Lietzow,F7__6764,
+Charlottenburg-Wilmersdorf,Charlottenburg,00802,Grünanlage,Goslarer Ufer / Südspitze - Grünanlage,Spreeufer-Grünanlage,803,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6770,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,00193,Grünanlage,Seestraße 1-2 - Grünanlage,Grünanlage am Westhafen,1777,gewidmet,04010102,Plötzensee,F7__6775,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01021,Grünanlage,Lise-Meitner-Str. - Uferanlage,Uferwanderweg,7589,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6786,2002
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01185,Grünanlage,Grenzweg II,,3401,,04010102,Plötzensee,F7__6789,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01184,Grünanlage,Grenzweg I,,2392,,04010102,Plötzensee,F7__6790,
+Charlottenburg-Wilmersdorf,Charlottenburg,01196,Grünanlage,Lise-Meitner-Str. 8,Abfallbehälterstandplatz,212,,04030519,Kaiserin-Augusta-Allee,F7__6814,
+Charlottenburg-Wilmersdorf,Charlottenburg,00137,Grünanlage,Goslarer Platz - Grünanlage,,7535,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6827,
+Charlottenburg-Wilmersdorf,Charlottenburg,00147,Grünanlage,Iburger Ufer - Grünanlage,Grünzug an der Spree,14414,gewidmet,04030620,Alt-Lietzow,F7__6829,
+Charlottenburg-Wilmersdorf,Charlottenburg,01114,Grünanlage,Hannah-Karminski-Str. - Grünanlage,Spreeuferanlage,4066,gewidmet,04030621,Spreestadt,F7__6833,2005
+Charlottenburg-Wilmersdorf,Charlottenburg,01069,Grünanlage,Leibnizstr. 107/108,Grünfläche hinter DeGeWo-Grundstück,611,,04030622,Richard-Wagner-Straße,F7__6834,
+Charlottenburg-Wilmersdorf,Charlottenburg,00138,Grünanlage,Sömmeringstr. 005 - Grünanlage,Österreichpark,24496,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6844,
+Charlottenburg-Wilmersdorf,Charlottenburg,01214,Grünanlage,Dovestr. 1D - Grünanlage,Uferpromenade,2244,gewidmet,04030621,Spreestadt,F7__6851,2001
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,01573,Grünanlage,Am Bahnhof Jungfernheide,Straße zw. KGA und Bahn,2082,,04030519,Kaiserin-Augusta-Allee,F7__6853,
+Charlottenburg-Wilmersdorf,Charlottenburg,00196,Grünanlage,Richard-Wagner-Str. / Krummestr. - GA,Grünanlage am Stadtbad,10172,gewidmet,04030622,Richard-Wagner-Straße,F7__6854,
+Charlottenburg-Wilmersdorf,Charlottenburg,00197,Grünanlage,Lüdtgeweg - Grünanlage,,1451,gewidmet,04030620,Alt-Lietzow,F7__6855,1994
+Charlottenburg-Wilmersdorf,Charlottenburg,00578.2,Grünanlage,Alt-Lietzow 30 - Kirche,,2480,gewidmet,04030620,Alt-Lietzow,F7__6870,
+Charlottenburg-Wilmersdorf,Charlottenburg-Nord,04467,Grünanlage,Thaters Privatweg,,4244,,04010102,Plötzensee,F7__6877,
+Charlottenburg-Wilmersdorf,Charlottenburg,00194,Grünanlage,Spreebogen - Grünanlage,Kucharskistr. 5,25679,gewidmet,04030621,Spreestadt,F7__6883,
+Charlottenburg-Wilmersdorf,Charlottenburg,00578,Grünanlage,Alt-Lietzow - Grünanlage,Mittelinsel,3765,gewidmet,04030620,Alt-Lietzow,F7__6884,
+Charlottenburg-Wilmersdorf,Charlottenburg,00564,Grünanlage,Darwinstr. 2,Spreeuferanlage,1243,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6887,
+Charlottenburg-Wilmersdorf,Charlottenburg,01134,Grünanlage,Am Spreebord - Grünanlage,Uferstreifen (ehem. Ladestr.),11082,gewidmet,04030519,Kaiserin-Augusta-Allee,F7__6890,2006
