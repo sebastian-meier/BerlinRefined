@@ -105,7 +105,7 @@ Charlottenburg-Wilmersdorf, Friedrichshain-Kreuzberg, Mitte, Spandau, Steglitz-Z
 <tr><th>BoundingBox</th><td>EPSG:4326 (52.3244,13.0044,52.6856,13.7721)</td></tr>
 </table>
 </div>
-<div id='legend'><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/parkraumbewirt?layerID=1' /><img class='legend' id='legend_2' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /><img class='legend' id='legend_3' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /></div></div>
+<div id='legend'><img class='primary legend' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/parkraumbewirt?layerID=1' /><img class='legend' id='legend_2' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /><img class='legend' id='legend_3' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/leg_parkraumbewirt.gif' /></div></div>
 <link rel="stylesheet" href="{{site.url}}/lib/leaflet.css" />
 <script src="{{site.url}}/lib/d3.min.js"></script>
 <script src="{{site.url}}/lib/topojson.v1.min.js"></script>
@@ -139,7 +139,7 @@ moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name
 moabit_overlay.addTo(moabit_map);
 berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+id+'.png', berlin_bounds);
 berlin_overlay.addTo(berlin_map);
-d3.select('img.legend').style('display','none');
-d3.select('img.legend#legend_'+id).style('display','block');
+d3.selectAll('img.legend').style('display','none');
+d3.selectAll('img.legend.primary, img.legend#legend_'+id).style('display','block');
 }); console.log('hello world');
 </script>

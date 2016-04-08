@@ -91,7 +91,7 @@ Automatisierte Liegenschaftskarte (ALK)</td></tr>
 <tr><th>BoundingBox</th><td>EPSG:4326 (52.3246,13.0512,52.6935,13.7785)</td></tr>
 </table>
 </div>
-<div id='legend'><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_5_2noxemiverkehr_neben2009.gif' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_05_5_2noxemiverkehrneben2009?layerID=1' /><img class='legend' id='legend_2' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_5_2noxemiverkehr_neben2009.gif' /></div></div>
+<div id='legend'><img class='primary legend' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_5_2noxemiverkehr_neben2009.gif' /><img class='legend' id='legend_0' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_5_2noxemiverkehr_neben2009.gif' /><img class='legend' id='legend_1' src='http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k03_12_05_5_2noxemiverkehrneben2009?layerID=1' /><img class='legend' id='legend_2' src='http://fbinter.stadt-berlin.de/fb_daten/legenden/umweltatlas/leg_03_12_05_5_2noxemiverkehr_neben2009.gif' /></div></div>
 <link rel="stylesheet" href="{{site.url}}/lib/leaflet.css" />
 <script src="{{site.url}}/lib/d3.min.js"></script>
 <script src="{{site.url}}/lib/topojson.v1.min.js"></script>
@@ -125,7 +125,7 @@ moabit_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/'+name
 moabit_overlay.addTo(moabit_map);
 berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+id+'.png', berlin_bounds);
 berlin_overlay.addTo(berlin_map);
-d3.select('img.legend').style('display','none');
-d3.select('img.legend#legend_'+id).style('display','block');
+d3.selectAll('img.legend').style('display','none');
+d3.selectAll('img.legend.primary, img.legend#legend_'+id).style('display','block');
 }); console.log('hello world');
 </script>
