@@ -217,7 +217,9 @@ for(i = 0; i<categories.length; i++){
                     page += "</table>"+"\n"+
                             "</div>"+"\n"+
                             "<div id='legend'>";
-
+                            if(sources[j].type === "wms" && sources[j].technology.legend){
+                                page += "<img class='primary legend' src='"+sources[j].technology.legend.url+"' />";
+                            }
                             if(legend){
                                 for(var key in legend){
                                     page += "<img class='legend' id='legend_"+key+"' src='"+legend[key]+"' />";
@@ -265,8 +267,8 @@ for(i = 0; i<categories.length; i++){
                                     "moabit_overlay.addTo(moabit_map);"+"\n"+
                                     "berlin_overlay = L.imageOverlay('{{site.url}}/data/tools/fisbroker/moabit/berlin_'+name+id+'.png', berlin_bounds);"+"\n"+
                                     "berlin_overlay.addTo(berlin_map);"+"\n"+
-                                    "d3.select('img.legend').style('display','none');"+"\n"+
-                                    "d3.select('img.legend#legend_'+id).style('display','block');"+"\n"+
+                                    "d3.selectAll('img.legend').style('display','none');"+"\n"+
+                                    "d3.selectAll('img.legend.primary, img.legend#legend_'+id).style('display','block');"+"\n"+
                                 "}); console.log('hello world');"+"\n";
 
                     }else if(sources[j].type === "wfs"){
