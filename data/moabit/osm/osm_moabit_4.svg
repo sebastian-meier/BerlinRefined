@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" x="0" y="0" width="1.23" height="0.53" style="overflow:hidden;text-rendering:optimizeLegibility" xmlns="http://www.w3.org/2000/svg">
+	<!--Title: Map Generated Using Maperitive (http://maperitive.net)-->
+	<!--Map Generator: Maperitive v2.3.35 by Igor Brejc
+Time: 04/10/2016 09:34:51
+-->
+	<defs>
+		<rect x="0" y="0" width="1.23" height="0.53" id="MapFrame" />
+		<clipPath clipPathUnits="userSpaceOnUse" id="MapClipRectangle">
+			<use xlink:href="#MapFrame" />
+		</clipPath>
+	</defs>
+	<clipPath clipPathUnits="userSpaceOnUse" id="MapClipRectangle">
+		<use xlink:href="#MapFrame" />
+	</clipPath>
+	<g id="Map" clip-path="url(#MapClipRectangle)">
+		<g id="Map_background" style="fill:#F1EEE8;stroke:#000000">
+			<g id="map_background">
+				<rect x="0" y="0" width="1.23" height="0.53" id="Map_Background_Fill" style="stroke:none" />
+			</g>
+		</g>
+		<g id="Polygons" style="stroke-linejoin:round">
+			<g id="commercial_area__fill" style="fill:#EFC8C8;stroke:#000000">
+				<path style="stroke:none" d="M0.48 0.05 l-0.01 0.01 0.02 0.01 0 0.01 0.02 0 0.03 -0.01 -0.03 -0.02 0 0 0 0.01 -0.02 -0.01 Z" />
+				<path style="stroke:none" d="M0.6 0.02 l0 0 h0 l0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 -0.01 -0.01 0.01 0 0 0.01 0.01 0 0 0.02 0.01 0 0 0 0 0.01 0.01 Z" />
+				<path style="stroke:none" d="M0.49 -0.03 l0 0 -0.02 0.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0 0.01 0 0 -0.01 0 0 0 -0.01 0 0 0 0 0 0 0 0 0.01 0 0 0 0.01 -0.01 0.01 -0.01 0 0 -0.01 -0.01 Z" />
+				<path style="stroke:none" d="M0.48 0.02 l0 0 0 0.01 0 0 0 0 0.01 0.01 0.01 -0.01 -0.02 -0.01 Z" />
+			</g>
+			<g id="landuse_industrial__fill" style="fill:#DFD1D6;stroke:#000000">
+				<path style="stroke:none" d="M0.69 0.02 l0.02 0 0.04 0.02 0.05 0.01 0 0 0 0 0 0 0 0.02 0 0.02 -0.01 0 0 0 -0.02 0.01 0 0 -0.01 0 -0.06 0.01 -0.04 0.01 0 -0.01 -0.03 0.01 0 0 0 0 0 -0.01 0 0 0 -0.01 -0.01 -0.01 0 0 0.08 0.02 0.01 0 0 0 0.01 0 0 0 -0.07 -0.02 0 -0.02 0.11 0.03 0 -0.01 -0.06 -0.01 0 0 -0.04 -0.01 0 0 0 0 0.04 -0.03 Z" />
+			</g>
+			<g id="landuse_retail__fill" style="fill:#F0D9D9;stroke:#F4A19E">
+				<path style="stroke:none" d="M0.61 0.03 l-0.01 0.01 0 0 0 0 0 0 0 0 0 0 0.01 -0.01 0 0 0 0 0 0 -0.01 -0.01 Z" />
+			</g>
+			<g id="leisure_pitch__fill" style="fill:#89D2AE;stroke:#000000">
+				<path style="stroke:none" d="M0.36 0.01 l0.01 0 0 0.02 -0.01 0 0 -0.02 Z" />
+				<path style="stroke:none" d="M0.52 0.04 l0 0 0.01 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.52 0.04 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.05 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.75 0.01 l0 0 0 0 0 0 0 0 0 0 Z" />
+			</g>
+			<g id="park__fill" style="fill:#C0F6B0;stroke:#000000">
+				<path style="stroke:none" d="M0.69 0 l0.01 -0.01 0.02 -0.01 0.04 0.05 -0.06 -0.03 Z" />
+				<path style="stroke:none" d="M0.59 0.05 l0.01 0 0 0 0 0 0 0 0 0 -0.04 0.01 0 -0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0.01 0 Z" />
+				<path style="stroke:none" d="M0.26 -0.13 l-0.01 0 -0.01 0 0 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.02 0 -0.02 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.03 0 -0.02 0 -0.02 0 -0.02 0 0 0 0 0 0 0 0 0 -0.02 0 -0.02 0 -0.03 0 0 0 0 0 0.02 0 0.02 0 0.01 0 0.02 0 0.01 0 0.03 0 0.02 0 0.02 0 0.01 0 0.02 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.01 0 0.02 0 0 0 0.02 0 0.01 0 0.01 0 0.01 0 0.01 0 0.02 0 0.01 0 0.02 0 0.02 0 0 0 0.02 0 0 0 0.03 0 0.01 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0.01 0 0.01 0 0 0 0.01 0.01 0 0 0 0 0 0.01 0 0 0 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0 0 0.01 0.01 0.01 0.01 0 0.01 0 0.01 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0.01 0.01 0 0 0 0 0.01 -0.01 0.01 0 0 -0.01 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 -0.01 0 0 0 0 0 0 0 0 -0.01 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 -0.01 -0.01 -0.01 -0.01 -0.01 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.02 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 0 0 0 0 -0.01 0 -0.02 0 -0.02 0 Z" />
+			</g>
+			<g id="car_park__fill" style="fill:#F6EEB7;stroke:#000000">
+				<path style="stroke:none" d="M0.6 0.04 l0 0 0 0 0.01 -0.01 0.01 0.01 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.79 0.02 l0 0.01 0 0 0 -0.01 0 0 Z" />
+			</g>
+			<g id="allotments__fill" style="fill:#C8B084;stroke:#000000">
+				<path style="stroke:none" d="M0.44 -0.03 l0 0 0 0 0 0 0 0.03 0 0.02 0 0 -0.01 0 -0.01 0 0 0 -0.01 0 -0.01 -0.02 0 -0.01 0 0 0 0 0 0 0.01 -0.01 0.01 -0.01 0.02 -0.01 Z" />
+				<path style="stroke:none" d="M0.37 0.03 l0.04 0 -0.01 -0.02 0 -0.01 0 0 0 0 0 0 -0.01 0 -0.02 0 0 0 0 0.01 0 0 0.01 0 0 0.02 Z" />
+				<path style="stroke:none" d="M0.44 -0.03 l0 0 0.01 -0.01 0 0 0 0.01 0 0.01 0.01 0.01 0.01 0.01 0 0 -0.01 0.01 -0.01 0.01 -0.01 0 -0.01 0 0 -0.02 0 -0.03 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.51 0.02 l0 0.01 -0.02 -0.01 0 -0.01 0 0 0 0 0 0 0 0 0.03 0.02 Z" />
+				<path style="stroke:none" d="M0.48 0.02 l0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 -0.02 0.02 -0.01 -0.01 -0.01 0 -0.01 0 0.01 0 0.02 -0.01 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.45 0.04 l0.01 0 0.02 -0.01 0 0 0 0 0 0 0 0 0 0 -0.01 0.02 0 0 0 0 0 0 -0.01 0 0 0 -0.01 0 0 0 0 0 0 0 0.01 0.01 0 0 0.01 0 0 0 Z" />
+				<path style="stroke:none" d="M0.38 0.06 l0.04 0 0 0 0 -0.02 0 0 0 0 0 0 -0.04 0 0 0.03 Z" />
+				<path style="stroke:none" d="M0.42 0.04 l0.01 0.01 0 0 0.01 0 0 0 0.01 0 0.01 0 0.01 0.01 0 0 0.02 0.01 0 0.01 0.02 0 0 0 -0.04 0.01 0 0 0 0 -0.01 0 0 0 0 -0.01 0 0 0 -0.01 -0.03 0 0 0 0 -0.02 Z" />
+				<path style="stroke:none" d="M0.49 0.04 l-0.01 0.01 0.02 0.01 0 0 0 0 -0.01 -0.01 Z" />
+				<path style="stroke:none" d="M0.34 0.03 l0.04 0 0 0.03 -0.03 0 0 0.01 0 0 0 -0.01 0 -0.03 Z" />
+				<path style="stroke:none" d="M0.65 0.01 l0.01 0 0 0 -0.01 0.01 0 0 0 0 0 -0.01 Z" />
+			</g>
+			<g id="water__fill" style="fill:#B5D0D0;stroke:#000000">
+				<path style="stroke:none" d="M0.61 0.02 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.57 -0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0.01 0 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0.01 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 -0.01 -0.01 -0.01 -0.01 0 0 0 0 0 -0.01 0 0 -0.01 -0.01 0 0 Z" />
+				<path style="stroke:none" d="M0.63 0.05 l0 0 0 0 0 0 0 -0.01 0 -0.01 0 0 0 0 0.01 0.02 0 0 0 0 0 0 0.01 -0.01 0.01 -0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 -0.01 0 0 0 -0.01 0 -0.01 0 0 0 0 0 0.02 0 0.01 0 0 0 0.01 0 0.05 0.02 0.01 0 0.04 0.01 0.02 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0.01 0 0 0 0 0 0.01 0 0 0 0.01 0 0.01 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0.01 0 0 0 0.01 0.01 0.01 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.02 -0.01 0 0 -0.01 0 0 0 0 0 0 0 -0.01 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 -0.01 0 -0.01 0 -0.01 0 -0.01 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 -0.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.05 -0.01 -0.04 -0.02 -0.02 0 -0.04 0.03 0 0 0 0 0.04 0.01 0 0 0.06 0.01 0 0.01 -0.11 -0.03 0 0.02 0.07 0.02 0 0 -0.01 0 0 0 -0.01 0 -0.08 -0.02 0 -0.01 0 0 0 0 0 0 0 0 -0.03 0.01 -0.02 0.01 -0.02 0 0 0 0 0 0.07 -0.02 0.01 0 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+			</g>
+			<g id="building__fill" style="fill:#BCA9A9;stroke:#000000">
+				<path style="fill-rule:evenodd;stroke:none" d="M0.49 0.01 l0.01 0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 -0.01 0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 -0.01 0 0 0 Z M0.5 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="fill-rule:evenodd;stroke:none" d="M0.5 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="fill-rule:evenodd;stroke:none" d="M0.5 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.64 0.02 l0 0 0 -0.01 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.8 0.01 l0 0 0 0.01 0 0 0 -0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.77 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.77 0 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.74 0 l0 0.01 0 0 0 -0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.73 0.05 l0 -0.01 0.02 0.01 0 0.01 -0.02 -0.01 Z" />
+				<path style="stroke:none" d="M0.7 0.05 l0 0 0.02 0 0 0 -0.02 0 Z" />
+				<path style="stroke:none" d="M0.75 0.04 l0.01 0 0 0.01 -0.01 0 0 -0.01 Z" />
+				<path style="stroke:none" d="M0.8 0.06 h0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.76 0.04 l0.01 0 0 0.01 -0.01 0 0 0 0 0 0 0 0 -0.01 Z" />
+				<path style="stroke:none" d="M0.71 0.04 l0.02 0 0 0.01 -0.02 0 0 -0.01 Z" />
+				<path style="stroke:none" d="M0.79 0.02 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.76 0.02 l0 0 0.01 0 0 0 0.01 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.55 -0.01 l0 0.01 0.01 0 0 -0.01 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.53 0 l0 0.01 0 0 0 -0.01 0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.01 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.01 l0 0 0.01 0 0 0.01 0 0 0 -0.01 0 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.54 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.02 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.53 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.02 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.53 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.54 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.54 0.02 l0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.03 l0 0 0 0 0 0 -0.01 -0.01 0 0 0 0 0 0 0 0 0 0 0.01 0 Z" />
+				<path style="stroke:none" d="M0.56 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.01 l0 0.01 0 0 0 -0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.02 l0 0 0 -0.01 0 0 0 0.01 Z" />
+				<path style="stroke:none" d="M0.59 0.03 l0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0.01 Z" />
+				<path style="stroke:none" d="M0.55 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.04 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.04 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.58 0.03 l0 0 0 0 0 0 0 0 0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 -0.01 Z" />
+				<path style="stroke:none" d="M0.57 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.58 0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.49 0.05 l0 0 0 0.01 0 0 0 -0.01 Z" />
+				<path style="stroke:none" d="M0.55 0.05 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.54 0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.52 0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.76 0.01 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.59 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.57 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.53 0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 h0 v0 l0 0 0 0 h0 l0 0 h0 v0 h0 l0 0 h0 v0 h0 l0 0 h0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.06 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 0 0 0 v0 l0 0 0 0 h0 l0 0 0 0 0 0 0 0 0 0 0 0 h0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0 Z" />
+				<path style="stroke:none" d="M0.71 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.04 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.48 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.53 0.06 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 h0 v0 l0 0 0 0 h0 l0 0 h0 v0 l0 0 0 0 h0 v0 l0 0 0 0 h0 l0 0 Z" />
+				<path style="stroke:none" d="M0.52 0.05 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.51 0.03 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 v0 l0 0 v0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 h0 v0 l0 0 0 0 h0 l0 0 h0 v0 h0 l0 0 h0 v0 h0 l0 0 h0 v0 l0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.67 0.05 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.79 0.02 l0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.75 0.02 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.71 0.02 l-0.01 0 0 0 0.01 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.47 0.01 l0 0 0 0 0 -0.01 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.76 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.01 l0 0 0.01 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.56 0.01 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.56 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.55 0.01 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 Z" />
+				<path style="stroke:none" d="M0.55 0.04 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.79 0.03 l0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.62 0.05 l0 0 0.01 0 0.01 0 0 0 0 0 0 0 -0.01 0 Z" />
+			</g>
+			<g id="building__fill1" style="fill:#BCA9A9;stroke:#000000">
+				<path style="stroke:none" d="M0.77 0.06 l0 0 0 -0.01 0 0 0 0.01 Z" />
+				<path style="stroke:none" d="M0.78 0.05 l0 0 0.01 0 0 -0.01 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.62 0.05 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.79 0 l0 0 0 0.01 0 0 0 0 0 0 0 0 0 0 0 -0.01 0 0 0 0 Z" />
+				<path style="stroke:none" d="M0.8 0 l0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Z" />
+			</g>
+		</g>
+		<g id="Map_decoration">
+			<g id="map_grid__latitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<path style="fill:none" d="M-0.5 46.23 h1.23" />
+				<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(9.5,50.99) scale(0.85,1)">50°</text>
+				</g>
+				<g style="fill:#303030;stroke:none;fill-opacity:1">
+					<text transform="translate(9.5,50.99) scale(0.85,1)">50°</text>
+				</g>
+			</g>
+			<g id="map_grid__longitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<path style="fill:none" d="M-37.25 0.03 v-0.53" />
+				<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(-46.39,21.5) scale(0.85,1)">10°</text>
+				</g>
+				<g style="fill:#303030;stroke:none;fill-opacity:1">
+					<text transform="translate(-46.39,21.5) scale(0.85,1)">10°</text>
+				</g>
+			</g>
+			<g id="map_scale__text" style="stroke:#000000;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(51.6,-7.96) scale(0.85,1)">1 : 23 408 526</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(51.6,-7.96) scale(0.85,1)">1 : 23 408 526</text>
+				</g>
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(67.32,-32.96) scale(0.85,1)">1000 km</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(67.32,-32.96) scale(0.85,1)">1000 km</text>
+				</g>
+			</g>
+			<g id="map_scale__indicator" style="fill:#000000;stroke:#000000">
+				<rect x="6" y="-27.47" width="34.64" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator1" style="fill:#FFFFFF;stroke:#000000">
+				<rect x="39.64" y="-27.47" width="34.64" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator11" style="fill:#000000;stroke:#000000">
+				<rect x="73.27" y="-27.47" width="34.64" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator111" style="fill:#FFFFFF;stroke:#000000">
+				<rect x="106.91" y="-27.47" width="34.64" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator1111" style="fill:#000000;stroke:#000000">
+				<rect x="140.55" y="-27.47" width="34.64" height="7" style="stroke:#000000" />
+			</g>
+			<g id="floating_label" style="stroke:#000000;font-family:Tahoma;font-size:14px;font-weight:bold">
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:0.75">
+					<text transform="translate(-236.43,-7.37) scale(0.8,1)">Map data © OpenStreetMap contributors</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(-236.43,-7.37) scale(0.8,1)">Map data © OpenStreetMap contributors</text>
+				</g>
+			</g>
+		</g>
+		<g id="Map_frame" style="stroke:black;stroke-width:2;fill:none">
+			<rect x="0" y="0" width="1.23" height="0.53" />
+		</g>
+	</g>
+</svg>

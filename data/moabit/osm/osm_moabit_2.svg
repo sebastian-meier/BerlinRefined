@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" x="0" y="0" width="0.31" height="0.13" style="overflow:hidden;text-rendering:optimizeLegibility" xmlns="http://www.w3.org/2000/svg">
+	<!--Title: Map Generated Using Maperitive (http://maperitive.net)-->
+	<!--Map Generator: Maperitive v2.3.35 by Igor Brejc
+Time: 04/10/2016 09:34:36
+-->
+	<defs>
+		<rect x="0" y="0" width="0.31" height="0.13" id="MapFrame" />
+		<clipPath clipPathUnits="userSpaceOnUse" id="MapClipRectangle">
+			<use xlink:href="#MapFrame" />
+		</clipPath>
+	</defs>
+	<clipPath clipPathUnits="userSpaceOnUse" id="MapClipRectangle">
+		<use xlink:href="#MapFrame" />
+	</clipPath>
+	<g id="Map" clip-path="url(#MapClipRectangle)">
+		<g id="Map_background" style="fill:#F1EEE8;stroke:#000000">
+			<g id="map_background">
+				<rect x="0" y="0" width="0.31" height="0.13" id="Map_Background_Fill" style="stroke:none" />
+			</g>
+		</g>
+		<g id="Map_decoration">
+			<g id="map_grid__latitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<path style="fill:none" d="M-0.5 176.27 h0.31" />
+				<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(9.5,181.03) scale(0.85,1)">0°</text>
+				</g>
+				<g style="fill:#303030;stroke:none;fill-opacity:1">
+					<text transform="translate(9.5,181.03) scale(0.85,1)">0°</text>
+				</g>
+			</g>
+			<g id="map_grid__longitude" style="stroke:#B0B0B0;stroke-width:0.5;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<path style="fill:none" d="M-37.76 -0.37 v-0.13" />
+				<g style="stroke-width:2;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(-43.65,21.5) scale(0.85,1)">0°</text>
+				</g>
+				<g style="fill:#303030;stroke:none;fill-opacity:1">
+					<text transform="translate(-43.65,21.5) scale(0.85,1)">0°</text>
+				</g>
+			</g>
+			<g id="map_scale__text" style="stroke:#000000;font-family:Tahoma;font-size:12px;font-weight:bold">
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(20.07,-8.35) scale(0.85,1)">1 : 93 634 104</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(20.07,-8.35) scale(0.85,1)">1 : 93 634 104</text>
+				</g>
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:1">
+					<text transform="translate(35.78,-33.35) scale(0.85,1)">2500 km</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(35.78,-33.35) scale(0.85,1)">2500 km</text>
+				</g>
+			</g>
+			<g id="map_scale__indicator" style="fill:#000000;stroke:#000000">
+				<rect x="6" y="-27.87" width="22.02" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator1" style="fill:#FFFFFF;stroke:#000000">
+				<rect x="27.02" y="-27.87" width="22.02" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator11" style="fill:#000000;stroke:#000000">
+				<rect x="48.05" y="-27.87" width="22.02" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator111" style="fill:#FFFFFF;stroke:#000000">
+				<rect x="69.07" y="-27.87" width="22.02" height="7" style="stroke:#000000" />
+			</g>
+			<g id="map_scale__indicator1111" style="fill:#000000;stroke:#000000">
+				<rect x="90.09" y="-27.87" width="22.02" height="7" style="stroke:#000000" />
+			</g>
+			<g id="floating_label" style="stroke:#000000;font-family:Tahoma;font-size:14px;font-weight:bold">
+				<g style="stroke-width:3;stroke:#FFFFFF;fill:none;stroke-opacity:0.75">
+					<text transform="translate(-237.35,-7.77) scale(0.8,1)">Map data © OpenStreetMap contributors</text>
+				</g>
+				<g style="fill:#000000;stroke:none;fill-opacity:1">
+					<text transform="translate(-237.35,-7.77) scale(0.8,1)">Map data © OpenStreetMap contributors</text>
+				</g>
+			</g>
+		</g>
+		<g id="Map_frame" style="stroke:black;stroke-width:2;fill:none">
+			<rect x="0" y="0" width="0.31" height="0.13" />
+		</g>
+	</g>
+</svg>
