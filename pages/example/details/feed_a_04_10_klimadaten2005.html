@@ -1,0 +1,49 @@
+---
+layout: default
+title: Moabit - 
+permalink: /pages/example/details/feed_a_04_10_klimadaten2005
+level: 3
+---
+<div class='container'><h1>Klimamodell Berlin: Temperatur und bodennahe Strömungen 2005 (Umweltatlas)</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>feed</td></tr>
+<tr><th>Title</th><td>Klimamodell Berlin: Temperatur und bodennahe Strömungen 2005 (Umweltatlas)</td></tr>
+<tr><th>Category</th><td>Umweltatlas</td></tr>
+<tr><th>Download</th><td>See description for download link.
+</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_04_10_02temp06uhr2005.gif'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k04_10_02temp06uhr2005@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=k04_10_02temp06uhr2005@senstadt</a></td></tr>
+<tr><th>Keywords</th><td></td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=a_04_10_klimadaten2005@senstadt&type=FEED</td></tr>
+<tr><th>kurzbeschreibung</th><td>Die Daten basieren auf den Ergebnissen der Anwendung des Klimamodells FITNAH bezogen auf einen strahlungsreichen, austauscharmen Sommertag und finden ihre Umsetzung in den Karten 04.10.01 - 04.10.06 Analysekarten Klimamodell Berlin 2005 (Umweltatlas)</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:3068</td></tr>
+<tr><th>grafikformate</th><td>text/csv</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet "Geoportal Berlin / [Titel des Datensatzes]".</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>Es gelten keine Bedingungen</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin</td></tr>
+<tr><th>email</th><td>fisbroker@senstadt.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>ATOM-Feed</td></tr>
+<tr><th>version</th><td>1.0</td></tr>
+<tr><th>atom-feed-url</th><td>http://fbinter.stadt-berlin.de/fb/feed/senstadt/a_04_10_klimadaten2005</td></tr>
+<tr><th colspan='2'><strong>Download</strong></th></tr>
+<tr><th>description</th><td>Klimamodell Berlin: Temperatur und bodennahe Strömungen 2005 (Umweltatlas) - Download-Service - EPSG3068 -CSV, gezippt.</td></tr>
+<tr><th>erläuterung</th><td>Die Datenformatbeschreibung der Klimadaten befindet sich hier: <br />http://fbarc.stadt-berlin.de/FIS_Broker_Atom//klimamodell/Datenformatbeschreibung_Klimamodell_2005.html
+http://fbarc.stadt-berlin.de/FIS_Broker_Atom/klimamodell/klimadaten2005_04_10.zip
+</td></tr>
+</table>
+</div>
+<div id='legend'></div></div>
+<link rel="stylesheet" href="{{site.url}}/lib/leaflet.css" />
+<script src="{{site.url}}/lib/d3.min.js"></script>
+<script src="{{site.url}}/lib/topojson.v1.min.js"></script>
+<script src="{{site.url}}/lib/leaflet.js"></script>
+<script src="{{site.url}}/lib/leaflet.ajax.min.js"></script>
+<script>
+d3.selectAll('#moabit_map, #berlin_map').remove();
+</script>

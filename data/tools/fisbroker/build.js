@@ -4,7 +4,7 @@ var fs = require("fs"),
 var overview = "---"+"\n"+
     "layout: default"+"\n"+
     "title: Moabit - Overview"+"\n"+
-    "permalink: /pages/moabit/overview"+"\n"+
+    "permalink: /pages/example/overview"+"\n"+
     "level: 2"+"\n"+
     "---"+"\n"+
     "<div class='container'><h1>Moabit Datasets Overview</h1>"+"\n";
@@ -58,7 +58,7 @@ for(i = 0; i<categories.length; i++){
                 }
 
                 if(!skip){
-                    var url = "{{site.url}}/pages/moabit/details/"+sources[j].type+"_"+name+".html";
+                    var url = "{{site.url}}/pages/example/details/"+sources[j].type+"_"+name+".html";
                     overview += "<li>"+"\n"+
                                 "<div class='dataset-thumb'>";
                     if(sources[j].thumb && sources[j].thumb.length >= 1){
@@ -74,7 +74,7 @@ for(i = 0; i<categories.length; i++){
                     var page = "---"+"\n"+
                         "layout: default"+"\n"+
                         "title: Moabit - "+"\n"+
-                        "permalink: /pages/moabit/details/"+sources[j].type+"_"+name+"\n"+
+                        "permalink: /pages/example/details/"+sources[j].type+"_"+name+"\n"+
                         "level: 3"+"\n"+
                         "---"+"\n"+
                         "<div class='container'><h1>"+sources[j].title+"</h1>"+"\n"+
@@ -286,16 +286,16 @@ for(i = 0; i<categories.length; i++){
 
                     page += "</script>";
 
-                    fs.writeFileSync("../../../pages/moabit/details/"+sources[j].type+"_"+name+".html", page);
+                    fs.writeFileSync("../../../pages/example/details/"+sources[j].type+"_"+name+".html", page);
 
                 }else{
 
                     console.log("skip");
                     skips++;
                     if(sources[j].type === "wms"){
-                        console.log('moabit/'+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+sources[j].technology.layers[0].name+".png");
+                        console.log('example/'+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+sources[j].technology.layers[0].name+".png");
                     }else if(sources[j].type === "wfs"){
-                        console.log("moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson");
+                        console.log("example/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson");
                     }
 
                 }
@@ -307,7 +307,7 @@ for(i = 0; i<categories.length; i++){
 }
 overview += "</div>"+"\n";
 
-fs.writeFile("../../../pages/moabit/overview.html", overview, function(err) {
+fs.writeFile("../../../pages/example/overview.html", overview, function(err) {
     console.log("done",skips);
 });
 
