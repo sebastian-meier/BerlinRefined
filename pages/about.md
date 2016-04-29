@@ -5,12 +5,29 @@ permalink: /pages/about/
 level: 1
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<style>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+.jumbotron{
+	background-image:url("{{ site.url }}/data/home/header.jpg");
+}
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+</style>
+<div class="jumbotron"></div>
+<div class="container">
+    <div class="row">
+		<div class="col col-md-2 col-lg-3"></div>
+		<div class="col col-sm-12 col-md-8 col-lg-6">
+
+          	<h1>Refined Berlin</h1>
+
+            <p>
+                This is a prerelease of Berlin Refined, expect bugs...
+            </p>
+            <p>
+                The idea of Berlin Refined is to turn OpenData into AccessibleData by providing more acccible ways of finding, downloading and processing OpenData from the Berlin area.<br /><br />
+                Beyond data, this site tries to explain some basic concepts of the Berlin OpenData infrastructure and how the primary statistical resources are structured and organized. See for example <a href="{{site.url}}/pages/geographic/lor">LORs</a>
+            </p>
+
+        </div>
+    </div>
+</div>
