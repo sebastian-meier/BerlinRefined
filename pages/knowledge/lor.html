@@ -164,7 +164,7 @@ for(var i = 0; i<4; i++){
 	div.append("p").attr("class", "graphic subline").text(sublines[i]);
 }
 
-d3.json("{{ site.url }}/data/geographic/lor/Bezirk.topojson", function(error, data) {
+d3.json("{{ site.url }}/data/knowledge/lor/Bezirk.topojson", function(error, data) {
 	if (error) return console.error(error);
 
 	var projection = d3.geo.albers()
@@ -189,7 +189,7 @@ d3.json("{{ site.url }}/data/geographic/lor/Bezirk.topojson", function(error, da
 		.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 		.attr("d", path);
 
-	d3.json("{{ site.url }}/data/geographic/lor/Prognoseraum.topojson", function(error, data) {
+	d3.json("{{ site.url }}/data/knowledge/lor/Prognoseraum.topojson", function(error, data) {
 		if (error) return console.error(error);
 
 		var projection = d3.geo.albers()
@@ -214,7 +214,7 @@ d3.json("{{ site.url }}/data/geographic/lor/Bezirk.topojson", function(error, da
 			.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 			.attr("d", path);
 
-		d3.json("{{ site.url }}/data/geographic/lor/Bezirksregion.topojson", function(error, data) {
+		d3.json("{{ site.url }}/data/knowledge/lor/Bezirksregion.topojson", function(error, data) {
 			if (error) return console.error(error);
 
 			var projection = d3.geo.albers()
@@ -239,7 +239,7 @@ d3.json("{{ site.url }}/data/geographic/lor/Bezirk.topojson", function(error, da
 				.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 				.attr("d", path);
 
-			d3.json("{{ site.url }}/data/geographic/lor/Planungsraum.topojson", function(error, data) {
+			d3.json("{{ site.url }}/data/knowledge/lor/Planungsraum.topojson", function(error, data) {
 				if (error) return console.error(error);
 
 				var projection = d3.geo.albers()
