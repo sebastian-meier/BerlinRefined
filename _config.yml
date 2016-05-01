@@ -36,3 +36,5 @@ incremental: false
 #highlighter: rouge
 #gist:
 #noscript: false
+
+exclude: ["./pages/example/details/", "./pages/fisbroker/details"]

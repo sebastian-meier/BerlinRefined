@@ -1,11 +1,20 @@
-var wfs  = require('./wfs_ext'),
-    wms  = require('./wms_ext'),
+var sources  = require('./sources'),
     fs = require("fs");
 
 //This is the simplest way of getting a map from fis-broker and thereby the minimum requirement of parameters:
 //http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2015_cir?request=GetMap&service=WMS&version=1.1.1&layers=0&srs=EPSG:4326&format=image/png&width=4908&height=5000&bbox=13.306503295898438,52.51303464932938,13.349504470825195,52.540971446408086&styles=gdi_default
 
-var json = [];
+var json = [], wfs = [], wms = [], feed = [];
+
+for(var i = 0; i<sources.length; i++){
+    if(sources[i].type==="wfs"){
+        wfs.push(sources[i]);
+    }else if(sources[i].type==="wms"){
+        wms.push(sources[i]);
+    }else if(sources[i].type==="feed"){
+        feed.push(sources[i]);
+    }
+}
 
 for(var i = 0; i<wfs.length; i++){
     if(wfs[i].technology.rechneradresse && wfs[i].technology.rechneradresse[0]){
@@ -18,13 +27,14 @@ for(var i = 0; i<wfs.length; i++){
 
         json.push([
             "wfs",
-            wfs[i].technology.rechneradresse[0],
+            ((wfs[i].technology.rechneradresse[0].split("/"))[(wfs[i].technology.rechneradresse[0].split("/")).length-1]),
+            //wfs[i].technology.rechneradresse[0],
             //We add the following two for searchability
             wfs[i].title,
             wfs[i].description.kurzbeschreibung,
             wfs[i].keywords,
-            bb,
-            wfs[i].spatial.crs
+            //bb,
+            //wfs[i].spatial.crs
         ]);
     }
 }
@@ -66,15 +76,26 @@ for(var i = 0; i<wms.length; i++){
 
         json.push([
             "wms",
-            wms[i].technology.rechneradresse[0],
+            ((wms[i].technology.rechneradresse[0].split("/"))[(wms[i].technology.rechneradresse[0].split("/")).length-1]),
+            //wms[i].technology.rechneradresse[0],
             //We add the following two for searchability
             wms[i].title,
             wms[i].description.kurzbeschreibung,
             wms[i].keywords,
-            layers,
-            wms[i].technology.legend.url
+            //layers,
+            //wms[i].technology.legend.url
         ]);
     }
+}
+
+for(var i = 0; i<feed.length; i++){
+    json.push([
+        "feed",
+        ((feed[i].description.link.split("@"))[0].split("="))[1],
+        feed[i].title,
+        feed[i].description.kurzbeschreibung,
+        feed[i].keywords
+    ]);
 }
 
 var outputFilename = "light.json";
