@@ -60,7 +60,7 @@ level: 2
     <div class="row">
 		<div class="col col-md-2 col-lg-3"></div>
 		<div class="col col-sm-12 col-md-8 col-lg-6">
-            <table>
+            <table id="searchtable">
                 <thead>
                     <tr>
                         <th>Preview</th>
@@ -158,6 +158,7 @@ level: 2
         var size = d3.scale.linear().domain([min,max]).range([10,20]);
 
         var cats = [];
+        var catmap = {};
         var i = 0;
         for(var key in categories){
             cats.push({
@@ -165,6 +166,7 @@ level: 2
                 t:key,
                 c:categories[key]
             });
+            catmap[key] = i;
             i++;
         }
 
@@ -174,8 +176,12 @@ level: 2
             updateList();
         });
 
-        d3.select('taglink').on('click',function(){
-            d3.select('tagcloud').toggle();
+        d3.select('#taglink').on('click',function(){
+            if(d3.select('#tagcloud').style("display")==="block"){
+                d3.select('#tagcloud').style("display","none");
+            }else{
+                d3.select('#tagcloud').style("display","block");
+            }
         });
 
         d3.select('#categories').selectAll('a').data(cats).enter().append('a')
@@ -212,20 +218,35 @@ level: 2
 
         var tr = d3.select('#table').selectAll('tr').data(data).enter().append('tr')
             .attr('class', function(d, i){
-                var r = "row ";
+                var r = "tr ";
                 r += "id-"+i;
-                r += " cat-"+d[6];
+                r += " cat-"+catmap[d[6]];
                 r += " type-"+d[0];
                 if($.isArray(d[4])){
                     for(var j = 0; j<d[4].length; j++){
                         r += " tag-"+keywordsmap[d[4][j]];
                     }
                 }
+                return r;
             });
 
-        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'><img src='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/thumbs/small/"+d[5]+"' /></a>";} });
-        tr.append('td').html(function(d){ return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'>"+d[2]+"</a>"; });
+        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[1]+".html'><img src='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/thumbs/small/"+d[5]+"' /></a>";} });
+        tr.append('td').html(function(d){ return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[1]+".html'>"+d[2]+"</a>"; });
         tr.append('td').text(function(d){ return d[0]; });
+
+        d3.select('#searchslot').on('keyup',function(){
+            var objs = index.search(this.value);
+            if(this.value.length<1){
+                filters.objs = false;
+            }else{
+                if(objs.length>=1){
+                    filters.objs = objs;
+                }else{
+                    filters.objs = [{ref:99999999}];
+                }
+            }
+            updateList();
+        });
     });
 
     var filters = {
@@ -236,31 +257,33 @@ level: 2
     };
 
     function updateList(){
-        var f = ".row ";
+        var f = ".tr";
 
         if(filters.type !== "all"){
-            f += " .type-"+filters.type;
+            f += ".type-"+filters.type;
         }
 
         if(filters.tag){
-            f += " .tag-"+filters.tag;
+            f += ".tag-"+filters.tag;
         }
 
         if(filters.category){
-            f += " .cat-"+filters.category;
+            f += ".cat-"+filters.category;
         }
 
         var selects = [];
         if(filters.objs){
             for(var i = 0; i<filters.objs.length; i++){
-                selects.push(f+" .id-"+filters.objs[i].ref);
+                selects.push(f+".id-"+filters.objs[i].ref);
             }
         }else{
             selects.push(f);
         }
 
-        d3.selectAll('.row').style("display","none");
-        d3.selectAll(f.join()).style("display","block");
+        console.log(f);
+
+        d3.selectAll('.tr').style("display","none");
+        d3.selectAll(selects.join()).style("display","table-row");
     }
 
 </script>
