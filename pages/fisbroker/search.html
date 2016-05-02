@@ -152,7 +152,7 @@ level: 2
             if(keywords[key] < min){min = keywords[key];}
             if(keywords[key] > max){max = keywords[key];}
             keywordsmap[key] = i;
-            i++:
+            i++;
         }
 
         var size = d3.scale.linear().domain([min,max]).range([10,20]);
@@ -169,7 +169,7 @@ level: 2
         }
 
         d3.selectAll('.typetoggle').on('change',function(){
-            var val = d3.select('input[name="type"]:checked'),node().value;
+            var val = d3.select('input[name="type"]:checked').node().value;
             filters.type = val;
             updateList();
         });
@@ -259,8 +259,8 @@ level: 2
             selects.push(f);
         }
 
-        d3.selectAll('.row').hide();
-        d3.selectAll(f.join()).show();
+        d3.selectAll('.row').stlye("display","none");
+        d3.selectAll(f.join()).style("display","block");
     }
 
 </script>
