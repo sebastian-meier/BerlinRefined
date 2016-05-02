@@ -1,0 +1,47 @@
+---
+layout: default
+title: Fisbroker - 
+permalink: /pages/fisbroker/details/feed_a_fnp_2015
+level: 3
+---
+<div class='container'><h1>FNP (Flächennutzungsplan Berlin), Stand Neubekanntmachung 2015</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>feed</td></tr>
+<tr><th>Title</th><td>FNP (Flächennutzungsplan Berlin), Stand Neubekanntmachung 2015</td></tr>
+<tr><th>Category</th><td>Planen/Bauen/Denkmal</td></tr>
+<tr><th>Download</th><td>See description for download link.
+</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_fnp_215.gif'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=fnp_2015@senstadt'>http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=fnp_2015@senstadt</a></td></tr>
+<tr><th>Keywords</th><td></td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=a_fnp_2015@senstadt&type=FEED</td></tr>
+<tr><th>kurzbeschreibung</th><td>Flächennutzungsplan Berlin in der Fassung der Neubekanntmachung vom 5.1.2015 (Abl. S. 31). Es gilt das gedruckte Original in Verbindung mit den separat seit o.g. Neubekanntmachung veröffentlichten wirksamen FNP-Änderungen.</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:25833</td></tr>
+<tr><th>grafikformate</th><td>image/tiff</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet "Geoportal Berlin / [Titel des Datensatzes]".</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>Es gelten keine Bedingungen</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin</td></tr>
+<tr><th>email</th><td>fisbroker@senstadt.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>ATOM-Feed</td></tr>
+<tr><th>version</th><td>1.0</td></tr>
+<tr><th colspan='2'><strong>Download</strong></th></tr>
+<tr><th>description</th><td>FNP (Flächennutzungsplan Berlin), Stand Neubekanntmachung 2015 - EPSG:25833 - TIFF, gezippt</td></tr>
+<tr><th>erläuterung</th><td>Eckkoordinaten der Kachel: Rechts/Hochwert unten links 368834.80/5798336.24, oben rechts 425040.36/5838074.65<br />http://fbarc.stadt-berlin.de/FIS_Broker_Atom/fnp/fnp_neubek_2015.zip
+</td></tr>
+</table>
+</div>
+<div id='legend'></div></div>
+<link rel="stylesheet" href="{{site.url}}/lib/leaflet.css" />
+<script src="{{site.url}}/lib/d3.min.js"></script>
+<script src="{{site.url}}/lib/topojson.v1.min.js"></script>
+<script src="{{site.url}}/lib/leaflet.js"></script>
+<script src="{{site.url}}/lib/leaflet.ajax.min.js"></script>
+<script>
+d3.selectAll('#moabit_map, #berlin_map').remove();
+</script>

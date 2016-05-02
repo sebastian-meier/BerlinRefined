@@ -12,9 +12,9 @@ level: 3
 <tr><th>Type</th><td>wfs</td></tr>
 <tr><th>Title</th><td>Flächennutzung, Stadtstruktur 2010 und Versiegelung 2011 (Umweltatlas)</td></tr>
 <tr><th>Category</th><td>Umweltatlas</td></tr>
-<tr><th>Download</th><td><a href='{{site.url}}/data/tools/fisbroker/moabit/re_nutz2010_nutzsa.min.geojson'>Min.GeoJson</a><br />
-<a href='{{site.url}}/data/tools/fisbroker/moabit/re_nutz2010_nutzsa.geojson'>GeoJson</a>
-<a href='{{site.url}}/data/tools/fisbroker/moabit/re_nutz2010_nutzsa.csv'>CSV</a><br />
+<tr><th>Download</th><td><a href='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/moabit/re_nutz2010_nutzsa.min.geojson'>Min.GeoJson</a><br />
+<a href='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/moabit/re_nutz2010_nutzsa.geojson'>GeoJson</a>
+<a href='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/moabit/re_nutz2010_nutzsa.csv'>CSV</a><br />
 </td></tr>
 <!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas//sachdaten/svor_nutz2010_nutzsa.gif'></td></tr>-->
 <tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=alphaDataStart&alphaDataId=sach_nutz2010_nutzsa@senstadt'>http://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=alphaDataStart&alphaDataId=sach_nutz2010_nutzsa@senstadt</a></td></tr>
@@ -64,6 +64,6 @@ osm.addTo(moabit_map);
 function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
 var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
 var name = 're_nutz2010_nutzsa';
-var geojsonLayer = new L.GeoJSON.AJAX('{{site.url}}/data/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+var geojsonLayer = new L.GeoJSON.AJAX('https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
 geojsonLayer.addTo(moabit_map); console.log('hello world');
 </script>

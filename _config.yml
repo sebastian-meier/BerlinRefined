@@ -29,4 +29,4 @@ incremental: false
 #gist:
 #noscript: false
 
-exclude: [data]
+#exclude: [data]

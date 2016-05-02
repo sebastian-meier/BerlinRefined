@@ -102,7 +102,7 @@ level: 2
 
     var keywords = {}, categories = {};
 
-    d3.json('{{ site.url }}/data/tools/fisbroker/light.json', function(data){
+    d3.json('https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/light.json', function(data){
 
         for(var i = 0; i<data.length; i++){
             var tkeywordstr = "";
@@ -223,7 +223,7 @@ level: 2
                 }
             });
 
-        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'><img src='{{site.url}}/data/tools/fisbroker/thumbs/small/"+d[5]+"' /></a>";} });
+        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'><img src='https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/thumbs/small/"+d[5]+"' /></a>";} });
         tr.append('td').html(function(d){ return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'>"+d[2]+"</a>"; });
         tr.append('td').text(function(d){ return d[0]; });
     });
@@ -259,7 +259,7 @@ level: 2
             selects.push(f);
         }
 
-        d3.selectAll('.row').stlye("display","none");
+        d3.selectAll('.row').style("display","none");
         d3.selectAll(f.join()).style("display","block");
     }
 

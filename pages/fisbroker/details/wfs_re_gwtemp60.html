@@ -1,0 +1,68 @@
+---
+layout: default
+title: Fisbroker - 
+permalink: /pages/fisbroker/details/wfs_re_gwtemp60
+level: 3
+---
+<div class='container'><h1>Grundwassertemperatur 60m unter Geländeoberfläche 2012 (Umweltatlas)</h1>
+<div id='moabit_map'></div>
+<div id='berlin_map'></div>
+<div id='description'>
+<table>
+<tr><th>Type</th><td>wfs</td></tr>
+<tr><th>Title</th><td>Grundwassertemperatur 60m unter Geländeoberfläche 2012 (Umweltatlas)</td></tr>
+<tr><th>Category</th><td>Umweltatlas</td></tr>
+<tr><th>Download</th><td>See individual layer for download link.
+</td></tr>
+<!--<tr><th>Preview</th><td><img src='http://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_02_14_05gwtemp_80m_2012.gif'></td></tr>-->
+<tr><th>FisBroker-Link</th><td><a href='http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_14_04gwtemp_60m@senstadt'>http://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=wmsk_02_14_04gwtemp_60m@senstadt</a></td></tr>
+<tr><th>Keywords</th><td>Geology,Geothermie,Grundwasser,inspireidentifiziert,opendata,open data,Berlin,Geodaten,Grundwassertemperatur,Neutrale Zone,Temperaturjahresgang,Temperaturanstieg,Temperaturmessstelle,Kriging-Interpolation,Erdwärme</td></tr>
+<tr><th colspan='2'><strong>Beschreibung</strong></th></tr>
+<tr><th>link</th><td>?id=re_gwtemp60@senstadt&type=WFS&themeType=spatial&showCapUrl=true</td></tr>
+<tr><th>kurzbeschreibung</th><td>Geometrien zur Verteilung der Grundwassertemperatur 60m unter Geländeoberfläche. Die Angaben basieren auf Messungen an 350 Temperaturmessstellen. Es wurden überwiegend aktuelle Temperaturmessungen aus den Jahren 2010 und 2012 berücksichtigt.</td></tr>
+<tr><th>koordinatensysteme</th><td>EPSG:3068, EPSG:4258</td></tr>
+<tr><th>ausdehnung</th><td>EPSG:3068: 2750, 250, 49780, 40100</td></tr>
+<tr><th>nutzungsbedingungen</th><td>Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf.
+Der Quellenvermerk, der gemäß §2 der o.g. Nutzungsbestimmungen zu verwenden ist, lautet "Umweltatlas Berlin / [Titel des Datensatzes]".</td></tr>
+<tr><th>zugriffsbeschränkungen</th><td>keine</td></tr>
+<tr><th>beschreibung</th><td>Sachdaten zur Karte "Grundwassertemperatur 60m unter Geländeoberfläche im Jahr 2012 (Umweltatlas)".</td></tr>
+<tr><th colspan='2'><strong>Anbieter</strong></th></tr>
+<tr><th>Adress</th><td>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin<br />Berlin
+Fehrbelliner Platz 1, 10707 Berlin
+</td></tr>
+<tr><th>telefon</th><td>+49-30-90139-5257</td></tr>
+<tr><th>fax</th><td>+49-30-90139-5251</td></tr>
+<tr><th>email</th><td>fisbroker@senstadtum.berlin.de</td></tr>
+<tr><th colspan='2'><strong>Technology</strong></th></tr>
+<tr><th>standard</th><td>WFS</td></tr>
+<tr><th>version</th><td>1.0.0<br />1.1.1<br />2.0.0</td></tr>
+<tr><th>operationen</th><td>GetCapabilities<br />DescribeFeatureType<br />GetFeature</td></tr>
+<tr><th>ausgabeformate</th><td>text/xml; subtype=gml/2.1.2<br />text/xml; subtype=gml/3.1.1<br />text/xml; subtype=gml/3.2.1</td></tr>
+<tr><th>rechneradresse</th><td>http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_gwtemp60</td></tr>
+<tr><th>inspire</th><td>http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&ID=ac2646dc-515a-3afd-b5eb-5986ae4173b1&ELEMENTSETNAME=FULL</td></tr>
+<tr><th colspan='2'><strong>Spatial</strong></th></tr>
+<tr><th>BoundingBox</th><td>52.3284,13.079,52.6877,13.7701</td></tr>
+<tr><th>Projections</th><td>urn:ogc:def:crs:EPSG:6.9:3068<br />urn:ogc:def:crs:EPSG:6.9:4258</td></tr>
+<tr><th>comparison</th><td>PropertyIsLessThan<br />PropertyIsGreaterThan<br />PropertyIsLessThanOrEqualTo<br />PropertyIsGreaterThanOrEqualTo<br />PropertyIsEqualTo<br />PropertyIsNotEqualTo<br />PropertyIsLike<br />PropertyIsBetween<br />PropertyIsNull</td></tr>
+<tr><th>geometry</th><td>gml:AbstractGeometricPrimitive</td></tr>
+<tr><th>spatial</th><td>BBOX<br />Equals<br />Disjoint<br />Intersects<br />Touches<br />Crosses<br />Within<br />Contains<br />Overlaps<br />Beyond<br />DWithin</td></tr>
+</table>
+</div>
+<div id='legend'></div></div>
+<link rel="stylesheet" href="{{site.url}}/lib/leaflet.css" />
+<script src="{{site.url}}/lib/d3.min.js"></script>
+<script src="{{site.url}}/lib/topojson.v1.min.js"></script>
+<script src="{{site.url}}/lib/leaflet.js"></script>
+<script src="{{site.url}}/lib/leaflet.ajax.min.js"></script>
+<script>
+var moabit_map = L.map('moabit_map').setView([((52.540971446408086-52.51303464932938)/2+52.51303464932938), ((13.349504470825195-13.306503295898438)/2+13.306503295898438)], 12);
+var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+var osm = new L.TileLayer(osmUrl, {attribution: osmAttrib});
+osm.addTo(moabit_map);
+function onEachFeature(feature, layer) {layer.bindPopup(JSON.stringify(feature.properties, null, 4));}
+var geojsonMarkerOptions = {radius: 5,fillColor: '#ff7800',color: '#000',weight: 1,opacity: 1,fillOpacity: 0.8};
+var name = 're_gwtemp60';
+var geojsonLayer = new L.GeoJSON.AJAX('https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/tools/fisbroker/moabit/'+name+'.min.geojson',{pointToLayer: function (feature, latlng) {return L.circleMarker(latlng, geojsonMarkerOptions);},onEachFeature: onEachFeature});
+geojsonLayer.addTo(moabit_map); console.log('hello world');
+</script>
