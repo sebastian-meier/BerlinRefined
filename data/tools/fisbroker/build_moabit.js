@@ -3,11 +3,11 @@ var fs = require("fs"),
 
 var overview = "---"+"\n"+
     "layout: default"+"\n"+
-    "title: Fisbroker - Overview"+"\n"+
+    "title: Moabit - Overview"+"\n"+
     "permalink: /pages/example/overview"+"\n"+
     "level: 2"+"\n"+
     "---"+"\n"+
-    "<div class='container'><h1>Fisbroker Datasets Overview</h1>"+"\n";
+    "<div class='container'><h1>Moabit Datasets Overview</h1>"+"\n";
 
 //acquire categories
 var categories = [];
@@ -51,8 +51,14 @@ for(i = 0; i<categories.length; i++){
             }
 
             if(!skip){
+                if(sources[j].type === "wms"){
+                    skip = !checkIfExists('moabit/berlin_'+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+sources[j].technology.layers[0].name+".png");
+                }else if(sources[j].type === "wfs"){
+                    skip = !checkIfExists("moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson");
+                }
+
                 if(!skip){
-                    var url = "{{site.url}}/pages/fisbroker/details/"+sources[j].type+"_"+name+".html";
+                    var url = "{{site.url}}/pages/example/details/"+sources[j].type+"_"+name+".html";
                     overview += "<li>"+"\n"+
                                 "<div class='dataset-thumb'>";
                     if(sources[j].thumb && sources[j].thumb.length >= 1){
@@ -67,8 +73,8 @@ for(i = 0; i<categories.length; i++){
 
                     var page = "---"+"\n"+
                         "layout: default"+"\n"+
-                        "title: Fisbroker - "+"\n"+
-                        "permalink: /pages/fisbroker/details/"+sources[j].type+"_"+name+"\n"+
+                        "title: Moabit - "+"\n"+
+                        "permalink: /pages/example/details/"+sources[j].type+"_"+name+"\n"+
                         "level: 3"+"\n"+
                         "---"+"\n"+
                         "<div class='container'><h1>"+sources[j].title+"</h1>"+"\n"+
@@ -82,10 +88,10 @@ for(i = 0; i<categories.length; i++){
                                 "<tr><th>Download</th><td>";
 
                     if(sources[j].type === "wfs"){
-                        //TODO: Select Layer, Output Size, Download Button
-                        page += "See individual layer for download link."+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".min.geojson'>Min.GeoJson</a><br />"+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".geojson'>GeoJson</a>"+"\n";
+                        page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+".csv'>CSV</a><br />"+"\n";
                     }else if(sources[j].type === "wms"){
-                        //TODO: Select Layer, Output Size, Download Button
                         page += "See individual layer for download link."+"\n";
                     }else{
                         page += "See description for download link."+"\n";
@@ -164,6 +170,10 @@ for(i = 0; i<categories.length; i++){
                                     var layer = sources[j].technology.layers[l];
                                     page += "<tr><th colspan='2'><strong class='layer'>"+layer.title+" (ID: "+layer.name+")</strong></th></tr>"+"\n";
                                     page += "<tr><th></th><td><a data-layer='"+layer.name+"' class='layer_selector'>Show Layer on Map</a></td></tr>"+"\n";
+
+                                    page += "<tr><th>Download</th><td>";
+                                    page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+layer.name+".png'>Moabit Karte</a><br />"+"\n";
+                                    page += "<a href='{{site.url}}/data/tools/fisbroker/moabit/berlin_"+((sources[j].technology.rechneradresse[0].split("/"))[(sources[j].technology.rechneradresse[0].split("/")).length-1])+"_"+layer.name+".png'>Berlin Karte</a>"+"\n";
 
                                     page += "<tr><th>Abstract</th><td>"+layer.abstract+"</td></tr>"+"\n"+
                                             "<tr><th>MetaData</th><td>"+layer.metadata+"</td></tr>"+"\n"+
@@ -276,7 +286,7 @@ for(i = 0; i<categories.length; i++){
 
                     page += "</script>";
 
-                    fs.writeFileSync("../../../pages/fisbroker/details/"+sources[j].type+"_"+name+".html", page);
+                    fs.writeFileSync("../../../pages/example/details/"+sources[j].type+"_"+name+".html", page);
 
                 }else{
 
@@ -297,7 +307,7 @@ for(i = 0; i<categories.length; i++){
 }
 overview += "</div>"+"\n";
 
-fs.writeFile("../../../pages/fisbroker/overview.html", overview, function(err) {
+fs.writeFile("../../../pages/example/overview.html", overview, function(err) {
     console.log("done",skips);
 });
 

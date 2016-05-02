@@ -39,7 +39,7 @@ level: 2
             <div id="types">
                 <div>
                     <label>All</label>
-                    <input type="radio" name="type" value="all" class="typetoggle" />
+                    <input type="radio" name="type" value="all" class="typetoggle" checked="checked" />
                 </div>
                 <div>
                     <label>WFS</label>
@@ -141,37 +141,126 @@ level: 2
         var min = Number.MAX_VALUE,
             max = -Number.MAX_VALUE;
 
+        var i = 0;
+        var keywordsmap = {};
         for(var key in keywords){
             keys.push({
+                id:i,
                 t:key,
                 c:keywords[key]
             });
             if(keywords[key] < min){min = keywords[key];}
             if(keywords[key] > max){max = keywords[key];}
+            keywordsmap[key] = i;
+            i++:
         }
 
         var size = d3.scale.linear().domain([min,max]).range([10,20]);
 
         var cats = [];
+        var i = 0;
         for(var key in categories){
-            keys.push({
+            cats.push({
+                id:i,
                 t:key,
                 c:categories[key]
             });
+            i++;
         }
 
+        d3.selectAll('.typetoggle').on('change',function(){
+            var val = d3.select('input[name="type"]:checked'),node().value;
+            filters.type = val;
+            updateList();
+        });
+
+        d3.select('taglink').on('click',function(){
+            d3.select('tagcloud').toggle();
+        });
+
         d3.select('#categories').selectAll('a').data(cats).enter().append('a')
+            .attr('class', function(d){ return 'category, cat-'+d.id; })
+            .on('click',function(){
+                d3.selectAll('.category').classed('active', false);
+                var d = (d3.select(this)).datum();
+                if(d.id === filters.category){
+                    filters.category = false;
+                }else{
+                    filters.category = d.id;
+                    d3.select('.cat-'+d.id).classed('active',true);
+                }
+                updateList();
+            })
             .text(function(d){ return d.t+" ("+d.c+")"; });
 
         d3.select('#tagcloud').selectAll('a').data(keys).enter().append('a')
             .text(function(d){return d.t;})
+            .attr('class', function(d){ return 'tag'+d.id; })
+            .on('click',function(){
+                d3.selectAll('.tag').classed('active', false);
+                var d = (d3.select(this)).datum();
+                if(d.id === filters.tags){
+                    filters.tags = false;
+                }else{
+                    filters.tag = d.id;
+                    d3.select('.tag-'+d.id).classed('active',true);
+                }
+                updateList();
+            })
             .style('display', function(d){ if(d.c >= 5){ return "inline-block"; }else{ return "none"; } })
             .style('font-size', function(d){ return size(d.c)+"px"; });
 
-        var tr = d3.select('#table').selectAll('tr').data(data).enter().append('tr');
-        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<img src='"+url+"/data/tools/fisbroker/thumbs/small/"+d[5]+"' />";} });
-        tr.append('td').text(function(d){return d[2]; });
-        tr.append('td').text(function(d){return d[0]; });
+        var tr = d3.select('#table').selectAll('tr').data(data).enter().append('tr')
+            .attr('class', function(d, i){
+                var r = "row ";
+                r += "id-"+i;
+                r += " cat-"+d[6];
+                r += " type-"+d[0];
+                if($.isArray(d[4])){
+                    for(var j = 0; j<d[4].length; j++){
+                        r += " tag-"+keywordsmap[d[4][j]];
+                    }
+                }
+            });
+
+        tr.append('td').html(function(d){ if(d[5] === false){ return ""; }else{return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'><img src='{{site.url}}/data/tools/fisbroker/thumbs/small/"+d[5]+"' /></a>";} });
+        tr.append('td').html(function(d){ return "<a href='{{site.url}}/pages/fisbroker/details/"+d[0]+"_"+d[5]+".html'>"+d[2]+"</a>"; });
+        tr.append('td').text(function(d){ return d[0]; });
     });
+
+    var filters = {
+        objs:false,
+        type:'all',
+        tag:false,
+        category:false
+    };
+
+    function updateList(){
+        var f = ".row ";
+
+        if(filters.type !== "all"){
+            f += " .type-"+filters.type;
+        }
+
+        if(filters.tag){
+            f += " .tag-"+filters.tag;
+        }
+
+        if(filters.category){
+            f += " .cat-"+filters.category;
+        }
+
+        var selects = [];
+        if(filters.objs){
+            for(var i = 0; i<filters.objs.length; i++){
+                selects.push(f+" .id-"+filters.objs[i].ref);
+            }
+        }else{
+            selects.push(f);
+        }
+
+        d3.selectAll('.row').hide();
+        d3.selectAll(f.join()).show();
+    }
 
 </script>
