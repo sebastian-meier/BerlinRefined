@@ -118,8 +118,21 @@ ul.dropdown-menu{
 	display:none;
 }
 
-#searchtable{
+table#searchtable{
 	width:100%;
+	tr{
+		width:100%;
+	}
+	thead, tfoot{
+		background-color:#ccc;
+	}
+}
+
+#searchtable tr{
+	border-bottom:1px solid #999;
+	img{
+		margin:5px 5px 5px 0;
+	}
 }
 
 /* Moabit Overview */
