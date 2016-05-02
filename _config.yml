@@ -37,4 +37,4 @@ incremental: false
 #gist:
 #noscript: false
 
-exclude: ["./pages/example/details/", "./pages/fisbroker/details"]
+exclude: [pages/example/details/, pages/fisbroker/details/]

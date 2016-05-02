@@ -25,6 +25,11 @@ for(var i = 0; i<wfs.length; i++){
             parseFloat(wfs[i].spatial.boundingbox.max_latitude)
         ];
 
+        var name = false;
+        if("thumb" in wfs[i] && wfs[i].thumb.length >= 1){
+            name = ((wfs[i].thumb).split("/"))[(((wfs[i].thumb).split("/")).length-1)];
+        }
+
         json.push([
             "wfs",
             ((wfs[i].technology.rechneradresse[0].split("/"))[(wfs[i].technology.rechneradresse[0].split("/")).length-1]),
@@ -33,6 +38,7 @@ for(var i = 0; i<wfs.length; i++){
             wfs[i].title,
             wfs[i].description.kurzbeschreibung,
             wfs[i].keywords,
+            name
             //bb,
             //wfs[i].spatial.crs
         ]);
@@ -74,6 +80,11 @@ for(var i = 0; i<wms.length; i++){
             ]);
         }
 
+        var name = false;
+        if("thumb" in wms[i] && wms[i].thumb.length >= 1){
+            name = ((wms[i].thumb).split("/"))[(((wms[i].thumb).split("/")).length-1)];
+        }
+
         json.push([
             "wms",
             ((wms[i].technology.rechneradresse[0].split("/"))[(wms[i].technology.rechneradresse[0].split("/")).length-1]),
@@ -82,6 +93,7 @@ for(var i = 0; i<wms.length; i++){
             wms[i].title,
             wms[i].description.kurzbeschreibung,
             wms[i].keywords,
+            name
             //layers,
             //wms[i].technology.legend.url
         ]);
@@ -89,12 +101,18 @@ for(var i = 0; i<wms.length; i++){
 }
 
 for(var i = 0; i<feed.length; i++){
+    var name = false;
+    if("thumb" in feed[i] && feed[i].thumb.length >= 1){
+        name = ((feed[i].thumb).split("/"))[(((feed[i].thumb).split("/")).length-1)];
+    }
+
     json.push([
         "feed",
         ((feed[i].description.link.split("@"))[0].split("="))[1],
         feed[i].title,
         feed[i].description.kurzbeschreibung,
-        feed[i].keywords
+        feed[i].keywords,
+        name
     ]);
 }
 
