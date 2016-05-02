@@ -38,7 +38,8 @@ for(var i = 0; i<wfs.length; i++){
             wfs[i].title,
             wfs[i].description.kurzbeschreibung,
             wfs[i].keywords,
-            name
+            name,
+            wfs[i].category
             //bb,
             //wfs[i].spatial.crs
         ]);
@@ -93,7 +94,8 @@ for(var i = 0; i<wms.length; i++){
             wms[i].title,
             wms[i].description.kurzbeschreibung,
             wms[i].keywords,
-            name
+            name,
+            wms[i].category
             //layers,
             //wms[i].technology.legend.url
         ]);
@@ -112,7 +114,8 @@ for(var i = 0; i<feed.length; i++){
         feed[i].title,
         feed[i].description.kurzbeschreibung,
         feed[i].keywords,
-        name
+        name,
+        feed[i].category
     ]);
 }
 

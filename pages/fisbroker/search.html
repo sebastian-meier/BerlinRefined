@@ -37,7 +37,22 @@ level: 2
 		<div class="col col-md-2 col-lg-3"></div>
 		<div class="col col-sm-12 col-md-8 col-lg-6">
             <div id="types">
-
+                <div>
+                    <label>All</label>
+                    <input type="radio" name="type" value="all" class="typetoggle" />
+                </div>
+                <div>
+                    <label>WFS</label>
+                    <input type="radio" name="type" value="wfs" class="typetoggle" />
+                </div>
+                <div>
+                    <label>WMS</label>
+                    <input type="radio" name="type" value="wms" class="typetoggle" />
+                </div>
+                <div>
+                    <label>FEED</label>
+                    <input type="radio" name="type" value="feed" class="typetoggle" />
+                </div>
             </div>
         </div>
         <div class="col col-md-2 col-lg-3"></div>
@@ -81,10 +96,11 @@ level: 2
         this.field('description');
         this.field('keywords');
         this.field('thumb');
+        this.field('category');
         this.ref('id');
     });
 
-    var keywords = {};
+    var keywords = {}, categories = {};
 
     d3.json('{{ site.url }}/data/tools/fisbroker/light.json', function(data){
 
@@ -100,6 +116,7 @@ level: 2
                 description: data[i][3],
                 keywords: tkeywordstr,
                 thumb: data[i][5],
+                category: data[i][6],
                 id: i
             });
 
@@ -111,6 +128,12 @@ level: 2
                         keywords[data[i][4][j]] = 1;
                     }
                 }
+            }
+
+            if(data[i][6] in categories){
+                categories[data[i][6]]++;
+            }else{
+                categories[data[i][6]]=1;
             }
         }
 
@@ -128,6 +151,17 @@ level: 2
         }
 
         var size = d3.scale.linear().domain([min,max]).range([10,20]);
+
+        var cats = [];
+        for(var key in categories){
+            keys.push({
+                t:key,
+                c:categories[key]
+            });
+        }
+
+        d3.select('#categories').selectAll('a').data(cats).enter().append('a')
+            .text(function(d){ return d.t+" ("+d.c+")"; });
 
         d3.select('#tagcloud').selectAll('a').data(keys).enter().append('a')
             .text(function(d){return d.t;})
