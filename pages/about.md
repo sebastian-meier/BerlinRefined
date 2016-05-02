@@ -8,7 +8,7 @@ level: 1
 <style>
 
 .jumbotron{
-	background-image:url("{{ site.url }}/data/home/header.jpg");
+	background-image:url("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/home/header.jpg");
 }
 
 </style>

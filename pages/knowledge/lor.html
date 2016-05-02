@@ -8,7 +8,7 @@ level: 2
 <style>
 
 .jumbotron{
-	background-image:url("{{ site.url }}/data/knowledge/lor/header.jpg");
+	background-image:url("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/knowledge/lor/header.jpg");
 }
 
 .svg-container {
@@ -164,7 +164,7 @@ for(var i = 0; i<4; i++){
 	div.append("p").attr("class", "graphic subline").text(sublines[i]);
 }
 
-d3.json("{{ site.url }}/data/knowledge/lor/Bezirk.topojson", function(error, data) {
+d3.json("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/knowledge/lor/Bezirk.topojson", function(error, data) {
 	if (error) return console.error(error);
 
 	var projection = d3.geo.albers()
@@ -189,7 +189,7 @@ d3.json("{{ site.url }}/data/knowledge/lor/Bezirk.topojson", function(error, dat
 		.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 		.attr("d", path);
 
-	d3.json("{{ site.url }}/data/knowledge/lor/Prognoseraum.topojson", function(error, data) {
+	d3.json("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/knowledge/lor/Prognoseraum.topojson", function(error, data) {
 		if (error) return console.error(error);
 
 		var projection = d3.geo.albers()
@@ -214,7 +214,7 @@ d3.json("{{ site.url }}/data/knowledge/lor/Bezirk.topojson", function(error, dat
 			.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 			.attr("d", path);
 
-		d3.json("{{ site.url }}/data/knowledge/lor/Bezirksregion.topojson", function(error, data) {
+		d3.json("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/knowledge/lor/Bezirksregion.topojson", function(error, data) {
 			if (error) return console.error(error);
 
 			var projection = d3.geo.albers()
@@ -239,7 +239,7 @@ d3.json("{{ site.url }}/data/knowledge/lor/Bezirk.topojson", function(error, dat
 				.style("fill", function(d) { return "rgba("+Math.round(Math.random()*255.0)+",0,0,1)"; })
 				.attr("d", path);
 
-			d3.json("{{ site.url }}/data/knowledge/lor/Planungsraum.topojson", function(error, data) {
+			d3.json("https://raw.githubusercontent.com/sebastian-meier/BerlinRefinedAssets/master/knowledge/lor/Planungsraum.topojson", function(error, data) {
 				if (error) return console.error(error);
 
 				var projection = d3.geo.albers()
