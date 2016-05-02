@@ -135,6 +135,24 @@ table#searchtable{
 	}
 }
 
+#searchslot{
+	width:100%;
+	font-size:20px;
+	padding:5px 0px;
+}
+
+a.category{
+	padding: 0 10px 0 0;
+}
+
+a.category.active{
+	color:#000;
+}
+
+#categories{
+	display: none;
+}
+
 /* Moabit Overview */
 
 .datasets-group{

@@ -184,8 +184,16 @@ level: 2
             }
         });
 
+        d3.select('#catlink').on('click',function(){
+            if(d3.select('#categories').style("display")==="block"){
+                d3.select('#categories').style("display","none");
+            }else{
+                d3.select('#categories').style("display","block");
+            }
+        });
+
         d3.select('#categories').selectAll('a').data(cats).enter().append('a')
-            .attr('class', function(d){ return 'category, cat-'+d.id; })
+            .attr('class', function(d){ return 'category cat-'+d.id; })
             .on('click',function(){
                 d3.selectAll('.category').classed('active', false);
                 var d = (d3.select(this)).datum();
