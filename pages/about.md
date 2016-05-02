@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_dyn
 title: About
 permalink: /pages/about/
 level: 1
