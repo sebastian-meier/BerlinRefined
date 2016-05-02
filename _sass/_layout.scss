@@ -222,6 +222,10 @@ img.legend.primary{
 	clear:both;
 	float:left;
 	width:65%;
+
+	tr td{
+		word-wrap:break-word;
+	}
 }
 
 .legend{
