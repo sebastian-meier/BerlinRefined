@@ -4,6 +4,9 @@ Accessible Data Portal
 
 # ToDo:
 
+- Tool Section- Refined: Search & Test INTERFACE
+- URL Builder (max width/height?)
+
 - Sozialdaten (http://www.gsi-berlin.info/gsi_sozialdaten.asp)
 - Sozialstrukturatlas (https://www.berlin.de/sen/gessoz/gesundheits-und-sozialberichterstattung/gesundheitsberichterstattung-epidemiologie/spezialberichte/bezirksprofile-110856.php)
 

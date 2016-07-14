@@ -1,12 +1,43 @@
 ---
 layout: default
-title: Fisbroker - 
+title: Fisbroker -
 permalink: /pages/fisbroker/details/wms_k_luftbild2015_cir
 level: 3
 ---
 <div class='container'><h1>Digitale Color-Infrarot-Orthophotos 2015 (DOP20CIR)</h1>
 <div id='moabit_map'></div>
 <div id='berlin_map'></div>
+<div id='interactions' class='wms'>
+    <h2>Instructions</h2>
+    <ol>
+        <li>Use the map to select an area on the map.</li>
+        <li>Select the layer you want to download.</li>
+        <li>Click the <strong>Preview</strong> button</li>
+        <li>If you are happy with your select, enter the size in pixels you want the image to be and click <strong>Generate Link</strong> button.</li>
+        <li>You can then grab the link and download the data yourself.</li>
+    </ol>
+    <h2>Create Download Link</h2>
+    <div>
+        Current Bounding Box:<span id="bbox"></span>
+    </div>
+    <div>
+        <label>Layer:</label>
+        <select>
+            <option value='0'>Luftbilder 2015 (Orthophotos)</option>
+        </select>
+    </div>
+    <div>
+        <input type='button' id='updatePreview' value='Preview' />
+    </div>
+    <div>
+        <label>Max width/height (in pixel)</label>
+        <input type="text" id="widthheight" />
+    </div>
+    <div>
+        <input type='button' id='generateLink' value='Generate Link' />
+    </div>
+    <textarea id="linkexport"></textarea>
+</div>
 <div id='description'>
 <table>
 <tr><th>Type</th><td>wms</td></tr>
